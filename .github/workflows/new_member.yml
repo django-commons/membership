@@ -1,0 +1,46 @@
+name: Conditional Invite to Organization on Approval Comment
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  check-team-membership:
+    runs-on: ubuntu-latest
+    outputs:
+      is_team_member: ${{ steps.check_membership.outputs.is_team_member }}
+    steps:
+      - name: Check if commenter is in the admins team
+        id: check_membership
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /orgs/{org}/teams/{team_slug}/memberships/${{ github.event.comment.user.login }}
+          org: 'django-community'
+          team_slug: 'admins'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
+        continue-on-error: true # Prevents the workflow from failing if the user is not a team member.
+        run: |
+          if [ "${{ steps.check_membership.outputs.response.status }}" == "200" ]; then
+            echo "::set-output name=is_team_member::true"
+          else
+            echo "::set-output name=is_team_member::false"
+          fi
+
+  invite:
+    needs: check-team-membership
+    if: needs.check-team-membership.outputs.is_team_member == 'true' && github.event.comment.body == 'Approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch user to invite from issue title
+        run: echo "User to invite is ${{ github.event.issue.author.login }}"
+      - name: Invite User to Organization
+        if: github.event.issue.title != ''
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /orgs/{org}/memberships/{username}
+          org: 'django-community'
+          username: ${{ github.event.issue.author.login }}
+          role: member
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}

@@ -39,6 +39,6 @@ jobs:
       - name: Close Issue
         if: success()
         run: |
-          gh issue close "${{ github.event.issue.number }}" -r 'completed'
+          gh issue close "${{ github.event.issue.number }}" -r 'completed' --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

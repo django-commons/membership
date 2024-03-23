@@ -12,21 +12,17 @@ jobs:
     steps:
       - name: Check if commenter is in the admins team
         id: check_membership
-        uses: octokit/request-action@v2.x
-        with:
-          route: GET /orgs/{org}/teams/{team_slug}/memberships/${{ github.event.comment.user.login }}
-          org: 'django-community'
-          team_slug: 'admins'
+        run: |
+          ROLE=$(gh api -X GET /orgs/{org}/teams/{team_slug}/memberships/${{ github.event.comment.user.login }} --jq '.role')
+          
+          if [[ "$ROLE" == "maintainer" ]]; then
+            echo "is_team_member=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_team_member=false" >> $GITHUB_OUTPUT
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
         continue-on-error: true # Prevents the workflow from failing if the user is not a team member.
-      - name: Determine is issue commenter has permission to approve
-        run: |
-          if [ "${{ steps.check_membership.outputs.response.status }}" == "200" ]; then
-            echo "::set-output name=is_team_member::true"
-          else
-            echo "::set-output name=is_team_member::false"
-          fi
 
   invite:
     needs: check-team-membership

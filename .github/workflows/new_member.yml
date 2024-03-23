@@ -32,12 +32,8 @@ jobs:
       - name: Fetch user to invite from issue title
         run: echo "User to invite is ${{ github.event.issue.author.login }}"
       - name: Invite User to Organization
-        uses: octokit/request-action@v2.x
-        with:
-          route: PUT /orgs/django-community/memberships/${{ github.event.issue.author.login }}
-          org: 'django-community'
-          username: ${{ github.event.issue.author.login }}
-          role: member
+        run: |
+          gh api -X PUT /orgs/django-community/memberships/${{ github.event.issue.author.login }}
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
       - name: Close Issue

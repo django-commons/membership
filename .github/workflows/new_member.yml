@@ -20,6 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
         continue-on-error: true # Prevents the workflow from failing if the user is not a team member.
+      - name: Determine is issue commenter has permission to approve
         run: |
           if [ "${{ steps.check_membership.outputs.response.status }}" == "200" ]; then
             echo "::set-output name=is_team_member::true"

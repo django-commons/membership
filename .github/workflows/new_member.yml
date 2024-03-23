@@ -33,9 +33,9 @@ jobs:
         run: echo "User to invite is ${{ github.event.issue.author.login }}"
       - name: Invite User to Organization
         run: |
-          echo ${{ github.event.issue.author }}
+          echo ${{ toJson(github.event.issue.author) }}
           
-          echo ${{ github.event.issue }}
+          echo ${{ toJson(github.event.issue) }}
           
           gh api -X PUT /orgs/django-community/memberships/${{ github.event.issue.author.login }}
         env:

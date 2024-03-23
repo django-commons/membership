@@ -13,7 +13,7 @@ jobs:
       - name: Check if commenter is in the admins team
         id: check_membership
         run: |
-          ROLE=$(gh api -X GET /orgs/{org}/teams/{team_slug}/memberships/${{ github.event.comment.user.login }} --jq '.role')
+          ROLE=$(gh api -X GET /orgs/django-community/teams/admins/memberships/${{ github.event.comment.user.login }} --jq '.role')
           
           if [[ "$ROLE" == "maintainer" ]]; then
             echo "is_team_member=true" >> $GITHUB_OUTPUT
@@ -34,7 +34,7 @@ jobs:
       - name: Invite User to Organization
         uses: octokit/request-action@v2.x
         with:
-          route: PUT /orgs/{org}/memberships/{username}
+          route: PUT /orgs/django-community/memberships/${{ github.event.issue.author.login }}
           org: 'django-community'
           username: ${{ github.event.issue.author.login }}
           role: member

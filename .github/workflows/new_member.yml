@@ -21,7 +21,7 @@ jobs:
             echo "is_team_member=false" >> $GITHUB_OUTPUT
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
+          GH_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
         continue-on-error: true # Prevents the workflow from failing if the user is not a team member.
 
   invite:
@@ -40,3 +40,5 @@ jobs:
         if: success()
         run: |
           gh issue close ${{ github.event.issue.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}

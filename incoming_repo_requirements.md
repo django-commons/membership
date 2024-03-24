@@ -15,6 +15,8 @@ be transferred in.
 1. Tests that run in CI
 2. Maintained documentation
 3. Adopt [Django Community's Code of Conduct](https://github.com/django-community/membership/blob/main/CODE_OF_CONDUCT.md)
+4. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
+   process (see [example in django-community-playground](https://github.com/django-community/django-community-playground/blob/main/.github/workflows/release.yml))
 
 ### Tests
 

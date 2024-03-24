@@ -1,0 +1,41 @@
+name: Transfer project in
+description: Transfer a project into Django community by filling out the following:
+labels: ["Transfer project in"]
+assignees: 'django-community/admins'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for expressing interesting in adding your project to Django Community!
+
+        Please review the 
+        [incoming repository requirements](https://github.com/django-community/membership/blob/main/incoming_repo_requirements.md)
+        before submitting your request.
+  - type: input
+    id: project-url
+    attributes:
+      label: What's the URL to the project?
+      description: "How often do you or others encounter this bug?"
+      placeholder: "https://github.com/django-community/django-community-playground"
+    validations:
+      required: true
+  - type: input
+    id: current-maintainer
+    attributes:
+      label: Who are the current maintainers?
+    validations:
+      required: true
+  - type: checkboxes
+    id: tests
+    attributes:
+      label: Does the project have the required attributes?
+      options:
+        - label: Does the project have tests?
+        - label: Does the project have documentation?
+        - label: Has the project adopted Django Community's Code of Conduct?
+  - type: textarea
+    id: new-maintainers
+    attributes:
+      label: Who will be the new maintainers of the project?
+    validations:
+      required: false

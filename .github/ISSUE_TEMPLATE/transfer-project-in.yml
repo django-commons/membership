@@ -1,5 +1,5 @@
 name: Transfer project in
-description: Transfer a project into Django community by filling out the following:
+description: Transfer a project into Django community with the following form.
 labels: ["Transfer project in"]
 assignees: 'django-community/admins'
 body:

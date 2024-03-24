@@ -13,7 +13,6 @@ body:
     id: project-url
     attributes:
       label: What's the URL to the project?
-      description: "How often do you or others encounter this bug?"
       placeholder: "https://github.com/django-community/django-community-playground"
     validations:
       required: true

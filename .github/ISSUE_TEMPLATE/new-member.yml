@@ -1,6 +1,6 @@
 name: New member
 description: Become a new Django Community member by filling out the following.
-labels: 'New member'
+labels: ["New member"]
 assignees: 'django-community/admins'
 body:
   - type: markdown

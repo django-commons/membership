@@ -1,0 +1,33 @@
+name: New member
+description: Become a new Django Community member by filling out the following.
+title: ''
+labels: 'New member'
+assignees: 'django-community/admins'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for expressing interesting in joining Django Community!
+  - type: textarea
+    id: why-join
+    attributes:
+      label: Why do you want to join?
+      description: We're looking to confirm that you're a human. Keep it to 2-4 sentences.
+      placeholder: Keep it to 2-4 sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: which-projects
+    attributes:
+      label: Which project(s) are you looking to contribute to?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/django-community/membership/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow Django Community's Code of Conduct
+          required: true
+

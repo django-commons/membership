@@ -1,0 +1,17 @@
+name: Admin request
+description: Have a question, concern or request for the admins?
+labels: ["Admin request"]
+assignees: 'django-community/admins'
+body:
+  - type: textarea
+    id: admin-request
+    attributes:
+      label: Please let us know what you need or would like to know.
+    validations:
+      required: true
+  - type: textarea
+    id: which-projects
+    attributes:
+      label: Which project(s) does this effect if any?
+    validations:
+      required: false

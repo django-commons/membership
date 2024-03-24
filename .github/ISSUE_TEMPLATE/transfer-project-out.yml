@@ -1,0 +1,24 @@
+name: Transfer project out
+description: Transfer a project out of Django Community.
+labels: ["Transfer project out"]
+assignees: 'django-community/admins'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We wish you the best with the project moving forward. If you're willing to share, please let us know how we could make things better.
+
+        Before the repository can be transferred, we'll need to check with all current maintainers.
+  - type: input
+    id: transfer-location
+    attributes:
+      label: Which person or organization is the repository being transferred to?
+      placeholder: "https://github.com/django-community"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Please explain why the project is being transferred out of Django Community.
+    validations:
+      required: false

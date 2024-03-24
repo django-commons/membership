@@ -8,9 +8,7 @@ body:
       value: |
         Thanks for expressing interesting in adding your project to Django Community!
 
-        Please review the 
-        [incoming repository requirements](https://github.com/django-community/membership/blob/main/incoming_repo_requirements.md)
-        before submitting your request.
+        Please review the [incoming repository requirements](https://github.com/django-community/membership/blob/main/incoming_repo_requirements.md) before submitting your request.
   - type: input
     id: project-url
     attributes:

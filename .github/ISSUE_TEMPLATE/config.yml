@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Have an idea you'd like to discuss with other members?
-    url: https://github.com/orgs/django-community/discussions
+    url: https://github.com/orgs/django-commons/discussions
     about: Please ask and answer questions here.

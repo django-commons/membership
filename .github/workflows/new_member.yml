@@ -13,7 +13,7 @@ jobs:
       - name: Check if commenter is in the admins team
         id: check_membership
         run: |
-          ROLE=$(gh api -X GET /orgs/django-community/teams/admins/memberships/${{ github.event.comment.user.login }} --jq '.role')
+          ROLE=$(gh api -X GET /orgs/django-commons/teams/admins/memberships/${{ github.event.comment.user.login }} --jq '.role')
           
           if [[ "$ROLE" == "maintainer" ]]; then
             echo "is_team_member=true" >> $GITHUB_OUTPUT
@@ -33,7 +33,7 @@ jobs:
         run: echo "User to invite is ${{ github.event.issue.user.login }}"
       - name: Invite User to Organization
         run: |
-          gh api -X PUT /orgs/django-community/memberships/${{ github.event.issue.user.login }}
+          gh api -X PUT /orgs/django-commons/memberships/${{ github.event.issue.user.login }}
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_CONTROLS_PAT }}
       - name: Close Issue

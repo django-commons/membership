@@ -1,12 +1,12 @@
 name: New member
-description: Become a new Django Community member with the following form.
+description: Become a new Django Commons member with the following form.
 labels: ["New member"]
-assignees: 'django-community/admins'
+assignees: 'django-commons/admins'
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for expressing interesting in joining Django Community!
+        Thanks for expressing interesting in joining Django Commons!
   - type: textarea
     id: why-join
     attributes:
@@ -25,8 +25,8 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/django-community/membership/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)
       options:
-        - label: I agree to follow Django Community's Code of Conduct
+        - label: I agree to follow Django Commons's Code of Conduct
           required: true
 

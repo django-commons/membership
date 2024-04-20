@@ -1,5 +1,5 @@
 
-# Contributor Covenant Code of Conduct
+# Django Commons Code of Conduct
 
 ## Our Pledge
 

@@ -1,19 +1,19 @@
 name: Transfer project in
-description: Transfer a project into Django community with the following form.
+description: Transfer a project into Django commons with the following form.
 labels: ["Transfer project in"]
-assignees: 'django-community/admins'
+assignees: 'django-commons/admins'
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for expressing interesting in adding your project to Django Community!
+        Thanks for expressing interesting in adding your project to Django Commons!
 
-        Please review the [incoming repository requirements](https://github.com/django-community/membership/blob/main/incoming_repo_requirements.md) before submitting your request.
+        Please review the [incoming repository requirements](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md) before submitting your request.
   - type: input
     id: project-url
     attributes:
       label: What's the URL to the project?
-      placeholder: "https://github.com/django-community/django-community-playground"
+      placeholder: "https://github.com/django-commons/django-commons-playground"
     validations:
       required: true
   - type: input
@@ -29,7 +29,7 @@ body:
       options:
         - label: Does the project have tests?
         - label: Does the project have documentation?
-        - label: Has the project adopted Django Community's Code of Conduct?
+        - label: Has the project adopted Django Commons's Code of Conduct?
   - type: textarea
     id: new-maintainers
     attributes:

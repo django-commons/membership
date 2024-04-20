@@ -1,7 +1,7 @@
 name: Transfer project out
-description: Transfer a project out of Django Community.
+description: Transfer a project out of Django Commons.
 labels: ["Transfer project out"]
-assignees: 'django-community/admins'
+assignees: 'django-commons/admins'
 body:
   - type: markdown
     attributes:
@@ -13,12 +13,12 @@ body:
     id: transfer-location
     attributes:
       label: Which person or organization is the repository being transferred to?
-      placeholder: "https://github.com/django-community"
+      placeholder: "https://github.com/django-commons"
     validations:
       required: true
   - type: textarea
     id: reason
     attributes:
-      label: Please explain why the project is being transferred out of Django Community.
+      label: Please explain why the project is being transferred out of Django Commons.
     validations:
       required: false

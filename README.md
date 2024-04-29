@@ -6,7 +6,7 @@ maintainence experience for all contributors; reducing the barrier
 to entry for new contributors and reducing overhead for existing
 maintainers.
 
-Django Commons has lofty goals for the future, but will only be
+Django Commons has lofty goals for the future, but it will only be
 possible with your help:
 
 - Compensate maintainers

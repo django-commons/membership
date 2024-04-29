@@ -30,6 +30,23 @@ possible with your help:
 
 ## FAQ
 
+### What are the differences between Django Commons and Jazzband?
+
+Django Commons and Jazzband have similar goals, to support community-maintained projects.
+There are two main differences. The first is that Django Commons leans into the GitHub
+paradigm and centers the organization as a whole within GitHub. This is a risk, given
+there's some vendor lock-in. However, the repositories are still cloned to several people's
+machines and the organization controls the keys to PyPI, not GitHub. If something were to occur,
+it's manageable.
+
+The second is that Django Commons is built from the beginning to have more than one administrator.
+Jazzband has been [working for a while to add additional roadies](https://github.com/jazzband/help/issues/196)
+(administrators), but there hasn't been visible progress.  Given the importance of several of
+these projects it's a major risk to the community at large to have a single point of failure
+in managing the projects. By being designed from the start to spread the responsibility, it
+becomes easier to allow people to step back and others to step up, making Django more sustainable
+and the community stronger.
+
 ### What is each respository team for?
 
 There are three teams for each repository. They each have different

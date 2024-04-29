@@ -23,27 +23,28 @@ be transferred in.
 
 ### Tests
 
-There should be clear instructions on how to run the tests. The tests
-should have good test coverage (>70%). The tests should cover all supported
-versions of Python and Django (exceptions can be made for new versions with
-a less involved maintainer).
+- **[Required]** Clear instructions on how to run tests
+- **[Required]** Tests run with at least oldest supported LTE versions of Django and Python
+- [Suggested] Good test coverage (>70%)
 
 ### Documentation
 
-There should be quality documentation on how to install and use the
-project. The documentation should be organized and maintainable.
+- **[Required]** How to install and use the project
+- **[Required]** How to contribute
+- **[Required]** Organized and maintainable
+- [Suggested] Contains [architecture documentation](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
 
-Internationalized documentation isn't required, but is ideal.
-
-An [architecture documentation section](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
-is highly recommended, but not required.
 
 ### Code of Conduct
 
-The repository must adopt [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md). It should
-directly link to https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md
+- **[Required]** Repository contains `CODE_OF_CONDUCT.md` that links to [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md). See [django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/CODE_OF_CONDUCT.md) for an example
+
 
 ## Maintainer requirements
+
+- **[Required]** All maintainers (release permission) agree to transfer project
+- **[Required** The Django Commons admins team is added as owners to PyPI project
+- **[Required]** After 30 days, any previous maintainers are removed as owners on PyPI project
 
 The current maintainers must be willing to hand over control of the
 PyPI project. The Django Commons admins team and the

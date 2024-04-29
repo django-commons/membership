@@ -7,16 +7,19 @@ project and the community.
 To see how to transfer a project into Django Commons, see
 [How to transfer a project in?](https://github.com/django-commons#how-to-transfer-a-project-in).
 
-## Repository requirements
-
 There are a few requirements that must be met before a project can
 be transferred in.
 
-1. Tests that run in CI
-2. Maintained documentation
-3. Adopt [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)
-4. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
+1. All maintainers (people with release permissions) agree to the transfer
+2. New admins and maintainers are identified
+3. [Tests that run in CI](#tests)
+4. [Maintained documentation](#documentation)
+5. Adopt [Django Commons's Code of Conduct](#code-of-conduct)
+6. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
    process (see [example in django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/.github/workflows/release.yml))
+
+
+## Repository requirements
 
 ### Tests
 
@@ -37,7 +40,7 @@ is highly recommended, but not required.
 
 ### Code of Conduct
 
-The repository must adopt Django Commons's Code of Conduct. It should
+The repository must adopt [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md). It should
 directly link to https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md
 
 ## Maintainer requirements

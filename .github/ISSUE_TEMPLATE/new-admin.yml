@@ -14,7 +14,6 @@ body:
       description: Are you a [Django Software Foundation individual member](https://www.djangoproject.com/foundation/individual-members/)?
       options:
         - label: I am a DSF member
-          required: false
   - type: textarea
     id: why-join
     attributes:

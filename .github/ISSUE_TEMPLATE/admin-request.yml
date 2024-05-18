@@ -1,6 +1,7 @@
 name: Admin request
 description: Have a question, concern or request for the admins?
 labels: ["Admin request"]
+title: "📬 [REQUEST] - <title>"
 assignees: 'django-commons/admins'
 body:
   - type: textarea

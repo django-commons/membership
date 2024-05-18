@@ -1,6 +1,7 @@
 name: Transfer project out
 description: Transfer a project out of Django Commons.
 labels: ["Transfer project out"]
+title: "🛫 [OUTBOUND] - <project>"
 assignees: 'django-commons/admins'
 body:
   - type: markdown

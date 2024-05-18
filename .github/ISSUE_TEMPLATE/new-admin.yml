@@ -1,0 +1,53 @@
+name: New admin
+description: Apply to be a Django Commons administrator with the following form.
+labels: ["New admin"]
+assignees: 'django-commons/admins'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for expressing interest in being an administrator for Django Commons!
+  - type: checkboxes
+    id: dsf-member
+    attributes:
+      label: DSF member
+      description: Are you a [Django Software Foundation individual member](https://www.djangoproject.com/foundation/individual-members/)?
+      options:
+        - label: I am a DSF member
+          required: false
+  - type: textarea
+    id: why-join
+    attributes:
+      label: Why do you want to join?
+      description: If you have specific goals for Django Commons, please mention them here.
+    validations:
+      required: true
+  - type: textarea
+    id: packaging-experience
+    attributes:
+      label: Please tell us about your packaging experience?
+      description: While you aren't asked to do packaging, one of the challenges is helping new projects transition to utilize the release mechanism for Django Commons. Please don't self-select out here.
+    validations:
+      required: true
+  - type: textarea
+    id: github-actions-experience
+    attributes:
+      label: Please tell us about your GitHub Actions experience?
+      description: Whereever possible, Django Commons should automate its logistics via GitHub actions. The administrators are the ones who would need to write and maintain them. At a minimum, you shouldn't be afraid to work with GitHub Actions.
+    validations:
+      required: true
+  - type: textarea
+    id: time-expectation-experience
+    attributes:
+      label: How long do you expect to be involved with Django Commons?
+      description: Being an administrator isn't a permanent position. Please tell us how long you'd expect to be involved in this role.
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow Django Commons's Code of Conduct
+          required: true
+

@@ -14,6 +14,7 @@ body:
       description: Are you a [Django Software Foundation individual member](https://www.djangoproject.com/foundation/individual-members/)?
       options:
         - label: I am a DSF member
+          required: false
   - type: textarea
     id: why-join
     attributes:
@@ -40,6 +41,7 @@ body:
     attributes:
       label: How long do you expect to be involved with Django Commons?
       description: Being an administrator isn't a permanent position. Please tell us how long you'd expect to be involved in this role.
+    validations:
       required: true
   - type: checkboxes
     id: terms

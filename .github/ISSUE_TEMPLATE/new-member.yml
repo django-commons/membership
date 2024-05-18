@@ -1,12 +1,12 @@
 name: New member
-description: Become a new Django Commons member with the following form.
+description: Become a Django Commons member with the following form.
 labels: ["New member"]
 assignees: 'django-commons/admins'
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for expressing interesting in joining Django Commons!
+        Thanks for expressing interest in joining Django Commons!
   - type: textarea
     id: why-join
     attributes:

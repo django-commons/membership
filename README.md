@@ -9,10 +9,11 @@ maintainers.
 Django Commons has lofty goals for the future, but it will only be
 possible with your help:
 
-- Compensate maintainers
 - Identify and announce packages needing help
 - Normalize and support maintainers periodically stepping back
 - Support and encourage new contributors to step up
+- Provide best practices for package maintainers
+- Compensate maintainers
 
 ## How to join as a contributor?
 

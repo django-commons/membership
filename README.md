@@ -2,7 +2,7 @@
 
 Django Commons is an organization dedicated to supporting the
 community's efforts to maintain packages. It seeks to improve the
-maintainence experience for all contributors; reducing the barrier
+maintenance experience for all contributors; reducing the barrier
 to entry for new contributors and reducing overhead for existing
 maintainers.
 

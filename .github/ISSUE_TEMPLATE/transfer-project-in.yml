@@ -27,6 +27,7 @@ body:
     id: tests
     attributes:
       label: Does the project have the required attributes?
+      description: "[Review the incoming repo requirements for details.](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md)"
       options:
         - label: Does the project have tests?
         - label: Does the project have documentation?

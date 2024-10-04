@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.9.6",
-  "serial": 213,
+  "terraform_version": "1.9.7",
+  "serial": 214,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -85,19 +85,6 @@
             "id": "django-commons:browniebroke",
             "role": "member",
             "username": "browniebroke"
-          },
-          "sensitive_attributes": [],
-          "private": "bnVsbA=="
-        },
-        {
-          "index_key": "codein",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"5c2c03863ace394f05712222529ecb5df9e53982d43d756cd8dd976107f445a9\"",
-            "id": "django-commons:codein",
-            "role": "member",
-            "username": "codein"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
@@ -289,7 +276,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"d112ed34470ec8c4568e475882b7b26899e507238c6305baac54eb1b9829a098\"",
+            "etag": "W/\"025a3ba1fbfec57be8d96c8e2b1ddb75c3b3d1e2b0cc2eed58c299a75b3a88f6\"",
             "id": "django-commons:salty-ivy",
             "role": "member",
             "username": "salty-ivy"
@@ -446,7 +433,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
-            "etag": "W/\"d2f77130d0c8a05917ab69eaa1bd2fb8ecbf95281b1ed124f367d6debd4c5f10\"",
+            "etag": "W/\"541e5e96e3bcef33575e2b59d61776897b8d6755ae2484bbff0875f05725c474\"",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -580,7 +567,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"76b99535c36d5fd412306e97248fc3a0d5820eb85141f8d7da553a271c7545e2\"",
+            "etag": "W/\"a05793dbdb0ce545cd5b6ea4190faddeb3dc182976d2b40a33a381cda6555943\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -596,8 +583,8 @@
             "ignore_vulnerability_alerts_during_read": null,
             "is_template": false,
             "license_template": null,
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
+            "merge_commit_message": "BLANK",
+            "merge_commit_title": "PR_TITLE",
             "name": "django-fsm-2",
             "node_id": "R_kgDOIRc3Iw",
             "pages": [],
@@ -647,7 +634,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis pub/sub.",
-            "etag": "W/\"cbcd7cec4c857e71171d784c83beeaea166b7f7ede4aa2b963caca00176c5259\"",
+            "etag": "W/\"701a969258c98afed3b8ee74bbca82fc483facac891b9a8de3b9da7a97233f03\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -725,7 +712,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"f0ce29c97a5161cd022dc59c6e71339f7f19a8e98d8d074f2969dbd9b01b3760\"",
+            "etag": "W/\"79cfa59a056d61176fef74e76d0f86d81f1aaf86bd853f4630777fefc19ebd86\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -936,7 +923,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons administrators",
-            "etag": "W/\"19840e59ec4cc081ca4ec0abb1bd3b95e643541c75e59553a84306243c178965\"",
+            "etag": "W/\"0f8be145476b6e9d7c8597e313efc995f95bbb4dfc633f1e8a41e0f9b95a31ac\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -957,7 +944,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons security team",
-            "etag": "W/\"f9280127516d2e84047fa5e273952f10e9c627712ae3c40609ea3f1066344402\"",
+            "etag": "W/\"67aeff3d8249200bbf4711ccc608a86335c428111582fe874f938e662bece226\"",
             "id": "10641823",
             "ldap_dn": "",
             "members_count": 2,
@@ -986,7 +973,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-commons-playground repository",
-            "etag": "W/\"dd6cea22ddfa64ef04bfa4577a408cacdbc380389b036034501c26ba87935584\"",
+            "etag": "W/\"f297bad4d56a2a66c51e56e04ef2b3c5070d020a9e9274f6c37c433d16ca9dc6\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
@@ -1010,7 +997,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-fsm-2 repository",
-            "etag": "W/\"e494186402ecdd31caf40163e0493b5aa1e57ac575928455d00e6e203ac797b2\"",
+            "etag": "W/\"4e2457a91d7e0a37b2523875359be1d55808531709052e6302058f9efa689097\"",
             "id": "10870432",
             "ldap_dn": "",
             "members_count": 2,
@@ -1034,7 +1021,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tasks-scheduler repository",
-            "etag": "W/\"a10f8781578d72428616c6b57afadb216def3b08504a304e294266139b965e87\"",
+            "etag": "W/\"8f2c9b3eeb05e9c312d34e9ee5981c0a38eec8fef80b1e5b930ec971c06b680a\"",
             "id": "10707221",
             "ldap_dn": "",
             "members_count": 1,
@@ -1066,7 +1053,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-commons-playground repository",
-            "etag": "W/\"5b93e68fb9f7f76ec5cf37322ce9517b232b6a37dc462247975f01a98aaaa68b\"",
+            "etag": "W/\"9da722b90fe7649360433be055b36b79398d8111f8b7756219149f0a13c19fc5\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
@@ -1090,7 +1077,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-fsm-2 repository",
-            "etag": "W/\"79d4758348eb742e0a8f732dadbade2b5b9c6f8118d5f98a7cf4787ce712bc29\"",
+            "etag": "W/\"f637c5ef422eea1a347a0962caedcb9e293a81da23a76bc29fd6ff7d7327e6e4\"",
             "id": "10870433",
             "ldap_dn": "",
             "members_count": 0,
@@ -1114,7 +1101,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tasks-scheduler repository",
-            "etag": "W/\"66662e0a91e8e9477c07a26bc306d7cbde242a1f5e123864b1e1aa3892ad56cf\"",
+            "etag": "W/\"4067bc504cdec5ef9d650a8aa3799c10bccfcbe5f2545811e75a558dd6cf0efc\"",
             "id": "10707220",
             "ldap_dn": "",
             "members_count": 0,
@@ -1146,7 +1133,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-commons-playground repository",
-            "etag": "W/\"e8ef028ab284524b852495f2fc50fb0b8bc25484145757aea737a3d36be9dbc3\"",
+            "etag": "W/\"61768f914355e1c2f90f88aff39a93480a970f8035aeb5da08f76d0f6ba8e384\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
@@ -1167,7 +1154,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-fsm-2 repository",
-            "etag": "W/\"7bd24e759ed6ffb932982eb0e5f8218347e2c1ace9d430752c845c6c13866659\"",
+            "etag": "W/\"757cf3d332f9cc428178b7d2b811bf7717216b42c3e9e3ee4944d7ffb0913269\"",
             "id": "10870431",
             "ldap_dn": "",
             "members_count": 2,
@@ -1188,7 +1175,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"c56cf3f2e82ba0cbdbddc052f16a386933bd304f86a4366f0f29e7eebef8e42c\"",
+            "etag": "W/\"361945385c0b700cd7f10cdd14dc2f44423bfd1bea5dbde1512f1014cba989c4\"",
             "id": "10707217",
             "ldap_dn": "",
             "members_count": 1,
@@ -1503,7 +1490,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"dce7d47b6a828d5f542cca631e4c5a8222f1913a299d6d809ed52daa307bd1cf\"",
+            "etag": "W/\"963d0eb4d0da1507ac7c172334ec897a59ca693ad3c99f46bad91d54c29e7a38\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -1520,7 +1507,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5c5c2855f168a59fa2ca0709d3adc0d702c32854033dc4107bf5b103edca8193\"",
+            "etag": "W/\"13cad1cadb4d28b12bd2aa7b3d0b4db36792edf47752fb0c816b22f0b5cf0ffb\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -1562,7 +1549,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"cbbb2b80f733615553832dbc1e00dc7ce7bddd8ed3d94360913a3c7315215a89\"",
+            "etag": "W/\"0ade344601a419c2f917505c2b33fa1175e5b2905a593c16492c18757fc0c3c7\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -1579,7 +1566,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"abda702c41fd63d07207c174573e57cec2fac112f01ec3b0daefee6f7f08ced7\"",
+            "etag": "W/\"78fffd13c8d0f6729df65bf800003377ccc0c8418c519f9c5a3c288fac97c485\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -1620,7 +1607,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"b1d24c1d6584448edc62748a79e94fa160edee170a76f8d65cdd821f71b646c7\"",
+            "etag": "W/\"b810d9f625a20859e5b4eb6796b3a44de7fa05a52751bc5eb8e0eeac77578d2f\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -1636,7 +1623,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"b05b621d93a54d8cbb7e994b9771365abe1f9b309afc128e3853682ed01c39cc\"",
+            "etag": "W/\"4d1fdbfe9ee031560acac8376fe369292ecf77a848818ad998a5bec1e393cfba\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",

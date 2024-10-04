@@ -15,12 +15,12 @@ resource "github_repository" "this" {
   homepage_url                = each.value.homepage_url
   allow_auto_merge            = each.value.allow_auto_merge
   allow_merge_commit          = each.value.allow_merge_commit
-  merge_commit_title          = each.value.allow_merge_commit ? each.value.merge_commit_title : null
-  merge_commit_message        = each.value.allow_merge_commit ? each.value.merge_commit_message : null
+  merge_commit_title          = each.value.merge_commit_title
+  merge_commit_message        = each.value.merge_commit_message
   allow_rebase_merge          = each.value.allow_rebase_merge
   allow_squash_merge          = each.value.allow_squash_merge
-  squash_merge_commit_title   = each.value.allow_squash_merge ? each.value.squash_merge_commit_title : null
-  squash_merge_commit_message = each.value.allow_squash_merge ? each.value.squash_merge_commit_message : null
+  squash_merge_commit_title   = each.value.squash_merge_commit_title
+  squash_merge_commit_message = each.value.squash_merge_commit_message
   allow_update_branch         = each.value.allow_update_branch
   archive_on_destroy          = true
   delete_branch_on_merge      = each.value.delete_branch_on_merge

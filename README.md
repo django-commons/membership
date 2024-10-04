@@ -74,7 +74,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 
 - [controls](https://github.com/django-commons/controls): This is for Django Commons administrators
   to manage the GitHub organization. Any issues in this repo are for maintain the magic behind the scenes
-- [django-commons-playground](https://github.com/orgs/django-commons/teams/django-community-playground): An example repository for inbound repositories to copy
+- [django-commons-playground](https://github.com/django-commons/django-commons-playground): An example repository for inbound repositories to copy
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
 

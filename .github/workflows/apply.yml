@@ -1,0 +1,44 @@
+name: "Apply org changes"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'terraform/production/*.tfvars'
+
+jobs:
+  apply-changes:
+    name: "Org changes apply"
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: terraform apply
+        # v1.43.0
+        # Use the commit hash for security hardening
+        # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions
+        uses: dflook/terraform-apply@dcda97d729f1843ede471d2fac989cb946f5622a
+        env:
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: "terraform"
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
+          var_file: |
+            terraform/production/org.tfvars
+            terraform/production/repositories.tfvars
+
+      - name: Commit changes
+        if: ${{ always() }}
+        uses: devops-infra/action-commit-push@v0.9.2
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          commit_prefix: "[AUTO]"
+          commit_message: "State changes after apply"
+          force: false

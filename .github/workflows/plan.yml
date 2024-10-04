@@ -1,0 +1,62 @@
+name: "Plan org changes and list them in a PR"
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'terraform/production/*.tfvars'
+
+jobs:
+  format-terraform-code:
+    name: "Format Terraform code"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: "${{ github.event.pull_request.head.ref }}"
+
+
+      - name: terraform fmt
+        uses: dflook/terraform-fmt@2ec321e746af7edf90e43513dda2086a92a07b4c
+        with:
+          path: "terraform"
+
+      - name: Commit changes
+        uses: devops-infra/action-commit-push@v0.9.2
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          commit_prefix: "[AUTO]"
+          commit_message: "Format code"
+          force: false
+#          target_branch: "${{ github.event.pull_request.head.ref }}"
+
+  plan-changes:
+    name: "Org changes plan"
+    runs-on: ubuntu-latest
+    needs: [ "format-terraform-code" ]
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: terraform plan
+        # v1.43.0
+        # Use the commit hash for security hardening
+        # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions
+        uses: dflook/terraform-plan@d9df4f6c2484e709ba7ffaa16c98a6906f4760cd
+        env:
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          add_github_comment: true
+          path: "terraform"
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
+          var_file: |
+            terraform/production/org.tfvars
+            terraform/production/repositories.tfvars

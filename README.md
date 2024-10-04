@@ -22,7 +22,7 @@ possible with your help:
 
 ## How to transfer a project in?
 
-1. A person with the ability to transfer the project must join Django Commons (see [How to join as a contributor?](https://github.com/django-commons#how-to-join-as-a-contributor))
+1. A person with the ability to transfer the project must join Django Commons (see [How to join as a contributor?](https://github.com/django-commons/membership#how-to-join-as-a-contributor))
 2. Create a [transfer project in issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
 
 ## How to transfer a project out?

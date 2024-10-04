@@ -65,12 +65,12 @@ repositories = {
   }
 
   "django-fsm-2" = {
-    description        = "Django friendly finite state machine support"
-    homepage_url       = "https://github.com/django-commons/django-fsm-2"
-    allow_merge_commit = false
-    allow_rebase_merge = true
-    has_projects       = false
-    merge_commit_title = "PR_TITLE"
+    description          = "Django friendly finite state machine support"
+    homepage_url         = "https://github.com/django-commons/django-fsm-2"
+    allow_merge_commit   = false
+    allow_rebase_merge   = true
+    has_projects         = false
+    merge_commit_title   = "PR_TITLE"
     merge_commit_message = "BLANK"
 
     admins = [

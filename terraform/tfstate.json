@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.7",
-  "serial": 220,
+  "serial": 233,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -211,7 +211,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"fe54e010f90fe850e4a34f1e5b5179aa7d5687afad06e95b425da23cdb4943fd\"",
+            "etag": "W/\"2dd66cccf1d3df57100b31459b2124ef178988e97237cb2fa72d846898ab99f8\"",
             "id": "django-commons:oliverandrich",
             "role": "member",
             "username": "oliverandrich"
@@ -433,7 +433,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
-            "etag": "W/\"747417bf8ff61e779162cb4b5e90d2779bc1948b29bb93fb7c9211ad0ca12bf4\"",
+            "etag": "W/\"a32189bc51d4ff0a0b33ed8e3adc5c4ed6b53a042400365f4f65ab6177bc767c\"",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -567,7 +567,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"1cd377a71281564793ee779f5839a07f3073c8dc9abd690ad957610d5fade77f\"",
+            "etag": "W/\"f11a79d355240c364d2c619dc246e9b2809f336dd07951c130a2214197543b35\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -698,6 +698,87 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
+          "index_key": "django-typer",
+          "schema_version": 1,
+          "attributes": {
+            "allow_auto_merge": false,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_squash_merge": true,
+            "allow_update_branch": true,
+            "archive_on_destroy": true,
+            "archived": false,
+            "auto_init": false,
+            "default_branch": "main",
+            "delete_branch_on_merge": true,
+            "description": "Use Typer (type hints) to define the interface for your Django management commands.",
+            "etag": "W/\"66620a6d52378ca2038e0c14ac82f4395fb9c0ff0b10f2960db8ca3e0a802910\"",
+            "full_name": "django-commons/django-typer",
+            "git_clone_url": "git://github.com/django-commons/django-typer.git",
+            "gitignore_template": null,
+            "has_discussions": true,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage_url": "https://django-typer.rtfd.io",
+            "html_url": "https://github.com/django-commons/django-typer",
+            "http_clone_url": "https://github.com/django-commons/django-typer.git",
+            "id": "django-typer",
+            "ignore_vulnerability_alerts_during_read": null,
+            "is_template": false,
+            "license_template": null,
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "name": "django-typer",
+            "node_id": "R_kgDOKkMk_Q",
+            "pages": [],
+            "primary_language": "Python",
+            "private": false,
+            "repo_id": 709043453,
+            "security_and_analysis": [
+              {
+                "advanced_security": [],
+                "secret_scanning": [
+                  {
+                    "status": "disabled"
+                  }
+                ],
+                "secret_scanning_push_protection": [
+                  {
+                    "status": "disabled"
+                  }
+                ]
+              }
+            ],
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "ssh_clone_url": "git@github.com:django-commons/django-typer.git",
+            "svn_url": "https://github.com/django-commons/django-typer",
+            "template": [],
+            "topics": [
+              "admin",
+              "cli",
+              "click",
+              "command-line",
+              "commands",
+              "django",
+              "management",
+              "python",
+              "python3",
+              "shell",
+              "terminal",
+              "typehints",
+              "typer"
+            ],
+            "visibility": "public",
+            "vulnerability_alerts": true,
+            "web_commit_signoff_required": false
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        },
+        {
           "index_key": "membership",
           "schema_version": 1,
           "attributes": {
@@ -712,7 +793,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"a697a1ceb61196d74331934a68efbea2d5f8d719fbf9a0e925fc7d195ddb6997\"",
+            "etag": "W/\"16386eb229ed7362883e9f5229c077d29305c4e1372f35df2446beb2c84ae0bc\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -852,6 +933,33 @@
             "github_team.repo_admin_team",
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "pypi",
+            "id": "django-typer:pypi",
+            "prevent_self_review": false,
+            "repository": "django-typer",
+            "reviewers": [
+              {
+                "teams": [
+                  11217214
+                ],
+                "users": null
+              }
+            ],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -908,6 +1016,22 @@
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "testpypi",
+            "id": "django-typer:testpypi",
+            "prevent_self_review": false,
+            "repository": "django-typer",
+            "reviewers": [],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
         }
       ]
     },
@@ -923,7 +1047,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons administrators",
-            "etag": "W/\"bb9b7eef68e59ad63e69ac8cc06f41dda5c4935eb389e6667ee7ea7946b4c2c4\"",
+            "etag": "W/\"1596d7ef28613c0c284478429832970a8138de869b35439499fe77c693a3eade\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -944,7 +1068,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons security team",
-            "etag": "W/\"d4e4b391002069c1dbc81993c8047620766a35a98abbf176d849a877a6447d56\"",
+            "etag": "W/\"8f5367da16bf9d13af5cc46b5555cf34372b6852eda5a295fef1ee47dbc09e0f\"",
             "id": "10641823",
             "ldap_dn": "",
             "members_count": 2,
@@ -973,7 +1097,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-commons-playground repository",
-            "etag": "W/\"90b8668320ef9ed3cbd452928c47671df117e4c23d3690812d9215616de7b8f1\"",
+            "etag": "W/\"7bc6fc97448f0e9b108e2c23a66f93dc89718460c75063b7f659accf650be332\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
@@ -997,7 +1121,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-fsm-2 repository",
-            "etag": "W/\"f3d4dc60c6592983e5d9dbd4c0b6db5930d3d62848b9feeebb31727c9bc0c2b7\"",
+            "etag": "W/\"d47fda7ad0988f7c7bb0adcebec90af541849a21adf7d49a19a6ae439b8a4236\"",
             "id": "10870432",
             "ldap_dn": "",
             "members_count": 2,
@@ -1021,7 +1145,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tasks-scheduler repository",
-            "etag": "W/\"519faeed4891233fda4f03d54ea8e2bfe753f3b107e41f633a0df2a93ba6ff91\"",
+            "etag": "W/\"21242803ad01a934e4ce238b8b718499653c7b604aabd61e79a66faf524a76cf\"",
             "id": "10707221",
             "ldap_dn": "",
             "members_count": 1,
@@ -1032,6 +1156,30 @@
             "parent_team_read_slug": "django-tasks-scheduler",
             "privacy": "closed",
             "slug": "django-tasks-scheduler-admins"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Admin team for the django-typer repository",
+            "etag": "W/\"6265ba2eefc236654beb2949aaf7fe04d22dc17370bb0f6011c86f31c6642606\"",
+            "id": "11217214",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-typer-admins",
+            "node_id": "T_kwDOCaaRBM4Aqyk-",
+            "parent_team_id": "11217213",
+            "parent_team_read_id": "11217213",
+            "parent_team_read_slug": "django-typer",
+            "privacy": "closed",
+            "slug": "django-typer-admins"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1053,7 +1201,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-commons-playground repository",
-            "etag": "W/\"5fb64ec6165073835327fe38175e520444fc2e507e3e1127cc67cf3e060be0b5\"",
+            "etag": "W/\"aff00b5278409abd435b32c46d1acc15e15f762d1757e1bcb008bc9087cc6898\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
@@ -1077,7 +1225,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-fsm-2 repository",
-            "etag": "W/\"9be0cc5ceb6dd8f9c60d9a136e78a04affe699727d865d51a68975c90823a623\"",
+            "etag": "W/\"07da9615366a7867705ede73ec892ee1537f154d8f2a1bd2a31f83af68a2703a\"",
             "id": "10870433",
             "ldap_dn": "",
             "members_count": 0,
@@ -1101,7 +1249,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tasks-scheduler repository",
-            "etag": "W/\"cc9f184f02134b7b7da3cac5ddf44929978fd83381555417f11ebf82b0611031\"",
+            "etag": "W/\"4ad9a42247999c1dd614f99f24cc9deffae13e62479d648e1245dc3f525231e7\"",
             "id": "10707220",
             "ldap_dn": "",
             "members_count": 0,
@@ -1112,6 +1260,30 @@
             "parent_team_read_slug": "django-tasks-scheduler",
             "privacy": "closed",
             "slug": "django-tasks-scheduler-committers"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Committers team for the django-typer repository",
+            "etag": "W/\"8b8525ff551d340097bcedee41b97b12854152aa00abe3207855c09b1567b8e4\"",
+            "id": "11217215",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-typer-committers",
+            "node_id": "T_kwDOCaaRBM4Aqyk_",
+            "parent_team_id": "11217213",
+            "parent_team_read_id": "11217213",
+            "parent_team_read_slug": "django-typer",
+            "privacy": "closed",
+            "slug": "django-typer-committers"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1133,7 +1305,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-commons-playground repository",
-            "etag": "W/\"89a93df6cda065c246236db66df2fd1804259711eae108c207ccf385e287d662\"",
+            "etag": "W/\"5b8c69cad1f5d08369ad698322c2407ee6531f61111f8104d068e47f2236e391\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
@@ -1154,7 +1326,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-fsm-2 repository",
-            "etag": "W/\"9e1833ce5c6c4dd24c1e4f13fa6cd03c7d0048ada1d085316d2858538756eff7\"",
+            "etag": "W/\"6b093a0ef21f0b5cdad9bae7ab1c5bfb6506b7f845df9faedfe736a900b4dad5\"",
             "id": "10870431",
             "ldap_dn": "",
             "members_count": 2,
@@ -1175,7 +1347,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"7e13a5fc934a7b272aad2d0b908c2238138123e4db1dfa87e78dfe79c29326c2\"",
+            "etag": "W/\"f11bd95459dac824fc7a5a17e7b3f0f877c0f491c6fa351966189f9ec53da7dd\"",
             "id": "10707217",
             "ldap_dn": "",
             "members_count": 1,
@@ -1186,6 +1358,27 @@
             "parent_team_read_slug": "",
             "privacy": "closed",
             "slug": "django-tasks-scheduler"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Main team for the django-typer repository",
+            "etag": "W/\"a047117749ed6f7b336bf17d8a1be9c025654dc4d5487d7e77c5449f54b2c81d\"",
+            "id": "11217213",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-typer",
+            "node_id": "T_kwDOCaaRBM4Aqyk9",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "django-typer"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
@@ -1343,6 +1536,30 @@
             "github_team.repo_admin_team",
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11217214",
+            "members": [
+              {
+                "role": "member",
+                "username": "bckohan"
+              },
+              {
+                "role": "member",
+                "username": "oliverandrich"
+              }
+            ],
+            "team_id": "11217214"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -1460,6 +1677,29 @@
           "dependencies": [
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11217213",
+            "members": [
+              {
+                "role": "member",
+                "username": "bckohan"
+              },
+              {
+                "role": "member",
+                "username": "oliverandrich"
+              }
+            ],
+            "team_id": "11217213"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -1490,7 +1730,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"1e6dcc146da6444276440309f5d753871cc2f683f41f2d547dfd0c5553d9877d\"",
+            "etag": "W/\"ca5a1bcb9c815159e21f7af9234fa0b68ecbc20e380a26e5ae3f41790f96cba5\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -1512,6 +1752,23 @@
             "permission": "admin",
             "repository": "django-tasks-scheduler",
             "team_id": "10707221"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"ed48d82f69b61a1e36271e5e83a756e1aa2532a052b56e9505bb0c33c396fddc\"",
+            "id": "11217214:django-typer",
+            "permission": "admin",
+            "repository": "django-typer",
+            "team_id": "11217214"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1549,7 +1806,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"b4fb8652eb3a26d0e1b0cdf6774125b1525f517b4c721bc258100717311224da\"",
+            "etag": "W/\"32b495e82f8fcab0dbb678d668f31b990e5b0d50d5cbf2ae5bdd609d7879a1ba\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -1571,6 +1828,23 @@
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
             "team_id": "10707220"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"c53a41203f2205833a4e39f6c57c28c9f60fd5a429d6daa95cb12774fa5cfb35\"",
+            "id": "11217215:django-typer",
+            "permission": "maintain",
+            "repository": "django-typer",
+            "team_id": "11217215"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1607,7 +1881,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"28c1dcb25b56dd9dbe3808bcba71568d5dc1b51be5e67b7a60afb0c7b45a4f70\"",
+            "etag": "W/\"5b4fce3917d1aa89627a2793744b6dff639a2116ca98935a65f0900f596ecaf6\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -1628,6 +1902,22 @@
             "permission": "triage",
             "repository": "django-tasks-scheduler",
             "team_id": "10707217"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"d93654a34ded8e124ce502d6c1ab196bb07116211f99e69e3e455b841ece1449\"",
+            "id": "11217213:django-typer",
+            "permission": "triage",
+            "repository": "django-typer",
+            "team_id": "11217213"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1702,6 +1992,28 @@
             "team_id": "10707217",
             "team_slug": "django-tasks-scheduler",
             "team_uid": "T_kwDOCaaRBM4Ao2ER"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-typer",
+          "schema_version": 0,
+          "attributes": {
+            "id": "T_kwDOCaaRBM4Aqyk9",
+            "review_request_delegation": [
+              {
+                "algorithm": "LOAD_BALANCE",
+                "member_count": 2,
+                "notify": false
+              }
+            ],
+            "team_id": "11217213",
+            "team_slug": "django-typer",
+            "team_uid": "T_kwDOCaaRBM4Aqyk9"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",

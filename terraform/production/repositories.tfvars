@@ -81,20 +81,20 @@ repositories = {
     members    = []
   }
   "django-typer" = {
-   description        = "Use Typer (type hints) to define the interface for your Django management commands."
+    description        = "Use Typer (type hints) to define the interface for your Django management commands."
     homepage_url       = "django-typer.rtfd.io"
     allow_auto_merge   = false
     allow_merge_commit = false
     allow_rebase_merge = false
     allow_squash_merge = true
-    push_allowances = []
+    push_allowances    = []
 
     admins = [
       "bckohan",
       "oliverandrich",
     ]
     committers = []
-    members = []
+    members    = []
   }
 
 }

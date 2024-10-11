@@ -38,3 +38,16 @@ body:
       label: Who will be the new maintainers of the project?
     validations:
       required: false
+  - type: checkboxes
+    id: options
+    attributes:
+      label: Which of the following options would you like?
+      description: "These are entirely up to you and can be changed at a later time."
+      options:
+        - label: Does the project have a test.pypi.org project?
+        - label: Would you like to test your deployments with uploads to test.pypi.org (you'll need to create the project first)?
+        - label: Would you like to use GitHub's merge commits?
+        - label: Would you like to use GitHub's rebase and merge?
+        - label: Would you like to use GitHub's squash and merge?
+        - label: Would you like to use GitHub's Discussions?
+        - label: Would you like to use GitHub's Wiki?

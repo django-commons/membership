@@ -1,5 +1,5 @@
 name: New admin
-description: Apply to be a Django Commons administrator with the following form.
+description: Apply to be a Django Commons administrator with the following form. Please note that we currently aren't accepting new admins. We will be revisiting our admin team around April of 2025. Please send your application though and we will reach out when we re-assess things.
 labels: ["New admin"]
 title: "🏗️ [ADMIN] - <your handle>"
 assignees: 'django-commons/admins'

@@ -1,5 +1,5 @@
 name: New admin
-description: Apply to be a Django Commons administrator with the following form. Please note that we currently aren't accepting new admins. We will be revisiting our admin team around April of 2025. Please send your application though and we will reach out when we re-assess things.
+description: Apply to be a Django Commons administrator with the following form.
 labels: ["New admin"]
 title: "🏗️ [ADMIN] - <your handle>"
 assignees: 'django-commons/admins'
@@ -8,6 +8,8 @@ body:
     attributes:
       value: |
         Thanks for expressing interest in being an administrator for Django Commons!
+        > [!NOTE]
+        > We are currently not accepting new admins. We will be revisiting our admin team around April of 2025. Please send your application though and we will reach out when we re-assess things.
   - type: checkboxes
     id: dsf-member
     attributes:

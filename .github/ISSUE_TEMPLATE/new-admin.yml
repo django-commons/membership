@@ -8,6 +8,8 @@ body:
     attributes:
       value: |
         Thanks for expressing interest in being an administrator for Django Commons!
+        > [!NOTE]
+        > We are currently not accepting new admins. We will be revisiting our admin team around April of 2025. Please send your application though and we will reach out when we re-assess things.
   - type: checkboxes
     id: dsf-member
     attributes:

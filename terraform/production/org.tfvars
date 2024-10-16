@@ -32,6 +32,7 @@ members = [
   "salty-ivy",
   "testSchilling",
   "unmonoqueteclea",
+  "VeldaKiara",
 ]
 
 organization_teams = {

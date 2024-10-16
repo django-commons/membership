@@ -73,7 +73,7 @@ repositories = {
     allow_squash_merge = true
     has_discussions = false
     admins = [
-      "matthiask"
+      "matthiask",
       "tim-schilling",
     ]
     committers = [

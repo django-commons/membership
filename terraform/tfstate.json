@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 242,
+  "serial": 244,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -77,6 +77,19 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
+          "index_key": "VeldaKiara",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"e496ce8b73b749a9a5e827ab95d1910d204e7edd4478eb5e2c9269fbaa4874f2\"",
+            "id": "django-commons:VeldaKiara",
+            "role": "member",
+            "username": "VeldaKiara"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
           "index_key": "bckohan",
           "schema_version": 0,
           "attributes": {
@@ -133,7 +146,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"a4fd4899e8afbd0dfdd38f9c26cfb281e7a1ea7adf450cc59a72de519d583f6d\"",
+            "etag": "W/\"02cbcf79d9b9e720a2f9bb204476c03dc7ad1125dd6885ec859d81e53719f754\"",
             "id": "django-commons:elineda",
             "role": "member",
             "username": "elineda"
@@ -699,7 +712,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis pub/sub.",
-            "etag": "W/\"d10a3cf615a351678578008c2b0a4e6e699bd5591b184640b545d9a7dacae70a\"",
+            "etag": "W/\"0b3f1486682ee3d51cd6161019c242060860ac9159a5b763f9f9414dfdd76463\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -858,7 +871,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"53505346491680100852c2430fd63310ef52adc8132040f9f0ceb220f7582573\"",
+            "etag": "W/\"89545043bf05399e37816378f43d569d11735dfaed0f97e123d548aef66b88b4\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -1812,7 +1825,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"8b25c97c7d7c38d58845864c9b07ca6ee3d1c0bf81fcc7d923e8c7a8ef26f268\"",
+            "etag": "W/\"b81d857eea90b67bda94d977bf5385c10a3ad788c94d5f1331d73160d52e9ea8\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -1888,7 +1901,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"eb98714b66993d34d0f3d841805bd79ab69fa630f2fcfc670333a7a74839e7f6\"",
+            "etag": "W/\"a776042ca5bf79d0d28bd0d3d3e25d245ee4a6acc9196e72d09486074b6ec5fb\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -1962,7 +1975,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f3c695f9c5240812b0e9d4004ffa07c8d9b207dad87327b6e17fad927e87f109\"",
+            "etag": "W/\"9a2eaa2d2e27af2efc7ccc709aa293db91d98faf5671dbc8c217ab29a8424a0f\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",

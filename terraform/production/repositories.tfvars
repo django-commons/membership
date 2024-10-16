@@ -65,13 +65,13 @@ repositories = {
   }
 
   "django-debug-toolbar" = {
-    description = "A configurable set of panels that display various debug information about the current request/response."
-    homepage_url = "https://django-debug-toolbar.readthedocs.io"
-    allow_auto_merge = true
+    description        = "A configurable set of panels that display various debug information about the current request/response."
+    homepage_url       = "https://django-debug-toolbar.readthedocs.io"
+    allow_auto_merge   = true
     allow_merge_commit = true
     allow_rebase_merge = true
     allow_squash_merge = true
-    has_discussions = false
+    has_discussions    = false
     admins = [
       "matthiask",
       "tim-schilling",

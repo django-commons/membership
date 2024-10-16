@@ -11,6 +11,7 @@ members = [
   "bckohan",
   "browniebroke",
   "ddabble",
+  "elineda",
   "FlipperPA",
   "g-nie",
   "gav-fyi",

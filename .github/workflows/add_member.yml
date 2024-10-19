@@ -1,0 +1,57 @@
+name: "Add new member to django-commons"
+
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+        description: "Username of the new member"
+        required: true
+        default: "new_member"
+      issue_number:
+        description: "Issue number to reference in the PR body"
+        required: false
+        default: "0"
+
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  add-member:
+    name: "Add new member"
+    runs-on: ubuntu-latest
+
+    permissions:
+    contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Initialize mandatory git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email noreply@github.com
+
+      - name: Create branch
+        run: git checkout -b add-user/${{ inputs.username }}
+
+      - name: Add user to the list
+        run: |
+          python scripts/add_member.py ${{ inputs.username }}
+
+      - name: Commit changes
+        run: |
+          git add terraform/production/org.tfvars
+          git commit -m "Add ${{ inputs.username }} to django-commons"
+          git push origin add-user/${{ inputs.username }}
+
+      - name: Create pull request
+        run: |
+          gh pr create \
+            --title "Add ${{ inputs.username }} to django-commons" \
+            --body "Fix #${{ inputs.issue_number }}" \
+            --base main \
+            --head add-user/${{ inputs.username }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

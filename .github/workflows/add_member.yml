@@ -12,17 +12,13 @@ on:
         required: false
         default: "0"
 
-permissions:
-  id-token: write
-  contents: write
-
 jobs:
   add-member:
     name: "Add new member"
     runs-on: ubuntu-latest
-
     permissions:
-    contents: write
+      id-token: write
+      contents: write
 
     steps:
       - name: Setup python

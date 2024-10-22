@@ -103,7 +103,7 @@ repositories = {
     allow_rebase_merge  = true
     allow_squash_merge  = true
     allow_update_branch = true
-    has_discussions     = true
+    has_discussions     = false
     admins = [
       "FlipperPA",
       "browniebroke",

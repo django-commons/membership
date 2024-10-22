@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 244,
+  "serial": 258,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -16,7 +16,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"39c6ab5500265c27347ebf55f8d65fb87cd5fc443396ba0d28066f7a107bb25c\"",
+            "etag": "W/\"83e5c11b5a59807dcfed873992b4c1d7e0d2138af86549bd0d2eb92e71e23b40\"",
             "id": "django-commons:FlipperPA",
             "role": "member",
             "username": "FlipperPA"
@@ -29,7 +29,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"e1ed43b9b7f54508fef66294952869d35ae1761e291667fa109dcc13641462d6\"",
+            "etag": "W/\"95e777000671a7a5b0b892691ab8c0fb24cec4275ab37852e493348fbad8ca84\"",
             "id": "django-commons:Mogost",
             "role": "member",
             "username": "Mogost"
@@ -42,7 +42,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"6fd5d8f720014dd48fcf1c46153acfba522b63940c91b59858110623e8398986\"",
+            "etag": "W/\"2b9200f07dd8fe12d0a0a032911ceed3b115bbc34b17971723fc3ea62b4b1bd6\"",
             "id": "django-commons:Natim",
             "role": "member",
             "username": "Natim"
@@ -55,7 +55,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"26e5b75ea0b1a0e23de863a76a52e77ea0296d658fdce7b566bfb50ece2b6475\"",
+            "etag": "W/\"b60aa3c28fc699ccbf4b5468e9f50b4c2f82fe421abf3a7cf697e0624402f4d2\"",
             "id": "django-commons:RealOrangeOne",
             "role": "member",
             "username": "RealOrangeOne"
@@ -68,7 +68,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"2a0c3f113c3c391dd2e570f3d2c310faa3913c6d3b044e5d1332846e8cb14bdd\"",
+            "etag": "W/\"4582d14266f88942a15134f80a945e6d9045be648a11998a4119bb7385a88296\"",
             "id": "django-commons:Stormheg",
             "role": "admin",
             "username": "Stormheg"
@@ -81,7 +81,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"e496ce8b73b749a9a5e827ab95d1910d204e7edd4478eb5e2c9269fbaa4874f2\"",
+            "etag": "W/\"97426f1cd0c7a198057cda3b2be0aa5ac23fc8d83a648484b746c4dc5ad79399\"",
             "id": "django-commons:VeldaKiara",
             "role": "member",
             "username": "VeldaKiara"
@@ -94,7 +94,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"a5b2de150d4db1327b5c94c700c83dbe48ed557a5879f50b972422148b750e18\"",
+            "etag": "W/\"b69a2426155d7768463cf4035f03d8746928041c66afeaadf888a0493810f9ed\"",
             "id": "django-commons:bckohan",
             "role": "member",
             "username": "bckohan"
@@ -107,7 +107,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"f07e7b364a754f8e963a20658ff1870fcd0e3a4ecdd80709ca2a32059e7c1391\"",
+            "etag": "W/\"0a805ad68f8302ca110296c23ee27b9a05e379da7163ce1d627d02c69fe865ed\"",
             "id": "django-commons:browniebroke",
             "role": "member",
             "username": "browniebroke"
@@ -120,7 +120,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"a3c10fc75649b3e5e48c8279e7e7c51d1ea69eda1ece022200317e226a312071\"",
+            "etag": "W/\"63c32f98e495f7ee1852560a98d0c47c822f1b6c97f1458b9d3330d3811a1e68\"",
             "id": "django-commons:cunla",
             "role": "admin",
             "username": "cunla"
@@ -133,7 +133,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"0d73382d126615999a66b8edf5b81a77dc209b53aa84ecb2e787f89bd8f7f176\"",
+            "etag": "W/\"24adc8c798534d2115efb38d26b583b4fc59329ce802a8821ab0f4b23b2ab0ee\"",
             "id": "django-commons:ddabble",
             "role": "member",
             "username": "ddabble"
@@ -146,7 +146,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"02cbcf79d9b9e720a2f9bb204476c03dc7ad1125dd6885ec859d81e53719f754\"",
+            "etag": "W/\"b539a6aa1b73842ce2a186f7d1f44011384df6ce880cced4747141da8e16af90\"",
             "id": "django-commons:elineda",
             "role": "member",
             "username": "elineda"
@@ -159,7 +159,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"b159adcdbec9df7a9bf7f51ee7e8a605781020c87328b521e1b3e9cacc7d30df\"",
+            "etag": "W/\"cf2b41daf25578b11f15ce1100c70b5203da004ff95bb4cc61c84cbbf521e138\"",
             "id": "django-commons:g-nie",
             "role": "member",
             "username": "g-nie"
@@ -172,7 +172,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"9567d31fa1587885214042bb836419552aa0626b3b12004f06a023e7e4d05b94\"",
+            "etag": "W/\"28b39f3df9e7107e946c28dda5866c147596cade2e3eea2ab69e34f52e6b383d\"",
             "id": "django-commons:gav-fyi",
             "role": "member",
             "username": "gav-fyi"
@@ -185,7 +185,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"3b4a2e4d0c447d65bd1dd9889f2441b2e830c676a3670306d96d5d9d1209abf4\"",
+            "etag": "W/\"8b6aae40ecc03feb9e50262807dc03e0328a93dc6f704c0ca197cfefc35086e4\"",
             "id": "django-commons:jacklinke",
             "role": "member",
             "username": "jacklinke"
@@ -198,7 +198,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"120214bdad851e35a35db5f478f95218ad1e9716cc2898d207627ce686451dbc\"",
+            "etag": "W/\"d939e79e8c56086a99aeedae2fe67e3c3979ff06c1aec25bf5cc87a9eb55ac3c\"",
             "id": "django-commons:jcjudkins",
             "role": "member",
             "username": "jcjudkins"
@@ -211,7 +211,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"472ca67b6a77605e75ce0176d5d1973315336d7953d03deccf27be97c8b9c9a1\"",
+            "etag": "W/\"e7392144b4f83c8d8746c8c19be37703c9dccde9785a45b4cacf0f59ab794c71\"",
             "id": "django-commons:joshuadavidthomas",
             "role": "member",
             "username": "joshuadavidthomas"
@@ -224,7 +224,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"f5c48cbaa30bcc6f24130e870d5b7a17438804f93944a25866e082a806fe408c\"",
+            "etag": "W/\"6ffcb116f1dbc57d2b5d9ee559a00e9cfbd418cd4f790db7ee79c34060ec8512\"",
             "id": "django-commons:matthiask",
             "role": "member",
             "username": "matthiask"
@@ -237,7 +237,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"79bc6c30552b045dcd6d80e65e5e47f0d4a29e597fbdd34600f4ec5de542845b\"",
+            "etag": "W/\"7bf102232ce85d5a12675119713e5c28b43edd6327fe7e328c7b224f786d2b50\"",
             "id": "django-commons:mkalioby",
             "role": "member",
             "username": "mkalioby"
@@ -250,7 +250,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"90aa34d56320bccba1b230cf83f083741d3b628e4a53dc4b6501e11737de2bb7\"",
+            "etag": "W/\"d18b84c3c3cab83a0a51b440e71db057e736a7a31a8e53a274a35dad8bfb6612\"",
             "id": "django-commons:nanorepublica",
             "role": "member",
             "username": "nanorepublica"
@@ -263,7 +263,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"2dd66cccf1d3df57100b31459b2124ef178988e97237cb2fa72d846898ab99f8\"",
+            "etag": "W/\"06df9b37567e6e436aaeb9627bca0a7854309639f5342f02a6b678a5f6340103\"",
             "id": "django-commons:oliverandrich",
             "role": "member",
             "username": "oliverandrich"
@@ -276,7 +276,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"e1fa102c1f6010539fd5a24aa5915fc4118c6b248d1f4479c0236f739e062e02\"",
+            "etag": "W/\"65dd4722ec9bc5f932174ab7e25c724a02b348a18ee1429f39136b6a69b70d14\"",
             "id": "django-commons:ontowhee",
             "role": "member",
             "username": "ontowhee"
@@ -289,7 +289,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"6cf68db52f17f985b9a194f44f7960f6327a4c4597c5d2046b93a388cecc217c\"",
+            "etag": "W/\"a2e57429d4e135c1139b48838fad1cb0f773a1cc683673c5989790cec2884619\"",
             "id": "django-commons:pfouque",
             "role": "member",
             "username": "pfouque"
@@ -302,7 +302,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"2771ecea10a1124901f2a8f9eb1b4a682da0d531c514a2f1e04bb45a65297926\"",
+            "etag": "W/\"733b39f74e0782d1cf5dd04388a2305c54edf11c232e4006283ac6e7288bc671\"",
             "id": "django-commons:priyapahwa",
             "role": "member",
             "username": "priyapahwa"
@@ -315,7 +315,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"4c055586df554fc7d1a2412139fa745dae602f9a32126d4cb862935e832bd16b\"",
+            "etag": "W/\"fbf3508b4f94f9089aee9fd40e591abeb1401a24370c69301f6179c97da013a4\"",
             "id": "django-commons:rptmat57",
             "role": "member",
             "username": "rptmat57"
@@ -328,7 +328,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"c76df4ee75da5c7dfb80147f0105564d2bd971e0d0009c1951de58b8cc265fef\"",
+            "etag": "W/\"c8e923987cda80246df48a9b077c4ec88d29c37175c62a064b6c0480e1148d0b\"",
             "id": "django-commons:ryancheley",
             "role": "admin",
             "username": "ryancheley"
@@ -341,7 +341,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"025a3ba1fbfec57be8d96c8e2b1ddb75c3b3d1e2b0cc2eed58c299a75b3a88f6\"",
+            "etag": "W/\"1fd021f4859adc62d47f8400b21a467cbebb0955c3bf7dc6e0925fac695adb93\"",
             "id": "django-commons:salty-ivy",
             "role": "member",
             "username": "salty-ivy"
@@ -354,7 +354,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"82cd5e50d842e40b67e012cc543d511651cc95ef4b1acfc0a2b0d76a004525eb\"",
+            "etag": "W/\"0a234c2cd7a330a0ab1e4d80ca11e8652ee71f6dbc88a88d61026fca49ba613c\"",
             "id": "django-commons:testSchilling",
             "role": "member",
             "username": "testSchilling"
@@ -367,7 +367,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"3e0f1264752f25dbf6ca43ecb381b03dc8623251cedbcf0e900dcdb7f3d744a0\"",
+            "etag": "W/\"a60e515c330b601b28ee273087175cb10c11b9ca40377015b283287935671a50\"",
             "id": "django-commons:tim-schilling",
             "role": "admin",
             "username": "tim-schilling"
@@ -380,7 +380,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"b811e81b7cdf67254c1d44198e7db5c30cfd351e325a68427489421a01dd668b\"",
+            "etag": "W/\"cbd8383a34dca601f247215905b19e6d87f87b229e34f9aa74a6947a8330b1e4\"",
             "id": "django-commons:unmonoqueteclea",
             "role": "member",
             "username": "unmonoqueteclea"
@@ -393,7 +393,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"0fb7a97ee78d9b4282447813247a4ff786b4628597f2cf7dcc6c195a01835c61\"",
+            "etag": "W/\"f215c7666df86d448a0a46cf33c2d4cb2d31b77566fb5e03c43e9c464340b055\"",
             "id": "django-commons:williln",
             "role": "admin",
             "username": "williln"
@@ -444,7 +444,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A Special Repository.",
-            "etag": "W/\"50694cd7b6ad870daf7771d58eab831150c45ad83ed3936d0ea3e68da0b9edd0\"",
+            "etag": "W/\"b00528f1006df3e27d7d7e63b7bbca6504aef1a0cfbe66268fe43832bfb99f41\"",
             "full_name": "django-commons/.github",
             "git_clone_url": "git://github.com/django-commons/.github.git",
             "gitignore_template": null,
@@ -511,7 +511,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
-            "etag": "W/\"4d3682702753e68a441de2bf5b052aa8cd7115b52def7ecd1ee461fe5da2b624\"",
+            "etag": "W/\"4d9a605305830d19c11e66629b65e63971c1acfa001fa281c35d72369bb5f28a\"",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -578,7 +578,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A sample project to test things out",
-            "etag": "W/\"5d93740703f25a482efdf9069e5bc23927a340d4e6b27947c45b43dedf31c3d8\"",
+            "etag": "W/\"cf25d9a21d408f39be58cb0ec44e614eb7dfa2f89235098c4847db6efcb93830\"",
             "full_name": "django-commons/django-commons-playground",
             "git_clone_url": "git://github.com/django-commons/django-commons-playground.git",
             "gitignore_template": null,
@@ -645,7 +645,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"0854a2ea08c42223e65b417fa843ccd560f99cd98c2a68b79b4cf7620b6d2ccb\"",
+            "etag": "W/\"42f091c36e3cbe0e3b1a7223a8ae918a0614c30da43877581b00c280c9269573\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -712,7 +712,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis pub/sub.",
-            "etag": "W/\"0b3f1486682ee3d51cd6161019c242060860ac9159a5b763f9f9414dfdd76463\"",
+            "etag": "W/\"81ae085527cd22077d8e3ad2a9acbbb8b60eca3746e0bbda5d3ac87436009dcf\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -790,7 +790,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Use Typer (type hints) to define the interface for your Django management commands.",
-            "etag": "W/\"a82acc25391016250993a12536ddac4310132062a50ec73e6ec887ea98f7aaf3\"",
+            "etag": "W/\"2024f1156c4a41f1d264d39f41c3c734e1ea9165b4b8538b8fe661c0035af8d9\"",
             "full_name": "django-commons/django-typer",
             "git_clone_url": "git://github.com/django-commons/django-typer.git",
             "gitignore_template": null,
@@ -857,6 +857,73 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
+          "index_key": "drf-excel",
+          "schema_version": 1,
+          "attributes": {
+            "allow_auto_merge": false,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_squash_merge": true,
+            "allow_update_branch": true,
+            "archive_on_destroy": true,
+            "archived": false,
+            "auto_init": false,
+            "default_branch": "main",
+            "delete_branch_on_merge": true,
+            "description": "An XLSX spreadsheet renderer for Django REST Framework.",
+            "etag": "W/\"e500243e9d94a7c1794824811433887ae0f1fc5b5e454ac7ab1a0ec41bc5f7fd\"",
+            "full_name": "django-commons/drf-excel",
+            "git_clone_url": "git://github.com/django-commons/drf-excel.git",
+            "gitignore_template": null,
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_projects": true,
+            "has_wiki": false,
+            "homepage_url": "",
+            "html_url": "https://github.com/django-commons/drf-excel",
+            "http_clone_url": "https://github.com/django-commons/drf-excel.git",
+            "id": "drf-excel",
+            "ignore_vulnerability_alerts_during_read": null,
+            "is_template": false,
+            "license_template": null,
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "name": "drf-excel",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMDU2ODYwODA=",
+            "pages": [],
+            "primary_language": "Python",
+            "private": false,
+            "repo_id": 105686080,
+            "security_and_analysis": [
+              {
+                "advanced_security": [],
+                "secret_scanning": [
+                  {
+                    "status": "disabled"
+                  }
+                ],
+                "secret_scanning_push_protection": [
+                  {
+                    "status": "disabled"
+                  }
+                ]
+              }
+            ],
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "ssh_clone_url": "git@github.com:django-commons/drf-excel.git",
+            "svn_url": "https://github.com/django-commons/drf-excel",
+            "template": [],
+            "topics": [],
+            "visibility": "public",
+            "vulnerability_alerts": true,
+            "web_commit_signoff_required": false
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        },
+        {
           "index_key": "membership",
           "schema_version": 1,
           "attributes": {
@@ -871,7 +938,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"89545043bf05399e37816378f43d569d11735dfaed0f97e123d548aef66b88b4\"",
+            "etag": "W/\"7e4fc2d8750a7e886cbec683382dbedcbd9aced3c68ab704b6b79a63dc6b2cbb\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -1038,6 +1105,33 @@
             "github_team.repo_admin_team",
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "pypi",
+            "id": "drf-excel:pypi",
+            "prevent_self_review": false,
+            "repository": "drf-excel",
+            "reviewers": [
+              {
+                "teams": [
+                  11341702
+                ],
+                "users": null
+              }
+            ],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -1110,6 +1204,22 @@
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "testpypi",
+            "id": "drf-excel:testpypi",
+            "prevent_self_review": false,
+            "repository": "drf-excel",
+            "reviewers": [],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
         }
       ]
     },
@@ -1125,7 +1235,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons administrators",
-            "etag": "W/\"9bca7d9d9e54cfffbf4a8dfd57945a8536158d4079363aafb8c18b632f5e1161\"",
+            "etag": "W/\"44c9e9a7ae96b147086cbb455052170a1798a5ce67ddf6361f703831f065d14a\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -1146,7 +1256,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons security team",
-            "etag": "W/\"ac49479ae4f19c0f8d76dfba4e5d4455d20f02ac24a9362621feb96996fe004f\"",
+            "etag": "W/\"03c9f1e6c6ec36450a4cf842e3cf084a9ca69ba7f7aec1e9c878d748dd9f4104\"",
             "id": "10641823",
             "ldap_dn": "",
             "members_count": 2,
@@ -1175,7 +1285,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-commons-playground repository",
-            "etag": "W/\"22dc85d86a57bb0c4fc8d363708bc832882541cda5d27f8ed4e1e49beba7e571\"",
+            "etag": "W/\"f8a92bb77ac5a7449f40f6721d9607e9a4b15d0fd790927bce90f965d57d26ed\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
@@ -1199,7 +1309,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-fsm-2 repository",
-            "etag": "W/\"533c42e1f9ab26c586eeac5492445e92fb771003e28302d35a95471a96905340\"",
+            "etag": "W/\"48ce77675bfdfe418325a15a9be20d97242b8a9da220d0e6a922b59b67fa0efa\"",
             "id": "10870432",
             "ldap_dn": "",
             "members_count": 2,
@@ -1223,7 +1333,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tasks-scheduler repository",
-            "etag": "W/\"c946fb454946cf9f844829cd903881f52c627ece9813bff2e32bc79396c909e5\"",
+            "etag": "W/\"14823e27065732263db2e7d5bc4d376f1e31291d44c465e2e133d90cea061dcd\"",
             "id": "10707221",
             "ldap_dn": "",
             "members_count": 1,
@@ -1247,7 +1357,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-typer repository",
-            "etag": "W/\"7d964ab2a206036a3e1d61e71983598759e916f7a962ab4f031b863bd7b5ebea\"",
+            "etag": "W/\"22a7d917f50422acb1392e0ecff615087b97c972b15786ade2e496faf1d56f26\"",
             "id": "11217214",
             "ldap_dn": "",
             "members_count": 2,
@@ -1258,6 +1368,30 @@
             "parent_team_read_slug": "django-typer",
             "privacy": "closed",
             "slug": "django-typer-admins"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Admin team for the drf-excel repository",
+            "etag": "W/\"d96b71d4603c354774a75418501f3cea803391e3ce4e6074ab1f6f62179d7601\"",
+            "id": "11341702",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "drf-excel-admins",
+            "node_id": "T_kwDOCaaRBM4ArQ-G",
+            "parent_team_id": "11341700",
+            "parent_team_read_id": "11341700",
+            "parent_team_read_slug": "drf-excel",
+            "privacy": "closed",
+            "slug": "drf-excel-admins"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1279,7 +1413,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-commons-playground repository",
-            "etag": "W/\"65e7df418b2cb60206b89dd7398e1b794f3cb41240747ea39fc9059f0e6ce971\"",
+            "etag": "W/\"2b7a97ce7688396566a2d67fc3da85431c75867a52dba338a541294729a282b7\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
@@ -1303,7 +1437,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-fsm-2 repository",
-            "etag": "W/\"93a028a9983dcf3e5fb3376fdd8a59280525a1620d2a05106356cfc89492c71b\"",
+            "etag": "W/\"3111e09fe68a6a255ea18a5a6d20fc5734fb96f7f441429cf77321b9a8203f0c\"",
             "id": "10870433",
             "ldap_dn": "",
             "members_count": 0,
@@ -1327,7 +1461,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tasks-scheduler repository",
-            "etag": "W/\"cf903e5d7d7568b23a88f95d25b384892e4f3dec3b9f32679b01c9536d2c6a9e\"",
+            "etag": "W/\"e6a2cd2221d550ef22fe20ff5df81c289cd9b28a56c20e2c1d1835935237467e\"",
             "id": "10707220",
             "ldap_dn": "",
             "members_count": 0,
@@ -1351,7 +1485,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-typer repository",
-            "etag": "W/\"61e58f4494ee4896ada16e7a32969fec32672d6f463e711771a730d200bec5f8\"",
+            "etag": "W/\"458923877ba14bca1633e3269132a7bd506de377031b23329b9c3edf2372f441\"",
             "id": "11217215",
             "ldap_dn": "",
             "members_count": 0,
@@ -1362,6 +1496,30 @@
             "parent_team_read_slug": "django-typer",
             "privacy": "closed",
             "slug": "django-typer-committers"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Committers team for the drf-excel repository",
+            "etag": "W/\"c8db1aa7e53b6dd9723d25245bd97400a44c7185d9cbf4440ba34c0ad6bb1277\"",
+            "id": "11341703",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "drf-excel-committers",
+            "node_id": "T_kwDOCaaRBM4ArQ-H",
+            "parent_team_id": "11341700",
+            "parent_team_read_id": "11341700",
+            "parent_team_read_slug": "drf-excel",
+            "privacy": "closed",
+            "slug": "drf-excel-committers"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1383,7 +1541,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-commons-playground repository",
-            "etag": "W/\"f161ddc07899a2c3cbd06f18bb6435488881e67a99f119b1c8723a4a8e9a39ed\"",
+            "etag": "W/\"1d5f5b55103f6e68b794d0e6999c755f374f35875efdc544cc56ed7ebef89add\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
@@ -1404,7 +1562,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-fsm-2 repository",
-            "etag": "W/\"bf7808127996b2bd83cbb2163123890cacc44178283e05daf3d7aab466fa26d1\"",
+            "etag": "W/\"7c96db037a7a0c5644b74d230d2f949e66010b3866a2b86e723a21ac486b3cf0\"",
             "id": "10870431",
             "ldap_dn": "",
             "members_count": 2,
@@ -1425,7 +1583,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"79c8249c52269bc646018f48ee69e397f9fa30c3966da9f3191e492ce03e7d38\"",
+            "etag": "W/\"c5ebf89aec4c4d4e1113ff0c58e34a9959da7ac99198ce7a85ea2bd1e1c2982b\"",
             "id": "10707217",
             "ldap_dn": "",
             "members_count": 1,
@@ -1446,7 +1604,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-typer repository",
-            "etag": "W/\"82726c3ffb9d3030617e0d299109f0215dd73e78abba46684a3d8d733986b9c7\"",
+            "etag": "W/\"effa0d72fc60b13edb0cdc4df57c025a8a5cd650ceb30efdcfa309ff380906a4\"",
             "id": "11217213",
             "ldap_dn": "",
             "members_count": 2,
@@ -1457,6 +1615,27 @@
             "parent_team_read_slug": "",
             "privacy": "closed",
             "slug": "django-typer"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Main team for the drf-excel repository",
+            "etag": "W/\"90b47f8b8c06bcbe7280e2fac8defcafd238c91b52b903097091d1fcaad4f20c\"",
+            "id": "11341700",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "drf-excel",
+            "node_id": "T_kwDOCaaRBM4ArQ-E",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "drf-excel"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
@@ -1638,6 +1817,30 @@
             "github_team.repo_admin_team",
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11341702",
+            "members": [
+              {
+                "role": "member",
+                "username": "FlipperPA"
+              },
+              {
+                "role": "member",
+                "username": "browniebroke"
+              }
+            ],
+            "team_id": "11341702"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -1662,6 +1865,26 @@
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11341703",
+            "members": [
+              {
+                "role": "member",
+                "username": "rptmat57"
+              }
+            ],
+            "team_id": "11341703"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -1778,6 +2001,33 @@
           "dependencies": [
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11341700",
+            "members": [
+              {
+                "role": "member",
+                "username": "FlipperPA"
+              },
+              {
+                "role": "member",
+                "username": "browniebroke"
+              },
+              {
+                "role": "member",
+                "username": "rptmat57"
+              }
+            ],
+            "team_id": "11341700"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
         }
       ]
     },
@@ -1791,7 +2041,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4297c0f98e28adb9acc93dfa8d20cfc9438fb4248d1b29384bafe47b8a72bb7a\"",
+            "etag": "W/\"1002655dc39023a0126395413a079efc4e576adca9b04d8cd17a5fd11ea10a45\"",
             "id": "9757650:django-commons-playground",
             "permission": "admin",
             "repository": "django-commons-playground",
@@ -1808,7 +2058,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"90af5f597bb766e16bb35c019ccdeae0642f2e3deb8f70ade47dfe8a4de9569f\"",
+            "etag": "W/\"dd5e4aa91806d8a64ee18b7e92fe8f8bba9cd774a3fe110fefb4a48180d2f3a1\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -1825,7 +2075,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"b81d857eea90b67bda94d977bf5385c10a3ad788c94d5f1331d73160d52e9ea8\"",
+            "etag": "W/\"b23b26d655aaed6f13008092704110e96bf7cfd0980517a6a03e57ef25088a00\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -1842,11 +2092,28 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"16627f870757bb95a7eacc98d77ad7a64d95113eeffd7276a6eed14811ffd3ea\"",
+            "etag": "W/\"9e7662e04bfb2e7f4620bbedeca8e5a1ab17e951d4340b16fd6e63e5140d272b\"",
             "id": "11217214:django-typer",
             "permission": "admin",
             "repository": "django-typer",
             "team_id": "11217214"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"e6191c199bef8fc988e7819823e462ddbb055c61c48a8035900a28837fd20b1a\"",
+            "id": "11341702:drf-excel",
+            "permission": "admin",
+            "repository": "drf-excel",
+            "team_id": "11341702"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1867,7 +2134,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"31054151ec984d25f60bdb24df1bc0bf53d86d5e95d2229a52d8eb1ad0390a4b\"",
+            "etag": "W/\"081ccbc1c0fa58fcc47acb1087df3fc81df9e6577172c844d3f6ee3aa4ffa3bc\"",
             "id": "9757668:django-commons-playground",
             "permission": "maintain",
             "repository": "django-commons-playground",
@@ -1884,7 +2151,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ef504aeca076694a38143be267a51a725b18ca3c4d079aaf4dc02cb18aad9467\"",
+            "etag": "W/\"40abf78587853056e65903c5eecfa689e05e0b29279891f792a317dab137810a\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -1901,7 +2168,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a776042ca5bf79d0d28bd0d3d3e25d245ee4a6acc9196e72d09486074b6ec5fb\"",
+            "etag": "W/\"bd6a55cf838f1324c3158958309d298397403062ae931e4f01587de81a664506\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -1918,11 +2185,28 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"14b5a859e9e190e40d883aadaf32cfe6abbb27f8660da533e7a9080cbf659e0d\"",
+            "etag": "W/\"d27b6f2bfe4af09090f9e722475deac43a9c578d5586458916c89fac9af3a68a\"",
             "id": "11217215:django-typer",
             "permission": "maintain",
             "repository": "django-typer",
             "team_id": "11217215"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"5f12ea7c3b8f39d0478cefe0e339a10de13c52596454a96fb804ec1328ade3d2\"",
+            "id": "11341703:drf-excel",
+            "permission": "maintain",
+            "repository": "drf-excel",
+            "team_id": "11341703"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1943,7 +2227,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5bbe60e51d3281c03ea64b1a0c05ebc1caef9304bcc039212c3f7778cee5f0d5\"",
+            "etag": "W/\"ee5178d260f9165f856b8053fa0ea05029d2d57dbf2279d68f7227fd8829399b\"",
             "id": "9757678:django-commons-playground",
             "permission": "triage",
             "repository": "django-commons-playground",
@@ -1959,7 +2243,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"47cb90b1ba34aecdb44f1581dc4bd4afb480122290c7b684381616d0baad3ad5\"",
+            "etag": "W/\"d82c8f4c714f89801f42ed504b5936e5b3b69bd668a3a7014f6711d72f7105b6\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -1975,7 +2259,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"9a2eaa2d2e27af2efc7ccc709aa293db91d98faf5671dbc8c217ab29a8424a0f\"",
+            "etag": "W/\"58a1bed8e9738cf865f1b622a8e0d87225d4d2b368566eec3c0926980eaa028b\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",
@@ -1991,11 +2275,27 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"cb02f4f7876f8ce370f3ad0bbb9b78fed1cae3f966cc52e12ffb74199c81cffe\"",
+            "etag": "W/\"90aa5a6223bca2377679b784c7ea87a343bd96dcf5d75d4d9d7697b23316e935\"",
             "id": "11217213:django-typer",
             "permission": "triage",
             "repository": "django-typer",
             "team_id": "11217213"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"abc781dc521d729ab51f8d197de8cfa07db7be0e533ba0648685cc8a707e3b76\"",
+            "id": "11341700:drf-excel",
+            "permission": "triage",
+            "repository": "drf-excel",
+            "team_id": "11341700"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2092,6 +2392,28 @@
             "team_id": "11217213",
             "team_slug": "django-typer",
             "team_uid": "T_kwDOCaaRBM4Aqyk9"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "id": "T_kwDOCaaRBM4ArQ-E",
+            "review_request_delegation": [
+              {
+                "algorithm": "LOAD_BALANCE",
+                "member_count": 2,
+                "notify": false
+              }
+            ],
+            "team_id": "11341700",
+            "team_slug": "drf-excel",
+            "team_uid": "T_kwDOCaaRBM4ArQ-E"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",

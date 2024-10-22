@@ -97,5 +97,20 @@ repositories = {
     committers = []
     members    = []
   }
-
+  "drf-excel" = {
+    description         = "An XLSX spreadsheet renderer for Django REST Framework."
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    admins = [
+      "FlipperPA",
+      "browniebroke",
+    ]
+    committers = [
+      "rptmat57",
+    ]
+    members = []
+  }
 }

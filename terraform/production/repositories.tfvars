@@ -5,8 +5,8 @@ repositories = {
     description              = "A Special Repository."
     enable_branch_protection = false
 
-    topics                 = []
-    push_allowances        = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo = true
   }
 
@@ -16,8 +16,8 @@ repositories = {
     allow_merge_commit       = true
     allow_rebase_merge       = true
     allow_squash_merge       = true
-    topics                   = []
-    push_allowances          = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo   = true
   }
 
@@ -27,14 +27,14 @@ repositories = {
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
-    topics                 = []
-    push_allowances        = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo = true
   }
 
   "django-commons-playground" = {
     description = "A sample project to test things out"
-    topics      = []
+    topics = []
     # People with GitHub admin repo permissions
     admins = [
       "cunla",
@@ -61,7 +61,7 @@ repositories = {
       "cunla",
     ]
     committers = []
-    members    = []
+    members = []
   }
 
   "django-fsm-2" = {
@@ -78,7 +78,7 @@ repositories = {
       "pfouque",
     ]
     committers = []
-    members    = []
+    members = []
   }
   "django-typer" = {
     description        = "Use Typer (type hints) to define the interface for your Django management commands."
@@ -88,14 +88,29 @@ repositories = {
     allow_rebase_merge = true
     allow_squash_merge = true
     has_wiki           = true
-    push_allowances    = []
+    push_allowances = []
 
     admins = [
       "bckohan",
       "oliverandrich",
     ]
     committers = []
-    members    = []
+    members = []
   }
-
+  "drf-excel" = {
+    description         = "An XLSX spreadsheet renderer for Django REST Framework."
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = true
+    admins = [
+      "FlipperPA",
+      "browniebroke",
+    ]
+    committers = [
+      "rptmat57",
+    ]
+    members = []
+  }
 }

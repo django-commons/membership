@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 260,
+  "serial": 274,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -211,7 +211,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"25fa70d8b45cddd412f060b8ff03765c1c95775660714de22beb8575e6ab10ce\"",
+            "etag": "W/\"fe77b35e04a8b8eb1922293b6986aa335fd2a139dacc87225490006198f831d5\"",
             "id": "django-commons:jezdez",
             "role": "member",
             "username": "jezdez"
@@ -644,6 +644,73 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 1,
+          "attributes": {
+            "allow_auto_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_squash_merge": true,
+            "allow_update_branch": true,
+            "archive_on_destroy": true,
+            "archived": false,
+            "auto_init": false,
+            "default_branch": "main",
+            "delete_branch_on_merge": true,
+            "description": "A configurable set of panels that display various debug information about the current request/response.",
+            "etag": "W/\"2d753fefbe77f6ed4c196da4432376fc19bf5d7fec66dec730355b6a8ef84bff\"",
+            "full_name": "django-commons/django-debug-toolbar",
+            "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
+            "gitignore_template": null,
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage_url": "https://django-debug-toolbar.readthedocs.io",
+            "html_url": "https://github.com/django-commons/django-debug-toolbar",
+            "http_clone_url": "https://github.com/django-commons/django-debug-toolbar.git",
+            "id": "django-debug-toolbar",
+            "ignore_vulnerability_alerts_during_read": null,
+            "is_template": false,
+            "license_template": null,
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "name": "django-debug-toolbar",
+            "node_id": "MDEwOlJlcG9zaXRvcnk0NjkzOQ==",
+            "pages": [],
+            "primary_language": "Python",
+            "private": false,
+            "repo_id": 46939,
+            "security_and_analysis": [
+              {
+                "advanced_security": [],
+                "secret_scanning": [
+                  {
+                    "status": "disabled"
+                  }
+                ],
+                "secret_scanning_push_protection": [
+                  {
+                    "status": "disabled"
+                  }
+                ]
+              }
+            ],
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "ssh_clone_url": "git@github.com:django-commons/django-debug-toolbar.git",
+            "svn_url": "https://github.com/django-commons/django-debug-toolbar",
+            "template": [],
+            "topics": [],
+            "visibility": "public",
+            "vulnerability_alerts": true,
+            "web_commit_signoff_required": false
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 1,
           "attributes": {
@@ -951,7 +1018,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"a21ed0aa37e5f9051d1f3c9f2b3b89b9fab0d75b6e94c389c0429b1566681395\"",
+            "etag": "W/\"55741305e6d04afac1550749052f669c6af73e81dd789a778aef3e0020cbd2d9\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -1033,6 +1100,33 @@
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "pypi",
+            "id": "django-debug-toolbar:pypi",
+            "prevent_self_review": false,
+            "repository": "django-debug-toolbar",
+            "reviewers": [
+              {
+                "teams": [
+                  11354341
+                ],
+                "users": null
+              }
+            ],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
             "github_team.repo_team"
@@ -1171,6 +1265,22 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "testpypi",
+            "id": "django-debug-toolbar:testpypi",
+            "prevent_self_review": false,
+            "repository": "django-debug-toolbar",
+            "reviewers": [],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
@@ -1248,7 +1358,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons administrators",
-            "etag": "W/\"f11fa9d46989cf452825d0b03771186e5bacdefc8517d43fa660fe4ef4711dd1\"",
+            "etag": "W/\"fd6ae7d0afb182bc2dc09f471303ef8eb68c570894e0136330aa067ee2ea702a\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -1269,7 +1379,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons security team",
-            "etag": "W/\"22af7c6b665c5b3eac08f5956491aa53eb16f35064790ac8462149696fdf24c5\"",
+            "etag": "W/\"6bd3fa751f4e660a4bf3ef3caebbf0fd193e2e552ad43b53ad1b00e6aebc090d\"",
             "id": "10641823",
             "ldap_dn": "",
             "members_count": 2,
@@ -1298,7 +1408,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-commons-playground repository",
-            "etag": "W/\"57012cb575d54c8959aeb3638349e78604d0a0e9da8b061e8f9214102c629a63\"",
+            "etag": "W/\"a1ba5ddc87128776756ca4278aac70ddfda801700534c61983c37829c6a8621a\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
@@ -1317,12 +1427,36 @@
           ]
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Admin team for the django-debug-toolbar repository",
+            "etag": "W/\"b9e800bc83aa358ddf398471dafe9b04816ab0497513314ca6b1b66c10441283\"",
+            "id": "11354341",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-debug-toolbar-admins",
+            "node_id": "T_kwDOCaaRBM4ArUDl",
+            "parent_team_id": "11354339",
+            "parent_team_read_id": "11354339",
+            "parent_team_read_slug": "django-debug-toolbar",
+            "privacy": "closed",
+            "slug": "django-debug-toolbar-admins"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-fsm-2 repository",
-            "etag": "W/\"8a02caa78bed5cc6442a4a61583d2c6981c1f27b0fef36fdc4aeee9fe48ad74d\"",
+            "etag": "W/\"c80a2668111962fea735ce8b3c888a2c4b085ecea6b9785bc53a44edc41905e2\"",
             "id": "10870432",
             "ldap_dn": "",
             "members_count": 2,
@@ -1346,7 +1480,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tasks-scheduler repository",
-            "etag": "W/\"2df93d63acab7a33cd4edd399f3142de86007b7d847005b8005a1d13bba29b23\"",
+            "etag": "W/\"d439ee0c7d0987ac9320695ce8fcf6eb7b219230fbfc4e3e409e41671b6aa5b3\"",
             "id": "10707221",
             "ldap_dn": "",
             "members_count": 1,
@@ -1370,7 +1504,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-typer repository",
-            "etag": "W/\"6e48c92a5c5984652e485e3c8dbd7c0fc855829c58672bac39b89ec9d58d37e9\"",
+            "etag": "W/\"e752faf685ab6195b84517a52c815e0c6b18510b6173055779aecddf0642e623\"",
             "id": "11217214",
             "ldap_dn": "",
             "members_count": 2,
@@ -1394,7 +1528,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the drf-excel repository",
-            "etag": "W/\"87f522421bdc0423b583c7ff8ef4ea02572695f57b96e09770db67de002bcc61\"",
+            "etag": "W/\"98f42190878675394bced9ea908b0cca6bdea670ce27d11f9d19e23903aea72c\"",
             "id": "11341702",
             "ldap_dn": "",
             "members_count": 2,
@@ -1426,7 +1560,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-commons-playground repository",
-            "etag": "W/\"57042b84b31f0e31cf99fbf8f285fcfdee28096f432b9fb78974d9e69d56ba35\"",
+            "etag": "W/\"f07a126c1366c6ada0f17d32bfa138f70bb217cd274327e9749af24183f5b12d\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
@@ -1445,12 +1579,36 @@
           ]
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Committers team for the django-debug-toolbar repository",
+            "etag": "W/\"0f130ca4c71c003b7cc26dbcbe7515ba166e6d84b87cca53af210768a032c161\"",
+            "id": "11354340",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-debug-toolbar-committers",
+            "node_id": "T_kwDOCaaRBM4ArUDk",
+            "parent_team_id": "11354339",
+            "parent_team_read_id": "11354339",
+            "parent_team_read_slug": "django-debug-toolbar",
+            "privacy": "closed",
+            "slug": "django-debug-toolbar-committers"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-fsm-2 repository",
-            "etag": "W/\"ee0165c5fce9d7ae72b75068018f798bda8b2e0fac9ce0dc63e4bd70f047ee33\"",
+            "etag": "W/\"731f4ea3fb608d07ec4dcf3c04333f743fc090040e4f6b067b9f6575ace4cbf6\"",
             "id": "10870433",
             "ldap_dn": "",
             "members_count": 0,
@@ -1474,7 +1632,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tasks-scheduler repository",
-            "etag": "W/\"140b53d57a14501134cd40ec310af1167add9e00873520f7c2a3f0987ffd5ebe\"",
+            "etag": "W/\"3ad6738dc1dfc4acf42e6e5008516b1a3754204a9be94d530294d7d3fc55bfc8\"",
             "id": "10707220",
             "ldap_dn": "",
             "members_count": 0,
@@ -1498,7 +1656,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-typer repository",
-            "etag": "W/\"3d538b55995a8b0a692e23f28d68d273a188a6c73e5f2a9caba96c4cc7c4fcac\"",
+            "etag": "W/\"8eba30919ace5e2764f1d050077355872a5bcc1698d01a10a4cfea8f2b74a7b6\"",
             "id": "11217215",
             "ldap_dn": "",
             "members_count": 0,
@@ -1522,7 +1680,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the drf-excel repository",
-            "etag": "W/\"9b5a53ba1dd56dddb302b40aafad3573b632262789cbe7d7cb655dd4ecf7b86a\"",
+            "etag": "W/\"c16888f25e7e041edcf79b59afc5c3167c84a8724df67f069f3a7edd0485186b\"",
             "id": "11341703",
             "ldap_dn": "",
             "members_count": 1,
@@ -1554,7 +1712,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-commons-playground repository",
-            "etag": "W/\"1ce91c6ef96bc7f8ef967ec1b9c2e953c3262d1cd9500f862094fdd52d98cbb6\"",
+            "etag": "W/\"9790d354f4dc33d07e085aa10abe1e1de346bf2f978f1cc6c37ca4b4b1973388\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
@@ -1570,12 +1728,33 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Main team for the django-debug-toolbar repository",
+            "etag": "W/\"7bbcafa2b9d7b34835aaa54aa287c3df7ab9837ae5353ee7d63d162bdfe9d28c\"",
+            "id": "11354339",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-debug-toolbar",
+            "node_id": "T_kwDOCaaRBM4ArUDj",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "django-debug-toolbar"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-fsm-2 repository",
-            "etag": "W/\"e145ce2fe39f850e65cbae677d9450373f0de85560eb69281c15b9ca03d2def3\"",
+            "etag": "W/\"9ef9bcb8a8d75c61ec1a0822a935f43b605a4d8ed28f5a961c464cfda864fd53\"",
             "id": "10870431",
             "ldap_dn": "",
             "members_count": 2,
@@ -1596,7 +1775,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"250f702dfe04575faf22755c5a0050e2be3d5bedaa0a01d1500e760f85860b7a\"",
+            "etag": "W/\"3b0d2ea18ee48275e1ba3798caf102b6a32fad871b914fcafd36e4f49aa05491\"",
             "id": "10707217",
             "ldap_dn": "",
             "members_count": 1,
@@ -1617,7 +1796,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-typer repository",
-            "etag": "W/\"2c02049c0f970c3dfd91a0c1f1400abdd729a4003f5e287fb42ff05fbdbad359\"",
+            "etag": "W/\"136c36e40b82716a6e99715e13f82d963835cd89c6b9df790cd41eb187d7aa30\"",
             "id": "11217213",
             "ldap_dn": "",
             "members_count": 2,
@@ -1638,7 +1817,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the drf-excel repository",
-            "etag": "W/\"cada20d3efb3faa1017831c527bb5301b69c1c8ff500a12fab7427b1ad78accb\"",
+            "etag": "W/\"f4e88072515f6f40609571f0591b32ba06b55bbac1a51527dc82d548d99ca920\"",
             "id": "11341700",
             "ldap_dn": "",
             "members_count": 3,
@@ -1755,6 +1934,30 @@
               }
             ],
             "team_id": "9757650"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11354341",
+            "members": [
+              {
+                "role": "maintainer",
+                "username": "tim-schilling"
+              },
+              {
+                "role": "member",
+                "username": "matthiask"
+              }
+            ],
+            "team_id": "11354341"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1884,6 +2087,34 @@
           ]
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11354340",
+            "members": [
+              {
+                "role": "member",
+                "username": "elineda"
+              },
+              {
+                "role": "member",
+                "username": "living180"
+              },
+              {
+                "role": "member",
+                "username": "salty-ivy"
+              }
+            ],
+            "team_id": "11354340"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
@@ -1943,6 +2174,45 @@
               }
             ],
             "team_id": "9757678"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "id": "11354339",
+            "members": [
+              {
+                "role": "maintainer",
+                "username": "tim-schilling"
+              },
+              {
+                "role": "member",
+                "username": "VeldaKiara"
+              },
+              {
+                "role": "member",
+                "username": "elineda"
+              },
+              {
+                "role": "member",
+                "username": "living180"
+              },
+              {
+                "role": "member",
+                "username": "matthiask"
+              },
+              {
+                "role": "member",
+                "username": "salty-ivy"
+              }
+            ],
+            "team_id": "11354339"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2068,6 +2338,23 @@
           ]
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"9271ea80071a3f0c563ff94f2ea9e7e490d3bcb23c77b477dd0128f08fd477cd\"",
+            "id": "11354341:django-debug-toolbar",
+            "permission": "admin",
+            "repository": "django-debug-toolbar",
+            "team_id": "11354341"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
@@ -2155,6 +2442,23 @@
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"bd782219b5a35f1b137c0af767272538b87e417fbd223da162928315d70e365a\"",
+            "id": "11354340:django-debug-toolbar",
+            "permission": "maintain",
+            "repository": "django-debug-toolbar",
+            "team_id": "11354340"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -2253,6 +2557,22 @@
           ]
         },
         {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"5f50406d4b256a54f16c3aeee2a4bff6c12a70c2203efd5bb6bee8bc105b14fc\"",
+            "id": "11354339:django-debug-toolbar",
+            "permission": "triage",
+            "repository": "django-debug-toolbar",
+            "team_id": "11354339"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
@@ -2339,6 +2659,28 @@
             "team_id": "9757678",
             "team_slug": "django-commons-playground",
             "team_uid": "T_kwDOCaaRBM4AlOPu"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-debug-toolbar",
+          "schema_version": 0,
+          "attributes": {
+            "id": "T_kwDOCaaRBM4ArUDj",
+            "review_request_delegation": [
+              {
+                "algorithm": "LOAD_BALANCE",
+                "member_count": 2,
+                "notify": false
+              }
+            ],
+            "team_id": "11354339",
+            "team_slug": "django-debug-toolbar",
+            "team_uid": "T_kwDOCaaRBM4ArUDj"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",

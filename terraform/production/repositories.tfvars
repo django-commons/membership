@@ -72,6 +72,7 @@ repositories = {
     allow_rebase_merge = true
     allow_squash_merge = true
     has_discussions    = false
+    has_wiki           = true
     admins = [
       "matthiask",
       "tim-schilling",

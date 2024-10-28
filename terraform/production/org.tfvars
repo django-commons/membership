@@ -17,6 +17,7 @@ members = [
   "gav-fyi",
   "jacklinke",
   "jcjudkins",
+  "jezdez",
   "joshuadavidthomas",
   "matthiask",
   "mkalioby",
@@ -33,6 +34,7 @@ members = [
   "testSchilling",
   "unmonoqueteclea",
   "VeldaKiara",
+  "ulgens",
 ]
 
 organization_teams = {

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 293,
+  "serial": 301,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -805,7 +805,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI.",
-            "etag": "W/\"d3b8770b95b19dfede5471d1800c01ffb02cc915532c135eea3add1dfafec62b\"",
+            "etag": "W/\"4431dd54ab07416dc370bfbc645089a0780957acc073764d4a394eed0ca5bee8\"",
             "full_name": "django-commons/django-tailwind-cli",
             "git_clone_url": "git://github.com/django-commons/django-tailwind-cli.git",
             "gitignore_template": null,
@@ -1111,7 +1111,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"041390f9ca8f38b38dfef8e299aeaa50e69763e5c77f8ee98a97a2c2bc3bb9d3\"",
+            "etag": "W/\"3827b08801ae0deea8fd36ce9082788ab0ff34f45cba88414194a44d2a5e33e5\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -1267,7 +1267,7 @@
                 "teams": [
                   11394000
                 ],
-                "users": null
+                "users": []
               }
             ],
             "wait_timer": 0
@@ -1616,10 +1616,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tailwind-cli repository",
-            "etag": "W/\"a3342de15133eaeb4acade9e9c63e236cd85ef756ffd7555c4a99dd6992951d5\"",
+            "etag": "W/\"60d9cb8e5f99355990636cc8b8028f3628f903452d988768e60f092969505c1a\"",
             "id": "11394000",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-tailwind-cli-admins",
             "node_id": "T_kwDOCaaRBM4ArdvQ",
             "parent_team_id": "11393999",
@@ -1959,10 +1959,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tailwind-cli repository",
-            "etag": "W/\"361c35102efe31e6f0fdc34baadae01aa48b21c847312980f4575f480c04cbfc\"",
+            "etag": "W/\"14cabaa1dc64ecfeec3aa00af14d98dc5ac2eed6f80b32147708ca684651df6a\"",
             "id": "11393999",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-tailwind-cli",
             "node_id": "T_kwDOCaaRBM4ArdvP",
             "parent_team_id": "",
@@ -2619,7 +2619,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"79e677dcd83e3b82e85565072ac77faa65281e5b1b6024eaa219e8242505bf45\"",
+            "etag": "W/\"693964016cf6128eb1c100948b7a770966172443f03e2eaf3c00647001727b08\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -2746,7 +2746,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"27300b853ee9b52100479a9ffee8dcc30c444ca32a9a3963382a8fc54fafd71b\"",
+            "etag": "W/\"10c3decd9a096681624d7b7f98f495b0ec0aee6cf456299232ba35ac4e610f06\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -2870,7 +2870,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a5bef364af6da80dc141bbeec0f226d2e81682823102590ad829af76452b7a4d\"",
+            "etag": "W/\"1be7395b728fa50f603c14c8354c6c8a3a8e83c0f3e701b1cea80368cf1d55cc\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",

@@ -156,7 +156,7 @@ repositories = {
     enable_branch_protection = true # optional, default is true
     required_status_checks_contexts = [] # optional, default is []
     admins = [
-      'oliverandrich',
+      "oliverandrich",
     ] # Members of the repository's admin and repository teams. Have admin permissions
     committers = [] # Members of the repository's committers and repository teams. Have write permissions
     members = [] # Members of the repository team. Have triage permissions

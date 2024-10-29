@@ -136,4 +136,29 @@ repositories = {
     ]
     members = []
   }
+  "django-tailwind-cli" = {
+    description = "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI."
+    homepage_url = "https://django-tailwind-cli.readthedocs.io/latest/"
+    allow_auto_merge = false # optional, default is false
+    allow_merge_commit = false # optional, default is false
+    allow_rebase_merge = false # optional, default is false
+    allow_squash_merge = true # optional, default is true
+    allow_update_branch = true # optional, default is true
+    delete_branch_on_merge = true # optional, default is true
+    has_discussions = true # optional, default is true
+    has_downloads = true # optional, default is true
+    has_wiki = false # optional, default is false
+    is_template = false # optional, default is false
+    push_allowances = []
+    template = "" # optional, default is ""
+    topics = []
+    visibility = "public" # optional, default is "public"
+    enable_branch_protection = true # optional, default is true
+    required_status_checks_contexts = [] # optional, default is []
+    admins = [
+      'oliverandrich',
+    ] # Members of the repository's admin and repository teams. Have admin permissions
+    committers = [] # Members of the repository's committers and repository teams. Have write permissions
+    members = [] # Members of the repository team. Have triage permissions
+  }  
 }

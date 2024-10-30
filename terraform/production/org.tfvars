@@ -8,6 +8,7 @@ admins = [
 ]
 # Organization members
 members = [
+  "amirreza8002",
   "bckohan",
   "browniebroke",
   "ddabble",
@@ -26,6 +27,7 @@ members = [
   "Natim",
   "oliverandrich",
   "ontowhee",
+  "pauloxnet",
   "pfouque",
   "priyapahwa",
   "RealOrangeOne",

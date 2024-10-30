@@ -8,6 +8,7 @@ admins = [
 ]
 # Organization members
 members = [
+  "amirreza8002",
   "bckohan",
   "browniebroke",
   "ddabble",
@@ -26,15 +27,16 @@ members = [
   "Natim",
   "oliverandrich",
   "ontowhee",
+  "pauloxnet",
   "pfouque",
   "priyapahwa",
   "RealOrangeOne",
   "rptmat57",
   "salty-ivy",
   "testSchilling",
+  "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "ulgens",
 ]
 
 organization_teams = {

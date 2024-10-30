@@ -32,9 +32,9 @@ members = [
   "rptmat57",
   "salty-ivy",
   "testSchilling",
+  "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "ulgens",
 ]
 
 organization_teams = {

@@ -79,7 +79,8 @@ repositories = {
     ]
     committers = [
       "elineda",
-      "living180",
+      # living180 needs to apply for Commons membership first
+      # "living180",
       "salty-ivy",
     ]
     members = [

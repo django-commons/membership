@@ -78,6 +78,17 @@ maintained. If you're interested in working on a specific project, go get to wor
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
 
+## Django Commons Content
+
+- ["Django Commons"](https://www.ryancheley.com/2024/10/23/django-commons/) by [Ryan Cheley](github.com/ryancheley/):
+  An introduction to Django Commons, explaining its goals, structure, and benefits for maintainers.
+- ["Django Commons"](https://simonwillison.net/2024/Oct/8/django-commons/) by Simon Willison:
+  Simon highlights Django Commons on his blog and what he's looking forward to.
+- ["Introducing Django Commons!"](https://2024.djangocon.us/talks/lightning-talks-tuesday/) by [Lacey Henschel](https://github.com/williln):
+  A lightning talk from DjangoCon US 2024 introducing Django Commons.
+- ["Django Commons - A home for community-maintained Django packages"](https://www.better-simple.com/django/2024/05/22/looking-for-help-django-commons/) by [Tim Schilling](https://github.com/tim-schilling/):
+  A call for help to start Django Commons.
+
 ## Credits
 
 ### Logo

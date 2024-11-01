@@ -35,6 +35,7 @@ resource "github_repository" "this" {
   topics                      = each.value.topics
   visibility                  = each.value.visibility
   vulnerability_alerts        = true
+  pages                       = each.value.pages
 
   dynamic "template" {
     for_each = each.value.template != null ? [each.value.template] : []

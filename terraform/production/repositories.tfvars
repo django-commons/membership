@@ -79,7 +79,8 @@ repositories = {
     ]
     committers = [
       "elineda",
-      "living180",
+      # living180 needs to apply for Commons membership first
+      # "living180",
       "salty-ivy",
     ]
     members = [
@@ -135,5 +136,37 @@ repositories = {
       "rptmat57",
     ]
     members = []
+  }
+  "django-tailwind-cli" = {
+    description            = "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI."
+    homepage_url           = "https://django-tailwind-cli.rtfd.io/"
+    allow_auto_merge       = false
+    allow_merge_commit     = false
+    allow_rebase_merge     = false
+    allow_squash_merge     = true
+    allow_update_branch    = true
+    delete_branch_on_merge = true
+    has_discussions        = true
+    has_downloads          = true
+    has_wiki               = false
+    is_template            = false
+    push_allowances        = []
+    template               = ""
+    topics = [
+      "django",
+      "django-application",
+      "python",
+      "tailwind",
+      "tailwind-css",
+      "tailwindcss",
+    ]
+    visibility                      = "public"
+    enable_branch_protection        = true
+    required_status_checks_contexts = []
+    admins = [
+      "oliverandrich",
+    ]
+    committers = []
+    members    = []
   }
 }

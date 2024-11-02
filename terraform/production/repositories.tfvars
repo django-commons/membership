@@ -151,7 +151,6 @@ repositories = {
     has_wiki               = false
     is_template            = false
     push_allowances        = []
-    template               = ""
     topics = [
       "django",
       "django-application",

@@ -56,8 +56,9 @@ resource "github_repository" "this" {
     for_each = each.value.template != null ? [each.value.template] : []
 
     content {
-      owner      = "django-commons"
-      repository = template.value
+      owner                = template.value.owner
+      repository           = template.value.repository
+      include_all_branches = template.value.include_all_branches
     }
   }
 }

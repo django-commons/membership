@@ -1,6 +1,6 @@
 # Define the committers team for each repository
 resource "github_team" "repo_committer_team" {
-  for_each = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each = local.project_repositories
 
   parent_team_id = github_team.repo_team[each.key].id
   name           = "${each.key}-committers"

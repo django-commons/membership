@@ -49,7 +49,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please copy and paste the following code block and edit it to meet your needs for the repository.
+        Please copy and paste the following code block and edit it to meet your needs for the repository. You can post this as a comment in your issue or as a comment. We'll use this to create a PR to add the repository to the Django Commons organization.
 
         ```terraform
         "your-repo-here" = {

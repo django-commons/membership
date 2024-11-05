@@ -41,13 +41,37 @@ body:
   - type: checkboxes
     id: options
     attributes:
-      label: Which of the following options would you like?
+      label: Do you use test PyPI or want to test the packaging process?
       description: "These are entirely up to you and can be changed at a later time."
       options:
         - label: Does the project have a test.pypi.org project?
         - label: Would you like to test your deployments with uploads to test.pypi.org (you'll need to create the project first)?
-        - label: Would you like to use GitHub's merge commits?
-        - label: Would you like to use GitHub's rebase and merge?
-        - label: Would you like to use GitHub's squash and merge?
-        - label: Would you like to use GitHub's Discussions?
-        - label: Would you like to use GitHub's Wiki?
+  - type: markdown
+    attributes:
+      value: |
+        Please copy and paste the following code block and edit it to meet your needs for the repository. You can post this as a comment in your issue or as a comment. We'll use this to create a PR to add the repository to the Django Commons organization.
+
+        ```terraform
+        "your-repo-here" = {
+          description         = "Your project's description here"
+          # Different merge strategies can be enabled/disabled
+          allow_merge_commit  = true # Allow merge commits on pull requests
+          allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+          allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+          allow_update_branch = true # Allow updating source branch on pull requests
+          
+          has_discussions     = false # Enable discussions in project's repository
+          has_wiki            = false # Enable wiki in project's repository
+          admins = [
+            # Include people who can release new versions
+            "your-username-here",
+          ]
+          committers = [
+            # Include people who can commit to main / merge changes
+          ]
+          members = [
+            # Include people who can assign/triage tickets
+          ]
+        }
+        ```
+

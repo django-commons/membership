@@ -41,16 +41,4 @@ resource "github_repository_collaborators" "this" {
       permission = team.value.permission
     }
   }
-  # team {
-  #   team_id    = github_team.repo_admin_team[each.key].id
-  #   permission = "admin"
-  # }
-  # team {
-  #   team_id    = github_team.repo_committer_team[each.key].id
-  #   permission = "maintain"
-  # }
-  # team {
-  #   team_id    = github_team.repo_team[each.key].id
-  #   permission = "triage"
-  # }
 }

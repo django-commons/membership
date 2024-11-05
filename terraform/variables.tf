@@ -32,11 +32,10 @@ variable "repositories" {
     has_downloads                   = optional(bool, true)
     homepage_url                    = optional(string, "")
     has_wiki                        = optional(bool, false)
-    is_template                     = optional(bool, false)
     push_allowances                 = optional(list(string), [])
     enable_branch_protection        = optional(bool, true)
     required_status_checks_contexts = optional(list(string), [])
-    template                        = optional(string)
+    is_template                     = optional(bool, false) # Is the repository a template repository
     topics                          = optional(list(string))
     visibility                      = optional(string, "public")
     is_django_commons_repo          = optional(bool, false)     # Do not create teams for repository
@@ -50,6 +49,27 @@ variable "repositories" {
     merge_commit_message        = optional(string, null)
     squash_merge_commit_title   = optional(string, null)
     squash_merge_commit_message = optional(string, null)
+
+    # Pages settings
+    pages = optional(object({
+      source = optional(object({
+        branch = string
+        path   = optional(string, "")
+      }), null)
+      build_type = optional(string, "workflow") # legacy or workflow
+      cname      = optional(string, "")
+      html_url   = optional(string, "")
+      url        = optional(string, "")
+      custom_404 = optional(bool, null)
+      status     = optional(string, "built") # built or building
+    }), null)
+
+    # Template of the repository
+    template = optional(object({
+      owner                = string
+      repository           = string
+      include_all_branches = bool
+    }), null)
   }))
 }
 

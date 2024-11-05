@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 310,
+  "serial": 311,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -1201,6 +1201,57 @@
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "github_repository_collaborators",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "instances": [
+        {
+          "index_key": "drf-excel",
+          "schema_version": 0,
+          "attributes": {
+            "id": "drf-excel",
+            "invitation_ids": {},
+            "repository": "drf-excel",
+            "team": [
+              {
+                "permission": "admin",
+                "team_id": "drf-excel-admins"
+              },
+              {
+                "permission": "maintain",
+                "team_id": "drf-excel-committers"
+              },
+              {
+                "permission": "pull",
+                "team_id": "security-team"
+              },
+              {
+                "permission": "triage",
+                "team_id": "drf-excel"
+              }
+            ],
+            "user": [
+              {
+                "permission": "admin",
+                "username": "FlipperPA"
+              },
+              {
+                "permission": "admin",
+                "username": "browniebroke"
+              },
+              {
+                "permission": "maintain",
+                "username": "rptmat57"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         }
       ]
     },

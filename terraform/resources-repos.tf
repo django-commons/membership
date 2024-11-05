@@ -35,13 +35,30 @@ resource "github_repository" "this" {
   topics                      = each.value.topics
   visibility                  = each.value.visibility
   vulnerability_alerts        = true
+  dynamic "pages" {
+    for_each = each.value.pages != null ? [each.value.pages] : []
+    content {
+      dynamic "source" {
+        for_each = pages.value.source != null ? [pages.value.source] : []
+        content {
+          branch = source.value.branch
+          path   = source.value.path
+        }
+      }
+      build_type = pages.value.build_type
+      cname      = pages.value.cname
+      html_url   = pages.value.html_url
+      url        = pages.value.url
+    }
+  }
 
   dynamic "template" {
     for_each = each.value.template != null ? [each.value.template] : []
 
     content {
-      owner      = "django-commons"
-      repository = template.value
+      owner                = template.value.owner
+      repository           = template.value.repository
+      include_all_branches = template.value.include_all_branches
     }
   }
 }

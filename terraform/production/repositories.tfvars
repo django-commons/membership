@@ -33,8 +33,8 @@ repositories = {
   }
 
   "django-commons-playground" = {
-    description = "A sample project to test things out"
-    topics      = []
+    description = "A sample project with best practices for Django Commons projects."
+    topics      = ["template", "django", "python"]
     # People with GitHub admin repo permissions
     admins = [
       "cunla",
@@ -151,7 +151,6 @@ repositories = {
     has_wiki               = false
     is_template            = false
     push_allowances        = []
-    template               = ""
     topics = [
       "django",
       "django-application",

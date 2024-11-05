@@ -1,6 +1,6 @@
 # Define the admin team for each repository
 resource "github_team" "repo_admin_team" {
-  for_each = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each = local.project_repositories
 
   parent_team_id = github_team.repo_team[each.key].id
   name           = "${each.key}-admins"
@@ -10,7 +10,7 @@ resource "github_team" "repo_admin_team" {
 
 # Add the people to the team
 resource "github_team_members" "repo_admin_members" {
-  for_each = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each = local.project_repositories
 
   team_id = github_team.repo_admin_team[each.key].id
 
@@ -26,7 +26,7 @@ resource "github_team_members" "repo_admin_members" {
 
 # Define the team's permissions for the repositories
 resource "github_team_repository" "repo_admin_team_access" {
-  for_each   = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each   = local.project_repositories
   repository = each.key
   team_id    = github_team.repo_admin_team[each.key].id
   permission = "admin"

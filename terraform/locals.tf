@@ -17,4 +17,9 @@ locals {
   }
 
   users = merge(local.admins, local.members)
+
+  project_repositories = {
+    for repository_key, repository in var.repositories : repository_key => repository
+    if !repository.is_django_commons_repo
+  }
 }

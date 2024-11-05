@@ -1,5 +1,5 @@
 resource "github_repository_environment" "pypi" {
-  for_each = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each = local.project_repositories
 
   environment         = "pypi"
   repository          = each.key
@@ -10,7 +10,7 @@ resource "github_repository_environment" "pypi" {
 }
 
 resource "github_repository_environment" "testpypi" {
-  for_each = { for k, v in var.repositories : k => v if v.is_django_commons_repo == false }
+  for_each = local.project_repositories
 
   environment         = "testpypi"
   repository          = each.key

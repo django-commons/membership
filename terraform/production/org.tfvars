@@ -11,7 +11,6 @@ members = [
   "amirreza8002",
   "bckohan",
   "browniebroke",
-  "cgl",
   "ddabble",
   "elineda",
   "FlipperPA",

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 319,
+  "serial": 321,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -124,6 +124,19 @@
             "id": "django-commons:browniebroke",
             "role": "member",
             "username": "browniebroke"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "cgl",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"97250e4032ac33144ad0c7ae382d3955860dc1b1d3604d998c71d9f2db1846e0\"",
+            "id": "django-commons:cgl",
+            "role": "member",
+            "username": "cgl"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
@@ -576,7 +589,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
-            "etag": "W/\"032641bbc45c29ac79f7c49b16b4f9a8758f6b4efc6ebf8a86ed686d7d23aaea\"",
+            "etag": "W/\"1e8c7b5ddc57bfff89612c9c3431e5de1a7c2e43487f680d07f387b66ce10566\"",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -1148,7 +1161,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"dc687da076149bd4045e4470e2d203c95fb7b689cea65bea1bdf40ec18e42b3c\"",
+            "etag": "W/\"ea6931a7ab8342e9b0ebb515fbafce670a19746c225a731f389bef16a3957b82\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

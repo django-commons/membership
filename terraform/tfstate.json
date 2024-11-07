@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 318,
+  "serial": 319,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -714,7 +714,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"91ba1ed399cd92a74fd454b3312981263ea4ea59ac27fb3baa9126872642ccd5\"",
+            "etag": "W/\"25f78c396bf8ccf8bd097ba1d223bed09242818a3a9e1dad8b3319bd9051b1b8\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -781,7 +781,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"3cd0f4f82867def873bbdae2ff60b548ba1fa2c6bb8d3da15e406e70f4749717\"",
+            "etag": "W/\"b8050e33511ed7e72a73553bf9d242f5aa328a3dd2a7bd7d4a25875ffee3b3ed\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -922,7 +922,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis pub/sub.",
-            "etag": "W/\"0982bcc3406bb59a83c2160dbf4e8c36368a83da1bafa965c89f7100ca146428\"",
+            "etag": "W/\"283110cc524899172d58638f1d83c95570197365ba657e347964f79eff1ff341\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -1000,7 +1000,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Use Typer (type hints) to define the interface for your Django management commands.",
-            "etag": "W/\"222658e4d601ffa255375639b46adbb98854cda163734e0ad3db94c1192d62bc\"",
+            "etag": "W/\"c2b61cc2bfb5eb8e1fcca3cf4eed9a5b17a254e7a25cba496fe0c244a5500c6a\"",
             "full_name": "django-commons/django-typer",
             "git_clone_url": "git://github.com/django-commons/django-typer.git",
             "gitignore_template": null,
@@ -1148,7 +1148,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"1c4869b2496f9bcc1c944d7d5e2e4326483a85fdb6685cd3f8df2534ef5e570f\"",
+            "etag": "W/\"dc687da076149bd4045e4470e2d203c95fb7b689cea65bea1bdf40ec18e42b3c\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -2864,7 +2864,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f768d812c51a3311d73a36111d75ee7941aaca0ceb31f7b72d39d39104763dc0\"",
+            "etag": "W/\"e4e686542a87b0ef8ef513da028f8861a0dd4d23a686f71be964e0d483417905\"",
             "id": "9757650:django-commons-playground",
             "permission": "admin",
             "repository": "django-commons-playground",
@@ -2881,7 +2881,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"abff14c32aa0bf5709e412759088c138d46f880e74297cbd44f74959cdfba784\"",
+            "etag": "W/\"24449b6867beb7583475cd9585d7e4cb6f02db288f43e2e5f30bf39e052ce12e\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -2898,7 +2898,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"9e195438419841fc83f3878e515e785a1909bead690227ef76f78427c66dd196\"",
+            "etag": "W/\"cfd6be224fd95f4abca6aa2c7b68ea5b47c3c4af087b046c9fe35f0c8b812284\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -2932,7 +2932,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"1d956a0e7b5af8f04078b742478e057f05f3de1af1d27e21dfdce689aeba08d7\"",
+            "etag": "W/\"bb690ae8a9066f5d98d8c03aec924b038a012c2ee69a392b5712c68dba06be22\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -2949,7 +2949,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4422381675b63c9dca70524216af4f7ec91ab5296a02a82b129637c1b7589500\"",
+            "etag": "W/\"7381adfd53b8235c1354dd51efa31a8bc89ed699d0aa2bd0420c26e77ea080d7\"",
             "id": "11217214:django-typer",
             "permission": "admin",
             "repository": "django-typer",
@@ -2991,7 +2991,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"eb9cf7aa4ea82cf8c598efa970be49976f3329a8e20b79c2e6b3ddb4adfb62ec\"",
+            "etag": "W/\"aec3a409b2ef88ee4fcb4c49954bb00b555c244370a3f1b934dab10fdd982bea\"",
             "id": "9757668:django-commons-playground",
             "permission": "maintain",
             "repository": "django-commons-playground",
@@ -3008,7 +3008,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"038332ebe7cc64a4e87b958a35a85257c2913896ae07cb7a6bd62a99bb6ee084\"",
+            "etag": "W/\"34eb03b9d27b3e88560c7ede87680525d156320ff512145b289ea9b05f86205c\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -3025,7 +3025,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5d218718f5c9acc2c329695da6609b27849fda2c4f8b9597aa61e0790d44a1ee\"",
+            "etag": "W/\"a7bbe8bf6d6754c466a561e470482ff05bd7842e86a379b146daa774e307770f\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -3059,7 +3059,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"19e79845e4f3e2779cc7a9203239c4fbc3fd1845568da97397c368e25f2925cc\"",
+            "etag": "W/\"29aa33a2056c25bfb810e9f290c23188d010ef577915331b4fbb58d96395ef6c\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -3076,7 +3076,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"32973f3722cfff6a5353fb6c16d15263761b9a6cecb3ed66bc2ee0ceb9f81df9\"",
+            "etag": "W/\"3cd48fbe62b5f365c18766213af2673889217cbea14c3d547bdace87d5c3ed66\"",
             "id": "11217215:django-typer",
             "permission": "maintain",
             "repository": "django-typer",
@@ -3118,7 +3118,7 @@
           "index_key": "django-commons-playground",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"6680ed23dd114a63f89ff3e8628c7369c85725e1f97b7eca102ebfb30178e649\"",
+            "etag": "W/\"71f2d685d2a06a7dfa633d907ea10bf8200b4bc15856766c23949766cd371524\"",
             "id": "9757678:django-commons-playground",
             "permission": "triage",
             "repository": "django-commons-playground",
@@ -3134,7 +3134,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"496c765e223ffc2e6426dc78c7517318a577d5a478a6f1440d78e8b5a63162a1\"",
+            "etag": "W/\"99b4545082d8b04090176f20b86fb975a53ca57ae67506798df6f8ae834e3e84\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -3150,7 +3150,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"38ffb1df559e3da38b4d205c1daf1f29f318397194ead9abc710b4746c6f0b12\"",
+            "etag": "W/\"297f14ded2b54fcb30b6e141eea7ee15738963c32c5b4f45901a61271b400575\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -3182,7 +3182,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"3c2a44ce6992afd2a7e8ea5cd854499e82bb69020e682e21c6e42791fc0c14f4\"",
+            "etag": "W/\"8bad6f9323f497bf99c0f5929f904045c7bc856505b0d3da2cdb55f26ba12f34\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",
@@ -3198,7 +3198,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"0f05018135d233846cf37cdfd97b05b57c4aeb43468005f005c82d900ef8b27b\"",
+            "etag": "W/\"22b8dd2839e5b095c294b65d2d1b6c44cb276616ccd951dec0ec31b2887b9dcb\"",
             "id": "11217213:django-typer",
             "permission": "triage",
             "repository": "django-typer",

@@ -21,6 +21,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "joshuadavidthomas",
+  "leogregianin",
   "matthiask",
   "mkalioby",
   "Mogost",

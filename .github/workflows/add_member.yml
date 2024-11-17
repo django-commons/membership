@@ -1,16 +1,11 @@
 name: "Add new member to django-commons"
 
 on:
-  workflow_dispatch:
-    inputs:
-      username:
-        description: "Username of the new member"
-        required: true
-        default: "new_member"
-      issue_number:
-        description: "Issue number to reference in the PR body"
-        required: false
-        default: "0"
+  issues:
+    types:
+      - opened
+    labels:
+      - "New member"
 
 jobs:
   add-member:
@@ -20,6 +15,9 @@ jobs:
       id-token: write
       contents: write
       pull-requests: write
+    env:
+      ISSUE_ID: ${{ github.event.issue.id }}
+      BRANCH_NAME: "add-user/${{ env.ISSUE_ID }}"
 
     steps:
       - name: Setup python
@@ -30,30 +28,35 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Get username to add
+        id: get_username
+        run:
+          python -c "print('USERNAME='+'✋ [MEMBER] - <your handle>'.split(' - ')[1])" >> $GITHUB_ENV
+
       - name: Initialize mandatory git config
         run: |
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com
 
       - name: Create branch
-        run: git checkout -b add-user/${{ inputs.username }}
+        run: git checkout -b ${{ env.BRANCH_NAME }}
 
       - name: Add user to the list
         run: |
-          python scripts/add_member.py ${{ inputs.username }}
+          python scripts/add_member.py ${{ env.USERNAME }}
 
       - name: Commit changes
         run: |
           git add terraform/production/org.tfvars
-          git commit -m "Add ${{ inputs.username }} to django-commons"
-          git push origin add-user/${{ inputs.username }}
+          git commit -m "Add ${{ env.USERNAME }} to django-commons"
+          git push origin ${{ env.BRANCH_NAME }}
 
       - name: Create pull request
         run: |
           gh pr create \
-            --title "Add ${{ inputs.username }} to django-commons" \
-            --body "Fix #${{ inputs.issue_number }}" \
+            --title "Add ${{ env.USERNAME }} to django-commons" \
+            --body "Fix #${{ env.ISSUE_ID }}" \
             --base main \
-            --head add-user/${{ inputs.username }}
+            --head ${{ env.BRANCH_NAME }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

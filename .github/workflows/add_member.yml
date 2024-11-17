@@ -32,7 +32,7 @@ jobs:
       - name: Get username to add
         id: get_username
         run:
-          python -c "print('USERNAME='+'✋ [MEMBER] - <your handle>'.split(' - ')[1])" >> $GITHUB_ENV
+          python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1])" >> $GITHUB_ENV
 
       - name: Initialize mandatory git config
         run: |

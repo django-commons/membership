@@ -71,7 +71,7 @@ repositories = {
     allow_merge_commit = true
     allow_rebase_merge = true
     allow_squash_merge = true
-    has_discussions    = false
+    has_discussions    = true
     has_wiki           = true
     admins = [
       "matthiask",

@@ -17,8 +17,8 @@ jobs:
       contents: write
       pull-requests: write
     env:
-      ISSUE_ID: ${{ github.event.issue.id }}
-      BRANCH_NAME: "add-user/${{ github.event.issue.id }}"
+      ISSUE_ID: ${{ github.event.issue.number }}
+      BRANCH_NAME: "add-user/${{ github.event.issue.number }}"
 
     steps:
       - name: Setup python

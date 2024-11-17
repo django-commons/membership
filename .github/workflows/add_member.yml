@@ -60,4 +60,4 @@ jobs:
             --base main \
             --head ${{ env.BRANCH_NAME }}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}

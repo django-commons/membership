@@ -53,7 +53,7 @@ repositories = {
   }
 
   "django-tasks-scheduler" = {
-    description        = "Schedule async tasks using redis pub/sub."
+    description        = "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used."
     homepage_url       = "https://django-tasks-scheduler.readthedocs.io/"
     allow_merge_commit = true
 
@@ -71,7 +71,7 @@ repositories = {
     allow_merge_commit = true
     allow_rebase_merge = true
     allow_squash_merge = true
-    has_discussions    = false
+    has_discussions    = true
     has_wiki           = true
     admins = [
       "matthiask",

@@ -17,6 +17,7 @@ members = [
   "FlipperPA",
   "g-nie",
   "gav-fyi",
+  "github.com/whoiskrtk2",
   "jacklinke",
   "jcjudkins",
   "jezdez",

@@ -17,7 +17,6 @@ members = [
   "FlipperPA",
   "g-nie",
   "gav-fyi",
-  "github.com/whoiskrtk2",
   "jacklinke",
   "jcjudkins",
   "jezdez",
@@ -41,6 +40,7 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
+  "whoiskrtk2",
 ]
 
 organization_teams = {

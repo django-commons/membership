@@ -46,6 +46,17 @@ jobs:
               exit 1
           fi
 
+      - name: Check that user is not already in org
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          gh api /orgs/django-commons/members/${{ env.USERNAME }} > /dev/null
+          if [ $? -eq 0 ]; then
+              gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} is already a member of django-commons."
+              exit 1
+          fi
+
       - name: Initialize mandatory git config
         run: |
           git config user.name "GitHub Actions"

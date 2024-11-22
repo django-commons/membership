@@ -12,6 +12,7 @@ members = [
   "bckohan",
   "browniebroke",
   "cgl",
+  "clintonb",
   "ddabble",
   "elineda",
   "FlipperPA",

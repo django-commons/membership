@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 419,
+  "serial": 422,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -142,6 +142,19 @@
           "private": "bnVsbA=="
         },
         {
+          "index_key": "clintonb",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"746e0f72139b20ea0caee7550f62ba335f6c58fb39b11b62f03fd396547b74e1\"",
+            "id": "django-commons:clintonb",
+            "role": "member",
+            "username": "clintonb"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
           "index_key": "cunla",
           "schema_version": 0,
           "attributes": {
@@ -215,6 +228,19 @@
             "id": "django-commons:jacklinke",
             "role": "member",
             "username": "jacklinke"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "jburns6789",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"ccc06dee73b23df3b0c5640d6d329c57ee2113f64cd30608083643808ea59559\"",
+            "id": "django-commons:jburns6789",
+            "role": "member",
+            "username": "jburns6789"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA=="
@@ -1187,7 +1213,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"7670ab9b073b11661658d2ebb8159d2e716b30bce91bd27c786ad1588dbcb8b7\"",
+            "etag": "W/\"e4e56c4d02f0278208c16d4c9a5f13220f40616c3199d68398d6028e04218f25\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

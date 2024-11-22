@@ -10,7 +10,7 @@ resource "github_team" "repo_team" {
 resource "github_team_members" "repo_team_members" {
   for_each = local.project_repositories
 
-  team_id = github_team.repo_team[each.key].id
+  team_id = github_team.repo_team[each.key].slug
 
   dynamic "members" {
     # Add the admins and committers as members because this is the parent
@@ -29,7 +29,7 @@ resource "github_team_members" "repo_team_members" {
 resource "github_team_repository" "repo_team_access" {
   for_each   = local.project_repositories
   repository = each.key
-  team_id    = github_team.repo_team[each.key].id
+  team_id    = github_team.repo_team[each.key].slug
   permission = "triage"
 }
 # GitHub Team Settings Resource
@@ -45,5 +45,5 @@ resource "github_team_settings" "this" {
     notify       = false
   }
 
-  team_id = github_team.repo_team[each.key].id
+  team_id = github_team.repo_team[each.key].slug
 }

@@ -46,10 +46,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: terraform plan
-        # v1.43.0
+        # v1.44.0
         # Use the commit hash for security hardening
         # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions
-        uses: dflook/terraform-plan@d9df4f6c2484e709ba7ffaa16c98a6906f4760cd
+        uses: dflook/terraform-plan@b0877a1bf56160160ab482f4aff8a12fff35fe06
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

@@ -2,7 +2,7 @@
 resource "github_team" "repo_committer_team" {
   for_each = local.project_repositories
 
-  parent_team_id = github_team.repo_team[each.key].id
+  parent_team_id = github_team.repo_team[each.key].slug
   name           = "${each.key}-committers"
   description    = "Committers team for the ${each.key} repository"
   privacy        = "closed"
@@ -15,7 +15,7 @@ resource "github_team_members" "repo_committer_team_members" {
     if v.is_django_commons_repo == false && length(v.committers) > 0
   }
 
-  team_id = github_team.repo_committer_team[each.key].id
+  team_id = github_team.repo_committer_team[each.key].slug
 
   dynamic "members" {
     for_each = each.value.committers
@@ -34,7 +34,7 @@ resource "github_team_repository" "repo_committer_team_access" {
     if v.is_django_commons_repo == false
   }
   repository = each.key
-  team_id    = github_team.repo_committer_team[each.key].id
+  team_id    = github_team.repo_committer_team[each.key].slug
   permission = "maintain"
 }
 

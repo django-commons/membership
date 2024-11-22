@@ -16,8 +16,9 @@ jobs:
       id-token: write
       contents: write
       pull-requests: write
+      issues: write
     env:
-      ISSUE_ID: ${{ github.event.issue.number }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
       BRANCH_NAME: "add-user/${{ github.event.issue.number }}"
 
     steps:
@@ -33,6 +34,28 @@ jobs:
         id: get_username
         run:
           python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1])" >> $GITHUB_ENV
+
+      - name: Check whether username exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          gh api /users/${{ env.USERNAME }} > /dev/null
+          if [ $? -ne 0 ]; then
+              gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} does not exist."
+              exit 1
+          fi
+
+      - name: Check that user is not already in org
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          gh api /orgs/django-commons/members/${{ env.USERNAME }} > /dev/null
+          if [ $? -eq 0 ]; then
+              gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} is already a member of django-commons."
+              exit 1
+          fi
 
       - name: Initialize mandatory git config
         run: |
@@ -56,7 +79,7 @@ jobs:
         run: |
           gh pr create \
             --title "Add ${{ env.USERNAME }} to django-commons" \
-            --body "Fix #${{ env.ISSUE_ID }}" \
+            --body "Fix #${{ env.ISSUE_NUMBER }}" \
             --base main \
             --head ${{ env.BRANCH_NAME }}
         env:

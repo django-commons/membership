@@ -6,6 +6,9 @@ on:
     paths:
       - 'terraform/production/*.tfvars'
 
+concurrency:
+  group: terraform-actions
+
 jobs:
   format-terraform-code:
     name: "Format Terraform code"

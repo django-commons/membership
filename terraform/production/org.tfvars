@@ -19,6 +19,7 @@ members = [
   "g-nie",
   "gav-fyi",
   "jacklinke",
+  "jbur6789",
   "jcjudkins",
   "jezdez",
   "joshuadavidthomas",

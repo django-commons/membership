@@ -36,10 +36,10 @@ jobs:
           python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1])" >> $GITHUB_ENV
 
       - name: Check whether username exists
-        shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set +e
           gh api /users/${{ env.USERNAME }} > /dev/null
           if [ $? -ne 0 ]; then
               gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} does not exist."

@@ -44,8 +44,8 @@ be transferred in.
 
 - **[Required]** All maintainers (release permission) agree to transfer project
 - **[Required]** The repository will be transferred to the [django-commons GitHub organization](https://github.com/django-commons)
-- **[Required]** The Django Commons admins team is added as owners to PyPI project
-- **[Required]** After 30 days, any previous maintainers are removed as owners on PyPI project
+- **[Required]** The Django Commons PyPI admin team (`cunla` and `stormheg`) is added as owners to PyPI and Test PyPI projects
+- **[Required]** Any previous maintainers who are not repository admins are removed as owners on PyPI and Test PyPI projects
 
 The current maintainers must be willing to hand over control of the
 PyPI project. The Django Commons admins team and the

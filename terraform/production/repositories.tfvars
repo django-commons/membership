@@ -32,7 +32,7 @@ repositories = {
     is_django_commons_repo = true
   }
 
-  "django-commons-playground" = {
+  "best-practices" = {
     description = "A sample project with best practices for Django Commons projects."
     topics      = ["template", "django", "python"]
     # People with GitHub admin repo permissions

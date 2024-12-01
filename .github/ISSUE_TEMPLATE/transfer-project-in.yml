@@ -14,7 +14,7 @@ body:
     id: project-url
     attributes:
       label: What's the URL to the project?
-      placeholder: "https://github.com/django-commons/django-commons-playground"
+      placeholder: "https://github.com/django-commons/best-practices"
     validations:
       required: true
   - type: input

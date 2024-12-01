@@ -16,7 +16,7 @@ be transferred in.
 4. [Maintained documentation](#documentation)
 5. Adopt [Django Commons's Code of Conduct](#code-of-conduct)
 6. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
-   process (see [example in django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/.github/workflows/release.yml))
+   process (see [example in best-practices](https://github.com/django-commons/best-practices/blob/main/.github/workflows/release.yml))
 
 
 ## Repository requirements
@@ -37,7 +37,7 @@ be transferred in.
 
 ### Code of Conduct
 
-- **[Required]** Repository contains `CODE_OF_CONDUCT.md` that links to [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md). See [django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/CODE_OF_CONDUCT.md) for an example
+- **[Required]** Repository contains `CODE_OF_CONDUCT.md` that links to [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md). See [best-practices](https://github.com/django-commons/best-practices/blob/main/CODE_OF_CONDUCT.md) for an example
 
 
 ## Maintainer requirements

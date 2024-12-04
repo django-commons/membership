@@ -694,7 +694,7 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 1,
           "attributes": {
             "allow_auto_merge": false,
@@ -709,8 +709,8 @@
             "delete_branch_on_merge": true,
             "description": "A sample project with best practices for Django Commons projects.",
             "etag": "W/\"50374c21e34aa7bda8450fd944231e0cba5e451c2665ddb3280696bef7b4d5c4\"",
-            "full_name": "django-commons/django-commons-playground",
-            "git_clone_url": "git://github.com/django-commons/django-commons-playground.git",
+            "full_name": "django-commons/best-practices",
+            "git_clone_url": "git://github.com/django-commons/best-practices.git",
             "gitignore_template": null,
             "has_discussions": true,
             "has_downloads": true,
@@ -718,15 +718,15 @@
             "has_projects": true,
             "has_wiki": false,
             "homepage_url": "",
-            "html_url": "https://github.com/django-commons/django-commons-playground",
-            "http_clone_url": "https://github.com/django-commons/django-commons-playground.git",
-            "id": "django-commons-playground",
+            "html_url": "https://github.com/django-commons/best-practices",
+            "http_clone_url": "https://github.com/django-commons/best-practices.git",
+            "id": "best-practices",
             "ignore_vulnerability_alerts_during_read": null,
             "is_template": false,
             "license_template": null,
             "merge_commit_message": "PR_TITLE",
             "merge_commit_title": "MERGE_MESSAGE",
-            "name": "django-commons-playground",
+            "name": "best-practices",
             "node_id": "R_kgDOLkANrg",
             "pages": [],
             "primary_language": "Python",
@@ -749,8 +749,8 @@
             ],
             "squash_merge_commit_message": "COMMIT_MESSAGES",
             "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "ssh_clone_url": "git@github.com:django-commons/django-commons-playground.git",
-            "svn_url": "https://github.com/django-commons/django-commons-playground",
+            "ssh_clone_url": "git@github.com:django-commons/best-practices.git",
+            "svn_url": "https://github.com/django-commons/best-practices",
             "template": [],
             "topics": [
               "django",
@@ -1274,20 +1274,20 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "id": "django-commons-playground",
+            "id": "best-practices",
             "invitation_ids": {},
-            "repository": "django-commons-playground",
+            "repository": "best-practices",
             "team": [
               {
                 "permission": "admin",
-                "team_id": "django-commons-playground-admins"
+                "team_id": "best-practices-admins"
               },
               {
                 "permission": "maintain",
-                "team_id": "django-commons-playground-committers"
+                "team_id": "best-practices-committers"
               },
               {
                 "permission": "pull",
@@ -1295,7 +1295,7 @@
               },
               {
                 "permission": "triage",
-                "team_id": "django-commons-playground"
+                "team_id": "best-practices"
               }
             ],
             "user": []
@@ -1541,15 +1541,15 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "can_admins_bypass": true,
             "deployment_branch_policy": [],
             "environment": "pypi",
-            "id": "django-commons-playground:pypi",
+            "id": "best-practices:pypi",
             "prevent_self_review": false,
-            "repository": "django-commons-playground",
+            "repository": "best-practices",
             "reviewers": [
               {
                 "teams": [
@@ -1738,15 +1738,15 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "can_admins_bypass": true,
             "deployment_branch_policy": [],
             "environment": "testpypi",
-            "id": "django-commons-playground:testpypi",
+            "id": "best-practices:testpypi",
             "prevent_self_review": null,
-            "repository": "django-commons-playground",
+            "repository": "best-practices",
             "reviewers": [],
             "wait_timer": 0
           },
@@ -1908,22 +1908,22 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
-            "description": "Admin team for the django-commons-playground repository",
+            "description": "Admin team for the best-practices repository",
             "etag": "W/\"6f9be4dd6a8735eca2df2fa08b75391d942190ba4a273dbc6521f31626d22a4c\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
-            "name": "django-commons-playground-admins",
+            "name": "best-practices-admins",
             "node_id": "T_kwDOCaaRBM4AlOPS",
             "parent_team_id": "9757678",
             "parent_team_read_id": "9757678",
-            "parent_team_read_slug": "django-commons-playground",
+            "parent_team_read_slug": "best-practices",
             "privacy": "closed",
-            "slug": "django-commons-playground-admins"
+            "slug": "best-practices-admins"
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
@@ -2084,22 +2084,22 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
-            "description": "Committers team for the django-commons-playground repository",
+            "description": "Committers team for the best-practices repository",
             "etag": "W/\"591346b91ac69367466a0db922d88fb1830314f88185d953404396e65b596ae7\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
-            "name": "django-commons-playground-committers",
+            "name": "best-practices-committers",
             "node_id": "T_kwDOCaaRBM4AlOPk",
             "parent_team_id": "9757678",
             "parent_team_read_id": "9757678",
-            "parent_team_read_slug": "django-commons-playground",
+            "parent_team_read_slug": "best-practices",
             "privacy": "closed",
-            "slug": "django-commons-playground-committers"
+            "slug": "best-practices-committers"
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
@@ -2260,22 +2260,22 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
-            "description": "Main team for the django-commons-playground repository",
+            "description": "Main team for the best-practices repository",
             "etag": "W/\"ad3ed3b83016b2a05f17f228a9a8348f30a30b2314fc5e3924a86a2bce255869\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
-            "name": "django-commons-playground",
+            "name": "best-practices",
             "node_id": "T_kwDOCaaRBM4AlOPu",
             "parent_team_id": "",
             "parent_team_read_id": "",
             "parent_team_read_slug": "",
             "privacy": "closed",
-            "slug": "django-commons-playground"
+            "slug": "best-practices"
           },
           "sensitive_attributes": [],
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
@@ -2481,10 +2481,10 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "id": "django-commons-playground-admins",
+            "id": "best-practices-admins",
             "members": [
               {
                 "role": "maintainer",
@@ -2507,7 +2507,7 @@
                 "username": "williln"
               }
             ],
-            "team_id": "django-commons-playground-admins"
+            "team_id": "best-practices-admins"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2661,17 +2661,17 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "id": "django-commons-playground-committers",
+            "id": "best-practices-committers",
             "members": [
               {
                 "role": "member",
                 "username": "priyapahwa"
               }
             ],
-            "team_id": "django-commons-playground-committers"
+            "team_id": "best-practices-committers"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2733,10 +2733,10 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "id": "django-commons-playground",
+            "id": "best-practices",
             "members": [
               {
                 "role": "maintainer",
@@ -2763,7 +2763,7 @@
                 "username": "priyapahwa"
               }
             ],
-            "team_id": "django-commons-playground"
+            "team_id": "best-practices"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2926,14 +2926,14 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "etag": "W/\"ee80b225c4d3972eee9b22992a8b09766c674e9671646dd5405b593ef2d0b53f\"",
-            "id": "9757650:django-commons-playground",
+            "id": "9757650:best-practices",
             "permission": "admin",
-            "repository": "django-commons-playground",
-            "team_id": "django-commons-playground-admins"
+            "repository": "best-practices",
+            "team_id": "best-practices-admins"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -3053,14 +3053,14 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "etag": "W/\"9e65957de9acd7b54aae03ec005214653eea22bd1b17f3d31c195b9df2c654a9\"",
-            "id": "9757668:django-commons-playground",
+            "id": "9757668:best-practices",
             "permission": "maintain",
-            "repository": "django-commons-playground",
-            "team_id": "django-commons-playground-committers"
+            "repository": "best-practices",
+            "team_id": "best-practices-committers"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -3180,14 +3180,14 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "etag": "W/\"07f9466fe712be1ad361ffda7abb8a97a20b36be7c1a627dc72729d1ecfd1cd9\"",
-            "id": "9757678:django-commons-playground",
+            "id": "9757678:best-practices",
             "permission": "triage",
-            "repository": "django-commons-playground",
-            "team_id": "django-commons-playground"
+            "repository": "best-practices",
+            "team_id": "best-practices"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -3300,7 +3300,7 @@
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "index_key": "django-commons-playground",
+          "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
             "id": "T_kwDOCaaRBM4AlOPu",
@@ -3311,8 +3311,8 @@
                 "notify": false
               }
             ],
-            "team_id": "django-commons-playground",
-            "team_slug": "django-commons-playground",
+            "team_id": "best-practices",
+            "team_slug": "best-practices",
             "team_uid": "T_kwDOCaaRBM4AlOPu"
           },
           "sensitive_attributes": [],

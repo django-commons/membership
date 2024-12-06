@@ -22,6 +22,7 @@ members = [
   "jburns6789",
   "jcjudkins",
   "jezdez",
+  "johnfraney",
   "joshuadavidthomas",
   "leogregianin",
   "matthiask",

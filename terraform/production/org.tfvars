@@ -22,6 +22,7 @@ members = [
   "jburns6789",
   "jcjudkins",
   "jezdez",
+  "johnfraney",
   "joshuadavidthomas",
   "leogregianin",
   "matthiask",
@@ -42,7 +43,6 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "whoiskrtk2",
 ]
 
 organization_teams = {

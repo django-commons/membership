@@ -18,6 +18,7 @@ members = [
   "FlipperPA",
   "g-nie",
   "gav-fyi",
+  "ghost",
   "jacklinke",
   "jburns6789",
   "jcjudkins",
@@ -43,7 +44,6 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "whoiskrtk2",
 ]
 
 organization_teams = {

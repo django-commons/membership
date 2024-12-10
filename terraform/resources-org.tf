@@ -9,10 +9,10 @@ output "invalid_users" {
 }
 
 locals {
-  admins  = {for user in var.admins : user => "admin" if contains(data.github_users.users.logins, user)}
-  members = {for user in var.members : user => "member" if contains(data.github_users.users.logins, user)}
-
-  users = merge(local.admins, local.members)
+  users = merge(
+    { for user in var.admins : user => "admin" if contains(data.github_users.users.logins, user) },
+    { for user in var.members : user => "member" if contains(data.github_users.users.logins, user) }
+  )
 }
 
 resource "github_membership" "this" {

@@ -51,7 +51,6 @@ All changes should be made in `production/*.tfvars`:
         topics = []
         visibility = "public" # optional, default is "public"
         is_django_commons_repo = optional(bool, false) # Do not create teams for repository
-        enable_branch_protection = true # optional, default is true
         required_status_checks_contexts = [] # optional, default is []
         admins = [] # Members of the repository's admin and repository teams. Have admin permissions
         committers = [] # Members of the repository's committers and repository teams. Have write permissions

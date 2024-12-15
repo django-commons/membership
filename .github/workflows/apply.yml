@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'terraform/production/*.tfvars'
+      - 'terraform/*.tf'
 
 concurrency:
   group: terraform-actions

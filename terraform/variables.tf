@@ -33,7 +33,6 @@ variable "repositories" {
     homepage_url                    = optional(string, "")
     has_wiki                        = optional(bool, false)
     push_allowances                 = optional(list(string), [])
-    enable_branch_protection        = optional(bool, true)
     required_status_checks_contexts = optional(list(string), [])
     is_template                     = optional(bool, false) # Is the repository a template repository
     topics                          = optional(list(string))

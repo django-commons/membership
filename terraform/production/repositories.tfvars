@@ -2,7 +2,7 @@
 repositories = {
 
   ".github" = {
-    description              = "A Special Repository."
+    description = "A Special Repository."
 
     topics                 = []
     push_allowances        = []
@@ -10,13 +10,13 @@ repositories = {
   }
 
   "controls" = {
-    description              = "The controls for managing Django Commons projects"
-    allow_merge_commit       = true
-    allow_rebase_merge       = true
-    allow_squash_merge       = true
-    topics                   = []
-    push_allowances          = []
-    is_django_commons_repo   = true
+    description            = "The controls for managing Django Commons projects"
+    allow_merge_commit     = true
+    allow_rebase_merge     = true
+    allow_squash_merge     = true
+    topics                 = []
+    push_allowances        = []
+    is_django_commons_repo = true
   }
 
   "membership" = {

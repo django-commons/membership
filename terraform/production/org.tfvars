@@ -18,6 +18,7 @@ members = [
   "FlipperPA",
   "g-nie",
   "gav-fyi",
+  "giovannicimolin",
   "jacklinke",
   "jburns6789",
   "jcjudkins",

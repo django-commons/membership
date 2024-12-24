@@ -100,7 +100,9 @@ repositories = {
       "pfouque",
     ]
     committers = []
-    members    = []
+    members = [
+      "giovannicimolin"
+    ]
   }
   "django-typer" = {
     description        = "Use Typer (type hints) to define the interface for your Django management commands."

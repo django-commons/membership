@@ -2,8 +2,7 @@
 repositories = {
 
   ".github" = {
-    description              = "A Special Repository."
-    enable_branch_protection = false
+    description = "A Special Repository."
 
     topics                 = []
     push_allowances        = []
@@ -11,14 +10,13 @@ repositories = {
   }
 
   "controls" = {
-    description              = "The controls for managing Django Commons projects"
-    enable_branch_protection = false
-    allow_merge_commit       = true
-    allow_rebase_merge       = true
-    allow_squash_merge       = true
-    topics                   = []
-    push_allowances          = []
-    is_django_commons_repo   = true
+    description            = "The controls for managing Django Commons projects"
+    allow_merge_commit     = true
+    allow_rebase_merge     = true
+    allow_squash_merge     = true
+    topics                 = []
+    push_allowances        = []
+    is_django_commons_repo = true
   }
 
   "membership" = {
@@ -162,7 +160,6 @@ repositories = {
       "tailwindcss",
     ]
     visibility                      = "public"
-    enable_branch_protection        = true
     required_status_checks_contexts = []
     admins = [
       "oliverandrich",

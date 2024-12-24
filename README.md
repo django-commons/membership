@@ -88,6 +88,7 @@ maintained. If you're interested in working on a specific project, go get to wor
   A lightning talk from DjangoCon US 2024 introducing Django Commons.
 - ["Django Commons - A home for community-maintained Django packages"](https://www.better-simple.com/django/2024/05/22/looking-for-help-django-commons/) by [Tim Schilling](https://github.com/tim-schilling/):
   A call for help to start Django Commons.
+- ["Endorsing Django Packages"](https://softwarecrafts.uk/100-words/day-246) by [Andy Miller][https://github.com/nanorepublica/]
 
 ## Credits
 

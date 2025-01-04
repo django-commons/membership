@@ -35,10 +35,11 @@ jobs:
         run:
           python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1])" >> $GITHUB_ENV
 
-      - name: Check whether username exists
+      - name: Validate add user request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Check whether the user exists
           set +e
           gh api /users/${{ env.USERNAME }} > /dev/null
           if [ $? -ne 0 ]; then
@@ -46,11 +47,14 @@ jobs:
               exit 1
           fi
 
-      - name: Check that user is not already in org
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set +e
+          # Check if the username is in the title is the same as the user who opened the issue
+          python -c "print('ISSUE_USER='+'${{ github.event.issue.user.login }}')" >> $GITHUB_ENV
+          if [ "${{ env.USERNAME }}" != "${{ env.ISSUE_USER }}" ]; then
+              gh issue comment ${{ env.ISSUE_NUMBER }} --body "If you want to add a different user, please create a PR for it"
+              exit 1
+          fi
+          
+          # Check if the user is already a member of the org
           gh api /orgs/django-commons/members/${{ env.USERNAME }} > /dev/null
           if [ $? -eq 0 ]; then
               gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} is already a member of django-commons."
@@ -82,5 +86,6 @@ jobs:
             --body "Fix #${{ env.ISSUE_NUMBER }}" \
             --base main \
             --head ${{ env.BRANCH_NAME }}
+            --label "New member"
         env:
           GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}

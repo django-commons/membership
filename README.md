@@ -81,7 +81,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 ## Django Commons Content
 
 - [Django Brew Episode 4: Spoiler Alert: DjangoCon US Recap, Open Source Maintenance, and Other Spooky Stories](https://djangobrew.com/episodes/16285007-episode-4-spoiler-alert-djangocon-us-recap-open-source-maintenance-and-other-spooky-stories)
-- ["Endorsing Django Packages"](https://softwarecrafts.uk/100-words/day-246) by [Andy Miller][https://github.com/nanorepublica/]
+- ["Endorsing Django Packages"](https://softwarecrafts.uk/100-words/day-246) by [Andy Miller](https://github.com/nanorepublica/)
 - ["Django Commons"](https://www.ryancheley.com/2024/10/23/django-commons/) by [Ryan Cheley](github.com/ryancheley/):
   An introduction to Django Commons, explaining its goals, structure, and benefits for maintainers.
 - ["Django Commons"](https://simonwillison.net/2024/Oct/8/django-commons/) by Simon Willison:

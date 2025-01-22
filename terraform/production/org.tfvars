@@ -25,6 +25,7 @@ members = [
   "jezdez",
   "johnfraney",
   "joshuadavidthomas",
+  "justbackend",
   "leogregianin",
   "matthiask",
   "mkalioby",

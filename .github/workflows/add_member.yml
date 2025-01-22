@@ -38,6 +38,7 @@ jobs:
       - name: Validate add user request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
         run: |
           # Check whether the user exists
           set +e
@@ -48,7 +49,6 @@ jobs:
           fi
 
           # Check if the username is in the title is the same as the user who opened the issue
-          python -c "print('ISSUE_USER='+'${{ github.event.issue.user.login }}')" >> $GITHUB_ENV
           if [ "${{ env.USERNAME }}" != "${{ env.ISSUE_USER }}" ]; then
               gh issue comment ${{ env.ISSUE_NUMBER }} --body "If you want to add a different user, please create a PR for it"
               exit 1

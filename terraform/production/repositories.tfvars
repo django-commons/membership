@@ -135,7 +135,9 @@ repositories = {
     committers = [
       "rptmat57",
     ]
-    members = []
+    members = [
+      "justbackend",
+    ]
   }
   "django-tailwind-cli" = {
     description            = "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI."

@@ -59,7 +59,7 @@ repositories = {
       "cunla",
     ]
     committers = []
-    members    = [
+    members = [
       "devatbosch",
     ]
   }

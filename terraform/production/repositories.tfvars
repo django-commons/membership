@@ -59,7 +59,9 @@ repositories = {
       "cunla",
     ]
     committers = []
-    members    = []
+    members    = [
+      "devatbosch",
+    ]
   }
 
   "django-debug-toolbar" = {
@@ -82,6 +84,7 @@ repositories = {
       "salty-ivy",
     ]
     members = [
+      "devatbosch",
       "VeldaKiara",
     ]
   }

@@ -14,6 +14,7 @@ members = [
   "cgl",
   "clintonb",
   "ddabble",
+  "devatbosch",
   "elineda",
   "FlipperPA",
   "g-nie",

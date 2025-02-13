@@ -85,7 +85,7 @@ jobs:
             --title "Add ${{ env.USERNAME }} to django-commons" \
             --body "Fix #${{ env.ISSUE_NUMBER }}" \
             --base main \
-            --head ${{ env.BRANCH_NAME }}
+            --head ${{ env.BRANCH_NAME }} \
             --label "New member"
         env:
           GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}

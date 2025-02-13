@@ -15,6 +15,7 @@ members = [
   "clintonb",
   "ddabble",
   "devatbosch",
+  "dr-rompecabezas",
   "elineda",
   "FlipperPA",
   "g-nie",

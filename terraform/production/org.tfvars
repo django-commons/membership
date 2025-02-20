@@ -11,6 +11,7 @@ members = [
   "amirreza8002",
   "andoriyaprashant",
   "bckohan",
+  "blingblin-g",
   "browniebroke",
   "cgl",
   "clintonb",

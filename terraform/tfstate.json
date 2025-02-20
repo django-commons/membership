@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.10.5",
-  "serial": 449,
+  "serial": 451,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -364,7 +364,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"9c786eedb9a3bb778c7e09747065ec3324ce64f075bafff4307c9c902f09068b\"",
+            "etag": "W/\"642bb9c089d4d457058891cc5771e6034ef8d330e3aac22e23e99666624c90c9\"",
             "id": "django-commons:andoriyaprashant",
             "role": "member",
             "username": "andoriyaprashant"
@@ -1665,7 +1665,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"e2880a0e55882f8b261a27e774cda8d70ddfdc74e5f86896c42093437e5c8aae\"",
+            "etag": "W/\"9dc91f1493f0e4affe63ec285814ce5e84e93c4fbba40220dca5d86f0976808a\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -3236,6 +3236,10 @@
               {
                 "role": "member",
                 "username": "VeldaKiara"
+              },
+              {
+                "role": "member",
+                "username": "andoriyaprashant"
               },
               {
                 "role": "member",

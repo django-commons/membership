@@ -9,6 +9,7 @@ admins = [
 # Organization members
 members = [
   "amirreza8002",
+  "andoriyaprashant",
   "bckohan",
   "browniebroke",
   "cgl",

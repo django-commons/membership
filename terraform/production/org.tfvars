@@ -21,6 +21,7 @@ members = [
   "elineda",
   "FlipperPA",
   "g-nie",
+  "GaretJax",
   "gav-fyi",
   "giovannicimolin",
   "input",

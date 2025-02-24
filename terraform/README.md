@@ -68,7 +68,7 @@ To do so, you can use the following steps:
 1. Clone the repository.
 2. From the `terraform/` directory, run `terraform init`.
 3. Create a github-token with the necessary permissions on the organization (see [permissions documentation][1]).
-    - The `repo` permisison for full control of private repositories.
+    - The `repo` permission for full control of private repositories.
     - The `admin:org` permission for full control of orgs and teams, read and write org projects
     - The `delete_repo` permission to delete repositories
 

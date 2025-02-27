@@ -4,8 +4,8 @@ repositories = {
   ".github" = {
     description = "A Special Repository."
 
-    topics = []
-    push_allowances = []
+    topics                 = []
+    push_allowances        = []
     is_django_commons_repo = true
   }
 
@@ -14,8 +14,8 @@ repositories = {
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
-    topics = []
-    push_allowances = []
+    topics                 = []
+    push_allowances        = []
     is_django_commons_repo = true
   }
 
@@ -25,14 +25,14 @@ repositories = {
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
-    topics = []
-    push_allowances = []
+    topics                 = []
+    push_allowances        = []
     is_django_commons_repo = true
   }
 
   "best-practices" = {
     description = "A sample project with best practices for Django Commons projects."
-    topics = ["template", "django", "python"]
+    topics      = ["template", "django", "python"]
     # People with GitHub admin repo permissions
     admins = [
       "cunla",
@@ -116,14 +116,14 @@ repositories = {
     allow_rebase_merge = true
     allow_squash_merge = true
     has_wiki           = true
-    push_allowances = []
+    push_allowances    = []
 
     admins = [
       "bckohan",
       "oliverandrich",
     ]
     committers = []
-    members = []
+    members    = []
   }
   "drf-excel" = {
     description         = "An XLSX spreadsheet renderer for Django REST Framework."
@@ -156,7 +156,7 @@ repositories = {
     has_downloads          = true
     has_wiki               = false
     is_template            = false
-    push_allowances = []
+    push_allowances        = []
     topics = [
       "django",
       "django-application",
@@ -165,31 +165,30 @@ repositories = {
       "tailwind-css",
       "tailwindcss",
     ]
-    visibility = "public"
+    visibility                      = "public"
     required_status_checks_contexts = []
     admins = [
       "oliverandrich",
     ]
     committers = []
-    members = []
+    members    = []
   }
-  "your-repo-here" = {
-    description = "Your project's description here"
-    allow_merge_commit = true # Allow merge commits on pull requests
-    allow_rebase_merge = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch = true # Allow updating source branch on pull requests
-    has_discussions = false # Enable discussions in project's repository
-    has_wiki = false # Enable wiki in project's repository
+  "django-click" = {
+    description         = "Write Django management command using the click CLI library"
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = false
+    allow_update_branch = true
+    has_discussions     = false
+    has_wiki            = false
     admins = [
-      # Include people who can release new versions
-      "your-username-here",
+      "GaretJax",
+      "FlipperPA",
     ]
     committers = [
-      # Include people who can commit to main / merge changes
     ]
     members = [
-      # Include people who can assign/triage tickets
+
     ]
   }
 }

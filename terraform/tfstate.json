@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.11.0",
-  "serial": 473,
+  "terraform_version": "1.11.2",
+  "serial": 475,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -72,9 +72,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "c2084ff018178e195f09fe05a4397cfe",
+            "id": "666acc39b07eb1c23ba74516d81587ea",
             "logins": [
               "FlipperPA",
               "GaretJax",
@@ -102,6 +103,7 @@
               "giovannicimolin",
               "input",
               "jacklinke",
+              "JaeHyuckSa",
               "jburns6789",
               "jcjudkins",
               "jezdez",
@@ -154,6 +156,7 @@
               "MDQ6VXNlcjI3ODkzMzg1",
               "MDQ6VXNlcjQ2Mjk4Nw==",
               "MDQ6VXNlcjczNTU0Njcy",
+              "U_kgDOBj-X0w",
               "U_kgDOBwTNvg",
               "MDQ6VXNlcjM0NDE3NTcz",
               "MDQ6VXNlcjE2MTA=",
@@ -207,6 +210,7 @@
               "giovannicimolin",
               "input",
               "jacklinke",
+              "jaehyuckSa",
               "jburns6789",
               "jcjudkins",
               "jezdez",
@@ -1224,7 +1228,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
-            "etag": "W/\"652a79a7e368cfcf77b007bb17380d82fa332511a21574433a7e4ed91f580e94\"",
+            "etag": "W/\"dffcb8c2b47316db1fe42f734f7774d4d3521569e6e2f9f6ad9ab10e27a0bde6\"",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -1291,7 +1295,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Write Django management command using the click CLI library",
-            "etag": "W/\"18f0a7db87241544b05a4629b0c0683572da3ce4589b365c801890a29bb94cec\"",
+            "etag": "W/\"af3d610cc930f733e2cbf2e184c4f824e8f6249a90d5b60b307d080a205e1a6a\"",
             "full_name": "django-commons/django-click",
             "git_clone_url": "git://github.com/django-commons/django-click.git",
             "gitignore_template": null,
@@ -1358,7 +1362,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"bf09cf5ff98c81d9aa0452511187c62af15941ef17a24e7f16cc08bbd38f3935\"",
+            "etag": "W/\"37e35afb539718d354f5d2bd5f9fabc2bcc17ba0a0dcf2226517beebf97c72af\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -1425,7 +1429,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"dc06d3cc78825f0e031434e0fd79addc745530de5740e61e16919d470eac0104\"",
+            "etag": "W/\"97906186cb14fc899fcadc2d40a1a1c7263cc4466f2d620010568eef0e290b0c\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -1492,7 +1496,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI.",
-            "etag": "W/\"d7c3e3b4c5bfe7307617eeaae26431beb56048a260b38c91596b0beecff483bd\"",
+            "etag": "W/\"c6177072e3cd2647751b72f3dd5f75d16ec3cb17da0b42783c5047e792313fe4\"",
             "full_name": "django-commons/django-tailwind-cli",
             "git_clone_url": "git://github.com/django-commons/django-tailwind-cli.git",
             "gitignore_template": null,
@@ -1566,7 +1570,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used.",
-            "etag": "W/\"8c942d36c8407ea463332a618ff859237f91bea7a4372fd4b6c5350f62d458aa\"",
+            "etag": "W/\"677337d0bb8ea0ef034fa89a4343f5b04f784507ec37c39415e9eab5b3845691\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -1644,7 +1648,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Use Typer (type hints) to define the interface for your Django management commands.",
-            "etag": "W/\"4d2ba12db1b189434f61973acc99b18d35f4b6b038706c22fbb997ce3eb42556\"",
+            "etag": "W/\"6def36bce863668578e61d1620d56d611035d48164ec1bbaabc7a25d37980a93\"",
             "full_name": "django-commons/django-typer",
             "git_clone_url": "git://github.com/django-commons/django-typer.git",
             "gitignore_template": null,
@@ -1725,7 +1729,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "An XLSX spreadsheet renderer for Django REST Framework.",
-            "etag": "W/\"52ceea8c05c8a74e4afe91b6b0a3366c7ade008b6a94de7e7906720b42a37088\"",
+            "etag": "W/\"26f6a1b18cefe79e9fb86d975f499ed82acbdc88fb373385d744c27af56efad0\"",
             "full_name": "django-commons/drf-excel",
             "git_clone_url": "git://github.com/django-commons/drf-excel.git",
             "gitignore_template": null,
@@ -1792,7 +1796,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"36e768391f2f8865e4a87cbb3b5781ed692f934bedad53d250c98418fd4428be\"",
+            "etag": "W/\"b5ebc6b652d1a2c9f9f7f1f53e62aedd93afb1047d94d937b1902e6e5dc90cdd\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -2522,7 +2526,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons administrators",
-            "etag": "W/\"e45a236346d08315d34169824bdb81d2432fe2950c8c823b74c9c64ed89c7d21\"",
+            "etag": "W/\"3eaf348e5083896122a652b23c3be2c5a86d50f9dd1ae11b5e71a409020ededd\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2543,7 +2547,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "django-commons security team",
-            "etag": "W/\"e3e6f265ccee1bec672d4549d9fc991b82277b304bc31b54b5cd91fd8e4d6d89\"",
+            "etag": "W/\"911d106972a40d458a84f2adfe8159596dfa5b1b87efb31aa5c4d5f55076cfb8\"",
             "id": "10641823",
             "ldap_dn": "",
             "members_count": 2,
@@ -2572,7 +2576,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the best-practices repository",
-            "etag": "W/\"4adfdee9e11c0c435d904a88448d6e681cb0f7655480dc4c61997cdef6b2e270\"",
+            "etag": "W/\"755d85d2f380d832fb36a5d391f9c5e393e561b5741bfce66591c150511f5d84\"",
             "id": "9757650",
             "ldap_dn": "",
             "members_count": 5,
@@ -2596,7 +2600,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-click repository",
-            "etag": "W/\"e18b45bae3adcecae507b9391fd8554455e3d43c612cdda0ba44399c80cb884b\"",
+            "etag": "W/\"130ad872add9fb55f9d290fdc9a66d19f2c989780c5109211d2d6ebe9ed22963\"",
             "id": "12315701",
             "ldap_dn": "",
             "members_count": 2,
@@ -2620,7 +2624,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-debug-toolbar repository",
-            "etag": "W/\"abff801241d77fd68035e9cd1b526c3c19f4acd6ab0f6b91427e77c63ce0797c\"",
+            "etag": "W/\"796da8df1f1c4f69f5396996a2f297557bca298328e2a4f5b6a963e25bc1e2b4\"",
             "id": "11354341",
             "ldap_dn": "",
             "members_count": 2,
@@ -2644,7 +2648,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-fsm-2 repository",
-            "etag": "W/\"4b62a7e2e4f3020b89b9f7e67fec903cf3ab80f288ef5bcc878ba63781e228ee\"",
+            "etag": "W/\"0f904f87b8f137dd7aa6f3b65892e6ee447b110309539773d5ae3487e3a7d352\"",
             "id": "10870432",
             "ldap_dn": "",
             "members_count": 2,
@@ -2668,7 +2672,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tailwind-cli repository",
-            "etag": "W/\"7f960fef8e0e728d1e0e4fdc24b73395aabf45774f91940949e7844c9bf0f437\"",
+            "etag": "W/\"4101c247aeeb74b9206a0e1af332ba81ad352484ca313ddebaba2bfc08d6b251\"",
             "id": "11394000",
             "ldap_dn": "",
             "members_count": 1,
@@ -2692,7 +2696,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-tasks-scheduler repository",
-            "etag": "W/\"9ee4656523f322402ea4f1de47d06c53c8fe82ccf8b19224ce95235d979cf7ca\"",
+            "etag": "W/\"d2060f7b1417da263d7df184085c732df2f936fbbe34352442764740b868fb9d\"",
             "id": "10707221",
             "ldap_dn": "",
             "members_count": 1,
@@ -2716,7 +2720,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-typer repository",
-            "etag": "W/\"62d37de9bcd448a2400ec6fd9d281c6d0d0e5a6da633e73e989ed658b5476d99\"",
+            "etag": "W/\"cea9c7e8e0fa434a7607e94e25b06ecf2ffaf05c93783b78d38cd5d87ca61f27\"",
             "id": "11217214",
             "ldap_dn": "",
             "members_count": 2,
@@ -2740,7 +2744,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the drf-excel repository",
-            "etag": "W/\"07285d3679e6a26acf69639597c9bf14c42c6e746744d551da540c83434e9cb5\"",
+            "etag": "W/\"fa69b81063c58f4d86b8f7ff19067916e6d09a4dfeb82c35679176549e2cd826\"",
             "id": "11341702",
             "ldap_dn": "",
             "members_count": 2,
@@ -2772,7 +2776,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the best-practices repository",
-            "etag": "W/\"b21136ecc23059089972559de9b1f0967ae98c1441162bdf19222cf3b14afd68\"",
+            "etag": "W/\"1d7176d5befd7480964beef36c3656ce455cb0714af6bf8868debbe7bdc6a66c\"",
             "id": "9757668",
             "ldap_dn": "",
             "members_count": 1,
@@ -2796,7 +2800,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-click repository",
-            "etag": "W/\"463152aced5d734d173c2591926459d08c78885450d260f8d6ccd41a48250ec4\"",
+            "etag": "W/\"682fa990e7f78d49cbc8982cc7da932cc77ac5ba09292e065916f08cc4749b71\"",
             "id": "12315700",
             "ldap_dn": "",
             "members_count": 0,
@@ -2820,7 +2824,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-debug-toolbar repository",
-            "etag": "W/\"05532e8d367b757d6d0ca4068229c8729f66c7d28ae880053e14f08bb84a48cd\"",
+            "etag": "W/\"e2a3b55e1b923b1317ea77f76962050ed71b95413c825530d543070167053270\"",
             "id": "11354340",
             "ldap_dn": "",
             "members_count": 2,
@@ -2844,7 +2848,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-fsm-2 repository",
-            "etag": "W/\"74ef48e37c55f41714dcf26b2ce62101b03f34fad9bc6b2346ecb6b276522166\"",
+            "etag": "W/\"8fec1d4538cf4442ce664606471c39f3436cb31c3780c78fb15d34371808418a\"",
             "id": "10870433",
             "ldap_dn": "",
             "members_count": 0,
@@ -2868,7 +2872,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tailwind-cli repository",
-            "etag": "W/\"e54fdb371ae39ab6b509da6f4aeafdbf55903507b50c993ae9ee249a5b60f8b5\"",
+            "etag": "W/\"a32f80baa44cc41de96be2d9106199e6594ca73522d696dbe5d7bae8473a631a\"",
             "id": "11394001",
             "ldap_dn": "",
             "members_count": 0,
@@ -2892,7 +2896,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-tasks-scheduler repository",
-            "etag": "W/\"7aac4aab0a94994a07c75c48fcb5877df35d1f2ffc6286300111c0d853ec696b\"",
+            "etag": "W/\"55546bc466a114f92fc166bbcd6c8b4e7105b892a995c2b568f53ab739faeb40\"",
             "id": "10707220",
             "ldap_dn": "",
             "members_count": 0,
@@ -2916,7 +2920,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-typer repository",
-            "etag": "W/\"c4ba9c3fca3ddda47b7434e7b05975cfb41b6c53e88dd04a41b023907beb18c0\"",
+            "etag": "W/\"04b28fad8dd897896c4556fb7643d5202050f047cb0b6405476de0d03b62233b\"",
             "id": "11217215",
             "ldap_dn": "",
             "members_count": 0,
@@ -2940,7 +2944,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the drf-excel repository",
-            "etag": "W/\"442d45ec688f9d3a1b76aed0e6180cb2c356949b8aaa7e3bd101f081e699fcb0\"",
+            "etag": "W/\"942a2badef13ba11868dca20b6404789f846440ddaaeb8a98489667a20daaddb\"",
             "id": "11341703",
             "ldap_dn": "",
             "members_count": 1,
@@ -2972,7 +2976,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the best-practices repository",
-            "etag": "W/\"adeb5cfa5e30ba058cab9bf4bfe54740b8b7717567819d2e769da2f49767e696\"",
+            "etag": "W/\"d7a0f549a8f786ff37fb48db4e801e02a28aad3e4a89d5bbe1ff6f08319c6767\"",
             "id": "9757678",
             "ldap_dn": "",
             "members_count": 6,
@@ -2993,7 +2997,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-click repository",
-            "etag": "W/\"6328d637b75d7af76c8400dd5cbc26ae1e798c8dc2024431d5c0dda684ffe9e2\"",
+            "etag": "W/\"3dcc94973f328d85ce4a23ac3c4fff1af78928bc8c19113bc006e8c87e32050a\"",
             "id": "12315699",
             "ldap_dn": "",
             "members_count": 2,
@@ -3014,7 +3018,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-debug-toolbar repository",
-            "etag": "W/\"335efe6e80ed5a1b5d4383657dc2ba18151b715f87be5b57f6e78d51ea03efeb\"",
+            "etag": "W/\"6f39567876004ece930ef77f450f0bf134c0c868d5975f76e48eb38cb8c5b393\"",
             "id": "11354339",
             "ldap_dn": "",
             "members_count": 9,
@@ -3035,7 +3039,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-fsm-2 repository",
-            "etag": "W/\"b1cb1413073cbe7e5b515cba7a4af762752aae988e52f38b642802b4e9b6f752\"",
+            "etag": "W/\"4d789ab2d81f28055e464f88025a339edef2242eba815ea8af9349feeed9a84a\"",
             "id": "10870431",
             "ldap_dn": "",
             "members_count": 3,
@@ -3056,7 +3060,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tailwind-cli repository",
-            "etag": "W/\"d48381dde08ad7fcc7b350bac9860a5cef6b10c75fade6c293eb6c4d5d06e026\"",
+            "etag": "W/\"599e2607c97d5797595509d5a244636e3b925d1a9189e5d89580bc6b16299580\"",
             "id": "11393999",
             "ldap_dn": "",
             "members_count": 1,
@@ -3077,7 +3081,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"a6c267019081c6203c56bc9d9957b240be2e27cb36bfc18c943682bdf1cfd31d\"",
+            "etag": "W/\"8da388afe2910f5c96a2766dec700e1eae7979bb9a30406f0679ae9853a96398\"",
             "id": "10707217",
             "ldap_dn": "",
             "members_count": 2,
@@ -3098,7 +3102,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-typer repository",
-            "etag": "W/\"d3b24492e2df0c77384c19d85d76a2135fc622dc6c632d35650bc341279d9ed5\"",
+            "etag": "W/\"615ddb03a8e4ebd38f027e84f03dd71ddbd5430bc07b469074714a5f84f7cbdc\"",
             "id": "11217213",
             "ldap_dn": "",
             "members_count": 2,
@@ -3119,7 +3123,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the drf-excel repository",
-            "etag": "W/\"85a1342d607d93671ce63950b192399353ec38baf328d1613e59df361466587d\"",
+            "etag": "W/\"8e08963822e175a29d3218c6de8d09629e4bc62b8a8a5b01200ec29476463688\"",
             "id": "11341700",
             "ldap_dn": "",
             "members_count": 4,
@@ -3749,7 +3753,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"6fea41f02aad32287308e27a012563b524dd25df694cd9d425f8c96674697234\"",
+            "etag": "W/\"b12d59792281a5680d4c7779029c942792d5068c32940fb420e1ded7f17b4435\"",
             "id": "12315701:django-click",
             "permission": "admin",
             "repository": "django-click",
@@ -3766,7 +3770,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"55059736e9d1609d96c9e34a7b78e212eda8cc11ddff8aa3c26efbf593a7c09c\"",
+            "etag": "W/\"4f389633b8b17640ad4e12b0953b4a0ba8d049d348646f257badfe8acfceb43b\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -3783,7 +3787,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"47fc73b70d122c4ba128575da6d4abf8871207cf5a92b82c76f77d96f3286cd5\"",
+            "etag": "W/\"ce31f82db227ddee7ac1de35511e5414dcff139e706f2ae78c9d106d067958ea\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -3800,7 +3804,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"9a6cbd514bdd861bb9e701d0c5c05c5d41847fed927d6b3ca5f12c4c8ca3c70a\"",
+            "etag": "W/\"37ae5bd9f547a3e42a4757ae4705568b62d4d286e6a2151ee47759ac95974df8\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -3817,7 +3821,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"bad4e8595d10a6b1acd9ad2d0998e9e849cad93b03a08c8818d81f04aaf1337e\"",
+            "etag": "W/\"cc645cfc5bdcdebca4e1171187e248d90cfd04ed816a62736ae76a203a8f9bdc\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -3834,7 +3838,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c4db79941a83f69ab5accc359b39e9ae78ba499d8afa6485d99c9b0333e350a3\"",
+            "etag": "W/\"8cd408564f8f9b1f08dcb366931a14607fbafa2959eaed0238c33f4b5db1ea63\"",
             "id": "11217214:django-typer",
             "permission": "admin",
             "repository": "django-typer",
@@ -3851,7 +3855,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"82dad0d266e8d179921f107edd4810ac1011446e6788f7bdc508404be17c25f6\"",
+            "etag": "W/\"c836a1f97a89665eaf1db0c9c24ec9e01e4e9be6ad47628ac5819ab1bcf30dd9\"",
             "id": "11341702:drf-excel",
             "permission": "admin",
             "repository": "drf-excel",
@@ -3893,7 +3897,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"df3b057c539aaa12490d216be6eb888d8122b01809009621a024cade8e2024db\"",
+            "etag": "W/\"5c5e39279742da8ca2d415097cd36ef6b8aaf201613b23dc626ece94fd507870\"",
             "id": "12315700:django-click",
             "permission": "maintain",
             "repository": "django-click",
@@ -3910,7 +3914,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"3b274a1bf3425d82812cbc6fe52ac7d856d103a1b74ef00c04a34a6d3d67e1e7\"",
+            "etag": "W/\"6cb2416f71caaa7b71d7e7aa4b5a09a652b0b8f645cc781d3d700136c9ab09a8\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -3927,7 +3931,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2b13fedff5425bf1949052e3ae1b9d53308908252f24862e24d3182ce5f8c2cb\"",
+            "etag": "W/\"dbfe2a0b5e707b857ddd9763152bda4317e0dcd04c2bdb69f953038f2e515a15\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -3944,7 +3948,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"48ab7900761cdd9f7fd15a96ff17fbb96f163ec33738301a0d215a730698df3f\"",
+            "etag": "W/\"bfdc80bafc1a6dbc32557ed979ede3eab2bd5fdfa1f0cc2e3e406f7e2cbcdd3f\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -3961,7 +3965,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"16e203542e562242d918b034a97ae149b34106255088b0f857f463411a29f183\"",
+            "etag": "W/\"5d04aa94fcf76705e20156d850472d929da771a1a2fb8d0a400dee539b3edbcd\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -3978,7 +3982,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"08b6a64ae08f2b3e407726676f6f7b857c5b3fd459c163ef053c8c5f8c4af04b\"",
+            "etag": "W/\"7adc05d5e78018f1fc31be14d7648efbb1c538ef940c54e493737b24a307a7ca\"",
             "id": "11217215:django-typer",
             "permission": "maintain",
             "repository": "django-typer",
@@ -3995,7 +3999,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a47f3f39419745bcd4d461b103c8ac1b744197b016f5a85d76796771f8c8097f\"",
+            "etag": "W/\"e1d394a7b9b412ae6679a6cdd521eeaa61faa7297356c82902fb1f47ac6e6e4a\"",
             "id": "11341703:drf-excel",
             "permission": "maintain",
             "repository": "drf-excel",
@@ -4036,7 +4040,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"0befba8b047d3503af9185443b794e7f5d927592b1f11b0b3f9fc67ffd6e2ea3\"",
+            "etag": "W/\"44f6bd11d068d9d71492c2a61f17b56c0033651b2707c597f9b22d078a026a67\"",
             "id": "12315699:django-click",
             "permission": "triage",
             "repository": "django-click",
@@ -4052,7 +4056,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4efe92200ac24afb301aa5690cbc4629bee5029977ad95a1b31a17f4dccf9bfb\"",
+            "etag": "W/\"457529e19a99d1f0595c38d4c1f21122ba6dadd6ad4320cdafbe980906cceda4\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -4068,7 +4072,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"6b1622bc1f1f73a0ec55852b38da72969ebba36b1d49bb06e27c993ea6a3441d\"",
+            "etag": "W/\"a3e8a021ff66471156c897c1ee4c882235898243165fba765e6930563f5a0a0a\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -4084,7 +4088,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2418e7b39681320b188889d19c632b4eb2c667836f2d604f833914ff0c2dd43c\"",
+            "etag": "W/\"33d4eb5a18c0350c0c0fd68db70ac8d2494ba2103abc80ac11b9e6bd7a70adde\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",
@@ -4100,7 +4104,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"423ee72b4117b59cd7103a508baf2ffacd2293a81e76907815ca93b1fbc0a60e\"",
+            "etag": "W/\"33c37e292ff28e39971dc3bfbf58556445400dd277e384f8c57a219c17ebb2aa\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",
@@ -4116,7 +4120,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"0da048cc772298d8ec0790220b2a105c598f4d13041ccc1cba455d86ddc06840\"",
+            "etag": "W/\"b7d2725dbb9acd114a16afc47c3aeaaf441a1000202d352f9a763b22142af493\"",
             "id": "11217213:django-typer",
             "permission": "triage",
             "repository": "django-typer",
@@ -4132,7 +4136,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"bd39f39a417e41301422e1df6caefc2f769f40ecf4d9415fb91c0481d4a5f551\"",
+            "etag": "W/\"81d8eeec837c621a72dbf1b901be12f022cd91e0837c15d31bb321d5685500ce\"",
             "id": "11341700:drf-excel",
             "permission": "triage",
             "repository": "drf-excel",

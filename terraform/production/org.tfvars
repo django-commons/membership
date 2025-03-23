@@ -28,6 +28,7 @@ members = [
   "input",
   "jacklinke",
   "jaehyuckSa",
+  "JaeHyuckSa",
   "jburns6789",
   "jcjudkins",
   "jezdez",

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.11.2",
-  "serial": 475,
+  "serial": 477,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -73,12 +73,14 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "666acc39b07eb1c23ba74516d81587ea",
+            "id": "66faa8ddcb69f6d8c51516ffa8b0e8ad",
             "logins": [
               "FlipperPA",
               "GaretJax",
+              "JaeHyuckSa",
               "Mogost",
               "Natim",
               "RealOrangeOne",
@@ -132,6 +134,7 @@
             "node_ids": [
               "MDQ6VXNlcjY4MTY0",
               "MDQ6VXNlcjg2MjM2",
+              "U_kgDOBj-X0w",
               "MDQ6VXNlcjcyMTk2Mw==",
               "MDQ6VXNlcjIyOTQ1Mw==",
               "MDQ6VXNlcjY1Mjc0ODk=",
@@ -186,6 +189,7 @@
             "usernames": [
               "FlipperPA",
               "GaretJax",
+              "JaeHyuckSa",
               "Mogost",
               "Natim",
               "RealOrangeOne",
@@ -272,6 +276,22 @@
             "id": "django-commons:GaretJax",
             "role": "member",
             "username": "GaretJax"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "JaeHyuckSa",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"3c98e702df336f0996ffb16ea3619c85164305821998c60bf272e62ebfec5010\"",
+            "id": "django-commons:JaeHyuckSa",
+            "role": "member",
+            "username": "JaeHyuckSa"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -1362,7 +1382,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"37e35afb539718d354f5d2bd5f9fabc2bcc17ba0a0dcf2226517beebf97c72af\"",
+            "etag": "W/\"c5128ef3523e8b2da544b5c2d92463a0c25118e529b906142e2a6873bcf2fda8\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -1496,7 +1516,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI.",
-            "etag": "W/\"c6177072e3cd2647751b72f3dd5f75d16ec3cb17da0b42783c5047e792313fe4\"",
+            "etag": "W/\"8ba408dfd9822cd2a89def022e08dd10109e9bc2a85ff541b787d53cf43cc189\"",
             "full_name": "django-commons/django-tailwind-cli",
             "git_clone_url": "git://github.com/django-commons/django-tailwind-cli.git",
             "gitignore_template": null,
@@ -1729,7 +1749,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "An XLSX spreadsheet renderer for Django REST Framework.",
-            "etag": "W/\"26f6a1b18cefe79e9fb86d975f499ed82acbdc88fb373385d744c27af56efad0\"",
+            "etag": "W/\"24da4720979d0c20c8693f0aaf8d043661617e2d3fc1b8ee6d83bca1335b241c\"",
             "full_name": "django-commons/drf-excel",
             "git_clone_url": "git://github.com/django-commons/drf-excel.git",
             "gitignore_template": null,
@@ -1796,7 +1816,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"b5ebc6b652d1a2c9f9f7f1f53e62aedd93afb1047d94d937b1902e6e5dc90cdd\"",
+            "etag": "W/\"cd50f39edacd5b068fc7fe418d9a05ec0fa44e5bc57f9a76a660c6bcc827fe51\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -3770,7 +3790,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4f389633b8b17640ad4e12b0953b4a0ba8d049d348646f257badfe8acfceb43b\"",
+            "etag": "W/\"d065bf823ec263192b02f20d42edbbed79a82bd8a2ad401521046a01a9d71251\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -3804,7 +3824,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"37ae5bd9f547a3e42a4757ae4705568b62d4d286e6a2151ee47759ac95974df8\"",
+            "etag": "W/\"26ee8798ac61d09b5d53872720302a0095ea6c50c8228616600abbeb06477c6b\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -3855,7 +3875,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c836a1f97a89665eaf1db0c9c24ec9e01e4e9be6ad47628ac5819ab1bcf30dd9\"",
+            "etag": "W/\"58d729d15fe06965fb26c79cefcda20ea6b9a4dd363a32b891c7ca62cba2ca0f\"",
             "id": "11341702:drf-excel",
             "permission": "admin",
             "repository": "drf-excel",
@@ -3914,7 +3934,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"6cb2416f71caaa7b71d7e7aa4b5a09a652b0b8f645cc781d3d700136c9ab09a8\"",
+            "etag": "W/\"2e10723d621c1ba6589db681a84344bead4a7f6cefdc13e00d595a6951d68dd3\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -3948,7 +3968,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"bfdc80bafc1a6dbc32557ed979ede3eab2bd5fdfa1f0cc2e3e406f7e2cbcdd3f\"",
+            "etag": "W/\"f4ed844eaa01379bef6011da2f6820357da150d38a726a6cc4778893a822a689\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -3999,7 +4019,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"e1d394a7b9b412ae6679a6cdd521eeaa61faa7297356c82902fb1f47ac6e6e4a\"",
+            "etag": "W/\"11394cd1cc296a5a3f0a928610f005a2ffab15df6f7ce8d5eeffc4f91cec05aa\"",
             "id": "11341703:drf-excel",
             "permission": "maintain",
             "repository": "drf-excel",
@@ -4056,7 +4076,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"457529e19a99d1f0595c38d4c1f21122ba6dadd6ad4320cdafbe980906cceda4\"",
+            "etag": "W/\"cfc941d9f1167a79860d0436021495923ce78f86e6f17fcc9724a6e044aecbf9\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -4088,7 +4108,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"33d4eb5a18c0350c0c0fd68db70ac8d2494ba2103abc80ac11b9e6bd7a70adde\"",
+            "etag": "W/\"66729ab9af76712b5eb873288b2af5db5ec145988e1db781b1ebd9340746edf1\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",
@@ -4136,7 +4156,7 @@
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"81d8eeec837c621a72dbf1b901be12f022cd91e0837c15d31bb321d5685500ce\"",
+            "etag": "W/\"3f0b364a95766ceb5e83a96ca7a69334eebc8bfadcff244017fe1416caf79178\"",
             "id": "11341700:drf-excel",
             "permission": "triage",
             "repository": "drf-excel",

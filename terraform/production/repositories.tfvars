@@ -193,6 +193,7 @@ repositories = {
   }
   "django-enum" = {
     description         = "Full and natural support for enumerations as Django model fields."
+    homepage_url        = "https://django-enum.rtfd.io"
     allow_merge_commit  = true
     allow_rebase_merge  = true
     allow_squash_merge  = true

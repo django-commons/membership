@@ -48,6 +48,7 @@ members = [
   "RealOrangeOne",
   "rptmat57",
   "salty-ivy",
+  "sergei-maertens",
   "sobolevn",
   "testSchilling",
   "TimothyMalahy",

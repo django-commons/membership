@@ -5,7 +5,7 @@ repository! We're here to help find what is best for both the
 project and the community.
 
 To see how to transfer a project into Django Commons, see
-[How to transfer a project in?](https://github.com/django-commons#how-to-transfer-a-project-in).
+[How to transfer a project in?](https://github.com/django-commons/membership/blob/main/README.md#how-to-transfer-a-project-in).
 
 There are a few requirements that must be met before a project can
 be transferred in.
@@ -62,7 +62,7 @@ them all the controls they would need to transfer the repository
 out of Django Commons, back under their control. After the trial
 period, they may be removed from Django Commons's repository admin
 team. Regardless, it's recommended that a project go through the
-formal [transfer a project out of Django Commons](https://github.com/django-commons#how-to-transfer-a-project-out)
+formal [transfer a project out of Django Commons](https://github.com/django-commons/membership/blob/main/README.md#how-to-transfer-a-project-out)
 process.
 
 ## Funding

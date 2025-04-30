@@ -51,6 +51,7 @@ members = [
   "sergei-maertens",
   "sobolevn",
   "testSchilling",
+  "thibaudcolas",
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",

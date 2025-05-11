@@ -23,6 +23,13 @@ body:
     validations:
       required: false
   - type: checkboxes
+    id: tangible-benefits
+    attributes:
+      label: Tangible Benefits
+      options:
+        - label: Does your project provide tangible benefits to the Django Commons community?
+          required: true
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct

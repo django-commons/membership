@@ -27,7 +27,7 @@ body:
     attributes:
       label: Tangible Benefits
       options:
-        - label: Does your project provide tangible benefits to the Django Commons community?
+        - label: Does your project provide tangible benefits to the Django community?
           required: true
   - type: checkboxes
     id: terms

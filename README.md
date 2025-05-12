@@ -78,6 +78,10 @@ maintained. If you're interested in working on a specific project, go get to wor
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
 
+### Do We Allow All Packages or Just Django-adjecent?
+
+Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically. 
+
 ## Django Commons Content
 
 - [Django Brew Episode 4: Spoiler Alert: DjangoCon US Recap, Open Source Maintenance, and Other Spooky Stories](https://djangobrew.com/episodes/16285007-episode-4-spoiler-alert-djangocon-us-recap-open-source-maintenance-and-other-spooky-stories)

@@ -43,12 +43,12 @@ it's manageable.
 The second is that Django Commons is built from the beginning to have more than one administrator.
 Jazzband has been [working for a while to add additional roadies](https://github.com/jazzband/help/issues/196)
 (administrators), but there hasn't been visible progress.  Given the importance of several of
-these projects it's a major risk to the community at large to have a single point of failure
+these projects, it's a major risk to the community at large to have a single point of failure
 in managing the projects. By being designed from the start to spread the responsibility, it
 becomes easier to allow people to step back and others to step up, making Django more sustainable
 and the community stronger.
 
-### What is each respository team for?
+### What is each repository team for?
 
 There are three teams for each repository. They each have different
 permissions.
@@ -78,7 +78,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
 
-### Do We Allow All Packages or Just Django-adjecent?
+### Do we allow all packages or just Django-adjacent?
 
 Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically. 
 

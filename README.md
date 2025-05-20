@@ -84,9 +84,11 @@ Any package is welcome to join Django Commons so long as it has tangible benefit
 
 ## Django Commons Content
 
+- [Django Commons YouTube](https://www.youtube.com/@djangocommons)
+- [Django Tasks Scheduler project overview with Daniel Moran](https://www.youtube.com/watch?v=Brfavid_fxw) [Daniel Moran](https://github.com/cunla) provides an introduction of django-tasks-scheduler to Ryan Cheley and Tim Schilling.
 - [Django Brew Episode 4: Spoiler Alert: DjangoCon US Recap, Open Source Maintenance, and Other Spooky Stories](https://djangobrew.com/episodes/16285007-episode-4-spoiler-alert-djangocon-us-recap-open-source-maintenance-and-other-spooky-stories)
 - ["Endorsing Django Packages"](https://softwarecrafts.uk/100-words/day-246) by [Andy Miller](https://github.com/nanorepublica/)
-- ["Django Commons"](https://www.ryancheley.com/2024/10/23/django-commons/) by [Ryan Cheley](github.com/ryancheley/):
+- ["Django Commons"](https://www.ryancheley.com/2024/10/23/django-commons/) by [Ryan Cheley](https://github.com/ryancheley/):
   An introduction to Django Commons, explaining its goals, structure, and benefits for maintainers.
 - ["Django Commons"](https://simonwillison.net/2024/Oct/8/django-commons/) by Simon Willison:
   Simon highlights Django Commons on his blog and what he's looking forward to.

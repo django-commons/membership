@@ -5,11 +5,10 @@ on:
     types:
       - opened
       - reopened
-    labels:
-      - "New member"
 
 jobs:
   add-member:
+    if: contains(github.event.issue.labels.*.name, 'New member')
     name: "Add new member"
     runs-on: ubuntu-latest
     permissions:

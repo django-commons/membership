@@ -37,6 +37,7 @@ members = [
   "kytta",
   "leogregianin",
   "matthiask",
+  "mihrab34",
   "mkalioby",
   "Mogost",
   "nanorepublica",

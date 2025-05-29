@@ -40,6 +40,7 @@ members = [
   "mihrab34",
   "mkalioby",
   "Mogost",
+  "MrCordeiro",
   "nanorepublica",
   "Natim",
   "oliverandrich",

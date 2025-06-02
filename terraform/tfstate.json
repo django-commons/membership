@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.1",
-  "serial": 504,
+  "serial": 506,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -78,9 +78,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "6f85ca0918d8d097b01a50203094a20d",
+            "id": "530583052d8e0d0435d8e832af47b756",
             "logins": [
               "FlipperPA",
               "GaretJax",
@@ -137,6 +138,7 @@
               "tim-schilling",
               "ulgens",
               "unmonoqueteclea",
+              "vinlawz",
               "williln"
             ],
             "node_ids": [
@@ -195,6 +197,7 @@
               "MDQ6VXNlcjEyODEyMTU=",
               "MDQ6VXNlcjE2NjYzNw==",
               "MDQ6VXNlcjQ3MDU3NTc=",
+              "U_kgDOCxTEHw",
               "MDQ6VXNlcjIyODYzMDQ="
             ],
             "unknown_logins": [],
@@ -254,6 +257,7 @@
               "tim-schilling",
               "ulgens",
               "unmonoqueteclea",
+              "vinlawz",
               "williln"
             ]
           },
@@ -1187,6 +1191,23 @@
           ]
         },
         {
+          "index_key": "vinlawz",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"5dd8e7b7ffdc06182f746c53858b46bc5ec8b7eb4bc0b8e38392726fca92af2b\"",
+            "id": "django-commons:vinlawz",
+            "role": "member",
+            "username": "vinlawz"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "williln",
           "schema_version": 0,
           "attributes": {
@@ -2047,7 +2068,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"a4a7b3eea4411ff956f988ef03daae29772d34a8f141a309d91486df3e2f73d7\"",
+            "etag": "W/\"a363db554bd2e972b5d491e86d298e604ea181867d055c124533780f6ed405b3\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

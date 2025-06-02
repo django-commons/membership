@@ -59,6 +59,7 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
+  "vinlawz",
 ]
 
 organization_teams = {

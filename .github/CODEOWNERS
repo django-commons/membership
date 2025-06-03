@@ -3,3 +3,4 @@
 .github/workflows/          @django-commons/admins
 .github/CODEOWNERS          @django-commons/admins
 terraform/                  @django-commons/admins
+scripts/                    @django-commons/admins

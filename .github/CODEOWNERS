@@ -1,5 +1,5 @@
 # Restrict all files related to organization management to org admins.
 
-.github/workflows/          @django-commons/django-commons-admins
-.github/CODEOWNERS          @django-commons/django-commons-admins
-terraform/                  @django-commons/django-commons-admins
+.github/workflows/          @django-commons/admins
+.github/CODEOWNERS          @django-commons/admins
+terraform/                  @django-commons/admins

@@ -10,6 +10,7 @@ admins = [
 members = [
   "amirreza8002",
   "andoriyaprashant",
+  "asherf",
   "bckohan",
   "blingblin-g",
   "browniebroke",

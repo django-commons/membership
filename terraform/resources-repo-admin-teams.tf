@@ -1,10 +1,4 @@
 # Define the admin team for each repository
-import {
-  for_each = local.project_repositories
-
-  id = each.key
-  to = github_team.repo_admin_team[each.key]
-}
 resource "github_team" "repo_admin_team" {
   for_each = local.project_repositories
 

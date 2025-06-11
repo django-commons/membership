@@ -1,10 +1,4 @@
 # Create the main repository team for Django Commons.
-import {
-  for_each = local.project_repositories
-
-  id = each.key
-  to = github_team.repo_team[each.key]
-}
 resource "github_team" "repo_team" {
   for_each = local.project_repositories
 

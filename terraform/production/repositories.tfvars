@@ -110,7 +110,7 @@ repositories = {
   }
 
   "django-simple-history" = {
-    description         = "Store model history and view/revert changes from admin site. "
+    description         = "Store model history and view/revert changes from admin site."
     homepage_url        = "https://django-simple-history.readthedocs.org"
     allow_merge_commit  = true
     allow_rebase_merge  = false

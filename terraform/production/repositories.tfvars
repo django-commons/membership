@@ -64,6 +64,24 @@ repositories = {
     ]
   }
 
+  "django-cookie-consent" = {
+    description         = "Reusable application for managing various cookies and visitors consent for their use in Django project."
+    allow_merge_commit  = true
+    allow_rebase_merge  = false
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    has_wiki            = false
+
+    admins = [
+      "sergei-maertens",
+    ]
+    committers = [
+      "MrCordeiro",
+    ]
+    members = []
+  }
+
   "django-debug-toolbar" = {
     description        = "A configurable set of panels that display various debug information about the current request/response."
     homepage_url       = "https://django-debug-toolbar.readthedocs.io"

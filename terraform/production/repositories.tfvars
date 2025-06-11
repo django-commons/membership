@@ -66,7 +66,7 @@ repositories = {
 
   "django-cookie-consent" = {
     description         = "Reusable application for managing various cookies and visitors consent for their use in Django project."
-    homepage_url                = "https://django-cookie-consent.readthedocs.org/en/latest/"
+    homepage_url        = "https://django-cookie-consent.readthedocs.org/en/latest/"
     allow_merge_commit  = true
     allow_rebase_merge  = false
     allow_squash_merge  = true

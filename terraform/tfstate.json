@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 510,
+  "serial": 516,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2662,6 +2662,30 @@
           ]
         },
         {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "pypi",
+            "id": "django-simple-history:pypi",
+            "prevent_self_review": false,
+            "repository": "django-simple-history",
+            "reviewers": [
+              {
+                "teams": [
+                  13286901
+                ],
+                "users": []
+              }
+            ],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        },
+        {
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
@@ -2859,6 +2883,23 @@
             "id": "django-fsm-2:testpypi",
             "prevent_self_review": null,
             "repository": "django-fsm-2",
+            "reviewers": [],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        },
+        {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "testpypi",
+            "id": "django-simple-history:testpypi",
+            "prevent_self_review": null,
+            "repository": "django-simple-history",
             "reviewers": [],
             "wait_timer": 0
           },
@@ -3120,6 +3161,28 @@
           ]
         },
         {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Admin team for the django-simple-history repository",
+            "etag": "W/\"83ab262953f25155a3dea04f66a42ec94ced3266f939cadcf8c0f418416b4cfe\"",
+            "id": "13286901",
+            "ldap_dn": "",
+            "members_count": 2,
+            "name": "django-simple-history-admins",
+            "node_id": "T_kwDOCaaRBM4Ayr31",
+            "parent_team_id": "13286898",
+            "parent_team_read_id": "13286898",
+            "parent_team_read_slug": "django-simple-history",
+            "privacy": "closed",
+            "slug": "django-simple-history-admins"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        },
+        {
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
@@ -3353,6 +3416,28 @@
           ]
         },
         {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Committers team for the django-simple-history repository",
+            "etag": "W/\"f9673f0b19deefbc84ac4a17555cf9ab4b4c28d7f4723b266300661be56098f2\"",
+            "id": "13286900",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-simple-history-committers",
+            "node_id": "T_kwDOCaaRBM4Ayr30",
+            "parent_team_id": "13286898",
+            "parent_team_read_id": "13286898",
+            "parent_team_read_slug": "django-simple-history",
+            "privacy": "closed",
+            "slug": "django-simple-history-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        },
+        {
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
@@ -3569,6 +3654,28 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "bnVsbA=="
+        },
+        {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Main team for the django-simple-history repository",
+            "etag": "W/\"31ac1cc3146eb3c413ffa4cd7c8f8d35c32e5fa25f61cd9fdaf861e34a8e8fa6\"",
+            "id": "13286898",
+            "ldap_dn": "",
+            "members_count": 2,
+            "name": "django-simple-history",
+            "node_id": "T_kwDOCaaRBM4Ayr3y",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "django-simple-history"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
           "index_key": "django-tailwind-cli",
@@ -4929,6 +5036,26 @@
           "dependencies": [
             "github_team.repo_team"
           ]
+        },
+        {
+          "index_key": "django-simple-history",
+          "schema_version": 0,
+          "attributes": {
+            "id": "T_kwDOCaaRBM4Ayr3y",
+            "review_request_delegation": [
+              {
+                "algorithm": "LOAD_BALANCE",
+                "member_count": 2,
+                "notify": false
+              }
+            ],
+            "team_id": "django-simple-history",
+            "team_slug": "django-simple-history",
+            "team_uid": "T_kwDOCaaRBM4Ayr3y"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
           "index_key": "django-tailwind-cli",

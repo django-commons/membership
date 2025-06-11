@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 525,
+  "serial": 540,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -1572,6 +1572,74 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 1,
+          "attributes": {
+            "allow_auto_merge": false,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": false,
+            "allow_squash_merge": true,
+            "allow_update_branch": true,
+            "archive_on_destroy": true,
+            "archived": false,
+            "auto_init": false,
+            "default_branch": "master",
+            "delete_branch_on_merge": true,
+            "description": "Reusable application for managing various cookies and visitors consent for their use in Django project.",
+            "etag": "W/\"3f869de243495e4bb0079c6d61b1525923f53393e6c7cd0f62c043700f90cfdb\"",
+            "full_name": "django-commons/django-cookie-consent",
+            "git_clone_url": "git://github.com/django-commons/django-cookie-consent.git",
+            "gitignore_template": null,
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_projects": true,
+            "has_wiki": false,
+            "homepage_url": "https://django-cookie-consent.readthedocs.org/en/latest/",
+            "html_url": "https://github.com/django-commons/django-cookie-consent",
+            "http_clone_url": "https://github.com/django-commons/django-cookie-consent.git",
+            "id": "django-cookie-consent",
+            "ignore_vulnerability_alerts_during_read": null,
+            "is_template": false,
+            "license_template": null,
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "name": "django-cookie-consent",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMDU1NDY2Ng==",
+            "pages": [],
+            "primary_language": "Python",
+            "private": false,
+            "repo_id": 10554666,
+            "security_and_analysis": [
+              {
+                "advanced_security": [],
+                "secret_scanning": [
+                  {
+                    "status": "disabled"
+                  }
+                ],
+                "secret_scanning_push_protection": [
+                  {
+                    "status": "disabled"
+                  }
+                ]
+              }
+            ],
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "ssh_clone_url": "git@github.com:django-commons/django-cookie-consent.git",
+            "svn_url": "https://github.com/django-commons/django-cookie-consent",
+            "template": [],
+            "topics": [],
+            "visibility": "public",
+            "vulnerability_alerts": true,
+            "web_commit_signoff_required": false
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 1,
           "attributes": {
@@ -2178,7 +2246,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"96e41fb023d67a295608eb48c2f454ca0ee701807a1a81018b4d02f5b91659f4\"",
+            "etag": "W/\"97216a3f9dda3b01066a0e01ef90816ff602833a5a6602fbd0436cd6742869cb\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -2300,6 +2368,44 @@
               {
                 "permission": "triage",
                 "team_id": "django-click"
+              }
+            ],
+            "user": []
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_repository.this",
+            "github_team.org_teams",
+            "github_team.repo_admin_team",
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-cookie-consent",
+            "invitation_ids": {},
+            "repository": "django-cookie-consent",
+            "team": [
+              {
+                "permission": "admin",
+                "team_id": "django-cookie-consent-admins"
+              },
+              {
+                "permission": "maintain",
+                "team_id": "django-cookie-consent-committers"
+              },
+              {
+                "permission": "pull",
+                "team_id": "security-team"
+              },
+              {
+                "permission": "triage",
+                "team_id": "django-cookie-consent"
               }
             ],
             "user": []
@@ -2684,6 +2790,34 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "pypi",
+            "id": "django-cookie-consent:pypi",
+            "prevent_self_review": false,
+            "repository": "django-cookie-consent",
+            "reviewers": [
+              {
+                "teams": [
+                  13287527
+                ],
+                "users": null
+              }
+            ],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -2950,6 +3084,23 @@
           "private": "bnVsbA=="
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "can_admins_bypass": true,
+            "deployment_branch_policy": [],
+            "environment": "testpypi",
+            "id": "django-cookie-consent:testpypi",
+            "prevent_self_review": false,
+            "repository": "django-cookie-consent",
+            "reviewers": [],
+            "wait_timer": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -3187,6 +3338,31 @@
             "parent_team_read_slug": "django-click",
             "privacy": "closed",
             "slug": "django-click-admins"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Admin team for the django-cookie-consent repository",
+            "etag": "W/\"c1de19ae8631a31a64291bcc4ac657483a0da9f7a3b103d93b09efa2f2c91c99\"",
+            "id": "13287527",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-cookie-consent-admins",
+            "node_id": "T_kwDOCaaRBM4AysBn",
+            "parent_team_id": "13287524",
+            "parent_team_read_id": "13287524",
+            "parent_team_read_slug": "django-cookie-consent",
+            "privacy": "closed",
+            "slug": "django-cookie-consent-admins"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -3454,6 +3630,31 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Committers team for the django-cookie-consent repository",
+            "etag": "W/\"9d5a75921f2811dd5e3a03dcc127aa6e3ae048408f851505035c1a078f40790e\"",
+            "id": "13287526",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-cookie-consent-committers",
+            "node_id": "T_kwDOCaaRBM4AysBm",
+            "parent_team_id": "13287524",
+            "parent_team_read_id": "13287524",
+            "parent_team_read_slug": "django-cookie-consent",
+            "privacy": "closed",
+            "slug": "django-cookie-consent-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -3700,6 +3901,28 @@
             "parent_team_read_slug": "",
             "privacy": "closed",
             "slug": "django-click"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Main team for the django-cookie-consent repository",
+            "etag": "W/\"005bf77917d2f5d3b5ef96206c4abef79e900f562195053310b0c1084526e03f\"",
+            "id": "13287524",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "django-cookie-consent",
+            "node_id": "T_kwDOCaaRBM4AysBk",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "django-cookie-consent"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -4020,6 +4243,27 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-cookie-consent-admins",
+            "members": [
+              {
+                "role": "member",
+                "username": "sergei-maertens"
+              }
+            ],
+            "team_id": "django-cookie-consent-admins"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -4237,6 +4481,27 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-cookie-consent-committers",
+            "members": [
+              {
+                "role": "member",
+                "username": "MrCordeiro"
+              }
+            ],
+            "team_id": "django-cookie-consent-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -4346,6 +4611,30 @@
               }
             ],
             "team_id": "django-click"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-cookie-consent",
+            "members": [
+              {
+                "role": "member",
+                "username": "MrCordeiro"
+              },
+              {
+                "role": "member",
+                "username": "sergei-maertens"
+              }
+            ],
+            "team_id": "django-cookie-consent"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -4623,6 +4912,24 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"6fc3232a4c42248f908ee3aec1c16808a4c4f9b5b93f829187c1475fc7cbda0e\"",
+            "id": "13287527:django-cookie-consent",
+            "permission": "admin",
+            "repository": "django-cookie-consent",
+            "team_id": "django-cookie-consent-admins"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_admin_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -4801,6 +5108,24 @@
             "permission": "maintain",
             "repository": "django-click",
             "team_id": "django-click-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"940aff24ce07193130bcc8599700dfacc41f718aef7e7a7b495a3f25897d5de8\"",
+            "id": "13287526:django-cookie-consent",
+            "permission": "maintain",
+            "repository": "django-cookie-consent",
+            "team_id": "django-cookie-consent-committers"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -4997,6 +5322,23 @@
           ]
         },
         {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "etag": "W/\"6bc4323cee95838b95fb16927561025132b744d07f734afb6f73933c1ca07d7d\"",
+            "id": "13287524:django-cookie-consent",
+            "permission": "triage",
+            "repository": "django-cookie-consent",
+            "team_id": "django-cookie-consent"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
@@ -5178,6 +5520,29 @@
             "team_id": "django-click",
             "team_slug": "django-click",
             "team_uid": "T_kwDOCaaRBM4Au-wz"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-cookie-consent",
+          "schema_version": 0,
+          "attributes": {
+            "id": "T_kwDOCaaRBM4AysBk",
+            "review_request_delegation": [
+              {
+                "algorithm": "LOAD_BALANCE",
+                "member_count": 2,
+                "notify": false
+              }
+            ],
+            "team_id": "django-cookie-consent",
+            "team_slug": "django-cookie-consent",
+            "team_uid": "T_kwDOCaaRBM4AysBk"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

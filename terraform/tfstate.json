@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 524,
+  "serial": 525,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2178,7 +2178,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"06100b3949c0600eaa1bf08564a0f1fdfe4cc4115207da1b969f2be1e817e432\"",
+            "etag": "W/\"96e41fb023d67a295608eb48c2f454ca0ee701807a1a81018b4d02f5b91659f4\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

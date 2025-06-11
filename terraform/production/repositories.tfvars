@@ -108,6 +108,26 @@ repositories = {
       "giovannicimolin"
     ]
   }
+
+  "django-simple-history" = {
+    description = "Store model history and view/revert changes from admin site. "
+    homepage_url = "https://django-simple-history.readthedocs.org"
+    allow_merge_commit = true
+    allow_rebase_merge = false
+    allow_squash_merge = true
+    allow_update_branch = true
+    has_discussions    = true
+    has_wiki           = true
+    push_allowances    = []
+
+    admins = [
+      "ddabble",
+      "tim-schilling",
+    ]
+    committers = []
+    members = []
+  }
+
   "django-typer" = {
     description        = "Use Typer (type hints) to define the interface for your Django management commands."
     homepage_url       = "https://django-typer.rtfd.io"

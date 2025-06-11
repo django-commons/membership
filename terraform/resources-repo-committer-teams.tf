@@ -1,4 +1,10 @@
 # Define the committers team for each repository
+import {
+  for_each = local.project_repositories
+
+  id = each.key
+  to = github_team.repo_committer_team[each.key]
+}
 resource "github_team" "repo_committer_team" {
   for_each = local.project_repositories
 

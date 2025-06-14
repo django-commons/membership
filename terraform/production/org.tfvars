@@ -38,6 +38,7 @@ members = [
   "korfuri",
   "kytta",
   "leogregianin",
+  "manelclos",
   "matthiask",
   "mihrab34",
   "mkalioby",

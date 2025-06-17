@@ -4,8 +4,8 @@ repositories = {
   ".github" = {
     description = "A Special Repository."
 
-    topics                 = []
-    push_allowances        = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo = true
   }
 
@@ -14,8 +14,8 @@ repositories = {
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
-    topics                 = []
-    push_allowances        = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo = true
   }
 
@@ -25,14 +25,14 @@ repositories = {
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
-    topics                 = []
-    push_allowances        = []
+    topics = []
+    push_allowances = []
     is_django_commons_repo = true
   }
 
   "best-practices" = {
     description = "A sample project with best practices for Django Commons projects."
-    topics      = ["template", "django", "python"]
+    topics = ["template", "django", "python"]
     # People with GitHub admin repo permissions
     admins = [
       "cunla",
@@ -137,14 +137,14 @@ repositories = {
     allow_update_branch = true
     has_discussions     = true
     has_wiki            = true
-    push_allowances     = []
+    push_allowances = []
 
     admins = [
       "ddabble",
       "tim-schilling",
     ]
     committers = []
-    members    = []
+    members = []
   }
 
   "django-typer" = {
@@ -155,14 +155,14 @@ repositories = {
     allow_rebase_merge = true
     allow_squash_merge = true
     has_wiki           = true
-    push_allowances    = []
+    push_allowances = []
 
     admins = [
       "bckohan",
       "oliverandrich",
     ]
     committers = []
-    members    = []
+    members = []
   }
   "drf-excel" = {
     description         = "An XLSX spreadsheet renderer for Django REST Framework."
@@ -195,7 +195,7 @@ repositories = {
     has_downloads          = true
     has_wiki               = false
     is_template            = false
-    push_allowances        = []
+    push_allowances = []
     topics = [
       "django",
       "django-application",
@@ -204,13 +204,13 @@ repositories = {
       "tailwind-css",
       "tailwindcss",
     ]
-    visibility                      = "public"
+    visibility = "public"
     required_status_checks_contexts = []
     admins = [
       "oliverandrich",
     ]
     committers = []
-    members    = []
+    members = []
   }
   "django-click" = {
     description         = "Write Django management command using the click CLI library"
@@ -268,11 +268,13 @@ repositories = {
   }
 
   "django-valkey" = {
-    description         = "a Valkey backend for django"
-    allow_merge_commit  = true
-    allow_rebase_merge  = true
-    allow_squash_merge  = true
-    allow_update_branch = true
+    description            = "a Valkey backend for django"
+    homepage_url           = "https://django-valkey.readthedocs.io/en/latest/"
+    allow_merge_commit     = true
+    allow_rebase_merge     = true
+    allow_squash_merge     = true
+    allow_update_branch    = true
+    delete_branch_on_merge = false
 
     has_discussions = false
     has_wiki        = false

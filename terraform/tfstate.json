@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 542,
+  "serial": 544,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -82,9 +82,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "53a5c030e7d2c7f1dec098c305bb84c5",
+            "id": "d57bc02a97611cd2b4a3f2c5d9716797",
             "logins": [
               "FlipperPA",
               "GaretJax",
@@ -96,6 +97,7 @@
               "Stormheg",
               "TimothyMalahy",
               "VeldaKiara",
+              "adRn-s",
               "amirreza8002",
               "andoriyaprashant",
               "asherf",
@@ -158,6 +160,7 @@
               "MDQ6VXNlcjEzODU2NTE1",
               "MDQ6VXNlcjUwMjE3Nzgz",
               "MDQ6VXNlcjMyNTUyMjk2",
+              "MDQ6VXNlcjYyOTcxOTk1",
               "U_kgDOByTH3Q",
               "U_kgDOB0B3aQ",
               "MDQ6VXNlcjEyNjgwODg=",
@@ -221,6 +224,7 @@
               "Stormheg",
               "TimothyMalahy",
               "VeldaKiara",
+              "adRn-s",
               "amirreza8002",
               "andoriyaprashant",
               "asherf",
@@ -446,6 +450,23 @@
             "id": "django-commons:VeldaKiara",
             "role": "member",
             "username": "VeldaKiara"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "adRn-s",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"61f8bcec4f3614296690f6b4f4de4aae26a60f56483f3b958b5944e2efddcf84\"",
+            "id": "django-commons:adRn-s",
+            "role": "member",
+            "username": "adRn-s"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -918,7 +939,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"bda25f20dcab005b0794d3962cb6b9d13117e2f4061367bc1ce966e4c46ea1f9\"",
+            "etag": "W/\"14a913b6e506f6a990d708fb1d40a1ef28d2186c310caf3e7992ed39d9cf147f\"",
             "id": "django-commons:manelclos",
             "role": "member",
             "username": "manelclos"
@@ -1539,7 +1560,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Write Django management command using the click CLI library",
-            "etag": "W/\"34ad0c4e3b96150ecf9c0d84eb56cbd02415ede9044aad83614710057766210d\"",
+            "etag": "W/\"e0d073fea90376beb4d45c7fe2bc87dd879a7fa50a1b803a67b30eecd37452f2\"",
             "full_name": "django-commons/django-click",
             "git_clone_url": "git://github.com/django-commons/django-click.git",
             "gitignore_template": null,
@@ -1675,7 +1696,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"0653aa2f6765066addf5fdd9c131a57b0d34f9f2b021d1738ea001e96efdfe0c\"",
+            "etag": "W/\"4e9536ff4029ee55024003478a21b0d33a7aeacae20184a1f07ac12b7fbe155d\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -1827,7 +1848,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"3e26351bc369653c32c58ea46adf0c7a46eb934095afd42764a8e17787ddeec8\"",
+            "etag": "W/\"0ff69d2471a512cf44f1121564d8de13e57d880f195585db8bca9416bedf87ac\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -1963,7 +1984,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI.",
-            "etag": "W/\"679518dbf58d0201906fb6656e6d90cfd911223673acfe731df737ff68969f6b\"",
+            "etag": "W/\"7b7ae1a3e40853f6e6c12e4a2e1a91dfe3956d2b7290a30971b993f6e41008c1\"",
             "full_name": "django-commons/django-tailwind-cli",
             "git_clone_url": "git://github.com/django-commons/django-tailwind-cli.git",
             "gitignore_template": null,
@@ -2267,7 +2288,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"a708a6ee65cd7fa956b79d3a71540493868e38fed847ab7c41dd5cb57b0ce3f5\"",
+            "etag": "W/\"3b52ffba161ec0bf70e8c5cfdc7004f52e3a644fea18ce6886147369fd12041e\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -4918,7 +4939,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"be6e7768d297965034f9173fae3199699454aed4324df9ea262c86b7db01a022\"",
+            "etag": "W/\"e866f7f3f1d1fa4d4a2acdb813198047c09aac8a5dccc8c24b9a509857729569\"",
             "id": "12315701:django-click",
             "permission": "admin",
             "repository": "django-click",
@@ -4954,7 +4975,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4acce31fba0242ae3e9bdac24d347d8195805f71a61dd38ea95b85296f5975e1\"",
+            "etag": "W/\"8ce9bcdb14f9973880c08482419ee7dc7c76e213bd79d3187ef92082c797748b\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -4990,7 +5011,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"7a05cbc0c5b358c98e7198115640e163271de8aa998167438e266ebe437b13c2\"",
+            "etag": "W/\"f5c1f33fe022441b7db5800cdd8ee09bbe75e5c0eba8d79ec134ca3ba7f06201\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -5026,7 +5047,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"97027d8c89f3c212f1587a5d7a8d49636b39074ce8cf7de8ff4c5e1eb6f323cd\"",
+            "etag": "W/\"c5227ffbda0037185b49fbf2c4836e9d28076a91f93bd604323618d2c71a7845\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -5124,7 +5145,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2bd38d2df9ff72af5d06ec8484d34d054989908e54eba25a21f45e88f3f749b0\"",
+            "etag": "W/\"c267127f96c69f37e53c11d7b172f16a0deab7036689e82627bcb42d7814dd74\"",
             "id": "12315700:django-click",
             "permission": "maintain",
             "repository": "django-click",
@@ -5160,7 +5181,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"7216f42e5a36e69aca94d013059bee16f4cfc423b6089cb18145152aca117538\"",
+            "etag": "W/\"d5e81c0ca3c92deeea2c2baf0f1bad7fa53baec58830eaece9d2d32ac85da2ec\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -5196,7 +5217,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"92332e56af40b744a2dbdde806c0c941a1fdf7281a15179591a754b086788f04\"",
+            "etag": "W/\"02860cc028ccf6832f5556ef6ee5266fd1528141d3e9910c305ca60c22c7d343\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -5232,7 +5253,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5cf2f6ead654790843e680c718cdd275ef09bdd70f5f597d5d2c8b907d1aa900\"",
+            "etag": "W/\"1937f44a94306f1651becd8b7f32e9476074e43f3e543aa316e3f82e28bd200e\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -5329,7 +5350,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"dc5e680a31a4836f5902e3528689a4ec043935afd1988fb82bc5d2d3a37571aa\"",
+            "etag": "W/\"beed5e7377c64ed0443351275305b61e8559493b199a2d9782ae58c9cca0c009\"",
             "id": "12315699:django-click",
             "permission": "triage",
             "repository": "django-click",
@@ -5363,7 +5384,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"eb10e076c1c04ad186ac0d8a79e162ea5166c73c1421531f92b7deca456eaa78\"",
+            "etag": "W/\"3143ad3c40e979d57bcacb34bbff237bce0e764cae9568d43e84c28c30772c46\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -5397,7 +5418,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ed9dd0485bd80869976240d84213d910a8ab9c568f49372a54bad925e4744c78\"",
+            "etag": "W/\"3c81a68f5571c45ef0ef5cf7405ed73d2f7577ec0259e9f7cc9d57aeeee03d9e\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -5431,7 +5452,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ab996f548cff4ec2a1725ad7d3e241453a9dc142fdcf69bc0f8f3922a60327c4\"",
+            "etag": "W/\"8e89ad097cb38c20563422512f74f92aef29f60b9c7cef29dbeccc013727b087\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",

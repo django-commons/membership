@@ -248,6 +248,7 @@ repositories = {
 
     ]
   }
+
   "django-prometheus" = {
     description         = "Export Django monitoring metrics for Prometheus.io"
     allow_merge_commit  = true
@@ -259,6 +260,26 @@ repositories = {
     has_wiki        = false
     admins = [
       "asherf",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
+  "django-valkey" = {
+    description            = "a Valkey backend for django"
+    homepage_url           = "https://django-valkey.readthedocs.io/en/latest/"
+    allow_merge_commit     = true
+    allow_rebase_merge     = true
+    allow_squash_merge     = true
+    allow_update_branch    = true
+    delete_branch_on_merge = false
+
+    has_discussions = false
+    has_wiki        = false
+    admins = [
+      "amirreza8002",
     ]
     committers = [
     ]

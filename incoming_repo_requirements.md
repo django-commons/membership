@@ -17,7 +17,7 @@ be transferred in.
 5. Adopt [Django Commons's Code of Conduct](#code-of-conduct)
 6. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
    process (see [example in django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/.github/workflows/release.yml))
-
+7. django-commons should be added as maintainer to the readthedocs project
 
 ## Repository requirements
 

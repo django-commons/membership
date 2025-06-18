@@ -24,14 +24,18 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: tests
+    id: transfer-checklist
     attributes:
       label: Does the project have the required attributes?
       description: "[Review the incoming repo requirements for details.](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md)"
       options:
+        - label: Are you a member of the Django Commons organization? (if not, [open an issue to add yourself as a member](https://github.com/django-commons/membership/issues/new?template=new-member.yml))
         - label: Does the project have tests?
         - label: Does the project have documentation?
         - label: Has the project adopted [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)?
+        - label: Do you have permissions to transfer the repository to the Django Commons organization?
+        - label: Does the project use [readthedocs](https://readthedocs.org/) for documentation?
+        - label: Has djangocommons@gmail.com been invited as a maintainer to the project readthedocs.
   - type: textarea
     id: new-maintainers
     attributes:

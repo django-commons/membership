@@ -32,7 +32,7 @@ jobs:
       - name: Get username to add
         id: get_username
         run:
-          python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1].strip().lstrip('@')" >> $GITHUB_ENV
+          python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1].strip().lstrip('@'))" >> $GITHUB_ENV
 
       - name: Validate add user request
         env:

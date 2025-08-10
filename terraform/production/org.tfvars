@@ -51,6 +51,7 @@ members = [
   "oliverandrich",
   "ontowhee",
   "pauloxnet",
+  "peterthomassen",
   "pfouque",
   "priyapahwa",
   "RealOrangeOne",

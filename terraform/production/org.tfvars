@@ -15,6 +15,7 @@ members = [
   "bckohan",
   "blingblin-g",
   "browniebroke",
+  "carltongibson",
   "cgl",
   "clintonb",
   "ddabble",

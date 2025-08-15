@@ -38,6 +38,7 @@ members = [
   "johnfraney",
   "joshuadavidthomas",
   "justbackend",
+  "kevin-brown",
   "korfuri",
   "kytta",
   "leogregianin",

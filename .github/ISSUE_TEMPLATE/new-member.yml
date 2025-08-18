@@ -23,12 +23,14 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: tangible-benefits
+    id: general
     attributes:
-      label: Tangible Benefits
+      label: General questions
       options:
         - label: Does your project provide tangible benefits to the Django community?
           required: true
+        - label: Do you wish to join the designers team?
+          required: false
   - type: checkboxes
     id: terms
     attributes:

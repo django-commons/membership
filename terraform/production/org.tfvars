@@ -6,6 +6,12 @@ admins = [
   "tim-schilling",
   "williln",
 ]
+
+designers = [
+  "akshayvinchurkar",
+  "viscofuse",
+]
+
 # Organization members
 members = [
   "adRn-s",

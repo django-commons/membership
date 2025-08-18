@@ -18,6 +18,12 @@ variable "members" {
   default     = []
 }
 
+variable "designers" {
+  description = "A set of designers to add to the organization"
+  type        = set(string)
+  default     = []
+}
+
 variable "repositories" {
   description = "Map of repositories to create"
   type = map(object({

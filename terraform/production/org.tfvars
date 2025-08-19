@@ -54,6 +54,7 @@ members = [
   "mkalioby",
   "Mogost",
   "MrCordeiro",
+  "mzemlickis",
   "nanorepublica",
   "Natim",
   "oliverandrich",
@@ -73,7 +74,6 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "vinlawz",
   "viscofuse",
 ]
 

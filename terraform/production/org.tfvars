@@ -10,6 +10,7 @@ admins = [
 designers = [
   "akshayvinchurkar",
   "viscofuse",
+  "mzemlickis",
 ]
 
 # Organization members

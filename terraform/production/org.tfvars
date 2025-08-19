@@ -68,7 +68,6 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
-  "vinlawz",
   "viscofuse",
 ]
 

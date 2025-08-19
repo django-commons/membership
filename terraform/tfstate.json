@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 586,
+  "serial": 588,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -90,7 +90,7 @@
               "",
               ""
             ],
-            "id": "c7c538a328e6632ec80d5085aeacd442",
+            "id": "8c72bcbd33b5bf1d34b31fab7b14825d",
             "logins": [
               "FlipperPA",
               "GaretJax",
@@ -138,6 +138,7 @@
               "matthiask",
               "mihrab34",
               "mkalioby",
+              "mzemlickis",
               "nanorepublica",
               "oliverandrich",
               "ontowhee",
@@ -155,7 +156,6 @@
               "tim-schilling",
               "ulgens",
               "unmonoqueteclea",
-              "vinlawz",
               "viscofuse",
               "williln"
             ],
@@ -206,6 +206,7 @@
               "MDQ6VXNlcjI2Mjc=",
               "MDQ6VXNlcjM1NTYyMTMx",
               "MDQ6VXNlcjEwNDE0MDIw",
+              "MDQ6VXNlcjQ1NTY5NDQ=",
               "MDQ6VXNlcjE5OTc5NDA=",
               "MDQ6VXNlcjc1OA==",
               "MDQ6VXNlcjgyNjA3NzIz",
@@ -223,7 +224,6 @@
               "MDQ6VXNlcjEyODEyMTU=",
               "MDQ6VXNlcjE2NjYzNw==",
               "MDQ6VXNlcjQ3MDU3NTc=",
-              "U_kgDOCxTEHw",
               "MDQ6VXNlcjM1MTUwMDAx",
               "MDQ6VXNlcjIyODYzMDQ="
             ],
@@ -275,6 +275,7 @@
               "matthiask",
               "mihrab34",
               "mkalioby",
+              "mzemlickis",
               "nanorepublica",
               "oliverandrich",
               "ontowhee",
@@ -292,7 +293,6 @@
               "tim-schilling",
               "ulgens",
               "unmonoqueteclea",
-              "vinlawz",
               "viscofuse",
               "williln"
             ]
@@ -942,7 +942,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"d558f4565a6c17d8c27566c319e85254adbf85af47dd27a85fa0004a3ade0366\"",
+            "etag": "W/\"663d204c0889b0836424d63df25ee60757c374dada0a2d482c58aeea52db2ab2\"",
             "id": "django-commons:kevin-brown",
             "role": "member",
             "username": "kevin-brown"
@@ -1065,6 +1065,23 @@
             "id": "django-commons:mkalioby",
             "role": "member",
             "username": "mkalioby"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "mzemlickis",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"6e72512fd854e9eb67ed1c7800178a87d2958b44c209efe4bcf5ae4d6bb34ecf\"",
+            "id": "django-commons:mzemlickis",
+            "role": "member",
+            "username": "mzemlickis"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -1354,23 +1371,6 @@
             "id": "django-commons:unmonoqueteclea",
             "role": "member",
             "username": "unmonoqueteclea"
-          },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0,
-          "private": "bnVsbA==",
-          "dependencies": [
-            "data.github_users.users"
-          ]
-        },
-        {
-          "index_key": "vinlawz",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"5dd8e7b7ffdc06182f746c53858b46bc5ec8b7eb4bc0b8e38392726fca92af2b\"",
-            "id": "django-commons:vinlawz",
-            "role": "member",
-            "username": "vinlawz"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -1801,7 +1801,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"a40480f6d907b1f6e0f47826db7d808b9fff407190b0d57950d37b2c55e50f92\"",
+            "etag": "W/\"75db2a3fac1e37b74a561cddfc07d38f429b5fa80671d9f9400f83d81e40c31c\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -1953,7 +1953,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django friendly finite state machine support",
-            "etag": "W/\"6d49bfc1bf1a68d28dc966af4b0ab015e1d22d043707d5d1125650a2ca989a3c\"",
+            "etag": "W/\"1e38397cba450e79606772069f2cb00ce01e7481654096c04b5449ab77a29443\"",
             "full_name": "django-commons/django-fsm-2",
             "git_clone_url": "git://github.com/django-commons/django-fsm-2.git",
             "gitignore_template": null,
@@ -2021,7 +2021,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Export Django monitoring metrics for Prometheus.io",
-            "etag": "W/\"69a373fbf195351f2eb265e886d1740e7195bd7074d421f7946d15b0797efef4\"",
+            "etag": "W/\"18241aacb651277d882e09eee24bc145de0542fc4e7efe00b02a9d965bb8a012\"",
             "full_name": "django-commons/django-prometheus",
             "git_clone_url": "git://github.com/django-commons/django-prometheus.git",
             "gitignore_template": null,
@@ -2098,7 +2098,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Store model history and view/revert changes from admin site.",
-            "etag": "W/\"7c04d5285c28c630bfdb4a6d1ef580293e2ade66dac100fbd972f9d96f247462\"",
+            "etag": "W/\"66e044cd4aab7a1e0760feb92574ec85347332488c28944a2029dfa8dbe99376\"",
             "full_name": "django-commons/django-simple-history",
             "git_clone_url": "git://github.com/django-commons/django-simple-history.git",
             "gitignore_template": null,
@@ -2166,7 +2166,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI.",
-            "etag": "W/\"36ff0ecdd1e57e621ac2c70ea56f3887b69a2c18cc0c918359aa59869aad7026\"",
+            "etag": "W/\"9b505acc1ed3d7da23e633ff41b559b7bae37168f0d214dc1efd0f8f5cdd1040\"",
             "full_name": "django-commons/django-tailwind-cli",
             "git_clone_url": "git://github.com/django-commons/django-tailwind-cli.git",
             "gitignore_template": null,
@@ -2402,7 +2402,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": false,
             "description": "a Valkey backend for django",
-            "etag": "W/\"99edb7731a1ce6b90b3d9a3e6bf25b8abd8a1469cb7f9a46594c01e684c5f8c0\"",
+            "etag": "W/\"2700665135ab4c049602a29f0338bbf56261a5cef5dfcad5f6c6f597ab0775ed\"",
             "full_name": "django-commons/django-valkey",
             "git_clone_url": "git://github.com/django-commons/django-valkey.git",
             "gitignore_template": null,
@@ -2537,7 +2537,7 @@
           "schema_version": 1,
           "attributes": {
             "allow_auto_merge": false,
-            "allow_merge_commit": true,
+            "allow_merge_commit": false,
             "allow_rebase_merge": true,
             "allow_squash_merge": true,
             "allow_update_branch": true,
@@ -2547,7 +2547,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"7d3009da212c7e94b8dc7399e3f2b98ad69916a7c875028f0912a80d32b81443\"",
+            "etag": "W/\"ccaf6354c652fea55e1937cd83e8bb47ea0ea971bbe207c060712e0d7d4d260f\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -5626,7 +5626,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"21e3a9d591b253fad2197ecb046fbf95ca4269490e69b91dcf9591585d63db1e\"",
+            "etag": "W/\"c7a7706dae1b172f8795d166f11e8f6490c6cdda9ab5a76f62706eb15fd22bb9\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -5662,7 +5662,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"0d03145497ed620fcb6a07c9ec6cbaa5458a0cde09ad62aa81ecbf2e28b75634\"",
+            "etag": "W/\"d506f12ffb63aba242374046657671833612644bf9c3f134ba35375b94c809f0\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -5680,7 +5680,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"813406e9962091f80514b0bf50fe2be3f48bf505b170eb9ea4a3901e398b1e05\"",
+            "etag": "W/\"2a6bf1c2208db9459e1a20f5698475558c0aefa6fcb8c2b5ccda9ddfd925abb8\"",
             "id": "13333849:django-prometheus",
             "permission": "admin",
             "repository": "django-prometheus",
@@ -5698,7 +5698,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5e86506b8c9bb5a060cda5354488620cd5f434c1349ff04818630d2933991ebb\"",
+            "etag": "W/\"9eb04ce518edde0ee93dae62dd732ae286cbbcd147e14f1cd4c7ba5e7e67e30a\"",
             "id": "13286901:django-simple-history",
             "permission": "admin",
             "repository": "django-simple-history",
@@ -5716,7 +5716,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"05f7c64ae8d2f6518be8f31203101e28b0785dca52363a0c8a2d2085eee4b1b8\"",
+            "etag": "W/\"f1aad36d45e713f4c9edd776b3a081bbc4525ffef06e92e328bbe7cfa4f003c0\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -5770,7 +5770,7 @@
           "index_key": "django-valkey",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a1504dd3696d878ac9de7b240978c8ddb4a442f2be66aa76975f7ad258119a2d\"",
+            "etag": "W/\"1b7b6be4abca032493df345885bc862ce4808569c91f3ae18eec693db0ac2e6b\"",
             "id": "13334520:django-valkey",
             "permission": "admin",
             "repository": "django-valkey",
@@ -5868,7 +5868,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f2e2f6721c998cace1b02ce933aa036ca3e50d18e8c9551010b434b3e721beb0\"",
+            "etag": "W/\"ef53b53e9b9753c2a0c4d8326eee7905d445907114616407c766ec74c521163f\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -5904,7 +5904,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"def0e85dc57fc637a428e3c9150f6aaecb7c84a75cecbac444a465f5b91a97cf\"",
+            "etag": "W/\"0b69bc8f7b6a420d4f25821b3a77564898dfab2c375582f3f9545642958c7d72\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -5922,7 +5922,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"779442f14996f91e946bee87456580d188978db8402fa8acc970cd43a642b59c\"",
+            "etag": "W/\"8af78e4f27bada4681975c41f42c7c10ca4a124628097116bef9d75757cc1ffc\"",
             "id": "13333848:django-prometheus",
             "permission": "maintain",
             "repository": "django-prometheus",
@@ -5940,7 +5940,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"7fb5ae8dc9b9bdb6bda1ffa704a6564e8ee2918bb1c2dc5910da5f925a339ab0\"",
+            "etag": "W/\"fdc2b099645e26da5000a1ac65626dd0e265b01992a124aadbcbe1b67bf238b9\"",
             "id": "13286900:django-simple-history",
             "permission": "maintain",
             "repository": "django-simple-history",
@@ -5958,7 +5958,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f011eb3ed26875349a8952afacf8899c08167cc40838cd383a0b793d78472c02\"",
+            "etag": "W/\"5b208194fd9f0af1c6b0dbc9117a15854739e950a3d9884c1c78afa0e417a66c\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -6012,7 +6012,7 @@
           "index_key": "django-valkey",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"50c8061f45b0b743e4d6232260f25da39453dd4c857dab4dc2428d0a8844cfcc\"",
+            "etag": "W/\"0d80ec10c870079ae2425c704e8d2fba571168a24a5d0ea81c84e5a3d522f5ef\"",
             "id": "13334521:django-valkey",
             "permission": "maintain",
             "repository": "django-valkey",
@@ -6107,7 +6107,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4add4d629731b4c98419a299c7ff73f7e7051769b250eb889a44410ae911f9a8\"",
+            "etag": "W/\"638007b06501c339264f842af03a5a48343e5004d8e7597ac63b435a292d76c6\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -6141,7 +6141,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"d4ae115ac1d80865888d32963a19e2f89cd406a2e0f6d329e6757437468aa747\"",
+            "etag": "W/\"51a5144753c32286c403dfcbe77f3332e3e41e131eb55e4f9f195671aaee4690\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -6158,7 +6158,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f6de499cc80e0707ccbd1154a9976abf6f272d772fe02a0835b28701a9de0805\"",
+            "etag": "W/\"c8d5fdbf8d737df5d609bed0b9f6321b3c7175ce10aadc5bfffbc20270d2da71\"",
             "id": "13333847:django-prometheus",
             "permission": "triage",
             "repository": "django-prometheus",
@@ -6175,7 +6175,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c3184bc7664562ecd0f35f59adb7da7a7715d10be294e004264fbfc859546798\"",
+            "etag": "W/\"b852e83bbe1259cda906904de68c6395920d84fe4f49af6fa5ec375c44c63c57\"",
             "id": "13286898:django-simple-history",
             "permission": "triage",
             "repository": "django-simple-history",
@@ -6192,7 +6192,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"df82d7d215c0494217408d480544520d4f113ab66310f8834bdd503f91aed970\"",
+            "etag": "W/\"61f0b969b03803d092865d4f43f0f6a33d11db136a36844f3692e815a4b8e5c2\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",
@@ -6243,7 +6243,7 @@
           "index_key": "django-valkey",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"91eac0731e5166fb787055b6e80fb9e45dbf215abe8148d60132ddab456b49ec\"",
+            "etag": "W/\"5ae164b706f9f848a1737a7d89ea3a623020d4b609190310430575bd291ee77e\"",
             "id": "13334519:django-valkey",
             "permission": "triage",
             "repository": "django-valkey",

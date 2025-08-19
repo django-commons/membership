@@ -48,6 +48,7 @@ members = [
   "mkalioby",
   "Mogost",
   "MrCordeiro",
+  "mzemlickis",
   "nanorepublica",
   "Natim",
   "oliverandrich",

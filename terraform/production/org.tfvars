@@ -21,6 +21,7 @@ members = [
   "clintonb",
   "ddabble",
   "devatbosch",
+  "dmpayton",
   "dr-rompecabezas",
   "elineda",
   "FlipperPA",

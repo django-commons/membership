@@ -40,6 +40,7 @@ members = [
   "joshuadavidthomas",
   "justbackend",
   "kevin-brown",
+  "knyghty",
   "korfuri",
   "kytta",
   "leogregianin",

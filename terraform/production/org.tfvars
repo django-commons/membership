@@ -61,6 +61,7 @@ members = [
   "rptmat57",
   "salty-ivy",
   "sergei-maertens",
+  "SinkuKumar",
   "sobolevn",
   "testSchilling",
   "thibaudcolas",

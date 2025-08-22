@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.0",
-  "serial": 590,
+  "serial": 592,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -89,9 +89,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "171bd1afaa25f09f53cb6128a6fec9a3",
+            "id": "8e627d296f6b53996cb96ae813e1b33b",
             "logins": [
               "FlipperPA",
               "GaretJax",
@@ -100,6 +101,7 @@
               "MrCordeiro",
               "Natim",
               "RealOrangeOne",
+              "SinkuKumar",
               "Stormheg",
               "TimothyMalahy",
               "VeldaKiara",
@@ -169,6 +171,7 @@
               "MDQ6VXNlcjIwNTk4NTcx",
               "MDQ6VXNlcjIyOTQ1Mw==",
               "MDQ6VXNlcjY1Mjc0ODk=",
+              "MDQ6VXNlcjczNzg1Nzk1",
               "MDQ6VXNlcjEzODU2NTE1",
               "MDQ6VXNlcjUwMjE3Nzgz",
               "MDQ6VXNlcjMyNTUyMjk2",
@@ -239,6 +242,7 @@
               "MrCordeiro",
               "Natim",
               "RealOrangeOne",
+              "SinkuKumar",
               "Stormheg",
               "TimothyMalahy",
               "VeldaKiara",
@@ -423,6 +427,23 @@
             "id": "django-commons:RealOrangeOne",
             "role": "member",
             "username": "RealOrangeOne"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "SinkuKumar",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"c15ca822f585d384056014f195fc78ee9a69a37065794e010e7732de45f04a2e\"",
+            "id": "django-commons:SinkuKumar",
+            "role": "member",
+            "username": "SinkuKumar"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -725,7 +746,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"87ee4a5fcf63f247e4c63c9a552672bd20aa9ffd75feb97070f3ae3392d32e21\"",
+            "etag": "W/\"575d49fface55a009fd2d36057d080a8549b719068439b774b042dc0c5fbd660\"",
             "id": "django-commons:dmpayton",
             "role": "member",
             "username": "dmpayton"
@@ -2568,7 +2589,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"580d92f07be51d6df6d389addec699e384384af418a28f281373c501feea3776\"",
+            "etag": "W/\"0b57d0f6acda5b20e5dba08534cf4cd7fff1a4b18c2a55dfd65a47aaaa52e2e4\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

@@ -65,6 +65,7 @@ members = [
   "salty-ivy",
   "sergei-maertens",
   "SinkuKumar",
+  "SmitK",
   "sobolevn",
   "testSchilling",
   "thibaudcolas",

@@ -9,8 +9,9 @@ admins = [
 
 designers = [
   "akshayvinchurkar",
-  "viscofuse",
   "mzemlickis",
+  "SmitK",
+  "viscofuse",
 ]
 
 # Organization members

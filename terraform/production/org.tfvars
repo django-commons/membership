@@ -14,6 +14,7 @@ members = [
   "amirreza8002",
   "andoriyaprashant",
   "asherf",
+  "ayimdomnic",
   "bckohan",
   "blingblin-g",
   "browniebroke",

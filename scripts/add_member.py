@@ -39,4 +39,4 @@ if __name__ == '__main__':
     if len(sys.argv) != 3:
         print("Usage: python add_member.py <new_member> <team>")
         sys.exit(1)
-    run(sys.argv[1], sys.argv[2])
+    run(*sys.argv[1:])

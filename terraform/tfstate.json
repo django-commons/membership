@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.1",
-  "serial": 605,
+  "serial": 608,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2715,7 +2715,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"fcde78dfd156c0f6957e3a8e8107eec93fd90827178e6bad19d57c2c257eb443\"",
+            "etag": "W/\"14205aa4c651f69a35816930797dbf17af7ef823cfbe7c3eae285e6e13bb4794\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -3876,6 +3876,35 @@
     {
       "mode": "managed",
       "type": "github_team",
+      "name": "org_designers_team",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Django Commons designers",
+            "etag": "W/\"db485ccd1931dd63337b6a821678dae7401755b7180be97b7cb7ff5540a33eb3\"",
+            "id": "14084892",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "Designers",
+            "node_id": "T_kwDOCaaRBM4A1usc",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "designers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "github_team",
       "name": "org_teams",
       "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
@@ -4882,6 +4911,45 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "github_team_members",
+      "name": "org_designers_team_members",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "14084892",
+            "members": [
+              {
+                "role": "member",
+                "username": "SmitK"
+              },
+              {
+                "role": "member",
+                "username": "akshayvinchurkar"
+              },
+              {
+                "role": "member",
+                "username": "mzemlickis"
+              },
+              {
+                "role": "member",
+                "username": "viscofuse"
+              }
+            ],
+            "team_id": "14084892"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.org_designers_team"
+          ]
         }
       ]
     },

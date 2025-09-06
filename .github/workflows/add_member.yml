@@ -68,9 +68,18 @@ jobs:
       - name: Create branch
         run: git checkout -b ${{ env.BRANCH_NAME }}
 
+      - name: Check if user wants to become a designer
+        id: check_designer
+        run: |          
+          if gh issue view ${{ env.ISSUE_NUMBER }} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")'; then
+            python scripts/add_member.py ${{ env.USERNAME }} designers
+          else
+            echo "User does not want to join the designers team."
+          fi
+
       - name: Add user to the list
         run: |
-          python scripts/add_member.py ${{ env.USERNAME }}
+          python scripts/add_member.py ${{ env.USERNAME }} members
 
       - name: Commit changes
         run: |

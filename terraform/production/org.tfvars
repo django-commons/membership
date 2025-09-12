@@ -12,6 +12,7 @@ designers = [
   "mzemlickis",
   "SmitK",
   "viscofuse",
+  "Zakui",
 ]
 
 # Organization members

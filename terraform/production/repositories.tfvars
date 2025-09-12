@@ -107,6 +107,7 @@ repositories = {
       "devatbosch",
       "dr-rompecabezas",
       "VeldaKiara",
+      "Zakui",
     ]
   }
 

@@ -12,6 +12,7 @@ designers = [
   "mzemlickis",
   "SmitK",
   "viscofuse",
+  "Zakui",
 ]
 
 # Organization members
@@ -85,6 +86,7 @@ members = [
   "unmonoqueteclea",
   "VeldaKiara",
   "viscofuse",
+  "Zakui",
 ]
 
 organization_teams = {

@@ -50,6 +50,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "johnfraney",
+  "Josephchinedu",
   "joshuadavidthomas",
   "justbackend",
   "kevin-brown",

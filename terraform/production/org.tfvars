@@ -10,7 +10,7 @@ admins = [
 designers = [
   "akshayvinchurkar",
   "mzemlickis",
-  "SmitK",
+  # "SmitK",  # enable when member has accepted the invite
   "viscofuse",
   "Zakui",
 ]

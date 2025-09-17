@@ -288,5 +288,24 @@ repositories = {
     members = [
     ]
   }
+
+  "axe-selenium-python" = {
+    description         = "Automated web accessibility testing with Axe and Selenium"
+    allow_merge_commit  = false
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+
+    has_discussions = true
+    has_wiki        = false
+    admins = [
+      "knyghty",
+      "thibaudcolas"
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
 }
 

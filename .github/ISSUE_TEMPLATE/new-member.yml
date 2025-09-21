@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for expressing interest in joining Django Commons!
+        Thanks for expressing interest in joining Django Commons! Once approved, you'll receive an email invitation to join. Once you receive that email you'll have 7 days to accept.
   - type: textarea
     id: why-join
     attributes:

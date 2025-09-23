@@ -70,8 +70,9 @@ jobs:
 
       - name: Check if user wants to become a designer
         id: check_designer
-        run: |          
-          if gh issue view ${{ env.ISSUE_NUMBER }} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")'; then
+        run: |
+          ADD_TO_DESIGNERS=$(gh issue view ${{ env.ISSUE_NUMBER }} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")')
+          if [ "$ADD_TO_DESIGNERS" = "true" ]; then
             python scripts/add_member.py ${{ env.USERNAME }} designers
           else
             echo "User does not want to join the designers team."

@@ -33,6 +33,7 @@ members = [
   "clintonb",
   "Creativeklvn",
   "ddabble",
+  "deronnax",
   "devatbosch",
   "dmpayton",
   "dr-rompecabezas",

@@ -17,7 +17,8 @@ be transferred in.
 5. Adopt [Django Commons's Code of Conduct](#code-of-conduct)
 6. After transferring, switch to [PyPI's "Trusted Publisher"](https://docs.pypi.org/trusted-publishers/)
    process (see [example in django-commons-playground](https://github.com/django-commons/django-commons-playground/blob/main/.github/workflows/release.yml))
-7. django-commons should be added as maintainer to the readthedocs project
+7. If there is a JavaScript component published separately to NPM, it needs to be transferred to a new team under the [django-commons npm organization](https://www.npmjs.com/org/django-commons) and automated releases are to be set using [npm trusted publishing](https://docs.npmjs.com/trusted-publishers). If the project is already scoped under a different organization (`@your-org/your-package), this unfortunately means that package will need to be deprecated and a new package created, preferably without a scope, as there is no way to transfer packages between scopes on npm.
+8. django-commons should be added as maintainer to the readthedocs project
 
 ## Repository requirements
 
@@ -46,6 +47,7 @@ be transferred in.
 - **[Required]** The repository will be transferred to the [django-commons GitHub organization](https://github.com/django-commons)
 - **[Required]** The Django Commons PyPI admin team (`cunla` and `stormheg`) is added as owners to PyPI and Test PyPI projects
 - **[Required]** Any previous maintainers who are not repository admins are removed as owners on PyPI and Test PyPI projects
+- **[Required]** If applicable, any separately published JavaScript package is transferred to the [django-commons npm organization](https://www.npmjs.com/org/django-commons) and any previous maintainers who are not repository admins are removed as owners. Two factor authentication must be enabled.
 
 The current maintainers must be willing to hand over control of the
 PyPI project. The Django Commons admins team and the

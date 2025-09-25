@@ -50,6 +50,14 @@ body:
       options:
         - label: Does the project have a test.pypi.org project?
         - label: Would you like to test your deployments with uploads to test.pypi.org (you'll need to create the project first)?
+  - type: input
+    id: javascript-package-url
+    attributes:
+      label: If the project has a JavaScript component published separately to a registry like NPM, what's the URL to that package?
+      description: Most projects bundle their JavaScript together with the Python package on PyPI -- so this question likely does not apply to you in -- but some projects have a separate JavaScript package that is published to npm. If your project does this, please provide the URL. If not, you can leave this blank.
+      placeholder: "https://www.npmjs.com/package/your-package-name"
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |

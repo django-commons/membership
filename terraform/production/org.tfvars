@@ -35,6 +35,7 @@ members = [
   "ddabble",
   "deronnax",
   "devatbosch",
+  "DhavalGojiya",
   "dmpayton",
   "dr-rompecabezas",
   "elineda",

@@ -70,6 +70,7 @@ jobs:
 
       - name: Check if user wants to become a designer
         id: check_designer
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

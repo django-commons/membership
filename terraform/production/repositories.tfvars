@@ -272,6 +272,7 @@ repositories = {
   "django-valkey" = {
     description            = "a Valkey backend for django"
     homepage_url           = "https://django-valkey.readthedocs.io/en/latest/"
+    allow_auto_merge       = true
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true

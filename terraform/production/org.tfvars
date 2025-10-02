@@ -30,6 +30,7 @@ members = [
   "browniebroke",
   "carltongibson",
   "cgl",
+  "Chiemezuo",
   "clintonb",
   "Creativeklvn",
   "ddabble",

@@ -7,11 +7,15 @@ admins = [
   "williln",
 ]
 
+# Design members
+#
+# Enable following members when they've accepted the invite
+# "SmitK",
 designers = [
   "akshayvinchurkar",
   "jmgutu",
+  "johnatanmoran",
   "mzemlickis",
-  # "SmitK",  # enable when member has accepted the invite
   "viscofuse",
   "Zakui",
 ]
@@ -54,6 +58,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "jmgutu",
+  "johnatanmoran",
   "johnfraney",
   "Josephchinedu",
   "joshuadavidthomas",

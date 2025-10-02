@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.3",
-  "serial": 640,
+  "serial": 643,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -101,9 +101,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "5e626eb6f8cdd2704addf5b4967dd3c4",
+            "id": "3fdccfbf58d435f140f43390c211a9b1",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -152,6 +153,7 @@
               "jburns6789",
               "jcjudkins",
               "jezdez",
+              "jmgutu",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -233,6 +235,7 @@
               "U_kgDOBwTNvg",
               "MDQ6VXNlcjM0NDE3NTcz",
               "MDQ6VXNlcjE2MTA=",
+              "MDQ6VXNlcjE0NDExNjE=",
               "MDQ6VXNlcjE3Mjg1Mjg=",
               "MDQ6VXNlcjE5ODk2MjY3",
               "U_kgDOBYTIXg",
@@ -315,6 +318,7 @@
               "jburns6789",
               "jcjudkins",
               "jezdez",
+              "jmgutu",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -1134,6 +1138,23 @@
             "id": "django-commons:jezdez",
             "role": "member",
             "username": "jezdez"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "jmgutu",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"1c96da67f288f4c788c7111e6b0d318ff2881fe2ad049caf2cb806e5e6bca467\"",
+            "id": "django-commons:jmgutu",
+            "role": "member",
+            "username": "jmgutu"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2362,7 +2383,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Export Django monitoring metrics for Prometheus.io",
-            "etag": "W/\"f134186ce63a8a02973f4ee74cb5095bcd86ceaceee10f4c24b389ab09fc72d9\"",
+            "etag": "W/\"ec2614d2ad28865a7345516ba581f3991f99b9c9b1e477574128435bdbbaff5c\"",
             "full_name": "django-commons/django-prometheus",
             "git_clone_url": "git://github.com/django-commons/django-prometheus.git",
             "gitignore_template": null,
@@ -2582,7 +2603,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used.",
-            "etag": "W/\"a5049925239ca19594594e9d2cb32e1df806353e52781dff182535b5e3fe1755\"",
+            "etag": "W/\"ee403224e8874149b90353525795c81da488bb62ef427f2d796741eaf39af185\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -2888,7 +2909,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"571852a5d4b2c6267f8d36b0aca12fd05574b79144606264366f500d0dc71511\"",
+            "etag": "W/\"970af575579e8e990aafee5174e766eca0e23f5e41e3058f6bd17d3c80ca5f1e\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -5263,6 +5284,10 @@
               },
               {
                 "role": "member",
+                "username": "jmgutu"
+              },
+              {
+                "role": "member",
                 "username": "mzemlickis"
               },
               {
@@ -6315,7 +6340,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"230b169d8dbd3db8d507c6f87d24eb2b2b7f36a2d7a6b3f6798ffbd633c48e2a\"",
+            "etag": "W/\"48914671b018e31c9e30e610eb0e4576c9f539347a62c535a8f2bcaa6019fc6c\"",
             "id": "13333849:django-prometheus",
             "permission": "admin",
             "repository": "django-prometheus",
@@ -6369,7 +6394,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"047d740f8ea6438b18cd540f168822e9c05d5fe7abcab00c2d989b3d63cbfd70\"",
+            "etag": "W/\"c2939fb86c091db45ed3ea73c48a2a2acc1cf9d6ef1e6f07f525e72271373477\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -6575,7 +6600,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"23cdf335cd37e1575e9d35fc741a5677e194f575874c4dc1210f9e16c5c6f728\"",
+            "etag": "W/\"455b481f45f6e55912d2297ab1bd010a124d20debd4d79754d6e3c748940a59a\"",
             "id": "13333848:django-prometheus",
             "permission": "maintain",
             "repository": "django-prometheus",
@@ -6629,7 +6654,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5676ffde5fedc723b0da4e72120464c1402967e341a8df7150ba8a8ac34ac7ab\"",
+            "etag": "W/\"31c9def957a1d2ac17b078acdf02d95b0aa6f5ebac393c4441b8b1258be40952\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -6828,7 +6853,7 @@
           "index_key": "django-prometheus",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"61b6ff73bdbcb8a2fea5853b29982d3316365d60d8f10e8d47270ba0ac25dca7\"",
+            "etag": "W/\"ae65eefa2144565ff4530e228b267ba7c4e7aff00c12c98d6cb2adfba2e16b3d\"",
             "id": "13333847:django-prometheus",
             "permission": "triage",
             "repository": "django-prometheus",
@@ -6879,7 +6904,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"1b356355969f51e10300162b7d305061867dd610cfe63118a51cc8ffeb895a0b\"",
+            "etag": "W/\"962a7391fd2fa0724d17dd4bae40ce76987f718a3d0f94a6fef91224eabdd6de\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",

@@ -8,11 +8,11 @@ admins = [
 ]
 
 designers = [
-  "  # enable when member has accepted the inviteviscofuse",
-  "# SmitK",
   "akshayvinchurkar",
   "jmgutu",
   "mzemlickis",
+  # "SmitK",  # enable when member has accepted the invite
+  "viscofuse",
   "Zakui",
 ]
 

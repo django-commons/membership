@@ -9,6 +9,7 @@ admins = [
 
 designers = [
   "akshayvinchurkar",
+  "jmgutu",
   "mzemlickis",
   # "SmitK",  # enable when member has accepted the invite
   "viscofuse",
@@ -52,6 +53,7 @@ members = [
   "jburns6789",
   "jcjudkins",
   "jezdez",
+  "jmgutu",
   "johnfraney",
   "Josephchinedu",
   "joshuadavidthomas",

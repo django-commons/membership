@@ -8,10 +8,11 @@ admins = [
 ]
 
 designers = [
+  "  # enable when member has accepted the inviteviscofuse",
+  "# SmitK",
   "akshayvinchurkar",
+  "johnatanmoran",
   "mzemlickis",
-  # "SmitK",  # enable when member has accepted the invite
-  "viscofuse",
   "Zakui",
 ]
 
@@ -52,6 +53,7 @@ members = [
   "jburns6789",
   "jcjudkins",
   "jezdez",
+  "johnatanmoran",
   "johnfraney",
   "Josephchinedu",
   "joshuadavidthomas",

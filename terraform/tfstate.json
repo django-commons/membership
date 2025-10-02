@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.3",
-  "serial": 643,
+  "serial": 646,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -102,9 +102,10 @@
               "",
               "",
               "",
+              "",
               ""
             ],
-            "id": "3fdccfbf58d435f140f43390c211a9b1",
+            "id": "1344a029268c58ab57f65099885bfb43",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -154,6 +155,7 @@
               "jcjudkins",
               "jezdez",
               "jmgutu",
+              "johnatanmoran",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -236,6 +238,7 @@
               "MDQ6VXNlcjM0NDE3NTcz",
               "MDQ6VXNlcjE2MTA=",
               "MDQ6VXNlcjE0NDExNjE=",
+              "MDQ6VXNlcjUzNDIxMTM=",
               "MDQ6VXNlcjE3Mjg1Mjg=",
               "MDQ6VXNlcjE5ODk2MjY3",
               "U_kgDOBYTIXg",
@@ -319,6 +322,7 @@
               "jcjudkins",
               "jezdez",
               "jmgutu",
+              "johnatanmoran",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -386,7 +390,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"7dea295d1da665e6f4f5ef012139f093b130092fec4a1e8bdab46fed01a10776\"",
+            "etag": "W/\"ec2edd34b0de40b283fc150aff5ed83e6dcc703e99323d024db11646f3730b95\"",
             "id": "django-commons:Chiemezuo",
             "role": "member",
             "username": "Chiemezuo"
@@ -1155,6 +1159,23 @@
             "id": "django-commons:jmgutu",
             "role": "member",
             "username": "jmgutu"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "johnatanmoran",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"1f763fda93e4aa23115aa1dd809898ea78ebd083c742a436301984f1a6f35a2d\"",
+            "id": "django-commons:johnatanmoran",
+            "role": "member",
+            "username": "johnatanmoran"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2909,7 +2930,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"970af575579e8e990aafee5174e766eca0e23f5e41e3058f6bd17d3c80ca5f1e\"",
+            "etag": "W/\"40daf0b2fb8c38a2714d651ea70d0d30ef46cbc9f867f02ff98ae09c7bb640a6\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -5276,6 +5297,14 @@
             "members": [
               {
                 "role": "member",
+                "username": "# SmitK"
+              },
+              {
+                "role": "member",
+                "username": "# enable when member has accepted the invite SmitK"
+              },
+              {
+                "role": "member",
                 "username": "Zakui"
               },
               {
@@ -5285,6 +5314,10 @@
               {
                 "role": "member",
                 "username": "jmgutu"
+              },
+              {
+                "role": "member",
+                "username": "johnatanmoran"
               },
               {
                 "role": "member",

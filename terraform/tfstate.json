@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.3",
-  "serial": 646,
+  "serial": 649,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -102,10 +102,9 @@
               "",
               "",
               "",
-              "",
               ""
             ],
-            "id": "1344a029268c58ab57f65099885bfb43",
+            "id": "3fdccfbf58d435f140f43390c211a9b1",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -155,7 +154,6 @@
               "jcjudkins",
               "jezdez",
               "jmgutu",
-              "johnatanmoran",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -238,7 +236,6 @@
               "MDQ6VXNlcjM0NDE3NTcz",
               "MDQ6VXNlcjE2MTA=",
               "MDQ6VXNlcjE0NDExNjE=",
-              "MDQ6VXNlcjUzNDIxMTM=",
               "MDQ6VXNlcjE3Mjg1Mjg=",
               "MDQ6VXNlcjE5ODk2MjY3",
               "U_kgDOBYTIXg",
@@ -322,7 +319,6 @@
               "jcjudkins",
               "jezdez",
               "jmgutu",
-              "johnatanmoran",
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
@@ -1159,23 +1155,6 @@
             "id": "django-commons:jmgutu",
             "role": "member",
             "username": "jmgutu"
-          },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0,
-          "private": "bnVsbA==",
-          "dependencies": [
-            "data.github_users.users"
-          ]
-        },
-        {
-          "index_key": "johnatanmoran",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"1f763fda93e4aa23115aa1dd809898ea78ebd083c742a436301984f1a6f35a2d\"",
-            "id": "django-commons:johnatanmoran",
-            "role": "member",
-            "username": "johnatanmoran"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2930,7 +2909,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"40daf0b2fb8c38a2714d651ea70d0d30ef46cbc9f867f02ff98ae09c7bb640a6\"",
+            "etag": "W/\"5eacf2df104793472c9124b33a22c3ad6e5165ededf2fb7dfba9141061c12df3\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -5297,14 +5276,6 @@
             "members": [
               {
                 "role": "member",
-                "username": "# SmitK"
-              },
-              {
-                "role": "member",
-                "username": "# enable when member has accepted the invite SmitK"
-              },
-              {
-                "role": "member",
                 "username": "Zakui"
               },
               {
@@ -5314,10 +5285,6 @@
               {
                 "role": "member",
                 "username": "jmgutu"
-              },
-              {
-                "role": "member",
-                "username": "johnatanmoran"
               },
               {
                 "role": "member",

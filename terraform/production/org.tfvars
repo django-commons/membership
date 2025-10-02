@@ -11,8 +11,10 @@ designers = [
   "  # enable when member has accepted the inviteviscofuse",
   "# SmitK",
   "akshayvinchurkar",
+  "jmgutu",
   "johnatanmoran",
   "mzemlickis",
+  "viscofuse",
   "Zakui",
 ]
 
@@ -53,6 +55,7 @@ members = [
   "jburns6789",
   "jcjudkins",
   "jezdez",
+  "jmgutu",
   "johnatanmoran",
   "johnfraney",
   "Josephchinedu",

@@ -104,8 +104,10 @@ repositories = {
     members = [
       "andoriyaprashant",
       "blingblin-g",
+      "Chiemezuo",
       "devatbosch",
       "dr-rompecabezas",
+      "jmgutu",
       "VeldaKiara",
       "Zakui",
     ]

@@ -16,6 +16,7 @@ designers = [
   "jmgutu",
   "johnatanmoran",
   "mzemlickis",
+  "Violette-Allotey",
   "viscofuse",
   "Zakui",
 ]
@@ -96,6 +97,7 @@ members = [
   "ulgens",
   "unmonoqueteclea",
   "VeldaKiara",
+  "Violette-Allotey",
   "viscofuse",
   "Zakui",
 ]

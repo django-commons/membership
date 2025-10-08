@@ -48,6 +48,7 @@ members = [
   "dr-rompecabezas",
   "elineda",
   "FlipperPA",
+  "fsbraun",
   "g-nie",
   "GaretJax",
   "gav-fyi",

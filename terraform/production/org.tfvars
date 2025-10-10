@@ -7,6 +7,14 @@ admins = [
   "williln",
 ]
 
+ops_team = [
+  "cunla",
+  "ryancheley",
+  "Stormheg",
+  "tim-schilling",
+  "williln",
+]
+
 # Design members
 designers = [
   "akshayvinchurkar",
@@ -113,10 +121,23 @@ members = [
   "viscofuse",
   "Zakui",
 ]
-
 organization_teams = {
+  # This team should be enabled as moderators which can't be configured
+  # via the GitHub Terraform integration.
+  # https://github.com/organizations/django-commons/settings/moderators
   "Admins" = {
-    description = "django-commons administrators"
+    description = "django-commons administrators team with moderator permissions in the org."
+    # Use maintainers for organizational teams
+    maintainers = [
+      "cunla",
+      "ryancheley",
+      "Stormheg",
+      "tim-schilling",
+      "williln",
+    ]
+  }
+  "operations" = {
+    description = "django-commons operations team with admin permissions in the org."
     # Use maintainers for organizational teams
     maintainers = [
       "cunla",

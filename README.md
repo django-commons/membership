@@ -101,4 +101,4 @@ Any package is welcome to join Django Commons so long as it has tangible benefit
 
 ### Logo
 
-Vectors and icons by [Raisul Hadi](https://dribbble.com/Broc_Simp?ref=svgrepo.com) in CC Attribution License via [SVG Repo](https://www.svgrepo.com/).
+Logo was designed by [Violette-Allotey](https://github.com/Violette-Allotey)

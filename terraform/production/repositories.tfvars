@@ -108,6 +108,7 @@ repositories = {
       "devatbosch",
       "dr-rompecabezas",
       "jmgutu",
+      "JohananOppongAmoateng"
       "VeldaKiara",
       "Zakui",
     ]

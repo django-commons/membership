@@ -111,7 +111,7 @@ repositories = {
       "dr-rompecabezas",
       "federicobond",
       "jmgutu",
-      "JohananOppongAmoateng"
+      "JohananOppongAmoateng",
       "VeldaKiara",
       "Zakui",
     ]

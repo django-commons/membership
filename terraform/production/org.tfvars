@@ -61,6 +61,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "jmgutu",
+  "JohananOppongAmoateng",
   "johnatanmoran",
   "johnfraney",
   "Josephchinedu",

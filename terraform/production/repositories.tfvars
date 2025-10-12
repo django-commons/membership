@@ -61,6 +61,7 @@ repositories = {
     ]
     committers = [
       "DhavalGojiya",
+      "cclauss",
     ]
     members = [
     ]

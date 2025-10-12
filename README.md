@@ -101,4 +101,4 @@ Any package is welcome to join Django Commons so long as it has tangible benefit
 
 ### Logo
 
-Logo was designed by [Violette-Allotey](https://github.com/Violette-Allotey)
+Logo was designed by [Violette Naa Adoley Allotey](https://www.linkedin.com/in/violette-naa-adoley-allotey/)

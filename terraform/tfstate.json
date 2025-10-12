@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.13.3",
-  "serial": 668,
+  "serial": 671,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2247,7 +2247,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A configurable set of panels that display various debug information about the current request/response.",
-            "etag": "W/\"c9986e442c151695f02ceae59cbfb1383c259b61fa830928cde36fc4fd756bdb\"",
+            "etag": "W/\"dccbaf8c2bf45edfc92ee4b928ec5bbf52ceeab6ab7b3e9bbcc32abce3821157\"",
             "full_name": "django-commons/django-debug-toolbar",
             "git_clone_url": "git://github.com/django-commons/django-debug-toolbar.git",
             "gitignore_template": null,
@@ -2687,7 +2687,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used.",
-            "etag": "W/\"4d138261762c838899f1a7a7db17fc6cf2d36c6dbfe3a693735815da30e997ac\"",
+            "etag": "W/\"d9ba6662ea7a7430d67265b8359b974b2cf7480925b1f984894b7c2798b67692\"",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -2993,7 +2993,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"6fe364a032cb392e895c750fb9e9ca62576f8a9b637b320e4823ac8132575f36\"",
+            "etag": "W/\"ef90f6fde908fbbed62ab38ed7faa56ce1907e2a0be6f971f85a3939ce35e976\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -5890,6 +5890,31 @@
           ]
         },
         {
+          "index_key": "django-tasks-scheduler",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-tasks-scheduler-committers",
+            "members": [
+              {
+                "role": "member",
+                "username": "DhavalGojiya"
+              },
+              {
+                "role": "member",
+                "username": "cclauss"
+              }
+            ],
+            "team_id": "django-tasks-scheduler-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "drf-excel",
           "schema_version": 0,
           "attributes": {
@@ -6218,7 +6243,11 @@
               },
               {
                 "role": "member",
-                "username": "devatbosch"
+                "username": "DhavalGojiya"
+              },
+              {
+                "role": "member",
+                "username": "cclauss"
               }
             ],
             "team_id": "django-tasks-scheduler"
@@ -6390,7 +6419,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"8bc1f062edfa289ba8909caca4e93c1211202ed354dd6655917418df26a0f5bd\"",
+            "etag": "W/\"0144e3e43d7ba9056476e6ac1650e48587a1ceab9f2ebcde8cda30eca839950b\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -6498,7 +6527,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"67f379fa5334c413cd73a399c0cde80751df8d36efc3559bae338f436a677217\"",
+            "etag": "W/\"e66d3b0faf2cbf6c0ca3212a512cdb234501b43e44e8e62d6f2ec8ef1d12d478\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -6650,7 +6679,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"db752df5d9cd3bb785c0d56967014af93eef348b20398d2ca7910ac4afc4f29e\"",
+            "etag": "W/\"f680b20ab1d7397ecee3253a63141f2a5cd48ba2b552325803115598a71cc15d\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -6758,7 +6787,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"99267103b184823a552466f7aaeac2b6ae1feda19733fd164706806c640cee33\"",
+            "etag": "W/\"ecd83f28a62dc54f4900b217459a68f7ff137397d3222f4c701568ae4fd10cb3\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -6906,7 +6935,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a28955d7fbc10c6d1bc3d556d3e946b6e62eaca05afdca157e06599fcba8ec38\"",
+            "etag": "W/\"a39c90e4444d25a4384aed48ca761033459e0ec4a7d48db85a353eb5b6ea1e7d\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -7008,7 +7037,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"8c2c67945a0e84d00fd2b75ca0536456360f487c9ebec20d1d2777d030b310e3\"",
+            "etag": "W/\"236f170395fae9faff01ca9bdf01d7ada9ce1ddf60e3cef3839288f54cee4ca4\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",

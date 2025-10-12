@@ -59,9 +59,11 @@ repositories = {
     admins = [
       "cunla",
     ]
-    committers = []
+    committers = [
+      "DhavalGojiya",
+      "cclauss",
+    ]
     members = [
-      "devatbosch",
     ]
   }
 

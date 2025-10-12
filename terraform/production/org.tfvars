@@ -8,9 +8,6 @@ admins = [
 ]
 
 # Design members
-#
-# Enable following members when they've accepted the invite
-# "SmitK",
 designers = [
   "akshayvinchurkar",
   "jmgutu",
@@ -61,6 +58,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "jmgutu",
+  "JohananOppongAmoateng",
   "johnatanmoran",
   "johnfraney",
   "Josephchinedu",
@@ -92,7 +90,6 @@ members = [
   "salty-ivy",
   "sergei-maertens",
   "SinkuKumar",
-  "SmitK",
   "sobolevn",
   "testSchilling",
   "thibaudcolas",

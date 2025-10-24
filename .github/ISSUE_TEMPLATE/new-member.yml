@@ -16,12 +16,6 @@ body:
       placeholder: Keep it to 2-4 sentences.
     validations:
       required: true
-  - type: textarea
-    id: which-projects
-    attributes:
-      label: Which project(s) are you looking to contribute to?
-    validations:
-      required: false
   - type: checkboxes
     id: general
     attributes:

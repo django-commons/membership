@@ -38,7 +38,6 @@ members = [
   "cgl",
   "Chiemezuo",
   "clintonb",
-  "Creativeklvn",
   "ddabble",
   "deronnax",
   "devatbosch",

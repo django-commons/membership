@@ -95,7 +95,7 @@ jobs:
         run: |
           gh pr create \
             --title "Add ${{ env.USERNAME }} to django-commons" \
-            --body "Fix #${{ env.ISSUE_NUMBER }}" \
+            --body "Fix #${{ env.ISSUE_NUMBER }}\n[New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
             --base main \
             --head ${{ env.BRANCH_NAME }} \
             --label "New member"

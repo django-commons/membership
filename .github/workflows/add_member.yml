@@ -28,35 +28,41 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Get username to add
         id: get_username
         run:
-          python -c "print('USERNAME='+'${{ github.event.issue.title }}'.split(' - ')[1].strip().lstrip('@'))" >> $GITHUB_ENV
+          python -c "print('USERNAME='+'${GITHUB_EVENT_ISSUE_TITLE}'.split(' - ')[1].strip().lstrip('@'))" >> $GITHUB_ENV
+        env:
+          GITHUB_EVENT_ISSUE_TITLE: ${{ github.event.issue.title }}
 
       - name: Validate add user request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_USER: ${{ env.ISSUE_USER }}
+          USERNAME: ${{ env.USERNAME }}
+          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
         run: |
           # Check whether the user exists
           set +e
-          gh api /users/${{ env.USERNAME }} > /dev/null
+          gh api /users/${USERNAME} > /dev/null
           if [ $? -ne 0 ]; then
-              gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} does not exist."
+              gh issue comment ${ISSUE_NUMBER} --body "User ${USERNAME} does not exist."
               exit 1
           fi
 
           # Check if the username is in the title is the same as the user who opened the issue
-          if [ "${{ env.USERNAME }}" != "${{ env.ISSUE_USER }}" ]; then
-              gh issue comment ${{ env.ISSUE_NUMBER }} --body "If you want to add a different user, please create a PR for it"
+          if [ "${USERNAME}" != "${ISSUE_USER}" ]; then
+              gh issue comment ${ISSUE_NUMBER} --body "If you want to add a different user, please create a PR for it"
               exit 1
           fi
           
           # Check if the user is already a member of the org
-          gh api /orgs/django-commons/members/${{ env.USERNAME }} > /dev/null
+          gh api /orgs/django-commons/members/${USERNAME} > /dev/null
           if [ $? -eq 0 ]; then
-              gh issue comment ${{ env.ISSUE_NUMBER }} --body "User ${{ env.USERNAME }} is already a member of django-commons."
+              gh issue comment ${ISSUE_NUMBER} --body "User ${USERNAME} is already a member of django-commons."
               exit 1
           fi
 
@@ -66,38 +72,50 @@ jobs:
           git config user.email noreply@github.com
 
       - name: Create branch
-        run: git checkout -b ${{ env.BRANCH_NAME }}
+        run: git checkout -b ${BRANCH_NAME}
+        env:
+          BRANCH_NAME: ${{ env.BRANCH_NAME }}
 
       - name: Check if user wants to become a designer
         id: check_designer
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
+          USERNAME: ${{ env.USERNAME }}
         run: |
-          ADD_TO_DESIGNERS=$(gh issue view ${{ env.ISSUE_NUMBER }} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")')
+          ADD_TO_DESIGNERS=$(gh issue view ${ISSUE_NUMBER} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")')
           if [ "$ADD_TO_DESIGNERS" = "true" ]; then
-            python scripts/add_member.py ${{ env.USERNAME }} designers
+            python scripts/add_member.py ${USERNAME} designers
           else
             echo "User does not want to join the designers team."
           fi
 
       - name: Add user to the list
         run: |
-          python scripts/add_member.py ${{ env.USERNAME }} members
+          python scripts/add_member.py ${USERNAME} members
+        env:
+          USERNAME: ${{ env.USERNAME }}
 
       - name: Commit changes
         run: |
           git add terraform/production/org.tfvars
-          git commit -m "Add ${{ env.USERNAME }} to django-commons"
-          git push origin ${{ env.BRANCH_NAME }}
+          git commit -m "Add ${USERNAME} to django-commons"
+          git push origin ${BRANCH_NAME}
+        env:
+          USERNAME: ${{ env.USERNAME }}
+          BRANCH_NAME: ${{ env.BRANCH_NAME }}
 
       - name: Create pull request
         run: |
           gh pr create \
-            --title "Add ${{ env.USERNAME }} to django-commons" \
-            --body "Fix #${{ env.ISSUE_NUMBER }}\n[New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
+            --title "Add ${USERNAME} to django-commons" \
+            --body "Fix #${ISSUE_NUMBER}\n[New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
             --base main \
-            --head ${{ env.BRANCH_NAME }} \
+            --head ${BRANCH_NAME} \
             --label "New member"
         env:
           GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          USERNAME: ${{ env.USERNAME }}
+          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
+          BRANCH_NAME: ${{ env.BRANCH_NAME }}

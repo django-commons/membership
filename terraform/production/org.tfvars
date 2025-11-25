@@ -76,6 +76,7 @@ members = [
   "matthiask",
   "mihrab34",
   "mkalioby",
+  "mnislam01",
   "Mogost",
   "MrCordeiro",
   "mzemlickis",

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.0",
-  "serial": 681,
+  "serial": 684,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -86,6 +86,7 @@
               "mk@feinheit.ch",
               "",
               "mkalioby@mkalioby.com",
+              "mnazrul.c@gmail.com",
               "mzemlickis@gmail.com",
               "info@akmiller.co.uk",
               "info@okotdaniel.com",
@@ -110,7 +111,7 @@
               "",
               ""
             ],
-            "id": "d8b42b11ceb02160fc76b75cb5dabc85",
+            "id": "221d395c949adccc79d8b789906090a5",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -175,6 +176,7 @@
               "matthiask",
               "mihrab34",
               "mkalioby",
+              "mnislam01",
               "mzemlickis",
               "nanorepublica",
               "okotdaniel",
@@ -263,6 +265,7 @@
               "MDQ6VXNlcjI2Mjc=",
               "MDQ6VXNlcjM1NTYyMTMx",
               "MDQ6VXNlcjEwNDE0MDIw",
+              "MDQ6VXNlcjI0OTI5NDY2",
               "MDQ6VXNlcjQ1NTY5NDQ=",
               "MDQ6VXNlcjE5OTc5NDA=",
               "MDQ6VXNlcjQxNzQ0MDEy",
@@ -352,6 +355,7 @@
               "matthiask",
               "mihrab34",
               "mkalioby",
+              "mnislam01",
               "mzemlickis",
               "nanorepublica",
               "okotdaniel",
@@ -1039,7 +1043,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"1b605aa29f0f5e395f1ecd66e56d50287833d99b41ed7d052fccf9c4e68f3dbf\"",
+            "etag": "W/\"d5b0171b2d3ab2e1f6c32342457274e5c31bd526291c6936d8b33d8ff7320fd1\"",
             "id": "django-commons:federicobond",
             "role": "member",
             "username": "federicobond"
@@ -1434,6 +1438,23 @@
             "id": "django-commons:mkalioby",
             "role": "member",
             "username": "mkalioby"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "mnislam01",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"8272c6c12dd4d62ad246d4c1c4d0e6851e001999395c6510e08edd0e0c4b7870\"",
+            "id": "django-commons:mnislam01",
+            "role": "member",
+            "username": "mnislam01"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -3035,7 +3056,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"16b6ec1b2317da8a8b618597da146d96178a17d57b57e6a45d107ae7e0472e62\"",
+            "etag": "W/\"97c04fd9dd136b3a81a9d96b0fd3d6294906ae439770818d0a6184f68a825739\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,

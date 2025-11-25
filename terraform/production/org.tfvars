@@ -10,6 +10,7 @@ admins = [
 # Design members
 designers = [
   "akshayvinchurkar",
+  "federicobond",
   "jmgutu",
   "johnatanmoran",
   "mzemlickis",
@@ -45,6 +46,7 @@ members = [
   "dmpayton",
   "dr-rompecabezas",
   "elineda",
+  "federicobond",
   "FlipperPA",
   "fsbraun",
   "g-nie",

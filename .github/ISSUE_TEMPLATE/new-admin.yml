@@ -9,7 +9,7 @@ body:
       value: |
         Thanks for expressing interest in being an administrator for Django Commons!
         > [!NOTE]
-        > We are currently not accepting new admins. We will be revisiting our admin team around April of 2025. Please send your application though and we will reach out when we re-assess things.
+        > We revisit our admin team on an annual basis and do not accept new admins on an ad-hoc basis. Please submit this application so that we can reach out when we revisit our admin team. Thank you for your understanding!
   - type: checkboxes
     id: dsf-member
     attributes:

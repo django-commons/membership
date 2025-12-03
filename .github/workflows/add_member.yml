@@ -18,6 +18,7 @@ jobs:
       issues: write
     env:
       ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_USER: ${{ github.event.issue.user.login }}
       BRANCH_NAME: "add-user/${{ github.event.issue.number }}"
 
     steps:
@@ -41,9 +42,6 @@ jobs:
       - name: Validate add user request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_USER: ${{ env.ISSUE_USER }}
-          USERNAME: ${{ env.USERNAME }}
-          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
         run: |
           # Check whether the user exists
           set +e
@@ -73,16 +71,12 @@ jobs:
 
       - name: Create branch
         run: git checkout -b ${BRANCH_NAME}
-        env:
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}
 
       - name: Check if user wants to become a designer
         id: check_designer
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
-          USERNAME: ${{ env.USERNAME }}
         run: |
           ADD_TO_DESIGNERS=$(gh issue view ${ISSUE_NUMBER} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")')
           if [ "$ADD_TO_DESIGNERS" = "true" ]; then
@@ -94,17 +88,12 @@ jobs:
       - name: Add user to the list
         run: |
           python scripts/add_member.py ${USERNAME} members
-        env:
-          USERNAME: ${{ env.USERNAME }}
 
       - name: Commit changes
         run: |
           git add terraform/production/org.tfvars
           git commit -m "Add ${USERNAME} to django-commons"
           git push origin ${BRANCH_NAME}
-        env:
-          USERNAME: ${{ env.USERNAME }}
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}
 
       - name: Create pull request
         run: |
@@ -116,6 +105,3 @@ jobs:
             --label "New member"
         env:
           GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
-          USERNAME: ${{ env.USERNAME }}
-          ISSUE_NUMBER: ${{ env.ISSUE_NUMBER }}
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}

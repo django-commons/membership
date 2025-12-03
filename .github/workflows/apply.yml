@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: terraform apply
         # v1.44.0
@@ -40,7 +42,8 @@ jobs:
 
       - name: Commit changes
         if: ${{ always() }}
-        uses: devops-infra/action-commit-push@v0.10.0
+        # v0.10.0
+        uses: devops-infra/action-commit-push@b8c990ac36bac67f71133ad7ec3da1d7abf4d57e
         with:
           github_token: "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           commit_prefix: "[AUTO]"

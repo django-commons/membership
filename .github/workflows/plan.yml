@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: "${{ github.event.pull_request.head.ref }}"
+          persist-credentials: false
 
 
       - name: terraform fmt
@@ -29,7 +30,8 @@ jobs:
           path: "terraform"
 
       - name: Commit changes
-        uses: devops-infra/action-commit-push@v0.9.2
+        # v0.9.2
+        uses: devops-infra/action-commit-push@be5ba37125c79eb0016cbd8cc385f0aa160538c5
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           commit_prefix: "[AUTO]"
@@ -48,6 +50,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: terraform plan
         # v1.44.0

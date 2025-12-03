@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.0",
-  "serial": 689,
+  "serial": 692,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2055,7 +2055,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "A sample project with best practices for Django Commons projects.",
-            "etag": "W/\"c0c867551f920e8bd78220c2d1f42078381d1615bccc72bf6fc28dd1a48d3bac\"",
+            "etag": "W/\"70dd46fdc6f0e59dcef2b82ffc061ebda02ec3573df5914d3daf0f7912eb9285\"",
             "full_name": "django-commons/best-practices",
             "git_clone_url": "git://github.com/django-commons/best-practices.git",
             "gitignore_template": null,
@@ -3077,7 +3077,7 @@
             "default_branch": "main",
             "delete_branch_on_merge": true,
             "description": "Membership repository for the django-commons organization.",
-            "etag": "W/\"20ec35d965ba777b25b072429783e10e0fca5cda231f97bf6ce726d6a09e0901\"",
+            "etag": "W/\"5065a95bd6f8112b8893cbec07bbedb62b1bc99db1b159fa0d548cec6412a3e2\"",
             "full_name": "django-commons/membership",
             "git_clone_url": "git://github.com/django-commons/membership.git",
             "gitignore_template": null,
@@ -6171,6 +6171,10 @@
               },
               {
                 "role": "member",
+                "username": "JohananOppongAmoateng"
+              },
+              {
+                "role": "member",
                 "username": "VeldaKiara"
               },
               {
@@ -6469,7 +6473,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ee67c683d6315f1aaceda420d370667fcad10fb3060d65d16c4f613aa75aa633\"",
+            "etag": "W/\"f7b4fce371a32b77be6eba607ef1508217cb9c00f6021a4d70e8f475afaaf077\"",
             "id": "9757650:best-practices",
             "permission": "admin",
             "repository": "best-practices",
@@ -6729,7 +6733,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"257fe372511eda5c3d6783f10bf578e00306cb69629840808b942fc1083cb87d\"",
+            "etag": "W/\"66184b1655af8d13720726ea3d58983aa504ab033570bcc85f5c06048fc9d418\"",
             "id": "9757668:best-practices",
             "permission": "maintain",
             "repository": "best-practices",
@@ -6988,7 +6992,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c24e54ff2b0e7350e61c8821653bb5cd49f9c3b4d35759898bbd40513fd944c3\"",
+            "etag": "W/\"162d74ae0f29270c427aeeb2f9caa91b92f5b26058feb262eab2f5bcd7c20e6d\"",
             "id": "9757678:best-practices",
             "permission": "triage",
             "repository": "best-practices",

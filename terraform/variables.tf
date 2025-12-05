@@ -6,7 +6,7 @@ variable "admins" {
   type        = set(string)
 }
 
-variable "ops_team" {
+variable "super_admins" {
   description = "A set of users who have operational permissions to add to the organization"
   type        = set(string)
 }

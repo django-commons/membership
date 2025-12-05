@@ -1,7 +1,7 @@
 # GitHub Membership Resource
 # https://registry.terraform.io/providers/integrations/github/latest/docs/resources/membership
 data "github_users" "users" {
-  usernames = setunion(var.admins, var.ops_team, var.members)
+  usernames = setunion(var.admins, var.super_admins, var.members)
 }
 
 output "invalid_users" {
@@ -11,7 +11,7 @@ output "invalid_users" {
 locals {
   users = merge(
     { for user in var.admins : user => "admin" if contains(data.github_users.users.logins, user) },
-    { for user in var.ops_team : user => "admin" if contains(data.github_users.users.logins, user) },
+    { for user in var.super_admins : user => "admin" if contains(data.github_users.users.logins, user) },
     { for user in var.members : user => "member" if contains(data.github_users.users.logins, user) }
   )
 }

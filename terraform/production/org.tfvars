@@ -7,7 +7,7 @@ admins = [
   "williln",
 ]
 
-ops_team = [
+super_admins = [
   "cunla",
   "ryancheley",
   "Stormheg",

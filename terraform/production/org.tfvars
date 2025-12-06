@@ -122,15 +122,6 @@ organization_teams = {
       "williln",
     ]
   }
-  "security-team" = {
-    description = "django-commons security team"
-    # Use maintainers for organizational teams
-    maintainers = [
-      "matthiask",
-      "tim-schilling",
-    ]
-    permission = "push"
-  }
 }
 
 ################ GitHub Organization Secrets, not used at the moment #############

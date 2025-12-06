@@ -14,10 +14,6 @@ locals {
       {
         team_id    = github_team.repo_team[key].slug
         permission = "triage"
-      },
-      {
-        team_id    = github_team.org_teams["security-team"].slug
-        permission = "pull"
       }
     ]
   }

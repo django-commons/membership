@@ -21,15 +21,15 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
           persist-credentials: false
 
       - name: terraform apply
-        # v1.44.0
+        # v2.2.2
         # Use the commit hash for security hardening
         # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions
-        uses: dflook/terraform-apply@7d435d4d115a11e5db1e710ac969f5382f0f6f9f
+        uses: dflook/terraform-apply@7a9d257a248c7357c1b1af7f09ff5fef8e0abb78
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -42,8 +42,8 @@ jobs:
 
       - name: Commit changes
         if: ${{ always() }}
-        # v0.10.0
-        uses: devops-infra/action-commit-push@b8c990ac36bac67f71133ad7ec3da1d7abf4d57e
+        # v1.0.3
+        uses: devops-infra/action-commit-push@8a2d9d73c3f506468129be2e4409e60dbed70357
         with:
           github_token: "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           commit_prefix: "[AUTO]"

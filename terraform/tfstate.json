@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 749,
+  "serial": 764,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -3246,7 +3246,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "axe-selenium-python",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "axe-selenium-python",
             "team": [
@@ -3270,6 +3274,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3280,7 +3285,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "best-practices",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "best-practices",
             "team": [
@@ -3304,6 +3313,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3314,7 +3324,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-click",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-click",
             "team": [
@@ -3338,6 +3352,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3348,7 +3363,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-cookie-consent",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-cookie-consent",
             "team": [
@@ -3372,6 +3391,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3382,7 +3402,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-debug-toolbar",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-debug-toolbar",
             "team": [
@@ -3406,6 +3430,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3416,7 +3441,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-enum",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-enum",
             "team": [
@@ -3440,6 +3469,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3450,7 +3480,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-fsm-2",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-fsm-2",
             "team": [
@@ -3474,6 +3508,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3484,7 +3519,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-prometheus",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-prometheus",
             "team": [
@@ -3508,6 +3547,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3518,7 +3558,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-simple-history",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-simple-history",
             "team": [
@@ -3542,6 +3586,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3552,7 +3597,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-tailwind-cli",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-tailwind-cli",
             "team": [
@@ -3576,6 +3625,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3586,7 +3636,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-tasks-scheduler",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-tasks-scheduler",
             "team": [
@@ -3610,6 +3664,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3620,7 +3675,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-typer",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-typer",
             "team": [
@@ -3644,6 +3703,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3654,7 +3714,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-valkey",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-valkey",
             "team": [
@@ -3678,6 +3742,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3688,7 +3753,11 @@
           "schema_version": 0,
           "attributes": {
             "id": "drf-excel",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "drf-excel",
             "team": [
@@ -3712,6 +3781,7 @@
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
+            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"

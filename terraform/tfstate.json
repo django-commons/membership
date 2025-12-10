@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 766,
+  "serial": 769,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -5442,10 +5442,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-tasks-scheduler repository",
-            "etag": "W/\"940f631707e9bdf0ef66a823882a4337e05685e7340f4011f48e4b71980ca774\"",
+            "etag": "W/\"c42f4679b3d04a8ab8008d5fd024f3801a839a1ac8af3db04f6cda7e7dd4d3fa\"",
             "id": "10707217",
             "ldap_dn": "",
-            "members_count": 4,
+            "members_count": 3,
             "name": "django-tasks-scheduler",
             "node_id": "T_kwDOCaaRBM4Ao2ER",
             "parent_team_id": "",
@@ -6015,6 +6015,27 @@
           ]
         },
         {
+          "index_key": "django-click",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-click-committers",
+            "members": [
+              {
+                "role": "member",
+                "username": "ulgens"
+              }
+            ],
+            "team_id": "django-click-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
           "index_key": "django-cookie-consent",
           "schema_version": 0,
           "attributes": {
@@ -6191,6 +6212,10 @@
               {
                 "role": "member",
                 "username": "GaretJax"
+              },
+              {
+                "role": "member",
+                "username": "ulgens"
               }
             ],
             "team_id": "django-click"

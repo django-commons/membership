@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 764,
+  "serial": 766,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -6419,10 +6419,6 @@
               {
                 "role": "maintainer",
                 "username": "cunla"
-              },
-              {
-                "role": "maintainer",
-                "username": "tim-schilling"
               },
               {
                 "role": "member",

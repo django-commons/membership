@@ -4,10 +4,6 @@ locals {
   repo_collaborators = {
     for key, value in local.project_repositories : key => [
       {
-        team_id    = github_team.org_teams["Admins"].slug
-        permission = "pull"
-      },
-      {
         team_id    = github_team.repo_admin_team[key].slug
         permission = "admin"
       },

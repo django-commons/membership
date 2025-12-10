@@ -27,7 +27,7 @@ resource "github_membership" "this" {
 
 resource "github_organization_role_team" "admins_security_manager" {
   team_slug = github_team.org_teams["Admins"].slug
-  role_id     = 138 #
+  role_id   = 138 #
 }
 
 # Create the organization teams for Django Commons.

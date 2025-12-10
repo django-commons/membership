@@ -6,6 +6,8 @@ on:
     paths:
       - 'terraform/production/*.tfvars'
       - 'terraform/*.tf'
+      - '.github/workflows/apply.yml'
+      # Do not trigger the plan action when it's been changed since this action has write permissions
 
 concurrency:
   group: terraform-actions

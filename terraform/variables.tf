@@ -2,7 +2,12 @@
 # https://www.terraform.io/language/values/variables
 
 variable "admins" {
-  description = "A set of admins to add to the organization"
+  description = "A set of users who are admins to add to the organization"
+  type        = set(string)
+}
+
+variable "super_admins" {
+  description = "A set of users who have operational permissions to add to the organization"
   type        = set(string)
 }
 

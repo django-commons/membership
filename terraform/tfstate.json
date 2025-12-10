@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.10.7",
-  "serial": 717,
+  "terraform_version": "1.14.1",
+  "serial": 719,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -17,7 +17,7 @@
       "mode": "data",
       "type": "github_users",
       "name": "users",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -385,7 +385,8 @@
               "williln"
             ]
           },
-          "sensitive_attributes": []
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
         }
       ]
     },
@@ -393,7 +394,7 @@
       "mode": "managed",
       "type": "github_membership",
       "name": "this",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "2ykwang",
@@ -406,6 +407,7 @@
             "username": "2ykwang"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -422,6 +424,7 @@
             "username": "Chiemezuo"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -438,6 +441,7 @@
             "username": "DhavalGojiya"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -454,6 +458,7 @@
             "username": "FlipperPA"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -470,6 +475,7 @@
             "username": "GaretJax"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -486,6 +492,7 @@
             "username": "JaeHyuckSa"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -502,6 +509,7 @@
             "username": "JohananOppongAmoateng"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -518,6 +526,7 @@
             "username": "Josephchinedu"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -534,6 +543,7 @@
             "username": "Mogost"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -550,6 +560,7 @@
             "username": "MrCordeiro"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -566,6 +577,7 @@
             "username": "Natim"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -582,6 +594,7 @@
             "username": "RealOrangeOne"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -598,6 +611,7 @@
             "username": "Shrikantgiri25"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -614,6 +628,7 @@
             "username": "SinkuKumar"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -630,6 +645,7 @@
             "username": "Stormheg"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -646,6 +662,7 @@
             "username": "TimothyMalahy"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -662,6 +679,7 @@
             "username": "VeldaKiara"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -678,6 +696,7 @@
             "username": "Violette-Allotey"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -694,6 +713,7 @@
             "username": "Zakui"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -710,6 +730,7 @@
             "username": "adRn-s"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -726,6 +747,7 @@
             "username": "adamghill"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -742,6 +764,7 @@
             "username": "akshayvinchurkar"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -758,6 +781,7 @@
             "username": "amirreza8002"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -774,6 +798,7 @@
             "username": "andoriyaprashant"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -790,6 +815,7 @@
             "username": "asherf"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -806,6 +832,7 @@
             "username": "ayimdomnic"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -822,6 +849,7 @@
             "username": "bckohan"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -838,6 +866,7 @@
             "username": "blingblin-g"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -854,6 +883,7 @@
             "username": "browniebroke"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -870,6 +900,7 @@
             "username": "carltongibson"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -886,6 +917,7 @@
             "username": "cgl"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -902,6 +934,7 @@
             "username": "clintonb"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -918,6 +951,7 @@
             "username": "cunla"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -934,6 +968,7 @@
             "username": "ddabble"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -950,6 +985,7 @@
             "username": "deronnax"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -966,6 +1002,7 @@
             "username": "devatbosch"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -982,6 +1019,7 @@
             "username": "dmpayton"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -998,6 +1036,7 @@
             "username": "dr-rompecabezas"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1014,6 +1053,7 @@
             "username": "elineda"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1030,6 +1070,7 @@
             "username": "federicobond"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1046,6 +1087,7 @@
             "username": "fsbraun"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1062,6 +1104,7 @@
             "username": "g-nie"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1078,6 +1121,7 @@
             "username": "gav-fyi"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1094,6 +1138,7 @@
             "username": "giovannicimolin"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1110,6 +1155,7 @@
             "username": "input"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1126,6 +1172,7 @@
             "username": "jacklinke"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1142,6 +1189,7 @@
             "username": "jburns6789"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1158,6 +1206,7 @@
             "username": "jcjudkins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1174,6 +1223,7 @@
             "username": "jezdez"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1190,6 +1240,7 @@
             "username": "jmgutu"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1206,6 +1257,7 @@
             "username": "johnatanmoran"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1222,6 +1274,7 @@
             "username": "johnfraney"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1238,6 +1291,7 @@
             "username": "joshuadavidthomas"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1254,6 +1308,7 @@
             "username": "justbackend"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1270,6 +1325,7 @@
             "username": "kevin-brown"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1286,6 +1342,7 @@
             "username": "knyghty"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1302,6 +1359,7 @@
             "username": "korfuri"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1318,6 +1376,7 @@
             "username": "kytta"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1334,6 +1393,7 @@
             "username": "leogregianin"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1350,6 +1410,7 @@
             "username": "manelclos"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1366,6 +1427,7 @@
             "username": "matthiask"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1382,6 +1444,7 @@
             "username": "mihrab34"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1398,6 +1461,7 @@
             "username": "mkalioby"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1414,6 +1478,7 @@
             "username": "mnislam01"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1430,6 +1495,7 @@
             "username": "mzemlickis"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1446,6 +1512,7 @@
             "username": "nanorepublica"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1462,6 +1529,7 @@
             "username": "okotdaniel"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1478,6 +1546,7 @@
             "username": "oliverandrich"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1494,6 +1563,7 @@
             "username": "ontowhee"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1510,6 +1580,7 @@
             "username": "p-r-a-v-i-n"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1526,6 +1597,7 @@
             "username": "pauloxnet"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1542,6 +1614,7 @@
             "username": "peterthomassen"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1558,6 +1631,7 @@
             "username": "pfouque"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1574,6 +1648,7 @@
             "username": "priyapahwa"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1590,6 +1665,7 @@
             "username": "rptmat57"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1606,6 +1682,7 @@
             "username": "ryancheley"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1622,6 +1699,7 @@
             "username": "salty-ivy"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1638,6 +1716,7 @@
             "username": "sergei-maertens"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1654,6 +1733,7 @@
             "username": "sobolevn"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1670,6 +1750,7 @@
             "username": "testSchilling"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1686,6 +1767,7 @@
             "username": "thibaudcolas"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1702,6 +1784,7 @@
             "username": "tim-schilling"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1718,6 +1801,7 @@
             "username": "ulgens"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1734,6 +1818,7 @@
             "username": "unmonoqueteclea"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1750,6 +1835,7 @@
             "username": "vinlawz"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1766,6 +1852,7 @@
             "username": "viscofuse"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1782,6 +1869,7 @@
             "username": "williln"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1793,7 +1881,7 @@
       "mode": "managed",
       "type": "github_organization_role_team",
       "name": "admins_security_manager",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -1803,6 +1891,7 @@
             "team_slug": "admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
@@ -1814,7 +1903,7 @@
       "mode": "managed",
       "type": "github_repository",
       "name": "this",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": ".github",
@@ -1887,6 +1976,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -1960,6 +2050,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -1978,7 +2069,7 @@
             "delete_branch_on_merge": true,
             "description": "A sample project with best practices for Django Commons projects.",
             "etag": "W/\"9214c62d209a20c93aa33adb10c9ce6d50e1ff3b9d9adcc0dc4eb21bef311f6a\"",
-            "fork": null,
+            "fork": "false",
             "full_name": "django-commons/best-practices",
             "git_clone_url": "git://github.com/django-commons/best-practices.git",
             "gitignore_template": null,
@@ -2020,8 +2111,8 @@
                 ]
               }
             ],
-            "source_owner": null,
-            "source_repo": null,
+            "source_owner": "",
+            "source_repo": "",
             "squash_merge_commit_message": "COMMIT_MESSAGES",
             "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
             "ssh_clone_url": "git@github.com:django-commons/best-practices.git",
@@ -2037,6 +2128,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2055,7 +2147,7 @@
             "delete_branch_on_merge": true,
             "description": "The controls for managing Django Commons projects",
             "etag": "W/\"f084475c86efee52b3ea6b4a718a753d81a2b481a6d5c14570c6b7c58391d2c5\"",
-            "fork": null,
+            "fork": "false",
             "full_name": "django-commons/controls",
             "git_clone_url": "git://github.com/django-commons/controls.git",
             "gitignore_template": null,
@@ -2097,8 +2189,8 @@
                 ]
               }
             ],
-            "source_owner": null,
-            "source_repo": null,
+            "source_owner": "",
+            "source_repo": "",
             "squash_merge_commit_message": "COMMIT_MESSAGES",
             "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
             "ssh_clone_url": "git@github.com:django-commons/controls.git",
@@ -2110,6 +2202,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2183,6 +2276,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2256,6 +2350,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2329,6 +2424,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2418,6 +2514,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2491,6 +2588,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2573,6 +2671,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2646,6 +2745,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2726,6 +2826,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2810,6 +2911,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2897,6 +2999,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -2979,6 +3082,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -3052,6 +3156,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         },
         {
@@ -3125,6 +3230,7 @@
             "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         }
       ]
@@ -3133,7 +3239,7 @@
       "mode": "managed",
       "type": "github_repository_collaborators",
       "name": "this",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -3153,10 +3259,6 @@
                 "team_id": "axe-selenium-python-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "axe-selenium-python"
               }
@@ -3164,10 +3266,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3191,10 +3293,6 @@
                 "team_id": "best-practices-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "best-practices"
               }
@@ -3202,10 +3300,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3229,10 +3327,6 @@
                 "team_id": "django-click-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-click"
               }
@@ -3240,10 +3334,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3267,10 +3361,6 @@
                 "team_id": "django-cookie-consent-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-cookie-consent"
               }
@@ -3278,10 +3368,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3305,10 +3395,6 @@
                 "team_id": "django-debug-toolbar-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-debug-toolbar"
               }
@@ -3316,10 +3402,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3343,10 +3429,6 @@
                 "team_id": "django-enum-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-enum"
               }
@@ -3354,10 +3436,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3381,10 +3463,6 @@
                 "team_id": "django-fsm-2-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-fsm-2"
               }
@@ -3392,10 +3470,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3419,10 +3497,6 @@
                 "team_id": "django-prometheus-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-prometheus"
               }
@@ -3430,10 +3504,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3457,10 +3531,6 @@
                 "team_id": "django-simple-history-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-simple-history"
               }
@@ -3468,10 +3538,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3495,10 +3565,6 @@
                 "team_id": "django-tailwind-cli-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-tailwind-cli"
               }
@@ -3506,10 +3572,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3533,10 +3599,6 @@
                 "team_id": "django-tasks-scheduler-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-tasks-scheduler"
               }
@@ -3544,10 +3606,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3571,10 +3633,6 @@
                 "team_id": "django-typer-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-typer"
               }
@@ -3582,10 +3640,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3609,10 +3667,6 @@
                 "team_id": "django-valkey-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "django-valkey"
               }
@@ -3620,10 +3674,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3647,10 +3701,6 @@
                 "team_id": "drf-excel-committers"
               },
               {
-                "permission": "pull",
-                "team_id": "admins"
-              },
-              {
                 "permission": "triage",
                 "team_id": "drf-excel"
               }
@@ -3658,10 +3708,10 @@
             "user": []
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_repository.this",
-            "github_team.org_teams",
             "github_team.repo_admin_team",
             "github_team.repo_committer_team",
             "github_team.repo_team"
@@ -3673,7 +3723,7 @@
       "mode": "managed",
       "type": "github_repository_environment",
       "name": "pypi",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -3696,6 +3746,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3723,6 +3774,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3750,6 +3802,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3777,6 +3830,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3804,6 +3858,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3831,6 +3886,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3858,6 +3914,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3885,6 +3942,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3912,6 +3970,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3939,6 +3998,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3966,6 +4026,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -3993,6 +4054,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -4020,6 +4082,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -4047,6 +4110,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -4059,7 +4123,7 @@
       "mode": "managed",
       "type": "github_repository_environment",
       "name": "testpypi",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -4075,6 +4139,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4091,6 +4156,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
@@ -4107,6 +4173,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4123,6 +4190,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4139,6 +4207,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4155,6 +4224,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4171,6 +4241,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
@@ -4187,6 +4258,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4203,6 +4275,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
@@ -4219,6 +4292,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4235,6 +4309,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4251,6 +4326,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4267,6 +4343,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -4283,6 +4360,7 @@
             "wait_timer": 0
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         }
       ]
@@ -4291,7 +4369,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "org_designers_team",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -4311,6 +4389,7 @@
             "slug": "designers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         }
       ]
@@ -4319,7 +4398,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "org_teams",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "Admins",
@@ -4340,6 +4419,7 @@
             "slug": "admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         }
       ]
@@ -4348,7 +4428,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "repo_admin_team",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -4369,6 +4449,7 @@
             "slug": "axe-selenium-python-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4393,6 +4474,7 @@
             "slug": "best-practices-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4417,6 +4499,7 @@
             "slug": "django-click-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4441,6 +4524,7 @@
             "slug": "django-cookie-consent-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4465,6 +4549,7 @@
             "slug": "django-debug-toolbar-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4489,6 +4574,7 @@
             "slug": "django-enum-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4513,6 +4599,7 @@
             "slug": "django-fsm-2-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4537,6 +4624,7 @@
             "slug": "django-prometheus-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4561,6 +4649,7 @@
             "slug": "django-simple-history-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_team"
@@ -4585,6 +4674,7 @@
             "slug": "django-tailwind-cli-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4609,6 +4699,7 @@
             "slug": "django-tasks-scheduler-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4633,6 +4724,7 @@
             "slug": "django-typer-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4657,6 +4749,7 @@
             "slug": "django-valkey-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4681,6 +4774,7 @@
             "slug": "drf-excel-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4692,7 +4786,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "repo_committer_team",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -4713,6 +4807,7 @@
             "slug": "axe-selenium-python-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4737,6 +4832,7 @@
             "slug": "best-practices-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4761,6 +4857,7 @@
             "slug": "django-click-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4785,6 +4882,7 @@
             "slug": "django-cookie-consent-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4809,6 +4907,7 @@
             "slug": "django-debug-toolbar-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4833,6 +4932,7 @@
             "slug": "django-enum-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4857,6 +4957,7 @@
             "slug": "django-fsm-2-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4881,6 +4982,7 @@
             "slug": "django-prometheus-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4905,6 +5007,7 @@
             "slug": "django-simple-history-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_team"
@@ -4929,6 +5032,7 @@
             "slug": "django-tailwind-cli-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4953,6 +5057,7 @@
             "slug": "django-tasks-scheduler-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -4977,6 +5082,7 @@
             "slug": "django-typer-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -5001,6 +5107,7 @@
             "slug": "django-valkey-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -5025,6 +5132,7 @@
             "slug": "drf-excel-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -5036,7 +5144,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "repo_team",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -5057,6 +5165,7 @@
             "slug": "axe-selenium-python"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5078,6 +5187,7 @@
             "slug": "best-practices"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5099,6 +5209,7 @@
             "slug": "django-click"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5120,6 +5231,7 @@
             "slug": "django-cookie-consent"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5141,6 +5253,7 @@
             "slug": "django-debug-toolbar"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5162,6 +5275,7 @@
             "slug": "django-enum"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5183,6 +5297,7 @@
             "slug": "django-fsm-2"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5204,6 +5319,7 @@
             "slug": "django-prometheus"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5225,6 +5341,7 @@
             "slug": "django-simple-history"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
@@ -5246,6 +5363,7 @@
             "slug": "django-tailwind-cli"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5267,6 +5385,7 @@
             "slug": "django-tasks-scheduler"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5288,6 +5407,7 @@
             "slug": "django-typer"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5309,6 +5429,7 @@
             "slug": "django-valkey"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         },
         {
@@ -5330,6 +5451,7 @@
             "slug": "drf-excel"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA=="
         }
       ]
@@ -5338,7 +5460,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "org_designers_team_members",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -5397,6 +5519,7 @@
             "team_id": "14084892"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_designers_team"
@@ -5408,7 +5531,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "org_team_members",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "Admins",
@@ -5440,6 +5563,7 @@
             "team_id": "9763562"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.org_teams"
@@ -5451,7 +5575,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "repo_admin_members",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -5471,6 +5595,7 @@
             "team_id": "axe-selenium-python-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5507,6 +5632,7 @@
             "team_id": "best-practices-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5531,6 +5657,7 @@
             "team_id": "django-click-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5551,6 +5678,7 @@
             "team_id": "django-cookie-consent-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5575,6 +5703,7 @@
             "team_id": "django-debug-toolbar-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5595,6 +5724,7 @@
             "team_id": "django-enum-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5619,6 +5749,7 @@
             "team_id": "django-fsm-2-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5639,6 +5770,7 @@
             "team_id": "django-prometheus-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5663,6 +5795,7 @@
             "team_id": "django-simple-history-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5683,6 +5816,7 @@
             "team_id": "django-tailwind-cli-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5703,6 +5837,7 @@
             "team_id": "django-tasks-scheduler-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5727,6 +5862,7 @@
             "team_id": "django-typer-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5747,6 +5883,7 @@
             "team_id": "django-valkey-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5771,6 +5908,7 @@
             "team_id": "drf-excel-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -5783,7 +5921,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "repo_committer_team_members",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "best-practices",
@@ -5799,6 +5937,7 @@
             "team_id": "best-practices-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -5819,6 +5958,7 @@
             "team_id": "django-cookie-consent-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -5843,6 +5983,7 @@
             "team_id": "django-debug-toolbar-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -5867,6 +6008,7 @@
             "team_id": "django-tasks-scheduler-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -5887,6 +6029,7 @@
             "team_id": "drf-excel-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -5899,7 +6042,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "repo_team_members",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -5919,6 +6062,7 @@
             "team_id": "axe-selenium-python"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -5958,6 +6102,7 @@
             "team_id": "best-practices"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -5981,6 +6126,7 @@
             "team_id": "django-click"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6004,6 +6150,7 @@
             "team_id": "django-cookie-consent"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6075,6 +6222,7 @@
             "team_id": "django-debug-toolbar"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6094,6 +6242,7 @@
             "team_id": "django-enum"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6121,6 +6270,7 @@
             "team_id": "django-fsm-2"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6140,6 +6290,7 @@
             "team_id": "django-prometheus"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6163,6 +6314,7 @@
             "team_id": "django-simple-history"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6182,6 +6334,7 @@
             "team_id": "django-tailwind-cli"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6213,6 +6366,7 @@
             "team_id": "django-tasks-scheduler"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6236,6 +6390,7 @@
             "team_id": "django-typer"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6255,6 +6410,7 @@
             "team_id": "django-valkey"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6286,6 +6442,7 @@
             "team_id": "drf-excel"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6297,7 +6454,7 @@
       "mode": "managed",
       "type": "github_team_repository",
       "name": "repo_admin_team_access",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -6310,6 +6467,7 @@
             "team_id": "axe-selenium-python-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6327,6 +6485,7 @@
             "team_id": "best-practices-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6344,6 +6503,7 @@
             "team_id": "django-click-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6361,6 +6521,7 @@
             "team_id": "django-cookie-consent-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6371,13 +6532,14 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"05075783776e89503efaa8884959644f2262cf7f7636192fb62014c06310703c\"",
+            "etag": "W/\"d0158071318d57b277b51f9e02bc5308d4fb96e9e6f69c4fae954b2b7d3a2296\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
             "team_id": "django-debug-toolbar-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6395,6 +6557,7 @@
             "team_id": "django-enum-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6412,6 +6575,7 @@
             "team_id": "django-fsm-2-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6429,6 +6593,7 @@
             "team_id": "django-prometheus-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6446,6 +6611,7 @@
             "team_id": "django-simple-history-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6463,6 +6629,7 @@
             "team_id": "django-tailwind-cli-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6480,6 +6647,7 @@
             "team_id": "django-tasks-scheduler-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6497,6 +6665,7 @@
             "team_id": "django-typer-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6514,6 +6683,7 @@
             "team_id": "django-valkey-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6531,6 +6701,7 @@
             "team_id": "drf-excel-admins"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_admin_team",
@@ -6543,7 +6714,7 @@
       "mode": "managed",
       "type": "github_team_repository",
       "name": "repo_committer_team_access",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -6556,6 +6727,7 @@
             "team_id": "axe-selenium-python-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6573,6 +6745,7 @@
             "team_id": "best-practices-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6590,6 +6763,7 @@
             "team_id": "django-click-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6607,6 +6781,7 @@
             "team_id": "django-cookie-consent-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6617,13 +6792,14 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"99f0d79a59622f7661c85bf5786455efe29b09f8a1db05a808c4c9e1186e5ee0\"",
+            "etag": "W/\"1a8fa3e7fdcd07b154a27edd6915f2ca351551922b9e0a1d1cb6050efa589221\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
             "team_id": "django-debug-toolbar-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6641,6 +6817,7 @@
             "team_id": "django-enum-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6658,6 +6835,7 @@
             "team_id": "django-fsm-2-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6675,6 +6853,7 @@
             "team_id": "django-prometheus-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6692,6 +6871,7 @@
             "team_id": "django-simple-history-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6709,6 +6889,7 @@
             "team_id": "django-tailwind-cli-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6726,6 +6907,7 @@
             "team_id": "django-tasks-scheduler-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6743,6 +6925,7 @@
             "team_id": "django-typer-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6760,6 +6943,7 @@
             "team_id": "django-valkey-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6777,6 +6961,7 @@
             "team_id": "drf-excel-committers"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_committer_team",
@@ -6789,7 +6974,7 @@
       "mode": "managed",
       "type": "github_team_repository",
       "name": "repo_team_access",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -6802,6 +6987,7 @@
             "team_id": "axe-selenium-python"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6811,13 +6997,14 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"e1274dad9049b4ee8a3564d07890da5cb11af6f4fd36f6a53bc8aa5c2f4aa5c8\"",
+            "etag": "W/\"56a0e0fcfc198b36ea9e966485cf6349a3ce55756659c4c14443739a10f4e8c4\"",
             "id": "9757678:best-practices",
             "permission": "triage",
             "repository": "best-practices",
             "team_id": "best-practices"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6834,6 +7021,7 @@
             "team_id": "django-click"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6850,6 +7038,7 @@
             "team_id": "django-cookie-consent"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6859,13 +7048,14 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"05b7e6084ceb8b9eb2d43d85a416fa5276e2195d5eedda9b87698ca008f1c27d\"",
+            "etag": "W/\"eac1ca1595c638da14e311cf8ecf4925b973d26ebc25d9ac3d42074ee000d08c\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
             "team_id": "django-debug-toolbar"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6882,6 +7072,7 @@
             "team_id": "django-enum"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6898,6 +7089,7 @@
             "team_id": "django-fsm-2"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6914,6 +7106,7 @@
             "team_id": "django-prometheus"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6930,6 +7123,7 @@
             "team_id": "django-simple-history"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6946,6 +7140,7 @@
             "team_id": "django-tailwind-cli"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6962,6 +7157,7 @@
             "team_id": "django-tasks-scheduler"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6978,6 +7174,7 @@
             "team_id": "django-typer"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -6994,6 +7191,7 @@
             "team_id": "django-valkey"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7010,6 +7208,7 @@
             "team_id": "drf-excel"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7021,7 +7220,7 @@
       "mode": "managed",
       "type": "github_team_settings",
       "name": "this",
-      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
           "index_key": "axe-selenium-python",
@@ -7040,6 +7239,7 @@
             "team_uid": "T_kwDOCaaRBM4A2TqV"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7062,6 +7262,7 @@
             "team_uid": "T_kwDOCaaRBM4AlOPu"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7084,6 +7285,7 @@
             "team_uid": "T_kwDOCaaRBM4Au-wz"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7106,6 +7308,7 @@
             "team_uid": "T_kwDOCaaRBM4AysBk"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7128,6 +7331,7 @@
             "team_uid": "T_kwDOCaaRBM4ArUDj"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7150,6 +7354,7 @@
             "team_uid": "T_kwDOCaaRBM4Aw8BM"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7172,6 +7377,7 @@
             "team_uid": "T_kwDOCaaRBM4Apd6f"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7194,6 +7400,7 @@
             "team_uid": "T_kwDOCaaRBM4Ay3VX"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7216,6 +7423,7 @@
             "team_uid": "T_kwDOCaaRBM4Ayr3y"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "github_team.repo_team"
@@ -7238,6 +7446,7 @@
             "team_uid": "T_kwDOCaaRBM4ArdvP"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7260,6 +7469,7 @@
             "team_uid": "T_kwDOCaaRBM4Ao2ER"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7282,6 +7492,7 @@
             "team_uid": "T_kwDOCaaRBM4Aqyk9"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7304,6 +7515,7 @@
             "team_uid": "T_kwDOCaaRBM4Ay3f3"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"
@@ -7326,6 +7538,7 @@
             "team_uid": "T_kwDOCaaRBM4ArQ-E"
           },
           "sensitive_attributes": [],
+          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.repo_team"

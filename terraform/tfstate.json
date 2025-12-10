@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.10.7",
-  "serial": 716,
+  "serial": 717,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -1791,14 +1791,15 @@
     },
     {
       "mode": "managed",
-      "type": "github_organization_security_manager",
-      "name": "this",
+      "type": "github_organization_role_team",
+      "name": "admins_security_manager",
       "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
           "attributes": {
-            "id": "9763562",
+            "id": "138:admins",
+            "role_id": 138,
             "team_slug": "admins"
           },
           "sensitive_attributes": [],
@@ -6319,7 +6320,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a4339a517eb6a0d3282995ce7ffcaffa2f52ff143494f073711d808cf6fba186\"",
+            "etag": "W/\"f6936b296db7497a374d4732825dd702a378d0742b9ba58449cc1fb253aafd13\"",
             "id": "9757650:best-practices",
             "permission": "admin",
             "repository": "best-practices",
@@ -6565,7 +6566,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"56d25e6756f101feb859183751d1307579610dfb8f0bdc73347b8d6746dc2d6a\"",
+            "etag": "W/\"1b580fe0ced51ef50777ada246f605fc481c037b96d1db058d662bee2d4b071c\"",
             "id": "9757668:best-practices",
             "permission": "maintain",
             "repository": "best-practices",

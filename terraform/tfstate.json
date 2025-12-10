@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 770,
+  "serial": 772,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -90,6 +90,7 @@
               "mnazrul.c@gmail.com",
               "mzemlickis@gmail.com",
               "info@akmiller.co.uk",
+              "",
               "info@okotdaniel.com",
               "oliver@andrich.me",
               "",
@@ -112,7 +113,7 @@
               "",
               ""
             ],
-            "id": "97fd95a94ecebc60248625b98fbc3bb9",
+            "id": "0ba570abbd081134d9b00db5d9a63525",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -181,6 +182,7 @@
               "mnislam01",
               "mzemlickis",
               "nanorepublica",
+              "niltonpimentel02",
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
@@ -271,6 +273,7 @@
               "MDQ6VXNlcjI0OTI5NDY2",
               "MDQ6VXNlcjQ1NTY5NDQ=",
               "MDQ6VXNlcjE5OTc5NDA=",
+              "MDQ6VXNlcjYzNjA1NDg1",
               "MDQ6VXNlcjQxNzQ0MDEy",
               "MDQ6VXNlcjc1OA==",
               "MDQ6VXNlcjgyNjA3NzIz",
@@ -362,6 +365,7 @@
               "mnislam01",
               "mzemlickis",
               "nanorepublica",
+              "niltonpimentel02",
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
@@ -1514,6 +1518,23 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "niltonpimentel02",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"7656381de645a9a8bf3e617620e62b080e251edaebd79d62040ada29bf75ec7a\"",
+            "id": "django-commons:niltonpimentel02",
+            "role": "member",
+            "username": "niltonpimentel02"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]

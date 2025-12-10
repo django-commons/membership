@@ -23,11 +23,13 @@ resource "github_membership" "this" {
 }
 
 # Github Organization Security Manager Resource
-# https://registry.terraform.io/providers/integrations/github/latest/docs/resources/organization_security_manager
+# https://registry.terraform.io/providers/integrations/github/latest/docs/resources/organization_role_team
 
-resource "github_organization_security_manager" "this" {
+resource "github_organization_role_team" "admins_security_manager" {
   team_slug = github_team.org_teams["Admins"].slug
+  role_id     = 138 #
 }
+
 # Create the organization teams for Django Commons.
 resource "github_team" "org_teams" {
   for_each = var.organization_teams

@@ -30,7 +30,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          # This is the default, but it's required since we are performing
+          # Git operations later on.
+          persist-credentials: true
 
       - name: Get username to add
         id: get_username

@@ -12,13 +12,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
 
       - name: Check PR title format
         id: check-title
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const title = context.payload.pull_request.title;
@@ -31,7 +31,7 @@ jobs:
       - name: Check user account age
         if: steps.check-title.outputs.result == 'continue'
         id: check-user
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           MIN_ACCOUNT_AGE_MONTHS: ${{ vars.MIN_ACCOUNT_AGE_MONTHS || '3' }}  # Default to 3 months if not set
         with:
@@ -79,7 +79,7 @@ jobs:
 
       - name: Add label if new account
         if: steps.check-user.outputs.result == 'new-account' && steps.check-title.outputs.result == 'continue'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             await github.rest.issues.addLabels({

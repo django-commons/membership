@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 769,
+  "serial": 770,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -4914,10 +4914,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Committers team for the django-click repository",
-            "etag": "W/\"ff835ee3ac745581fcb80ed25c759fdfa5260519811e8b7a60f5e674191fea9d\"",
+            "etag": "W/\"c94d52eb59b6bf123798070aa846b8b54fe33f50cc02e5e79b6c5dd61eac972e\"",
             "id": "12315700",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-click-committers",
             "node_id": "T_kwDOCaaRBM4Au-w0",
             "parent_team_id": "12315699",
@@ -5266,10 +5266,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-click repository",
-            "etag": "W/\"ac077052bbc93ee82f17c419f10f342717f2d49fafa05b41f4e16419403af598\"",
+            "etag": "W/\"b3c1a5b9953bee583f6aaee4477782897569c896cabf48f9c4afcade675c68f3\"",
             "id": "12315699",
             "ldap_dn": "",
-            "members_count": 2,
+            "members_count": 3,
             "name": "django-click",
             "node_id": "T_kwDOCaaRBM4Au-wz",
             "parent_team_id": "",
@@ -6623,7 +6623,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"47872f23ef8e580429cc8b4f674dd1800337d0326402a69345bc6af95508296e\"",
+            "etag": "W/\"606c704bfa602a43c02756ff2fb3ff099a61566291824d05b4d97a96a0d3ccf5\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -6883,7 +6883,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a15a571130b515298347bddd66beb61887719db907805e18aa009bfa0664a6c9\"",
+            "etag": "W/\"72bf0369c1da8b1558c76b225911bd028665c5824800f061433965e0a681b6ea\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -7139,7 +7139,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"8216dda857bbefbb1104d15f353bf071c734a1b80ec12f772fb1a664b7f70077\"",
+            "etag": "W/\"c7cd9c60578de02e11c6463f49e0b6e818d7889725e41996ad4c3ba3715c02a5\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",

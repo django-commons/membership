@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.1",
-  "serial": 734,
+  "serial": 749,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2845,7 +2845,7 @@
             "delete_branch_on_merge": true,
             "description": "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used.",
             "etag": "W/\"b5bd59ac3c52adf18f6a08254529fcd527478b8f802ba77609409b8fa9073746\"",
-            "fork": null,
+            "fork": "false",
             "full_name": "django-commons/django-tasks-scheduler",
             "git_clone_url": "git://github.com/django-commons/django-tasks-scheduler.git",
             "gitignore_template": null,
@@ -2887,8 +2887,8 @@
                 ]
               }
             ],
-            "source_owner": null,
-            "source_repo": null,
+            "source_owner": "",
+            "source_repo": "",
             "squash_merge_commit_message": "COMMIT_MESSAGES",
             "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
             "ssh_clone_url": "git@github.com:django-commons/django-tasks-scheduler.git",
@@ -2930,7 +2930,7 @@
             "delete_branch_on_merge": true,
             "description": "Use Typer (type hints) to define the interface for your Django management commands.",
             "etag": "W/\"c8018a77dc281c8eb7be7de3e9a81f0127b45718dc019ac878c5ea242b04b0f6\"",
-            "fork": null,
+            "fork": "false",
             "full_name": "django-commons/django-typer",
             "git_clone_url": "git://github.com/django-commons/django-typer.git",
             "gitignore_template": null,
@@ -2972,8 +2972,8 @@
                 ]
               }
             ],
-            "source_owner": null,
-            "source_repo": null,
+            "source_owner": "",
+            "source_repo": "",
             "squash_merge_commit_message": "COMMIT_MESSAGES",
             "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
             "ssh_clone_url": "git@github.com:django-commons/django-typer.git",
@@ -6532,7 +6532,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"606c704bfa602a43c02756ff2fb3ff099a61566291824d05b4d97a96a0d3ccf5\"",
+            "etag": "W/\"47872f23ef8e580429cc8b4f674dd1800337d0326402a69345bc6af95508296e\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -6604,7 +6604,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4d638ce0660a49f2feface27024e2ea475946baf5b364072a971349a42c2749b\"",
+            "etag": "W/\"8632830f4a880b43239bd4549038c90808cb164a5f6c0137b52cf023fe0baa85\"",
             "id": "13286901:django-simple-history",
             "permission": "admin",
             "repository": "django-simple-history",
@@ -6622,7 +6622,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"daacba212ccaae6d137ea42bc033159952c4edba508a8225b4cdbdf2a5446e2b\"",
+            "etag": "W/\"fd248675d43265bebac7fed533c121408945d63b0c7aa7103632ee4a4d2910cc\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -6640,7 +6640,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"9aa571f644740b8b7557db83479827bcfd7bbe6674230992136f36da3152363f\"",
+            "etag": "W/\"8e88105920600d6e7a7c0091a6a2db4216a0cd58b18234784faf762572dab87f\"",
             "id": "10707221:django-tasks-scheduler",
             "permission": "admin",
             "repository": "django-tasks-scheduler",
@@ -6658,7 +6658,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"7b291fba899dbc88efdbe6781ebaa6a6cdd010265773335a36636fca1c31a03a\"",
+            "etag": "W/\"d358b42770ab6690f5ef13b955de09dfa2d6d734fc7ba48c9f25dbb14013dba7\"",
             "id": "11217214:django-typer",
             "permission": "admin",
             "repository": "django-typer",
@@ -6792,7 +6792,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"72bf0369c1da8b1558c76b225911bd028665c5824800f061433965e0a681b6ea\"",
+            "etag": "W/\"a15a571130b515298347bddd66beb61887719db907805e18aa009bfa0664a6c9\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -6864,7 +6864,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a4257bf29f40c18421c555e09ceca7c8a155257af9ed0532ac7f588a2660d58f\"",
+            "etag": "W/\"125346b896d47f799064caf6209a5bdbc0d4aa7b7803d0bbd7f4f3cc18458a58\"",
             "id": "13286900:django-simple-history",
             "permission": "maintain",
             "repository": "django-simple-history",
@@ -6882,7 +6882,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"56282d190970bcff04a827ac9c0261b229b7d08ddec6edccdf500c84cae4c0aa\"",
+            "etag": "W/\"8e02c8e0b76e826c85908ad2799eb06e622c83c3977208cb3bf737c5cbd90a64\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -6900,7 +6900,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"400a8a4038eb12dbf76b995896abba10f2fe04d7337b7379d6a2edaf175635d9\"",
+            "etag": "W/\"25523ad1bafb4bb11a23dba9abcc234f5a0bf37078acbc28f7cb98d0765ba4cf\"",
             "id": "10707220:django-tasks-scheduler",
             "permission": "maintain",
             "repository": "django-tasks-scheduler",
@@ -6918,7 +6918,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"91fadb8cde9dcfe7648d17ee97d9654460ca5a641e8f5a524c6e0e3162b172bf\"",
+            "etag": "W/\"f21147358eec99fc3c1929856c5257fb2b6d981e5bf7f9484ff9f687fe33c2fa\"",
             "id": "11217215:django-typer",
             "permission": "maintain",
             "repository": "django-typer",
@@ -7048,7 +7048,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c7cd9c60578de02e11c6463f49e0b6e818d7889725e41996ad4c3ba3715c02a5\"",
+            "etag": "W/\"8216dda857bbefbb1104d15f353bf071c734a1b80ec12f772fb1a664b7f70077\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -7116,7 +7116,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"53d14fb98e7647bcdb52ed83e6962339c303eb00d04ca8c5b093f770c5dd80bc\"",
+            "etag": "W/\"20cc44acecaa5ca2224d072469b56dcecb48ace4135d178147057307ec23b17e\"",
             "id": "13286898:django-simple-history",
             "permission": "triage",
             "repository": "django-simple-history",
@@ -7133,7 +7133,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2e754f7ec263b6275ac8788d3a9774477d8c29f2c66d5d5804efa66851525e81\"",
+            "etag": "W/\"608708174c5458a307f92ed4211132cacd66de60b2a6aa1cab624ad9e53d13cb\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",
@@ -7150,7 +7150,7 @@
           "index_key": "django-tasks-scheduler",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4dda54b29070c0869768f51ca3c332889ab0cd4b7dbc7401daaf38a9262fe124\"",
+            "etag": "W/\"90aba2e44632af4e30c718566748b3b113ebe0c4fe3fdabd6ce17f41a3176274\"",
             "id": "10707217:django-tasks-scheduler",
             "permission": "triage",
             "repository": "django-tasks-scheduler",
@@ -7167,7 +7167,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4b0984c90139c925a257f11a47aa3461ab0e2791e88068bae07b9ebf65dcedd1\"",
+            "etag": "W/\"ce9c18a89cb553d4606451cc35e87101ac9aebfa0847abaebec01b0a63a4ba23\"",
             "id": "11217213:django-typer",
             "permission": "triage",
             "repository": "django-typer",

@@ -33,6 +33,7 @@ members = [
   "andoriyaprashant",
   "asherf",
   "ayimdomnic",
+  "bahoo",
   "bckohan",
   "blingblin-g",
   "browniebroke",

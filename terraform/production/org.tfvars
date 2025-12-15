@@ -63,6 +63,7 @@ members = [
   "jcjudkins",
   "jezdez",
   "jmgutu",
+  "jnovinger",
   "JohananOppongAmoateng",
   "johnatanmoran",
   "johnfraney",

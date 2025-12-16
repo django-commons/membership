@@ -105,6 +105,7 @@ members = [
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",
+  "vacarme",
   "VeldaKiara",
   "vinlawz",
   "Violette-Allotey",

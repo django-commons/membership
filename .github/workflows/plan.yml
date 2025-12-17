@@ -14,29 +14,22 @@ concurrency:
 
 jobs:
   format-terraform-code:
-    name: "Format Terraform code"
+    name: "Check Terraform code formatting"
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      pull-requests: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
           persist-credentials: false
 
-      - name: terraform fmt
-        uses: dflook/terraform-fmt@1964140828a3cd334f311122e09f9e824060382e
+      - name: terraform fmt check
+        # v2.2.2
+        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d
         with:
           path: "terraform"
-
-      - name: Commit changes
-        # v0.9.2
-        uses: devops-infra/action-commit-push@8a2d9d73c3f506468129be2e4409e60dbed70357
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_prefix: "[AUTO]"
-          commit_message: "Format code"
-          force: false
 
   plan-changes:
     name: "Org changes plan"

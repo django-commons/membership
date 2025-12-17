@@ -35,6 +35,8 @@ jobs:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
         with:
           path: "terraform"
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |
             terraform/production/org.tfvars
             terraform/production/repositories.tfvars

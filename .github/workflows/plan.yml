@@ -22,9 +22,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          ref: "${{ github.event.pull_request.head.ref }}"
           persist-credentials: false
-
 
       - name: terraform fmt
         uses: dflook/terraform-fmt@1964140828a3cd334f311122e09f9e824060382e
@@ -35,11 +33,10 @@ jobs:
         # v0.9.2
         uses: devops-infra/action-commit-push@8a2d9d73c3f506468129be2e4409e60dbed70357
         with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_prefix: "[AUTO]"
           commit_message: "Format code"
           force: false
-#          target_branch: "${{ github.event.pull_request.head.ref }}"
 
   plan-changes:
     name: "Org changes plan"
@@ -47,8 +44,7 @@ jobs:
     needs: [ "format-terraform-code" ]
     permissions:
       pull-requests: write
-      contents: write
-
+      contents: read
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -57,16 +53,13 @@ jobs:
 
       - name: terraform plan
         # v1.44.0
-        # Use the commit hash for security hardening
-        # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions
         uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca
         env:
-          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           add_github_comment: true
           path: "terraform"
-          variables: |
-            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |
             terraform/production/org.tfvars
             terraform/production/repositories.tfvars

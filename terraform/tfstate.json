@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.3",
-  "serial": 778,
+  "serial": 780,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -3101,12 +3101,12 @@
             "default_branch": "main",
             "delete_branch_on_merge": false,
             "description": "a Valkey backend for django",
-            "etag": "W/\"900ab9cde0911515bc590810cc86f2ed47fdf3beb8b64cd1b557e7447f1e1c18\"",
+            "etag": "W/\"42358337689048e797234d896b3c33c2c864390ebfbd58bfceefbc2496a9e141\"",
             "fork": "false",
             "full_name": "django-commons/django-valkey",
             "git_clone_url": "git://github.com/django-commons/django-valkey.git",
             "gitignore_template": null,
-            "has_discussions": false,
+            "has_discussions": true,
             "has_downloads": true,
             "has_issues": true,
             "has_projects": true,

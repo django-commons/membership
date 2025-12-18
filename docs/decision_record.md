@@ -16,8 +16,8 @@ purpose is to provide transparency and information to future administrators.
   There is little regular support from the team currently. The new process will be the
   admins will be notified of a security advisory and then they can reach out to community 
   members based on the context of the issue.
-- 2025-10-10: Create "operations" team.
-  Create an "operations" team for people with elevated permissions across GitHub and
+- 2025-10-10: Create "super admins" team.
+  Create a "super admins" team for people with elevated permissions across GitHub and
   PyPI to allow new-to-Django-community people become admins.
 - 2025-10-10: Retire PyPI team in favor of all admins
 - 2025-10-10: 2025 admin team reaffirmations.

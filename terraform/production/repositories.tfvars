@@ -285,7 +285,7 @@ repositories = {
     allow_update_branch    = true
     delete_branch_on_merge = false
 
-    has_discussions = false
+    has_discussions = true
     has_wiki        = false
     admins = [
       "amirreza8002",

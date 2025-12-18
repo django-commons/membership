@@ -12,6 +12,11 @@ purpose is to provide transparency and information to future administrators.
 
 ## Decisions
 
+- 2025-12-18: Revise admin qualifications.
+  The admin team and super admin team qualifications have been revised reflect the reality
+  of who we are looking for those roles and their likely qualifications. Admins can be anyone
+  while the super admins must be the trusted members since they will have the privileged
+  access.
 - 2025-11-21: Remove the Security team.
   There is little regular support from the team currently. The new process will be the
   admins will be notified of a security advisory and then they can reach out to community 

@@ -33,6 +33,7 @@ members = [
   "andoriyaprashant",
   "asherf",
   "ayimdomnic",
+  "bahoo",
   "bckohan",
   "blingblin-g",
   "browniebroke",
@@ -83,6 +84,7 @@ members = [
   "mzemlickis",
   "nanorepublica",
   "Natim",
+  "niltonpimentel02",
   "okotdaniel",
   "oliverandrich",
   "ontowhee",
@@ -121,15 +123,6 @@ organization_teams = {
       "tim-schilling",
       "williln",
     ]
-  }
-  "security-team" = {
-    description = "django-commons security team"
-    # Use maintainers for organizational teams
-    maintainers = [
-      "matthiask",
-      "tim-schilling",
-    ]
-    permission = "push"
   }
 }
 

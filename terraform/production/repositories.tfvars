@@ -233,9 +233,9 @@ repositories = {
       "FlipperPA",
     ]
     committers = [
+      "ulgens",
     ]
     members = [
-
     ]
   }
   "django-enum" = {

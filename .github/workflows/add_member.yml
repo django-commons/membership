@@ -28,9 +28,11 @@ jobs:
           python-version: '3.12'
 
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          # This is the default, but it's required since we are performing
+          # Git operations later on.
+          persist-credentials: true
 
       - name: Get username to add
         id: get_username
@@ -99,7 +101,7 @@ jobs:
         run: |
           gh pr create \
             --title "Add ${USERNAME} to django-commons" \
-            --body "Fix #${ISSUE_NUMBER}\n[New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
+            --body "Fix #${ISSUE_NUMBER}. See next steps in [New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
             --base main \
             --head ${BRANCH_NAME} \
             --label "New member"

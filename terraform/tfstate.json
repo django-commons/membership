@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.3",
-  "serial": 780,
+  "serial": 782,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2294,9 +2294,9 @@
           "schema_version": 1,
           "attributes": {
             "allow_auto_merge": false,
-            "allow_merge_commit": true,
+            "allow_merge_commit": false,
             "allow_rebase_merge": true,
-            "allow_squash_merge": false,
+            "allow_squash_merge": true,
             "allow_update_branch": true,
             "archive_on_destroy": true,
             "archived": false,
@@ -2304,7 +2304,7 @@
             "default_branch": "master",
             "delete_branch_on_merge": true,
             "description": "Write Django management command using the click CLI library",
-            "etag": "W/\"da6efb4ed0899a0ace255869c36de0a6d7ae4c5ca6aaa52468825ccbc63e28c5\"",
+            "etag": "W/\"b2956ce27c5a45c64f4b9dc8783830d099eef2191a8f2ed4abc57c9bd989df41\"",
             "fork": "false",
             "full_name": "django-commons/django-click",
             "git_clone_url": "git://github.com/django-commons/django-click.git",
@@ -6707,7 +6707,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2d6717b127804a30225264bca48909e2eaaf1ffb0751924d4c052c6b1d459d1c\"",
+            "etag": "W/\"78e6747ba16b287bd91838f122f392c8c23c1f2eef8d40f9bf674a3f075c747e\"",
             "id": "11354341:django-debug-toolbar",
             "permission": "admin",
             "repository": "django-debug-toolbar",
@@ -6743,7 +6743,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a33b6638e44c963412bf8e945653a29bff5908994215d6998eb6cb344c05c4c6\"",
+            "etag": "W/\"b3d95aada5511e7faf5e37baf129d0e596099a616e542f7a128eec963bbe7513\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -6833,7 +6833,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"20f31092a4b9cbaa12074a85031bc2b502b92f6eedc7e6a963535a5c1d431a77\"",
+            "etag": "W/\"5b55beb3c70ed9c8b8f71f9061e030fab229813dd290d575d4e6bf5b376387fd\"",
             "id": "11217214:django-typer",
             "permission": "admin",
             "repository": "django-typer",
@@ -6967,7 +6967,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"e5244e1917245c13a27aaee1ab731aee3365fdb5d67fd740a99945bc2e7cc10c\"",
+            "etag": "W/\"68c2ce7b4b673cc839305bb6c541978ce9c6e70691ea743a4cc2d622f4b6895b\"",
             "id": "11354340:django-debug-toolbar",
             "permission": "maintain",
             "repository": "django-debug-toolbar",
@@ -7003,7 +7003,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"5e3ffc73a654c677bd927fced5cbef1dbf6813c619e46c965ce86f0d61876961\"",
+            "etag": "W/\"bcbfbbb770d832541346910a183f7cc0352c41f07ae4a459faf5ef8f4b1fbde9\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -7093,7 +7093,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"77988d9faeeb8a042bf07d1159b9764dfb2ef46f91439e9696f454e7360f8d50\"",
+            "etag": "W/\"c8f4acbfe754b7255d457045d7ba282e641d4559278f4bf09a2e771d092df36e\"",
             "id": "11217215:django-typer",
             "permission": "maintain",
             "repository": "django-typer",
@@ -7223,7 +7223,7 @@
           "index_key": "django-debug-toolbar",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"b26b36271dbd1690d06f4fbcd5db3f87b759bfc6f081f181d299cac4b2916306\"",
+            "etag": "W/\"2a22227cf595b34c302761a7c78a8a70eac11f7340634abd72b8cf447648de62\"",
             "id": "11354339:django-debug-toolbar",
             "permission": "triage",
             "repository": "django-debug-toolbar",
@@ -7257,7 +7257,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"771185b031962c675732b18e5aebf8b70d7e4a765f2462f5aa099ba9d1b59af4\"",
+            "etag": "W/\"5d16f91b6e1a24ec7d8166bee305e4cf09ea0ec4955f4fb497caa33fbde2a07a\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -7342,7 +7342,7 @@
           "index_key": "django-typer",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"c34d957f13c19590d3c8260c545afe8468ba8c85d9b066d759e7481f890aa847\"",
+            "etag": "W/\"a6f1036fd88a20f2546649cf4cb82ea3b233418949ffb7cd81c63847fac58af7\"",
             "id": "11217213:django-typer",
             "permission": "triage",
             "repository": "django-typer",

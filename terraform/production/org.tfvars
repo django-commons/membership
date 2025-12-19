@@ -126,7 +126,7 @@ organization_teams = {
   # via the GitHub Terraform integration.
   # https://github.com/organizations/django-commons/settings/moderators
   "Admins" = {
-    description = "django-commons administrators team with moderator permissions in the org."
+    description = "Django Commons administrators. This team is responsible for the overall management of the organization."
     # Use maintainers for organizational teams
     maintainers = [
       "cunla",
@@ -136,8 +136,8 @@ organization_teams = {
       "williln",
     ]
   }
-  "operations" = {
-    description = "django-commons operations team with admin permissions in the org."
+  "super-admins" = {
+    description = "Django Commons super administrators. This team is responsible for performing privileged operations."
     # Use maintainers for organizational teams
     maintainers = [
       "cunla",

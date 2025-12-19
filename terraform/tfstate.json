@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.3",
-  "serial": 782,
+  "serial": 786,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -4559,8 +4559,8 @@
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
-            "description": "django-commons administrators",
-            "etag": "W/\"5f69695e20abebe020e6c81b6e8964fa94fa8813fa3ab99a4bb84e97661fb6cb\"",
+            "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
+            "etag": "W/\"2391cd78614cfc6710de546dbb3982c200702dbb3b52ef6f00d8c0085ac4e076\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -4574,7 +4574,29 @@
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+          "private": "bnVsbA=="
+        },
+        {
+          "index_key": "super-admins",
+          "schema_version": 0,
+          "attributes": {
+            "create_default_maintainer": false,
+            "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
+            "etag": "W/\"b4d21521dfd4a98f3dcfa8999cbaf87d9d9e0d498cd9c3951ebcbcae6f53b54b\"",
+            "id": "15586545",
+            "ldap_dn": "",
+            "members_count": 0,
+            "name": "super-admins",
+            "node_id": "T_kwDOCaaRBM4A7dTx",
+            "parent_team_id": "",
+            "parent_team_read_id": "",
+            "parent_team_read_slug": "",
+            "privacy": "closed",
+            "slug": "super-admins"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
         }
       ]
     },
@@ -5722,6 +5744,42 @@
           "dependencies": [
             "github_team.org_teams"
           ]
+        },
+        {
+          "index_key": "super-admins",
+          "schema_version": 0,
+          "attributes": {
+            "id": "15586545",
+            "members": [
+              {
+                "role": "maintainer",
+                "username": "Stormheg"
+              },
+              {
+                "role": "maintainer",
+                "username": "cunla"
+              },
+              {
+                "role": "maintainer",
+                "username": "ryancheley"
+              },
+              {
+                "role": "maintainer",
+                "username": "tim-schilling"
+              },
+              {
+                "role": "maintainer",
+                "username": "williln"
+              }
+            ],
+            "team_id": "15586545"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.org_teams"
+          ]
         }
       ]
     },
@@ -6671,7 +6729,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"fe4b06cf576758dac79f09094e174d7af6b3f4606320da4229b9050bc43c5571\"",
+            "etag": "W/\"a587a0dbcda5677e43d7b654626b7773616fe5a0ebe80329c2f5c3bc3e262d9d\"",
             "id": "12315701:django-click",
             "permission": "admin",
             "repository": "django-click",
@@ -6931,7 +6989,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f19c1f14fde70f95e509c62de5536688245bde50a5a96ecc457c9be8d3bdcdaa\"",
+            "etag": "W/\"d0538b69847f82541d7fdc134bc0a8a5522e71fb3149515636c078bba7f8ec22\"",
             "id": "12315700:django-click",
             "permission": "maintain",
             "repository": "django-click",
@@ -7189,7 +7247,7 @@
           "index_key": "django-click",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"4e7e20348471d2ef4ea966ba3ecb0178f95aa1c8ef9688cb57f230e840d2243e\"",
+            "etag": "W/\"be01c1a2818de448ba76f41aa4bbfdfeffbd6794cb42fa468afd88f805875470\"",
             "id": "12315699:django-click",
             "permission": "triage",
             "repository": "django-click",

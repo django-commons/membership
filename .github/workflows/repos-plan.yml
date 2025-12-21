@@ -5,8 +5,8 @@ on:
       - main
     paths:
       - 'terraform/production/*.tfvars'
-      - 'terraform/*.tf'
-      - '.github/workflows/apply.yml'
+      - 'terraform/repos/*.tf'
+      - '.github/workflows/repos-apply.yml'
       # Do not trigger the plan action when it's been changed since this action has write permissions
 
 concurrency:
@@ -29,7 +29,7 @@ jobs:
         # v2.2.2
         uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d
         with:
-          path: "terraform"
+          path: "terraform/repos"
 
   plan-changes:
     name: "Org changes plan"
@@ -52,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           add_github_comment: true
-          path: "terraform"
+          path: "terraform/repos"
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |

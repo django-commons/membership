@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths:
-      - 'terraform/production/*.tfvars'
-      - 'terraform/*.tf'
-      - '.github/workflows/apply.yml'
-      - '.github/workflows/plan.yml'
+      - 'terraform/production/org.tfvars'
+      - 'terraform/members/*.tf'
+      - '.github/workflows/members-apply.yml'
+      - '.github/workflows/members-plan.yml'
 
 concurrency:
   group: terraform-actions
@@ -34,12 +34,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
         with:
-          path: "terraform"
+          path: "terraform/members"
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |
             terraform/production/org.tfvars
-            terraform/production/repositories.tfvars
 
       - name: Commit changes
         if: ${{ always() }}

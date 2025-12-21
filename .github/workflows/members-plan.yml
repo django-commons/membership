@@ -1,0 +1,59 @@
+name: "Plan org changes and list them in a PR"
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'terraform/production/org.tfvars'
+      - 'terraform/members/*.tf'
+      - '.github/workflows/members-apply.yml'
+      # Do not trigger the plan action when it's been changed since this action has write permissions
+
+concurrency:
+  group: terraform-actions
+
+jobs:
+  format-terraform-code:
+    name: "Check Terraform code formatting"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6.0.1
+        with:
+          persist-credentials: false
+
+      - name: terraform fmt check
+        # v2.2.2
+        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d
+        with:
+          path: "terraform/members"
+
+  plan-changes:
+    name: "Org changes plan"
+    runs-on: ubuntu-latest
+    needs: [ "format-terraform-code" ]
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6.0.1
+        with:
+          persist-credentials: false
+
+      - name: terraform plan
+        # v1.44.0
+        uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca
+        env:
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          add_github_comment: true
+          path: "terraform/members"
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
+          var_file: |
+            terraform/production/org.tfvars

@@ -26,9 +26,6 @@ import {
   to = github_repository_collaborators.this[each.key]
 }
 
-data "github_team" "admins_team" {
-  slug = "Admins"
-}
 resource "github_repository_collaborators" "this" {
   for_each = local.repo_collaborators
 

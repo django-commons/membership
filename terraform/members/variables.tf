@@ -35,11 +35,3 @@ variable "organization_teams" {
     review_request_delegation = optional(bool, false)
   }))
 }
-
-variable "organization_secrets" {
-  description = "Map of secrets to add to the organization"
-  type = map(object({
-    description = string
-    visibility  = string
-  }))
-}

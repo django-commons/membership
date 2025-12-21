@@ -1,11 +1,6 @@
 # Input Variables
 # https://www.terraform.io/language/values/variables
 
-variable "admins" {
-  description = "A set of users who are admins to add to the organization"
-  type        = set(string)
-}
-
 variable "github_token" {
   description = "The GitHub token used for managing the organization"
   type        = string
@@ -63,13 +58,5 @@ variable "repositories" {
       repository           = string
       include_all_branches = bool
     }), null)
-  }))
-}
-
-variable "organization_secrets" {
-  description = "Map of secrets to add to the organization"
-  type = map(object({
-    description = string
-    visibility  = string
   }))
 }

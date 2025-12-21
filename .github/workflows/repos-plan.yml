@@ -1,4 +1,4 @@
-name: "Plan org changes and list them in a PR"
+name: "Plan org-repositories changes and list them in a PR"
 on:
   pull_request:
     branches:

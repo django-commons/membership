@@ -54,6 +54,7 @@ jobs:
         with:
           add_github_comment: true
           path: "terraform/repos"
+          label: 'repos'
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |

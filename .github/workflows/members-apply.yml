@@ -37,6 +37,7 @@ jobs:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
         with:
           path: "terraform/members"
+          label: 'members'
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |

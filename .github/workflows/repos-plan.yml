@@ -35,7 +35,7 @@ jobs:
   repos-plan-changes:
     name: "Plan org-repositories changes and list them in a PR"
     runs-on: ubuntu-latest
-    needs: [ "format-terraform-code" ]
+    needs: ["format-terraform-code"]
     permissions:
       pull-requests: write
       contents: read
@@ -46,8 +46,7 @@ jobs:
           persist-credentials: false
 
       - name: terraform plan
-        # v1.44.0
-        uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca
+        uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca  # v2.2.2
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -11,7 +11,7 @@ on:
       - '.github/workflows/repos-plan.yml'
 
 concurrency:
-  group: terraform-actions
+  group: terraform-actions-repos
 
 jobs:
   apply-changes:

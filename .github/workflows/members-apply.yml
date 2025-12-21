@@ -11,7 +11,7 @@ on:
       - '.github/workflows/members-plan.yml'
 
 concurrency:
-  group: terraform-actions
+  group: terraform-actions-members
 
 jobs:
   apply-changes:

@@ -6,11 +6,6 @@ variable "admins" {
   type        = set(string)
 }
 
-variable "super_admins" {
-  description = "A set of users who have operational permissions to add to the organization"
-  type        = set(string)
-}
-
 variable "github_token" {
   description = "The GitHub token used for managing the organization"
   type        = string

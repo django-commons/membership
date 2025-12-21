@@ -26,8 +26,7 @@ jobs:
           persist-credentials: false
 
       - name: terraform fmt check
-        # v2.2.2
-        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d
+        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d  # v2.2.2
         with:
           path: "terraform/members"
 

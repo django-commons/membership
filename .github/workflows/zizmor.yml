@@ -16,6 +16,7 @@ jobs:
       security-events: write
       contents: read # only needed for private repos
       actions: read # only needed for private repos
+    timeout-minutes: 3
     steps:
       - name: Checkout repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1

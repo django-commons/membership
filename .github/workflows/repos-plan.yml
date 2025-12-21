@@ -19,6 +19,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+    timeout-minutes: 10
     steps:
       - name: Checkout code
         uses: actions/checkout@v6.0.1

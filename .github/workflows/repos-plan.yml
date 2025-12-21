@@ -10,7 +10,7 @@ on:
       # Do not trigger the plan action when it's been changed since this action has write permissions
 
 concurrency:
-  group: terraform-actions
+  group: terraform-actions-repos
 
 jobs:
   format-terraform-code:

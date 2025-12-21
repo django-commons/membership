@@ -14,8 +14,8 @@ concurrency:
   group: terraform-actions-repos
 
 jobs:
-  apply-changes:
-    name: "Org changes apply"
+  repos-apply-changes:
+    name: "Apply org-repositories changes"
     runs-on: ubuntu-latest
 
     permissions:

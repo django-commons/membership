@@ -32,8 +32,8 @@ jobs:
         with:
           path: "terraform/repos"
 
-  plan-changes:
-    name: "Org changes plan"
+  repos-plan-changes:
+    name: "Plan org-repositories changes and list them in a PR"
     runs-on: ubuntu-latest
     needs: [ "format-terraform-code" ]
     permissions:

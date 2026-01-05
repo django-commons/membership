@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'terraform/production/*.tfvars'
+      - 'terraform/production/repositories.tfvars'
       - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
       # Do not trigger the plan action when it's been changed since this action has write permissions

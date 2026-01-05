@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - 'terraform/production/*.tfvars'
-      - 'terraform/repos/*.tf'
+      - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
       # Do not trigger the plan action when it's been changed since this action has write permissions
 
@@ -29,7 +29,7 @@ jobs:
       - name: terraform fmt check
         uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d  # v2.2.2
         with:
-          path: "terraform/repos"
+          path: "terraform/repositories"
 
   repos-plan-changes:
     name: "Plan org-repositories changes and list them in a PR"
@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           add_github_comment: true
-          path: "terraform/repos"
+          path: "terraform/repositories"
           label: 'repos'
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"

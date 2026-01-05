@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'terraform/production/org.tfvars'
-      - 'terraform/repos/*.tf'
+      - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
       - '.github/workflows/repos-plan.yml'
 
@@ -33,8 +33,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
         with:
-          path: "terraform/repos"
-          label: 'repos'
+          path: "terraform/repositories"
+          label: 'repositories'
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |

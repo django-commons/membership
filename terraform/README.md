@@ -3,15 +3,17 @@ GitHub Organization as Terraform
 
 # Structure
 
+## General terraform structure:
 - `variables.tf` - define variable types (classes?), notice there is `variable "repositories" {...` there which has a
-  few variables marked as optional with default values. Why I chose to have `has_discussions` as a repo variable
-  while `has_issues` as a constant - I am embarrassed to say I don't have a better answer than laziness :smile: - I just
-  figured if this is the path we want to take, we can continue adding to it.
-- `production/*.tfvars` - instances, should strictly follow the types in `variables.tf`.
+  few variables marked as optional with default values. Why I chose to have `has_discussions`.
 - `main.tf` - build configuration based on instances values from `*.tfvars` (or, if not defined explicitly,
   then default value from `variables.tf`)
 - `resources-*.tf` - define resources, like `github_repository`, `github_team`, etc.
 - `tfstate.json` - Current state file, pulled using `terraform import ..`
+
+## members module:
+
+- `org.tfvars` - instances, should strictly follow the types in `variables.tf`.
 
 # Why Terraform?
 
@@ -74,9 +76,9 @@ To do so, you can use the following steps:
 
 4. Make changes to `production/*.tfvars` to reflect the desired state (add/update users, repositories, teams, etc.)
 5. To see what changes between the current state of the GitHub organization and the plan
-   run:  `terraform plan -var-file=production/org.tfvars -var-file=production/repositories.tfvars -var github_token=...`
+   run:  `terraform plan -var-file=org.tfvars -var-file=repositories.tfvars -var github_token=...`
 6. To apply the changes,
-   run: `terraform apply -var-file=production/org.tfvars -var-file=production/repositories.tfvars -var github_token=...`
+   run: `terraform apply -var-file=org.tfvars -var-file=repositories.tfvars -var github_token=...`
 
 # Integration with GitHub Actions
 

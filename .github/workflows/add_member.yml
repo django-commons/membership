@@ -94,7 +94,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add terraform/production/org.tfvars
+          git add terraform/org.tfvars
           git commit -m "Add ${USERNAME} to django-commons"
           git push origin ${BRANCH_NAME}
 

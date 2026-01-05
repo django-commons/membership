@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'terraform/production/org.tfvars'
+      - 'terraform/org.tfvars'
       - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
       - '.github/workflows/repos-plan.yml'
@@ -21,7 +21,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-
+    timeout-minutes: 10
     steps:
       - name: Checkout code
         uses: actions/checkout@v6.0.1
@@ -38,7 +38,7 @@ jobs:
           variables: |
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |
-            terraform/production/repositories.tfvars
+            terraform/repositories.tfvars
 
       - name: Commit changes
         if: ${{ always() }}
@@ -46,5 +46,5 @@ jobs:
         with:
           github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           commit_prefix: "[AUTO]"
-          commit_message: "State changes after apply"
+          commit_message: "Repositories state changes after apply"
           force: false

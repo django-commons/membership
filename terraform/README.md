@@ -8,7 +8,7 @@ GitHub Organization as Terraform
   while `has_issues` as a constant - I am embarrassed to say I don't have a better answer than laziness :smile: - I just
   figured if this is the path we want to take, we can continue adding to it.
 - `production/*.tfvars` - instances, should strictly follow the types in `variables.tf`.
-- `main.tf` - build configuration based on instances values from `production.tfvars` (or, if not defined explicitly,
+- `main.tf` - build configuration based on instances values from `*.tfvars` (or, if not defined explicitly,
   then default value from `variables.tf`)
 - `resources-*.tf` - define resources, like `github_repository`, `github_team`, etc.
 - `tfstate.json` - Current state file, pulled using `terraform import ..`
@@ -19,8 +19,8 @@ We can define our "desired/default" repository configuration, and within this co
 
 - What is enforced from day one (i.e., constant in `resource "github_repository" "this"`)
 - What is recommended but can be changed by users (i.e., variable with a default value in `variables.tf` that can be
-  updated in `production.tfvars`) => Note this can also help us review outliers, you can see all repos which have
-  non-default values in the `production.tfvars` file.
+  updated in `*.tfvars`) => Note this can also help us review outliers, you can see all repos which have
+  non-default values in the `*.tfvars` file
 - What is determined by users (i.e., variables without default value, like `description`)
 - What is not configured in the infra-as-code (currently, for example, repo-labels).
 

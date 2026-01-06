@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'terraform/org.tfvars'
+      - 'terraform/repositories.tfvars'
       - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
       - '.github/workflows/repos-plan.yml'

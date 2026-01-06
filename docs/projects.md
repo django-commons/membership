@@ -2,7 +2,7 @@
 
 These are the projects that have joined Django commons and the dates they joined.
 The true list of projects can be found in the 
-[repositories.tfvars](https://github.com/django-commons/membership/blob/main/terraform/production/repositories.tfvars) file.
+[repositories.tfvars](https://github.com/django-commons/membership/blob/main/terraform/repositories.tfvars) file.
 
 - django-valkey: 2025-06-17
 - django-prometheus: 2025-06-17

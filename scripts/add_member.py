@@ -1,7 +1,7 @@
 import re
 import sys
 
-TERRAFORM_ORG_FILE = "./terraform/production/org.tfvars"
+TERRAFORM_ORG_FILE = "./terraform/org.tfvars"
 
 
 def add_member(content, new_member_name, team_name):

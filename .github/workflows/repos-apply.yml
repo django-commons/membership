@@ -1,4 +1,4 @@
-name: "Apply org-repositories changes"
+name: "Apply org repositories changes"
 
 on:
   push:

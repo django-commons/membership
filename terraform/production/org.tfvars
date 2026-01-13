@@ -64,7 +64,7 @@ members = [
   "gav-fyi",
   "giovannicimolin",
   "input",
-  "insaida",
+  "Insaida",
   "jacklinke",
   "jaehyuckSa",
   "JaeHyuckSa",

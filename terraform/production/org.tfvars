@@ -134,7 +134,6 @@ organization_teams = {
       "cunla",
       "ryancheley",
       "Stormheg",
-      "tim-schilling",
       "williln",
     ]
   }

@@ -105,6 +105,7 @@ members = [
   "priyapahwa",
   "RealOrangeOne",
   "rptmat57",
+  "SaeedRz96",
   "salty-ivy",
   "sergei-maertens",
   "Shrikantgiri25",

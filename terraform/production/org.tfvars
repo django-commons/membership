@@ -111,6 +111,7 @@ members = [
   "Shrikantgiri25",
   "SinkuKumar",
   "sobolevn",
+  "spapas",
   "testSchilling",
   "thibaudcolas",
   "TimothyMalahy",

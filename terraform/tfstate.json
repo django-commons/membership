@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.3",
-  "serial": 792,
+  "serial": 794,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -109,6 +109,7 @@
               "",
               "",
               "",
+              "",
               "thibaudcolas@gmail.com",
               "schillingt@better-simple.com",
               "",
@@ -118,7 +119,7 @@
               "",
               ""
             ],
-            "id": "0061c0c5f201f86d67fb2d6d443597c9",
+            "id": "999b94393b2d6c9829a7bd2ab575c7ec",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -205,6 +206,7 @@
               "salty-ivy",
               "sergei-maertens",
               "sobolevn",
+              "spapas",
               "testSchilling",
               "thibaudcolas",
               "tim-schilling",
@@ -301,6 +303,7 @@
               "MDQ6VXNlcjc0NTUzOTUx",
               "MDQ6VXNlcjU1MTg1NTA=",
               "MDQ6VXNlcjQ2NjAyNzU=",
+              "MDQ6VXNlcjM5MTEwNzQ=",
               "U_kgDOCdBRFg",
               "MDQ6VXNlcjg3NzU4NQ==",
               "MDQ6VXNlcjEyODEyMTU=",
@@ -398,6 +401,7 @@
               "salty-ivy",
               "sergei-maertens",
               "sobolevn",
+              "spapas",
               "testSchilling",
               "thibaudcolas",
               "tim-schilling",
@@ -1840,6 +1844,23 @@
             "id": "django-commons:sobolevn",
             "role": "member",
             "username": "sobolevn"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "spapas",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"d5e1b71bf55ec6b36c1e4ba5c14d34882eed1252cb0d203409954676063b5665\"",
+            "id": "django-commons:spapas",
+            "role": "member",
+            "username": "spapas"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

@@ -129,6 +129,7 @@ repositories = {
     admins = [
       "Natim",
       "pfouque",
+      "ticosax",
     ]
     committers = []
     members = [

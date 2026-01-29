@@ -114,6 +114,7 @@ members = [
   "spapas",
   "testSchilling",
   "thibaudcolas",
+  "ticosax",
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",

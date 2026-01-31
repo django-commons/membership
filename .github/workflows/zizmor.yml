@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 3
     steps:
       - name: Checkout repository
-        uses: actions/checkout@6.0.1 # v6.0.1
+        uses: actions/checkout@v6.0.1 # v6.0.1
         with:
           persist-credentials: false
 

@@ -28,7 +28,7 @@ jobs:
 
       - name: terraform fmt check
         # v2.2.2
-        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d
+        uses: dflook/terraform-fmt-check@59168426e242f665bf7b70644d706224e665056a
         with:
           path: "terraform"
 
@@ -47,7 +47,7 @@ jobs:
 
       - name: terraform plan
         # v1.44.0
-        uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca
+        uses: dflook/terraform-plan@7878bff63e2099cdc9be9a6f33cbbbf687f8f0fe
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -31,7 +31,7 @@ jobs:
           persist-credentials: false
       - name: terraform apply
         # v1.44.0
-        uses: dflook/terraform-apply@8f47d0ad9f3cb9e50fd6b3595c0cb98f00c518df
+        uses: dflook/terraform-apply@5489b988934a50bf1489d5b7c5253b46520a7dca
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}

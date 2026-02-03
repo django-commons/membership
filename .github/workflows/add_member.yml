@@ -29,7 +29,7 @@ jobs:
           python-version: '3.12'
 
       - name: Checkout code
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2
         with:
           # This is the default, but it's required since we are performing
           # Git operations later on.

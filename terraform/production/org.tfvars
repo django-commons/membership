@@ -56,6 +56,7 @@ members = [
   "dmpayton",
   "dr-rompecabezas",
   "elineda",
+  "Faakhir30",
   "federicobond",
   "FlipperPA",
   "fsbraun",

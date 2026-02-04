@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 810,
+  "serial": 812,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -99,6 +99,7 @@
               "mzemlickis@gmail.com",
               "info@akmiller.co.uk",
               "",
+              "",
               "okotdanz@gmail.com",
               "oliver@andrich.me",
               "",
@@ -125,7 +126,7 @@
               "",
               ""
             ],
-            "id": "b35b52f3ad80a563a1aa98cf8f093262",
+            "id": "85152fe828317d2ad568da3da66bbe4d",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -203,6 +204,7 @@
               "mzemlickis",
               "nanorepublica",
               "niltonpimentel02",
+              "nwanduka",
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
@@ -306,6 +308,7 @@
               "MDQ6VXNlcjQ1NTY5NDQ=",
               "MDQ6VXNlcjE5OTc5NDA=",
               "MDQ6VXNlcjYzNjA1NDg1",
+              "U_kgDOB1A6tg",
               "MDQ6VXNlcjQxNzQ0MDEy",
               "MDQ6VXNlcjc1OA==",
               "MDQ6VXNlcjgyNjA3NzIz",
@@ -410,6 +413,7 @@
               "mzemlickis",
               "nanorepublica",
               "niltonpimentel02",
+              "nwanduka",
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
@@ -1715,6 +1719,23 @@
             "id": "django-commons:niltonpimentel02",
             "role": "member",
             "username": "niltonpimentel02"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "nwanduka",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"9769df742b85ad49f1f13b8fcd9338131bfff8cb3b04a57018d21e8f5757de9b\"",
+            "id": "django-commons:nwanduka",
+            "role": "member",
+            "username": "nwanduka"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -6998,7 +7019,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"bf92d523fce77ed8dc6dfc72837825827bbc7f737f10e387ee4cfaededd686ae\"",
+            "etag": "W/\"e140ecf01c8891664b54feda8df26c77095d829a369c5371ace241cb45181fd0\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -7258,7 +7279,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ce051a980dcdea4f1b95350cf3eab243155659eb602db24e8151ccec257a46fd\"",
+            "etag": "W/\"88892219add666010c48837757e2bf5fb7d6fbb50229efcd10fdb0aa13b79d4a\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -7512,7 +7533,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"03fe1d869ece635130070fa1ca886f23c990157619032791d38696a76abf5b32\"",
+            "etag": "W/\"41d734f5a4a67a94124e9a8d372a3ba497124ba8dccd6da35af6ec0949b07f28\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",

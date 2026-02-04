@@ -315,5 +315,28 @@ repositories = {
     members = [
     ]
   }
+
+  "rest-framework-tutorial" = {
+    description         = "The Django REST framework tutorial. 🎓"
+    homepage_url        = "https://www.django-rest-framework.org/tutorial/1-serialization/"
+    allow_merge_commit  = false
+    allow_rebase_merge  = false
+    allow_squash_merge  = true
+    allow_update_branch = true
+
+    has_discussions = false
+    has_wiki        = false
+    admins = [
+      # "auvipy", # Not part of the org yet
+      "browniebroke",
+      "peterthomassen",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
+
 }
 

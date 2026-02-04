@@ -52,6 +52,7 @@ members = [
   "ddabble",
   "deronnax",
   "devatbosch",
+  "dgravitate",
   "DhavalGojiya",
   "dmpayton",
   "dr-rompecabezas",

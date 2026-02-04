@@ -23,6 +23,7 @@ designers = [
   "jmgutu",
   "johnatanmoran",
   "mzemlickis",
+  "nwanduka",
   "okotdaniel",
   "p-r-a-v-i-n",
   "Shrikantgiri25",

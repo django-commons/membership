@@ -8,6 +8,8 @@ body:
     attributes:
       value: |
         Thanks for expressing interest in joining Django Commons! If approved, you'll receive an email invitation to join. When you receive that email you'll have 7 days to accept.
+
+        **Be sure to edit the title of this issue replacing `your_username_here` with your GitHub username.**
   - type: textarea
     id: why-join
     attributes:

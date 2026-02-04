@@ -29,7 +29,7 @@ jobs:
           python-version: '3.12'
 
       - name: Checkout code
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
         with:
           # This is the default, but it's required since we are performing
           # Git operations later on.
@@ -94,7 +94,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add terraform/production/org.tfvars
+          git add terraform/org.tfvars
           git commit -m "Add ${USERNAME} to django-commons"
           git push origin ${BRANCH_NAME}
 

@@ -32,7 +32,7 @@ resource "github_repository_collaborators" "this" {
   repository = github_repository.this[each.key].name
 
   ignore_team {
-    team_id = github_team.org_teams["Admins"].slug
+    team_id = data.github_team.admins_team.slug
   }
   dynamic "team" {
     for_each = local.repo_collaborators[each.key]

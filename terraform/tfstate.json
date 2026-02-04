@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 818,
+  "serial": 821,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -115,6 +115,7 @@
               "aman2001mi@gmail.com",
               "",
               "",
+              "github@sidmitra.com",
               "",
               "",
               "",
@@ -128,7 +129,7 @@
               "",
               ""
             ],
-            "id": "bad05498ae8d59c9be2053155555f2eb",
+            "id": "7bcaabb0a66230c424688a97b0a5f030",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -222,6 +223,7 @@
               "salty-ivy",
               "sankarebarri",
               "sergei-maertens",
+              "sidmitra",
               "sobolevn",
               "spapas",
               "testSchilling",
@@ -328,6 +330,7 @@
               "MDQ6VXNlcjc0NTUzOTUx",
               "U_kgDOBcZ2hg",
               "MDQ6VXNlcjU1MTg1NTA=",
+              "MDQ6VXNlcjEwODc3NQ==",
               "MDQ6VXNlcjQ2NjAyNzU=",
               "MDQ6VXNlcjM5MTEwNzQ=",
               "U_kgDOCdBRFg",
@@ -435,6 +438,7 @@
               "salty-ivy",
               "sankarebarri",
               "sergei-maertens",
+              "sidmitra",
               "sobolevn",
               "spapas",
               "testSchilling",
@@ -1999,6 +2003,23 @@
             "id": "django-commons:sergei-maertens",
             "role": "member",
             "username": "sergei-maertens"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "sidmitra",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"72e7e47668c316908277742a351cf38a17dd31689bc76bae5886299c0292dc64\"",
+            "id": "django-commons:sidmitra",
+            "role": "member",
+            "username": "sidmitra"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -6975,7 +6996,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"dfb67babd9f61d5a469bf249376150c99b4f99308f69974614c6a537611c56c8\"",
+            "etag": "W/\"830e8cb4dec97a363a482ead288cef31e6b36b170faf4b7af8a352d95da51d3d\"",
             "id": "9757650:best-practices",
             "permission": "admin",
             "repository": "best-practices",

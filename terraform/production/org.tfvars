@@ -116,6 +116,7 @@ members = [
   "testSchilling",
   "thibaudcolas",
   "ticosax",
+  "TildaDares",
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",

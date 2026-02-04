@@ -19,6 +19,7 @@ super_admins = [
 designers = [
   "akshayvinchurkar",
   "federicobond",
+  "GODSPE1",
   "jmgutu",
   "johnatanmoran",
   "mzemlickis",
@@ -66,6 +67,7 @@ members = [
   "GaretJax",
   "gav-fyi",
   "giovannicimolin",
+  "GODSPE1",
   "input",
   "Insaida",
   "jacklinke",

@@ -117,6 +117,7 @@ members = [
   "sankarebarri",
   "sergei-maertens",
   "Shrikantgiri25",
+  "sidmitra",
   "SinkuKumar",
   "sobolevn",
   "spapas",

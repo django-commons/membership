@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 984,
+  "serial": 987,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -56,6 +56,7 @@
               "",
               "jon.c.culver@gmail.com",
               "bckohan@gmail.com",
+              "",
               "",
               "",
               "carlton.gibson@noumenal.es",
@@ -129,7 +130,7 @@
               "",
               ""
             ],
-            "id": "7bcaabb0a66230c424688a97b0a5f030",
+            "id": "7755fc883e311b3e074c31584fe1af28",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -166,6 +167,7 @@
               "bckohan",
               "blingblin-g",
               "browniebroke",
+              "bryan-oginga",
               "carltongibson",
               "cgl",
               "clintonb",
@@ -273,6 +275,7 @@
               "MDQ6VXNlcjI2MzIwNzQ5",
               "MDQ6VXNlcjYwMDkwMzkx",
               "MDQ6VXNlcjg2MTA0NA==",
+              "MDQ6VXNlcjQ0Mjk1ODIy",
               "MDQ6VXNlcjY0Njg2",
               "MDQ6VXNlcjE2MTUxNTA=",
               "MDQ6VXNlcjkxMDUxMA==",
@@ -381,6 +384,7 @@
               "bckohan",
               "blingblin-g",
               "browniebroke",
+              "bryan-oginga",
               "carltongibson",
               "cgl",
               "clintonb",
@@ -1051,6 +1055,23 @@
             "id": "django-commons:browniebroke",
             "role": "member",
             "username": "browniebroke"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "bryan-oginga",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"7c9f2717e2ddd3ae108075ea90080e0f6b0354d510505b321383d5e7290ba57a\"",
+            "id": "django-commons:bryan-oginga",
+            "role": "member",
+            "username": "bryan-oginga"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

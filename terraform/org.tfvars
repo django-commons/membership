@@ -46,6 +46,7 @@ members = [
   "bckohan",
   "blingblin-g",
   "browniebroke",
+  "bryan-oginga",
   "carltongibson",
   "cgl",
   "Chiemezuo",

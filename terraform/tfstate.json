@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 815,
+  "serial": 818,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -42,6 +42,7 @@
               "",
               "",
               "",
+              "mathildaudufo@gmail.com",
               "",
               "",
               "",
@@ -127,7 +128,7 @@
               "",
               ""
             ],
-            "id": "a00190a37e4a2a80fcf3ace709b62618",
+            "id": "bad05498ae8d59c9be2053155555f2eb",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -148,6 +149,7 @@
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
+              "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
               "Violette-Allotey",
@@ -253,6 +255,7 @@
               "MDQ6VXNlcjkxMTIyMzE5",
               "MDQ6VXNlcjczNzg1Nzk1",
               "MDQ6VXNlcjEzODU2NTE1",
+              "MDQ6VXNlcjYzNDI3NzE5",
               "MDQ6VXNlcjUwMjE3Nzgz",
               "MDQ6VXNlcjMyNTUyMjk2",
               "MDQ6VXNlcjY4ODY2MjQ2",
@@ -359,6 +362,7 @@
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
+              "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
               "Violette-Allotey",
@@ -775,6 +779,23 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "TildaDares",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"8afc461c362f301dca0ccb56428b33dd3392cc5a4decdeb0fbb2c59976070556\"",
+            "id": "django-commons:TildaDares",
+            "role": "member",
+            "username": "TildaDares"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -6954,7 +6975,7 @@
           "index_key": "best-practices",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"830e8cb4dec97a363a482ead288cef31e6b36b170faf4b7af8a352d95da51d3d\"",
+            "etag": "W/\"dfb67babd9f61d5a469bf249376150c99b4f99308f69974614c6a537611c56c8\"",
             "id": "9757650:best-practices",
             "permission": "admin",
             "repository": "best-practices",

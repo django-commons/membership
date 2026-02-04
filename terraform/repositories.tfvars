@@ -1,6 +1,5 @@
 # Organization repositories
 repositories = {
-
   ".github" = {
     description = "A Special Repository."
 

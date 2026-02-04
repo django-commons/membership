@@ -60,6 +60,7 @@ members = [
   "Faakhir30",
   "federicobond",
   "FlipperPA",
+  "forwardyoung",
   "fsbraun",
   "g-nie",
   "GaretJax",

@@ -99,6 +99,7 @@ members = [
   "nanorepublica",
   "Natim",
   "niltonpimentel02",
+  "nwanduka",
   "okotdaniel",
   "oliverandrich",
   "ontowhee",

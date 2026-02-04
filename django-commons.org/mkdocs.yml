@@ -1,5 +1,6 @@
 site_name: Django Commons
-repo_url: https://github.com/django-commons/django-commons.github.io
+repo_url: https://github.com/django-commons/membership
+repo_name: "django-commons/membership"
 docs_dir: ../docs
 markdown_extensions:
   - toc:

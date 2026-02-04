@@ -1,0 +1,30 @@
+site_name: Django Commons
+repo_url: https://github.com/django-commons/django-commons.github.io
+docs_dir: ../docs
+markdown_extensions:
+  - toc:
+      permalink: "#"
+plugins:
+  - blog:
+      blog_dir: blog
+  - rss:
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+theme:
+  name: material
+  logo: assets/logo-dark.png
+  favicon: assets/logo-dark.png
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
+  - FAQ: faq.md
+  - Funding: funding.md
+  - Organization:
+    - Decision Record: decision_record.md
+    - Governance: governance.md
+    - Projects: projects.md
+    - Team: team.md
+    - Values: values.md
+  - Media: media.md

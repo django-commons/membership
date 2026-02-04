@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 992,
+  "serial": 994,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -664,7 +664,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"3d76b65fbe3a11e5bdb27ba77bdcba57ab35ff3996a372059c0c2748c4aded06\"",
+            "etag": "W/\"4193500dec809c77a9a1a8bc87a2aec56570adc85690abfbc578bec00bdc2fda\"",
             "id": "django-commons:M97Chahboun",
             "role": "member",
             "username": "M97Chahboun"
@@ -817,7 +817,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": null,
-            "etag": "W/\"8afc461c362f301dca0ccb56428b33dd3392cc5a4decdeb0fbb2c59976070556\"",
+            "etag": "W/\"cd3ac0d3e1482a265bc3983dd8277a4260db695e4bba6e562a89c8ede516bd4a\"",
             "id": "django-commons:TildaDares",
             "role": "member",
             "username": "TildaDares"

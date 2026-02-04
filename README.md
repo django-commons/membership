@@ -102,3 +102,7 @@ Any package is welcome to join Django Commons so long as it has tangible benefit
 ### Logo
 
 Logo was designed by [Violette Naa Adoley Allotey](https://www.linkedin.com/in/violette-naa-adoley-allotey/)
+
+## Documentation Site
+
+See the [django-commons.org documentation](./django-commons.org/README.md).

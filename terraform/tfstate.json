@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 812,
+  "serial": 815,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -28,6 +28,7 @@
               "dhavalgojiya10@gmail.com",
               "",
               "",
+              "godspy18@gmail.com",
               "jonathan@stoppani.name",
               "",
               "jaehyuck.sa.dev@gmail.com",
@@ -126,13 +127,14 @@
               "",
               ""
             ],
-            "id": "85152fe828317d2ad568da3da66bbe4d",
+            "id": "a00190a37e4a2a80fcf3ace709b62618",
             "logins": [
               "2ykwang",
               "Chiemezuo",
               "DhavalGojiya",
               "Faakhir30",
               "FlipperPA",
+              "GODSPE1",
               "GaretJax",
               "Insaida",
               "JaeHyuckSa",
@@ -237,6 +239,7 @@
               "MDQ6VXNlcjUzODU2NTU1",
               "U_kgDOBproww",
               "MDQ6VXNlcjY4MTY0",
+              "U_kgDOBmXXfw",
               "MDQ6VXNlcjg2MjM2",
               "MDQ6VXNlcjk5NjQzODc=",
               "U_kgDOBj-X0w",
@@ -342,6 +345,7 @@
               "DhavalGojiya",
               "Faakhir30",
               "FlipperPA",
+              "GODSPE1",
               "GaretJax",
               "Insaida",
               "JaeHyuckSa",
@@ -529,6 +533,23 @@
             "id": "django-commons:FlipperPA",
             "role": "member",
             "username": "FlipperPA"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "GODSPE1",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"e8b7590c5c5d5dad4c6bec803ec9da65cb1742d07179de138d8abb93062ebe5a\"",
+            "id": "django-commons:GODSPE1",
+            "role": "member",
+            "username": "GODSPE1"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -1936,7 +1957,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"00115f114a82c7568c23d63c96d779cbdf3a8967c569b14347df978d6f4b5f86\"",
+            "etag": "W/\"fcce753e0aae82d2e8a29ecb4f9b9d8b77a1d9a40de5bc29bedb5001e61b4fee\"",
             "id": "django-commons:sankarebarri",
             "role": "member",
             "username": "sankarebarri"
@@ -5855,6 +5876,10 @@
             "members": [
               {
                 "role": "member",
+                "username": "GODSPE1"
+              },
+              {
+                "role": "member",
                 "username": "Shrikantgiri25"
               },
               {
@@ -7019,7 +7044,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"e140ecf01c8891664b54feda8df26c77095d829a369c5371ace241cb45181fd0\"",
+            "etag": "W/\"a39c503169e6282a989a36f9a944902afa86ada72e7e3a00cfacd212f3dd2d26\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -7279,7 +7304,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"88892219add666010c48837757e2bf5fb7d6fbb50229efcd10fdb0aa13b79d4a\"",
+            "etag": "W/\"c73aa9f228008dee789b443ac3376081910d57977121947a64cc1d651bec04e9\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -7533,7 +7558,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"41d734f5a4a67a94124e9a8d372a3ba497124ba8dccd6da35af6ec0949b07f28\"",
+            "etag": "W/\"21a8b7e9fb06e35c272c0838f06cbb5527bbe1054de33dac8ce13513136aeb50\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",

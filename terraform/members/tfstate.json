@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 990,
+  "serial": 992,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2425,6 +2425,10 @@
               {
                 "role": "member",
                 "username": "mzemlickis"
+              },
+              {
+                "role": "member",
+                "username": "nwanduka"
               },
               {
                 "role": "member",

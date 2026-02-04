@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 802,
+  "serial": 804,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -57,6 +57,7 @@
               "",
               "",
               "carlton.gibson@noumenal.es",
+              "",
               "",
               "",
               "",
@@ -121,7 +122,7 @@
               "",
               ""
             ],
-            "id": "38139b6123a7650d197506b9d6469623",
+            "id": "81ada2638fa1cd365b0828636764ec2c",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -163,6 +164,7 @@
               "ddabble",
               "deronnax",
               "devatbosch",
+              "dgravitate",
               "dmpayton",
               "dr-rompecabezas",
               "elineda",
@@ -262,6 +264,7 @@
               "MDQ6VXNlcjYwNTg3NDU=",
               "MDQ6VXNlcjQzOTI3OQ==",
               "U_kgDOCkDCgw",
+              "MDQ6VXNlcjY4NzExOTI2",
               "MDQ6VXNlcjE0OTkxOA==",
               "MDQ6VXNlcjc2NzA4NDM=",
               "MDQ6VXNlcjI0OTk2MDE2",
@@ -362,6 +365,7 @@
               "ddabble",
               "deronnax",
               "devatbosch",
+              "dgravitate",
               "dmpayton",
               "dr-rompecabezas",
               "elineda",
@@ -1104,6 +1108,23 @@
             "id": "django-commons:devatbosch",
             "role": "member",
             "username": "devatbosch"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "dgravitate",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"5e17b7091f2107865cce8f60853cc74b906ad801b24d54c4f43b9ef9ca60c7dd\"",
+            "id": "django-commons:dgravitate",
+            "role": "member",
+            "username": "dgravitate"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

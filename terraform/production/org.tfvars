@@ -89,6 +89,7 @@ members = [
   "korfuri",
   "kytta",
   "leogregianin",
+  "M97Chahboun",
   "manelclos",
   "matthiask",
   "mdehsan873",

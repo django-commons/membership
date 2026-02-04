@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 987,
+  "serial": 990,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -32,6 +32,7 @@
               "jonathan@stoppani.name",
               "",
               "jaehyuck.sa.dev@gmail.com",
+              "",
               "",
               "",
               "mogost@aartemyev.ru",
@@ -130,7 +131,7 @@
               "",
               ""
             ],
-            "id": "7755fc883e311b3e074c31584fe1af28",
+            "id": "90f760bd39acdcb60db0f94701e2c640",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -143,6 +144,7 @@
               "JaeHyuckSa",
               "JohananOppongAmoateng",
               "Josephchinedu",
+              "M97Chahboun",
               "Mogost",
               "MrCordeiro",
               "Natim",
@@ -251,6 +253,7 @@
               "U_kgDOBj-X0w",
               "MDQ6VXNlcjg4NDExNjE0",
               "MDQ6VXNlcjQ3ODUyOTI1",
+              "MDQ6VXNlcjY5MDU0ODEw",
               "MDQ6VXNlcjcyMTk2Mw==",
               "MDQ6VXNlcjIwNTk4NTcx",
               "MDQ6VXNlcjIyOTQ1Mw==",
@@ -360,6 +363,7 @@
               "JaeHyuckSa",
               "JohananOppongAmoateng",
               "Josephchinedu",
+              "M97Chahboun",
               "Mogost",
               "MrCordeiro",
               "Natim",
@@ -647,6 +651,23 @@
             "id": "django-commons:Josephchinedu",
             "role": "member",
             "username": "Josephchinedu"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "M97Chahboun",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"3d76b65fbe3a11e5bdb27ba77bdcba57ab35ff3996a372059c0c2748c4aded06\"",
+            "id": "django-commons:M97Chahboun",
+            "role": "member",
+            "username": "M97Chahboun"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

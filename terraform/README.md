@@ -3,15 +3,52 @@ GitHub Organization as Terraform
 
 # Structure
 
+## General terraform structure:
+
 - `variables.tf` - define variable types (classes?), notice there is `variable "repositories" {...` there which has a
-  few variables marked as optional with default values. Why I chose to have `has_discussions` as a repo variable
-  while `has_issues` as a constant - I am embarrassed to say I don't have a better answer than laziness :smile: - I just
-  figured if this is the path we want to take, we can continue adding to it.
-- `production/*.tfvars` - instances, should strictly follow the types in `variables.tf`.
-- `main.tf` - build configuration based on instances values from `production.tfvars` (or, if not defined explicitly,
+  few variables marked as optional with default values. Why I chose to have `has_discussions`.
+- `backend.tf` - define remote state backend (GitHub repo itself, in our case)
+- `locals.tf` - define local variables to be used in `main.tf`
+- `main.tf` - build configuration based on instances values from `*.tfvars` (or, if not defined explicitly,
   then default value from `variables.tf`)
 - `resources-*.tf` - define resources, like `github_repository`, `github_team`, etc.
 - `tfstate.json` - Current state file, pulled using `terraform import ..`
+
+## members module:
+
+- `org.tfvars` - Define organization members, designers, admins and super-admins as required by `variables.tf`.
+  Example:
+    ```terraform
+    admins = [      
+      "ryancheley", # ...
+    ]
+
+    members = [
+      "cunla", # ...
+    ]
+    ```
+- `members/*.tf` - define terraform resources for organization members and organization teams.
+
+## repositories module:
+
+- `repositories.tfvars` - define repositories to be managed based on the definition of the `repositories` variable in
+  `repositories/variables.tf`. Example (for a full repository definition, see the `# What changes can be made` section
+  below):
+    ```terraform
+    repositories = {
+      "repo-name" = {
+        description = "repo description"
+        admins = ["member1", "member2"]
+        committers = ["member3"]
+        members = ["member4", "member5"]
+      }
+     # ...
+    }
+    ```
+
+- Note: some repository configuration is not extracted to be managed via `repositories.tfvars`, for example,
+  whether a repository has issues enabled or not. These settings are enforced in `repositories/resources-repos.tf`
+  directly under `resource "github_repository" "this" {...`.
 
 # Why Terraform?
 
@@ -19,18 +56,17 @@ We can define our "desired/default" repository configuration, and within this co
 
 - What is enforced from day one (i.e., constant in `resource "github_repository" "this"`)
 - What is recommended but can be changed by users (i.e., variable with a default value in `variables.tf` that can be
-  updated in `production.tfvars`) => Note this can also help us review outliers, you can see all repos which have
-  non-default values in the `production.tfvars` file.
+  updated in `*.tfvars`) => Note this can also help us review outliers, you can see all repos which have
+  non-default values in the `*.tfvars` file
 - What is determined by users (i.e., variables without default value, like `description`)
 - What is not configured in the infra-as-code (currently, for example, repo-labels).
 
 # What changes can be made
 
-All changes should be made in `production/*.tfvars`:
+All changes should be made in `*.tfvars`:
 
-- Add/Remove organization admins by editing the `admins` list.
-- Add/Remove organization members by editing the `members` list.
-- Add/Remove/Update repositories by editing the `repositories`. A repository can have the following variables:
+- Add/Remove organization admins/members/designers by editing the `org.tfvars` file.
+- Add/Remove/Update repositories by editing the `repositories.tfvars`. A repository can have the following variables:
     ```terraform
     repositories = {
       "repo-name" = {
@@ -66,24 +102,27 @@ You might want to try new settings locally before applying them to the repositor
 To do so, you can use the following steps:
 
 1. Clone the repository.
-2. From the `terraform/` directory, run `terraform init`.
+2. From the `terraform/{module}` directory, run `terraform init`.
 3. Create a github-token with the necessary permissions on the organization (see [permissions documentation][1]).
     - The `repo` permission for full control of private repositories.
     - The `admin:org` permission for full control of orgs and teams, read and write org projects
     - The `delete_repo` permission to delete repositories
 
-4. Make changes to `production/*.tfvars` to reflect the desired state (add/update users, repositories, teams, etc.)
+4. Make changes to `org.tfvars`/`repositories.tfvars` to reflect the desired state (add/update users, repositories,
+   teams, etc.)
 5. To see what changes between the current state of the GitHub organization and the plan
-   run:  `terraform plan -var-file=production/org.tfvars -var-file=production/repositories.tfvars -var github_token=...`
+   run:  `terraform plan -var-file={module}.tfvars -var github_token=...` (replace `{module}` with either `members` or
+   `repositories`).
 6. To apply the changes,
-   run: `terraform apply -var-file=production/org.tfvars -var-file=production/repositories.tfvars -var github_token=...`
+   run: `terraform apply -var-file={module}.tfvars -var github_token=...` (replace `{module}` with either `members` or
+   `repositories`).
 
 # Integration with GitHub Actions
 
 The repository is configured to run `terraform plan` on every new pull-request as well as an update to a pull-request
 and list the expected changes as a comment on the pull-request.
-Once the pull-request is merged to the `main` branch, `terraform apply` applies the changes to the GitHub organization, and
-the updated current state is committed to the `main` branch.
+Once the pull-request is merged to the `main` branch, `terraform apply` applies the changes to the GitHub organization,
+and the updated current state is committed to the `main` branch.
 To achieve this, the workflows use `TERRAFORM_MANAGEMENT_GITHUB_TOKEN` secret to plan/apply terraform changes.
 
 `TERRAFORM_MANAGEMENT_GITHUB_TOKEN` is a fine-grained personal access token with permissions the following permissions

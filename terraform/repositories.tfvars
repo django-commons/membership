@@ -1,6 +1,5 @@
 # Organization repositories
 repositories = {
-
   ".github" = {
     description = "A Special Repository."
 
@@ -129,6 +128,7 @@ repositories = {
     admins = [
       "Natim",
       "pfouque",
+      "ticosax",
     ]
     committers = []
     members = [

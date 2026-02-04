@@ -1,0 +1,51 @@
+name: "Apply org membership changes"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'terraform/org.tfvars'
+      - 'terraform/members/*.tf'
+      - '.github/workflows/members-apply.yml'
+      - '.github/workflows/members-plan.yml'
+
+concurrency:
+  group: terraform-actions-members
+
+jobs:
+  org-apply-changes:
+    name: "Apply org membership changes"
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
+        with:
+          persist-credentials: false
+      - name: terraform apply
+        uses: dflook/terraform-apply@8f47d0ad9f3cb9e50fd6b3595c0cb98f00c518df # v2.2.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+        with:
+          auto_approve: true
+          path: "terraform/members"
+          label: 'members'
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
+          var_file: |
+            terraform/org.tfvars
+
+      - name: Commit changes
+        if: ${{ always() }}
+        uses: devops-infra/action-commit-push@8a2d9d73c3f506468129be2e4409e60dbed70357 # v1.0.3
+        with:
+          github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          commit_prefix: "[AUTO]"
+          commit_message: "Members state changes after apply"
+          force: false

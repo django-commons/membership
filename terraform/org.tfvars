@@ -19,9 +19,11 @@ super_admins = [
 designers = [
   "akshayvinchurkar",
   "federicobond",
+  "GODSPE1",
   "jmgutu",
   "johnatanmoran",
   "mzemlickis",
+  "nwanduka",
   "okotdaniel",
   "p-r-a-v-i-n",
   "Shrikantgiri25",
@@ -45,6 +47,7 @@ members = [
   "bckohan",
   "blingblin-g",
   "browniebroke",
+  "bryan-oginga",
   "carltongibson",
   "cgl",
   "Chiemezuo",
@@ -52,18 +55,23 @@ members = [
   "ddabble",
   "deronnax",
   "devatbosch",
+  "dgravitate",
   "DhavalGojiya",
   "dmpayton",
   "dr-rompecabezas",
   "elineda",
+  "Faakhir30",
   "federicobond",
   "FlipperPA",
+  "forwardyoung",
   "fsbraun",
   "g-nie",
   "GaretJax",
   "gav-fyi",
   "giovannicimolin",
+  "GODSPE1",
   "input",
+  "Insaida",
   "jacklinke",
   "jaehyuckSa",
   "JaeHyuckSa",
@@ -83,8 +91,10 @@ members = [
   "korfuri",
   "kytta",
   "leogregianin",
+  "M97Chahboun",
   "manelclos",
   "matthiask",
+  "mdehsan873",
   "mihrab34",
   "mkalioby",
   "mnislam01",
@@ -94,6 +104,7 @@ members = [
   "nanorepublica",
   "Natim",
   "niltonpimentel02",
+  "nwanduka",
   "okotdaniel",
   "oliverandrich",
   "ontowhee",
@@ -104,13 +115,19 @@ members = [
   "priyapahwa",
   "RealOrangeOne",
   "rptmat57",
+  "SaeedRz96",
   "salty-ivy",
+  "sankarebarri",
   "sergei-maertens",
   "Shrikantgiri25",
+  "sidmitra",
   "SinkuKumar",
   "sobolevn",
+  "spapas",
   "testSchilling",
   "thibaudcolas",
+  "ticosax",
+  "TildaDares",
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",
@@ -147,13 +164,4 @@ organization_teams = {
       "williln",
     ]
   }
-}
-
-################ GitHub Organization Secrets, not used at the moment #############
-
-organization_secrets = {
-  #     "GPG_PASSPHRASE" = {
-  #       description = "GPG Passphrase used to encrypt plan.out files"
-  #       visibility  = "all"
-  #     }
 }

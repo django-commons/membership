@@ -58,6 +58,7 @@ members = [
   "elineda",
   "federicobond",
   "FlipperPA",
+  "forwardyoung",
   "fsbraun",
   "g-nie",
   "GaretJax",

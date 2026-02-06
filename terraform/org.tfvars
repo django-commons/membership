@@ -70,6 +70,7 @@ members = [
   "gav-fyi",
   "giovannicimolin",
   "GODSPE1",
+  "Hopiu",
   "input",
   "Insaida",
   "jacklinke",

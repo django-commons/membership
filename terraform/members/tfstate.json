@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.4",
-  "serial": 1006,
+  "serial": 1009,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -42,6 +42,7 @@
               "",
               "mogost@aartemyev.ru",
               "fernando_cordeiro@live.com",
+              "",
               "",
               "",
               "saeedramezani75@gmail.com",
@@ -136,7 +137,7 @@
               "",
               ""
             ],
-            "id": "84b78f29e86b6a6e030b7d2f6f0aaf82",
+            "id": "534c7505067f0a8eb0f1a5d677cda4fa",
             "logins": [
               "2ykwang",
               "Chiemezuo",
@@ -156,6 +157,7 @@
               "Mogost",
               "MrCordeiro",
               "Natim",
+              "Ndungu9039",
               "RealOrangeOne",
               "SaeedRz96",
               "Shrikantgiri25",
@@ -268,6 +270,7 @@
               "MDQ6VXNlcjcyMTk2Mw==",
               "MDQ6VXNlcjIwNTk4NTcx",
               "MDQ6VXNlcjIyOTQ1Mw==",
+              "U_kgDOBerTmw",
               "MDQ6VXNlcjY1Mjc0ODk=",
               "MDQ6VXNlcjIwNjY5Mzg5",
               "MDQ6VXNlcjkxMTIyMzE5",
@@ -383,6 +386,7 @@
               "Mogost",
               "MrCordeiro",
               "Natim",
+              "Ndungu9039",
               "RealOrangeOne",
               "SaeedRz96",
               "Shrikantgiri25",
@@ -630,7 +634,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"d5015a6eafc57072ca2f767b2cb32250016f47bb259b7a7fb4faed9f171c0eab\"",
+            "etag": "W/\"258461397a10ebb917bdff60a858b0d8237da832647a4c0dd90d1e7bb3195120\"",
             "id": "django-commons:Hopiu",
             "role": "member",
             "username": "Hopiu"
@@ -647,7 +651,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"a0ded909371184122c2192e48214b6789c71480ce0ce9637999732a6e163dd60\"",
+            "etag": "W/\"f0f7a8efc19844810a93cf746ab6c6cab706be5a9f02081b3c69b2b5c2fd9ae8\"",
             "id": "django-commons:Horlawhumy-dev",
             "role": "member",
             "username": "Horlawhumy-dev"
@@ -791,6 +795,23 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "Ndungu9039",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"01af1469c6d770046f83b21a2176f7b0c341e5e2219bf26c625f136ba6473012\"",
+            "id": "django-commons:Ndungu9039",
+            "role": "member",
+            "username": "Ndungu9039"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -2377,7 +2398,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"d663dae58bd3173d503d0c04567d11f7a893ceba74a4b3b11f8fba8cb3b2eef8\"",
+            "etag": "W/\"72ee2424ca453277c6675e204837306d5a5d14534f72944d0557b55046088504\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 13,
@@ -2407,7 +2428,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"8c17c606f9fca8e7716ac76217c8774215c111a103c7311a378b28d3a364f132\"",
+            "etag": "W/\"b16cc514e374f750ebc82cbe1446ac843c30e1a1961218c7483991a6ef9a6cba\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2429,7 +2450,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"a12676cdc84b0d368880a0e85d286cccbabf97b68d0c07e643cbeaa067e00c2a\"",
+            "etag": "W/\"991a732b0b4091ae37222e61732d780ac9a23f5b4bbae78d93b78a7a142b78f9\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,
@@ -2461,6 +2482,10 @@
               {
                 "role": "member",
                 "username": "GODSPE1"
+              },
+              {
+                "role": "member",
+                "username": "Ndungu9039"
               },
               {
                 "role": "member",

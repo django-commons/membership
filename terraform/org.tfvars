@@ -50,6 +50,7 @@ members = [
   "browniebroke",
   "bryan-oginga",
   "carltongibson",
+  "Ceasar15",
   "cgl",
   "Chiemezuo",
   "clintonb",

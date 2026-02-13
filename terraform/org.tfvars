@@ -40,7 +40,7 @@ members = [
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
-  "amirreza8002",
+  "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
   "ayimdomnic",

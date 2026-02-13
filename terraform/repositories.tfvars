@@ -332,7 +332,9 @@ repositories = {
     admins = [
       "adamghill",
     ]
-    committers = []
+    committers = [
+      "JohananOppongAmoateng",
+    ]
     members    = []
   }
   "django-unicorn.com" = {

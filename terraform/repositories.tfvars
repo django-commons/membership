@@ -334,5 +334,25 @@ repositories = {
     committers = []
     members    = []
   }
+   "django-unicorn.com" = {
+    description         = "Website for django-unicorn"
+    homepage_url        = "www.django-unicorn.com"
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    topics = [
+      "javascript",
+      "python",
+      "django",
+      "fullstack",
+      "django-unicorn",
+    ]
+    admins = [
+      "adamghill",
+    ]
+    committers = []
+    members    = []
+  }
 }
 

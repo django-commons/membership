@@ -11,6 +11,7 @@ variable "repositories" {
   description = "Map of repositories to create"
   type = map(object({
     description                     = string
+    homepage_url                    = optional(string, "")
     allow_auto_merge                = optional(bool, false)
     allow_merge_commit              = optional(bool, false)
     allow_rebase_merge              = optional(bool, false)
@@ -20,7 +21,6 @@ variable "repositories" {
     has_projects                    = optional(bool, true)
     has_discussions                 = optional(bool, true)
     has_downloads                   = optional(bool, true)
-    homepage_url                    = optional(string, "")
     has_wiki                        = optional(bool, false)
     push_allowances                 = optional(list(string), [])
     required_status_checks_contexts = optional(list(string), [])

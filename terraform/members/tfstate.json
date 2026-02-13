@@ -1,13 +1,11 @@
 {
   "version": 4,
   "terraform_version": "1.14.5",
-  "serial": 1012,
+  "serial": 1016,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
-      "value": [
-        "amirreza8002"
-      ],
+      "value": [],
       "type": [
         "list",
         "string"
@@ -58,6 +56,7 @@
               "",
               "",
               "akshay12345vin@gmail.com",
+              "",
               "",
               "hello@asherfoa.com",
               "",
@@ -138,7 +137,7 @@
               "",
               ""
             ],
-            "id": "535ad9ab461d1d9a19785b3a2f03504e",
+            "id": "350830b211baea7e975728595551a431",
             "logins": [
               "2ykwang",
               "Ceasar15",
@@ -173,6 +172,7 @@
               "adRn-s",
               "adamghill",
               "akshayvinchurkar",
+              "amirreza-sf80",
               "andoriyaprashant",
               "asherf",
               "ayimdomnic",
@@ -287,6 +287,7 @@
               "MDQ6VXNlcjYyOTcxOTk1",
               "MDQ6VXNlcjMxNzA0NQ==",
               "MDQ6VXNlcjEwNTEwODg5",
+              "U_kgDOByTH3Q",
               "U_kgDOB0B3aQ",
               "MDQ6VXNlcjEyNjgwODg=",
               "MDQ6VXNlcjYyMTU5MjU=",
@@ -367,9 +368,7 @@
               "MDQ6VXNlcjM1MTUwMDAx",
               "MDQ6VXNlcjIyODYzMDQ="
             ],
-            "unknown_logins": [
-              "amirreza8002"
-            ],
+            "unknown_logins": [],
             "usernames": [
               "2ykwang",
               "Ceasar15",
@@ -404,7 +403,7 @@
               "adRn-s",
               "adamghill",
               "akshayvinchurkar",
-              "amirreza8002",
+              "amirreza-sf80",
               "andoriyaprashant",
               "asherf",
               "ayimdomnic",
@@ -519,7 +518,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"943185a958c5595990617542259a3f397c8cacf57c9b18960f04ed792f50eaa9\"",
+            "etag": "W/\"05bfd9b4967406cb924027a77bef9531b4a9015494a15e4590109c774089369b\"",
             "id": "django-commons:Ceasar15",
             "role": "member",
             "username": "Ceasar15"
@@ -603,7 +602,7 @@
           "index_key": "GODSPE1",
           "schema_version": 0,
           "attributes": {
-            "downgrade_on_destroy": null,
+            "downgrade_on_destroy": false,
             "etag": "W/\"e8b7590c5c5d5dad4c6bec803ec9da65cb1742d07179de138d8abb93062ebe5a\"",
             "id": "django-commons:GODSPE1",
             "role": "member",
@@ -611,7 +610,7 @@
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -1050,6 +1049,23 @@
             "id": "django-commons:akshayvinchurkar",
             "role": "member",
             "username": "akshayvinchurkar"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "amirreza-sf80",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"82c63bc493a724cc3268854898f6b5c770b6adc406984e7701d6da873a00b5c9\"",
+            "id": "django-commons:amirreza-sf80",
+            "role": "member",
+            "username": "amirreza-sf80"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2419,7 +2435,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"edf9bcbb8e8aa1adce9af8effb9f699268c66d9eff9b653fe16ce162120c4b9c\"",
+            "etag": "W/\"9d0e5a471ae3775bb0d45fa3e270eaf0bd95e6ddf85d4852397dc6faa25bbb88\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 14,
@@ -2449,7 +2465,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"97818a4334618cc7cfab43731e7f16cd8a3db6fb62ba59b0009c7c45bdbd50e6\"",
+            "etag": "W/\"a691426054d7204678892526f4fb0a4b80dd53f76b31aec3b93301094565e233\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2471,7 +2487,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"6ff95244abe553a830d223f92f1b363549b6f002486ee9546280d4bc294725e3\"",
+            "etag": "W/\"4f7266f2a23d62fa6932e8ab2df6631a8f37849e7a737fd1e8c4583646dea9a4\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,

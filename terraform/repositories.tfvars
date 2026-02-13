@@ -314,5 +314,25 @@ repositories = {
     members = [
     ]
   }
+  "django-unicorn" = {
+    description         = "The magical reactive component framework for Django ✨"
+    homepage_url        = "www.django-unicorn.com"
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    topics = [
+      "javascript",
+      "python",
+      "django",
+      "fullstack",
+      "frontend-framework",
+    ]
+    admins = [
+      "adamghill",
+    ]
+    committers = []
+    members    = []
+  }
 }
 

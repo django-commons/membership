@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.5",
-  "serial": 1016,
+  "serial": 1018,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2435,7 +2435,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"9d0e5a471ae3775bb0d45fa3e270eaf0bd95e6ddf85d4852397dc6faa25bbb88\"",
+            "etag": "W/\"000fa71ffe92b6bf179efb899d1d1ae7af60aa86706a21648534586b7e694352\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 14,
@@ -2465,7 +2465,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"a691426054d7204678892526f4fb0a4b80dd53f76b31aec3b93301094565e233\"",
+            "etag": "W/\"591eb0944c247eadcb96e6b6159f02a5eb7a841523ba6491fe70667f4d7df41d\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2487,7 +2487,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"4f7266f2a23d62fa6932e8ab2df6631a8f37849e7a737fd1e8c4583646dea9a4\"",
+            "etag": "W/\"445e50d8f59ed093d1609911b702822341b90c08e0a80bd67d0d71f01cdf81a7\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,

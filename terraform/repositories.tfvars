@@ -159,7 +159,7 @@ repositories = {
     description        = "Use Typer (type hints) to define the interface for your Django management commands."
     homepage_url       = "https://django-typer.rtfd.io"
     allow_auto_merge   = false
-    allow_merge_commit = true
+    allow_merge_commit = false
     allow_rebase_merge = true
     allow_squash_merge = true
     has_wiki           = true
@@ -288,7 +288,7 @@ repositories = {
     has_discussions = true
     has_wiki        = false
     admins = [
-      "amirreza8002",
+      "amirreza-sf80",
     ]
     committers = [
     ]
@@ -313,6 +313,51 @@ repositories = {
     ]
     members = [
     ]
+  }
+  "django-unicorn" = {
+    description         = "The magical reactive component framework for Django ✨"
+    homepage_url        = "https://www.django-unicorn.com"
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_projects        = false
+    topics = [
+      "javascript",
+      "python",
+      "django",
+      "fullstack",
+      "frontend-framework",
+    ]
+    admins = [
+      "adamghill",
+    ]
+    committers = [
+      "JohananOppongAmoateng",
+    ]
+    members    = []
+  }
+  "django-unicorn.com" = {
+    description         = "Website for django-unicorn"
+    homepage_url        = "https://www.django-unicorn.com"
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    has_wiki            = false
+    topics = [
+      "javascript",
+      "python",
+      "django",
+      "fullstack",
+      "django-unicorn",
+    ]
+    admins = [
+      "adamghill",
+    ]
+    committers = []
+    members    = []
   }
 }
 

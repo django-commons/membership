@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.5",
-  "serial": 829,
+  "serial": 832,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -694,7 +694,7 @@
             "has_discussions": true,
             "has_downloads": true,
             "has_issues": true,
-            "has_projects": true,
+            "has_projects": false,
             "has_wiki": false,
             "homepage_url": "https://github.com/django-commons/django-fsm-2",
             "html_url": "https://github.com/django-commons/django-fsm-2",
@@ -1179,7 +1179,7 @@
             "has_discussions": true,
             "has_downloads": true,
             "has_issues": true,
-            "has_projects": true,
+            "has_projects": false,
             "has_wiki": false,
             "homepage_url": "https://www.django-unicorn.com",
             "html_url": "https://github.com/django-commons/django-unicorn",
@@ -2538,7 +2538,7 @@
                 "teams": [
                   16259135
                 ],
-                "users": null
+                "users": []
               }
             ],
             "wait_timer": 0
@@ -2566,7 +2566,7 @@
                 "teams": [
                   16259134
                 ],
-                "users": null
+                "users": []
               }
             ],
             "wait_timer": 0
@@ -3229,10 +3229,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-unicorn repository",
-            "etag": "W/\"1a8a836e31c8d7c8d2c6c1f9a08f3e6fd3f79b33e50e8e5c49b7bba7d4155b77\"",
+            "etag": "W/\"2b45b2b539a2a8109b9ded50d0bcc40043094c511c28afe7c53948dd049cca6a\"",
             "id": "16259135",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-unicorn-admins",
             "node_id": "T_kwDOCaaRBM4A-Bg_",
             "parent_team_id": "16259130",
@@ -3254,10 +3254,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-unicorn.com repository",
-            "etag": "W/\"90722826c0cb361e7d1d8080b6218ff138f163f0c7559420f9006cd2da38a8d0\"",
+            "etag": "W/\"497f9d20f8758a397672316e48fe5c2806a3f9e1d6d8e07d0675a88ee82c0400\"",
             "id": "16259134",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-unicorn.com-admins",
             "node_id": "T_kwDOCaaRBM4A-Bg-",
             "parent_team_id": "16259131",
@@ -4009,10 +4009,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-unicorn repository",
-            "etag": "W/\"25dd152f20f2890072cee4c83adab437907461aaea2e0f7c388cbe80337718d6\"",
+            "etag": "W/\"3d75c3685a8d792ff523d6b184d7577a19999c98e2f7b7ba339db680afc1c7c2\"",
             "id": "16259130",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-unicorn",
             "node_id": "T_kwDOCaaRBM4A-Bg6",
             "parent_team_id": "",
@@ -4031,10 +4031,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-unicorn.com repository",
-            "etag": "W/\"e432f95cd5e7ec1619fa7e70bcfbcb65f039632515a430103ee0478ebc096071\"",
+            "etag": "W/\"9a675abf2ed887413ef44e871a8a2b2cd0abefd57b625f41061282dc46d73b25\"",
             "id": "16259131",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-unicorn.com",
             "node_id": "T_kwDOCaaRBM4A-Bg7",
             "parent_team_id": "",
@@ -4459,7 +4459,7 @@
             "members": [
               {
                 "role": "member",
-                "username": "amirreza8002"
+                "username": "amirreza-sf80"
               }
             ],
             "team_id": "django-valkey-admins"
@@ -4611,6 +4611,27 @@
               }
             ],
             "team_id": "django-tasks-scheduler-committers"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
+        },
+        {
+          "index_key": "django-unicorn",
+          "schema_version": 0,
+          "attributes": {
+            "id": "django-unicorn-committers",
+            "members": [
+              {
+                "role": "member",
+                "username": "JohananOppongAmoateng"
+              }
+            ],
+            "team_id": "django-unicorn-committers"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -5025,6 +5046,10 @@
             "members": [
               {
                 "role": "member",
+                "username": "JohananOppongAmoateng"
+              },
+              {
+                "role": "member",
                 "username": "adamghill"
               }
             ],
@@ -5067,7 +5092,7 @@
             "members": [
               {
                 "role": "member",
-                "username": "amirreza8002"
+                "username": "amirreza-sf80"
               }
             ],
             "team_id": "django-valkey"
@@ -5233,7 +5258,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"e5b1936f54f70d069b3248fb80d80d94a53e994a1f5748e9ce2ae470db6546b1\"",
+            "etag": "W/\"c73fd7cfc47470d9251d00d3761cb95fb5ebcac6bd8f3fbcba8e59dbaa51e1c0\"",
             "id": "10870432:django-fsm-2",
             "permission": "admin",
             "repository": "django-fsm-2",
@@ -5287,7 +5312,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"6aaeb3e88d9ce90be0ccd2175f4486e0bc02149a22e9e98b2092dbf05f162b9a\"",
+            "etag": "W/\"04061431326c83b73fb00417b02540df2cdf638bb1fdfd027c97b91543dcb378\"",
             "id": "11394000:django-tailwind-cli",
             "permission": "admin",
             "repository": "django-tailwind-cli",
@@ -5341,7 +5366,7 @@
           "index_key": "django-unicorn",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a227950efc297bd80106e79fead78a020e0fbb0838401153936639110d34f00f\"",
+            "etag": "W/\"81192b69fbc38ab4b0a85578bab7f044f150b644c4cab30876dc86f34bb10442\"",
             "id": "16259135:django-unicorn",
             "permission": "admin",
             "repository": "django-unicorn",
@@ -5529,7 +5554,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"58e0e2fc30d5186a5d5d4977ba61153a9ee224cb4848adb088654703a2e168ed\"",
+            "etag": "W/\"5dc6cc92acb1f2251a39d114e1399aeaa3e754a726b6a06631ccce127aafb596\"",
             "id": "10870433:django-fsm-2",
             "permission": "maintain",
             "repository": "django-fsm-2",
@@ -5583,7 +5608,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"2a1c930aa4cba6167661873c05460de340de6494f6f02b5d042cb81926a40e36\"",
+            "etag": "W/\"b2d5742b86b6180d48b9c26f40e97e60dd2794ac6c1f9a16e4c35f097a1e3e67\"",
             "id": "11394001:django-tailwind-cli",
             "permission": "maintain",
             "repository": "django-tailwind-cli",
@@ -5637,7 +5662,7 @@
           "index_key": "django-unicorn",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"8a486ef6538eea5e9fff5075b07d51e80e3f8bff5aabed5f78495157a7f4b4a9\"",
+            "etag": "W/\"dc762490221dd514f5970ca5d56c267cc65234223bdd6d8f807998d87fab5f48\"",
             "id": "16259136:django-unicorn",
             "permission": "maintain",
             "repository": "django-unicorn",
@@ -5819,7 +5844,7 @@
           "index_key": "django-fsm-2",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"babc42873bb1c146e8bf886601b635d829d9a616d3cce0fecdca5713533b1214\"",
+            "etag": "W/\"a5957c795731af7ca1515bfee6a086206e96adc530fa090d59d308a99efd0a57\"",
             "id": "10870431:django-fsm-2",
             "permission": "triage",
             "repository": "django-fsm-2",
@@ -5870,7 +5895,7 @@
           "index_key": "django-tailwind-cli",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f559af934bd8de5d767270b129e8bc5eb054dd7f78a4ba4788497abc34bf5982\"",
+            "etag": "W/\"86a1ed5412a0ddb8305a768d02735da85a27953b03ecbd7b566ab14a43227e22\"",
             "id": "11393999:django-tailwind-cli",
             "permission": "triage",
             "repository": "django-tailwind-cli",
@@ -5921,7 +5946,7 @@
           "index_key": "django-unicorn",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"09a4a4a5bdb7d33e761b9bb808314676647e6df2f1931a153aa1e77dfeb9c1c8\"",
+            "etag": "W/\"29692f040be3d68d8011ef0003bef2743868cbccfa07164a08169d3143527b5a\"",
             "id": "16259130:django-unicorn",
             "permission": "triage",
             "repository": "django-unicorn",

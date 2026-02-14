@@ -27,7 +27,7 @@ jobs:
           persist-credentials: false
 
       - name: terraform fmt check
-        uses: dflook/terraform-fmt-check@10eaa13fa61437aa51be2d12fafe95f152e3512d  # v2.2.2
+        uses: dflook/terraform-fmt-check@59168426e242f665bf7b70644d706224e665056a  # v2.2.3
         with:
           path: "terraform/members"
 
@@ -46,7 +46,7 @@ jobs:
           persist-credentials: false
 
       - name: terraform plan
-        uses: dflook/terraform-plan@dc251c444763eed5defd065b866874b6343017ca  # v2.2.2
+        uses: dflook/terraform-plan@7878bff63e2099cdc9be9a6f33cbbbf687f8f0fe  # v2.2.3
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

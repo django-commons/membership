@@ -122,6 +122,7 @@ members = [
   "pfouque",
   "priyapahwa",
   "RealOrangeOne",
+  "riconnon",
   "rptmat57",
   "SaeedRz96",
   "salty-ivy",

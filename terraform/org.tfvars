@@ -43,6 +43,7 @@ members = [
   "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
+  "Ashish8329",
   "ayimdomnic",
   "bahoo",
   "bckohan",

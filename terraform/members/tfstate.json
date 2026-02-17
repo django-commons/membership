@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.5",
-  "serial": 1021,
+  "serial": 1024,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -119,6 +119,7 @@
               "",
               "",
               "pahwa.priya19@gmail.com",
+              "",
               "mathieu.rampant@gmail.com",
               "",
               "aman2001mi@gmail.com",
@@ -138,7 +139,7 @@
               "",
               ""
             ],
-            "id": "9dc870fbfeceb4977e5756fd79449646",
+            "id": "b557e71e2b6cdce393c1be0d938cf528",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -236,6 +237,7 @@
               "peterthomassen",
               "pfouque",
               "priyapahwa",
+              "riconnon",
               "rptmat57",
               "ryancheley",
               "salty-ivy",
@@ -352,6 +354,7 @@
               "MDQ6VXNlcjQyNDI2ODM=",
               "MDQ6VXNlcjgzMDAwMDE=",
               "MDQ6VXNlcjc3MDc1NDQ5",
+              "MDQ6VXNlcjE5NjM5Mzg=",
               "MDQ6VXNlcjE0MzI5Mzg4",
               "MDQ6VXNlcjk4NTc3Nzk=",
               "MDQ6VXNlcjc0NTUzOTUx",
@@ -469,6 +472,7 @@
               "peterthomassen",
               "pfouque",
               "priyapahwa",
+              "riconnon",
               "rptmat57",
               "ryancheley",
               "salty-ivy",
@@ -522,7 +526,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"fb1a27d0d66e643b469594c5928cf41e36bb8a2a0fc6c98c0999b1b70d99b252\"",
+            "etag": "W/\"efde161aee9c26bd9fd4e3b8b31736bf30b5943670fa86e40b5b7d25d8889534\"",
             "id": "django-commons:Ashish8329",
             "role": "member",
             "username": "Ashish8329"
@@ -2116,6 +2120,23 @@
           ]
         },
         {
+          "index_key": "riconnon",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"61f89b7dce0511a5e6b5e58fefc122eacd96a94c46acebabd418caa5b854af48\"",
+            "id": "django-commons:riconnon",
+            "role": "member",
+            "username": "riconnon"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "rptmat57",
           "schema_version": 0,
           "attributes": {
@@ -2456,7 +2477,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"751d38247da18144947d6a8cbd3bc76cb520f349f3cf8e9b58fbd397fc046536\"",
+            "etag": "W/\"24c61c82fb20373693fd0c1dcb36ad89bdce77a027e33f57fb7856d54093fbbd\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 14,
@@ -2486,7 +2507,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"222f484dfb001ab081dffa39c4134ae309ef3591a6f9c265dd92a11471cff61d\"",
+            "etag": "W/\"55d0ae9f5f89044ce3133fde7351af9969ec2631ac2c7e4aa69c8d3950775d14\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2508,7 +2529,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"814cd8bdea8b43a6c3b2921b37a2b5535f105450f6555865bb9a0424ff005691\"",
+            "etag": "W/\"9d4c3042347fa6f706900eb7b18051233d2e40945b802ad4c3ca330a2e063a4c\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,

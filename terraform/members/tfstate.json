@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.5",
-  "serial": 1024,
+  "serial": 1027,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -46,6 +46,7 @@
               "",
               "",
               "saeedramezani75@gmail.com",
+              "",
               "",
               "",
               "",
@@ -139,7 +140,7 @@
               "",
               ""
             ],
-            "id": "b557e71e2b6cdce393c1be0d938cf528",
+            "id": "0ba77e2d630dfdcde04bd55ff4acedd1",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -167,6 +168,7 @@
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
+              "T-rustdev",
               "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
@@ -284,6 +286,7 @@
               "MDQ6VXNlcjkxMTIyMzE5",
               "MDQ6VXNlcjczNzg1Nzk1",
               "MDQ6VXNlcjEzODU2NTE1",
+              "MDQ6VXNlcjY0Mjg5NjM=",
               "MDQ6VXNlcjYzNDI3NzE5",
               "MDQ6VXNlcjUwMjE3Nzgz",
               "MDQ6VXNlcjMyNTUyMjk2",
@@ -402,6 +405,7 @@
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
+              "T-rustdev",
               "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
@@ -942,6 +946,23 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "T-rustdev",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"510d9e444cf869bdaccf772bac0c692303463e34eb1e64de3cc11b1c10d15c73\"",
+            "id": "django-commons:T-rustdev",
+            "role": "member",
+            "username": "T-rustdev"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -2124,7 +2145,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"61f89b7dce0511a5e6b5e58fefc122eacd96a94c46acebabd418caa5b854af48\"",
+            "etag": "W/\"55443b6e8d136b7f462e01b472d5413615730be4c26cf428f8c4ea31b65ab34d\"",
             "id": "django-commons:riconnon",
             "role": "member",
             "username": "riconnon"
@@ -2569,6 +2590,10 @@
               {
                 "role": "member",
                 "username": "Shrikantgiri25"
+              },
+              {
+                "role": "member",
+                "username": "T-rustdev"
               },
               {
                 "role": "member",

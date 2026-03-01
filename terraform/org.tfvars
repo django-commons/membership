@@ -18,6 +18,7 @@ super_admins = [
 # Design members
 designers = [
   "akshayvinchurkar",
+  "Daksh777",
   "federicobond",
   "GODSPE1",
   "jmgutu",
@@ -56,6 +57,7 @@ members = [
   "cgl",
   "Chiemezuo",
   "clintonb",
+  "Daksh777",
   "ddabble",
   "deronnax",
   "devatbosch",

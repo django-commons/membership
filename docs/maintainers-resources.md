@@ -9,7 +9,7 @@ maintainers that are not listed here, please create a pull request to add them!
 Django Commons projects can get a free domain from [desec.io][desec]. This is a great option for projects that want to
 have a custom domain for their documentation or website. 
 
-Instructions to be provided soon.
+Contact the [Django Commons admins](mailto:django-commons-admin@googlegroups.com) for more information.
 
 ## AWS Open Source Credits
 

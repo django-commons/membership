@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.6",
-  "serial": 1031,
+  "serial": 1034,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -26,6 +26,7 @@
               "me@youngkwang.dev",
               "",
               "ceasarkwadwo@gmail.com",
+              "",
               "",
               "dhavalgojiya10@gmail.com",
               "",
@@ -140,12 +141,13 @@
               "",
               ""
             ],
-            "id": "da2e574180643eec5b89e9aea51ebe29",
+            "id": "317c18d44fc604b0ccb72754618d75ef",
             "logins": [
               "2ykwang",
               "Ashish8329",
               "Ceasar15",
               "Chiemezuo",
+              "Daksh777",
               "DhavalGojiya",
               "EliShteinman",
               "Faakhir30",
@@ -264,6 +266,7 @@
               "U_kgDOBwIf6A",
               "MDQ6VXNlcjQyODIwNjI2",
               "MDQ6VXNlcjI5NDcwNTE2",
+              "MDQ6VXNlcjQzNjQ4MTQ2",
               "MDQ6VXNlcjUzODU2NTU1",
               "MDQ6VXNlcjgyNzYxNTMw",
               "U_kgDOBproww",
@@ -383,6 +386,7 @@
               "Ashish8329",
               "Ceasar15",
               "Chiemezuo",
+              "Daksh777",
               "DhavalGojiya",
               "EliShteinman",
               "Faakhir30",
@@ -568,6 +572,23 @@
             "id": "django-commons:Chiemezuo",
             "role": "member",
             "username": "Chiemezuo"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "Daksh777",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"3c723f8e248a2e95cabb4e3c62a0b1ff4f2023bca91ffb3ed039543956d0ab72\"",
+            "id": "django-commons:Daksh777",
+            "role": "member",
+            "username": "Daksh777"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2579,6 +2600,10 @@
           "attributes": {
             "id": "14084892",
             "members": [
+              {
+                "role": "member",
+                "username": "Daksh777"
+              },
               {
                 "role": "member",
                 "username": "Ndungu9039"

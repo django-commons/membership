@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.6",
-  "serial": 1029,
+  "serial": 1031,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -28,6 +28,7 @@
               "ceasarkwadwo@gmail.com",
               "",
               "dhavalgojiya10@gmail.com",
+              "",
               "",
               "",
               "jonathan@stoppani.name",
@@ -139,13 +140,14 @@
               "",
               ""
             ],
-            "id": "bd0ab384ab5d10b4664338e7433c5ab9",
+            "id": "da2e574180643eec5b89e9aea51ebe29",
             "logins": [
               "2ykwang",
               "Ashish8329",
               "Ceasar15",
               "Chiemezuo",
               "DhavalGojiya",
+              "EliShteinman",
               "Faakhir30",
               "FlipperPA",
               "GaretJax",
@@ -263,6 +265,7 @@
               "MDQ6VXNlcjQyODIwNjI2",
               "MDQ6VXNlcjI5NDcwNTE2",
               "MDQ6VXNlcjUzODU2NTU1",
+              "MDQ6VXNlcjgyNzYxNTMw",
               "U_kgDOBproww",
               "MDQ6VXNlcjY4MTY0",
               "MDQ6VXNlcjg2MjM2",
@@ -381,6 +384,7 @@
               "Ceasar15",
               "Chiemezuo",
               "DhavalGojiya",
+              "EliShteinman",
               "Faakhir30",
               "FlipperPA",
               "GaretJax",
@@ -581,6 +585,23 @@
             "id": "django-commons:DhavalGojiya",
             "role": "member",
             "username": "DhavalGojiya"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "EliShteinman",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"8c5c5eac95fd99b2eb809624788474ecd56cfb1de0724307a87c256d25b39219\"",
+            "id": "django-commons:EliShteinman",
+            "role": "member",
+            "username": "EliShteinman"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

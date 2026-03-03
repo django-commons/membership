@@ -63,6 +63,7 @@ members = [
   "dmpayton",
   "dr-rompecabezas",
   "elineda",
+  "EliShteinman",
   "Faakhir30",
   "federicobond",
   "FlipperPA",

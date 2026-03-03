@@ -4,9 +4,9 @@ Free Resources for django-commons Maintainers
 This page contains resources for django-commons maintainers. If you know of additional resources available to
 maintainers that are not listed here, please create a pull request to add them!
 
-## desec domains
+## deSEC domains
 
-django-commons projects can get a free domain from [desec.io][desec]. This is a great option for projects that want to
+Django Commons projects can get a free domain from [desec.io][desec]. This is a great option for projects that want to
 have a custom domain for their documentation or website. 
 
 Instructions to be provided soon.

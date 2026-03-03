@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.14.5",
-  "serial": 1027,
+  "terraform_version": "1.14.6",
+  "serial": 1029,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -30,7 +30,6 @@
               "dhavalgojiya10@gmail.com",
               "",
               "",
-              "godspy18@gmail.com",
               "jonathan@stoppani.name",
               "",
               "",
@@ -140,7 +139,7 @@
               "",
               ""
             ],
-            "id": "0ba77e2d630dfdcde04bd55ff4acedd1",
+            "id": "bd0ab384ab5d10b4664338e7433c5ab9",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -149,7 +148,6 @@
               "DhavalGojiya",
               "Faakhir30",
               "FlipperPA",
-              "GODSPE1",
               "GaretJax",
               "Haroonhsa007",
               "Hopiu",
@@ -167,8 +165,8 @@
               "SaeedRz96",
               "Shrikantgiri25",
               "SinkuKumar",
+              "Solsory",
               "Stormheg",
-              "T-rustdev",
               "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
@@ -267,7 +265,6 @@
               "MDQ6VXNlcjUzODU2NTU1",
               "U_kgDOBproww",
               "MDQ6VXNlcjY4MTY0",
-              "U_kgDOBmXXfw",
               "MDQ6VXNlcjg2MjM2",
               "U_kgDOCLqf6Q",
               "MDQ6VXNlcjY3MTI5NA==",
@@ -285,8 +282,8 @@
               "MDQ6VXNlcjIwNjY5Mzg5",
               "MDQ6VXNlcjkxMTIyMzE5",
               "MDQ6VXNlcjczNzg1Nzk1",
-              "MDQ6VXNlcjEzODU2NTE1",
               "MDQ6VXNlcjY0Mjg5NjM=",
+              "MDQ6VXNlcjEzODU2NTE1",
               "MDQ6VXNlcjYzNDI3NzE5",
               "MDQ6VXNlcjUwMjE3Nzgz",
               "MDQ6VXNlcjMyNTUyMjk2",
@@ -386,7 +383,6 @@
               "DhavalGojiya",
               "Faakhir30",
               "FlipperPA",
-              "GODSPE1",
               "GaretJax",
               "Haroonhsa007",
               "Hopiu",
@@ -404,8 +400,8 @@
               "SaeedRz96",
               "Shrikantgiri25",
               "SinkuKumar",
+              "Solsory",
               "Stormheg",
-              "T-rustdev",
               "TildaDares",
               "TimothyMalahy",
               "VeldaKiara",
@@ -619,23 +615,6 @@
             "id": "django-commons:FlipperPA",
             "role": "member",
             "username": "FlipperPA"
-          },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0,
-          "private": "bnVsbA==",
-          "dependencies": [
-            "data.github_users.users"
-          ]
-        },
-        {
-          "index_key": "GODSPE1",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"e8b7590c5c5d5dad4c6bec803ec9da65cb1742d07179de138d8abb93062ebe5a\"",
-            "id": "django-commons:GODSPE1",
-            "role": "member",
-            "username": "GODSPE1"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -934,6 +913,23 @@
           ]
         },
         {
+          "index_key": "Solsory",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"f651666fcfe352f6e2298b2317714e13a9c0f933cda5446d1a5979b16b089c0c\"",
+            "id": "django-commons:Solsory",
+            "role": "member",
+            "username": "Solsory"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "Stormheg",
           "schema_version": 0,
           "attributes": {
@@ -946,23 +942,6 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
-          "dependencies": [
-            "data.github_users.users"
-          ]
-        },
-        {
-          "index_key": "T-rustdev",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"510d9e444cf869bdaccf772bac0c692303463e34eb1e64de3cc11b1c10d15c73\"",
-            "id": "django-commons:T-rustdev",
-            "role": "member",
-            "username": "T-rustdev"
-          },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0,
-          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -2498,10 +2477,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"24c61c82fb20373693fd0c1dcb36ad89bdce77a027e33f57fb7856d54093fbbd\"",
+            "etag": "W/\"c2e66570d533c275fa7c8a45ddb621d392680a40a8bd0aa07e0a60097b33c7dd\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 14,
+            "members_count": 15,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",
@@ -2528,7 +2507,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"55d0ae9f5f89044ce3133fde7351af9969ec2631ac2c7e4aa69c8d3950775d14\"",
+            "etag": "W/\"2cc606d33de7874145caf4ae4f52d1d4371772d5bae29eb7cba10d824ae98c29\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 5,
@@ -2550,7 +2529,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"9d4c3042347fa6f706900eb7b18051233d2e40945b802ad4c3ca330a2e063a4c\"",
+            "etag": "W/\"db0682c13d5f84c6bcd2013a9240967d8ea2212a4ef7f8038f2b8e5f031d8a46\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,
@@ -2581,10 +2560,6 @@
             "members": [
               {
                 "role": "member",
-                "username": "GODSPE1"
-              },
-              {
-                "role": "member",
                 "username": "Ndungu9039"
               },
               {
@@ -2593,7 +2568,7 @@
               },
               {
                 "role": "member",
-                "username": "T-rustdev"
+                "username": "Solsory"
               },
               {
                 "role": "member",

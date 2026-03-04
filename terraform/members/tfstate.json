@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.6",
-  "serial": 1034,
+  "serial": 1036,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -56,6 +56,7 @@
               "",
               "",
               "zakuijules@live.fr",
+              "",
               "",
               "",
               "akshay12345vin@gmail.com",
@@ -141,7 +142,7 @@
               "",
               ""
             ],
-            "id": "317c18d44fc604b0ccb72754618d75ef",
+            "id": "2277ca63cd8b9f49cd00d56df990c9e9",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -176,6 +177,7 @@
               "VeldaKiara",
               "Violette-Allotey",
               "Zakui",
+              "aayardev",
               "adRn-s",
               "adamghill",
               "akshayvinchurkar",
@@ -295,6 +297,7 @@
               "MDQ6VXNlcjMyNTUyMjk2",
               "MDQ6VXNlcjY4ODY2MjQ2",
               "MDQ6VXNlcjE3NTQzODE4",
+              "MDQ6VXNlcjY1NDU3MzM1",
               "MDQ6VXNlcjYyOTcxOTk1",
               "MDQ6VXNlcjMxNzA0NQ==",
               "MDQ6VXNlcjEwNTEwODg5",
@@ -415,6 +418,7 @@
               "VeldaKiara",
               "Violette-Allotey",
               "Zakui",
+              "aayardev",
               "adRn-s",
               "adamghill",
               "akshayvinchurkar",
@@ -585,7 +589,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"3c723f8e248a2e95cabb4e3c62a0b1ff4f2023bca91ffb3ed039543956d0ab72\"",
+            "etag": "W/\"f2559fcf0bdf3407cad52c12256741fd35e706ad6a96e4df4e4eb84893f6a917\"",
             "id": "django-commons:Daksh777",
             "role": "member",
             "username": "Daksh777"
@@ -619,7 +623,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"8c5c5eac95fd99b2eb809624788474ecd56cfb1de0724307a87c256d25b39219\"",
+            "etag": "W/\"2e7cf9fc028fcda8364469de30b995e596df022b49464a59d3f9f7506ecb2e0a\"",
             "id": "django-commons:EliShteinman",
             "role": "member",
             "username": "EliShteinman"
@@ -1065,6 +1069,23 @@
             "id": "django-commons:Zakui",
             "role": "member",
             "username": "Zakui"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "aayardev",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"d2a99da271ef4271aa022deaa9ddb145683867b99ba7cf74562af3f07467c977\"",
+            "id": "django-commons:aayardev",
+            "role": "member",
+            "username": "aayardev"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2519,10 +2540,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"c2e66570d533c275fa7c8a45ddb621d392680a40a8bd0aa07e0a60097b33c7dd\"",
+            "etag": "W/\"5866a6ccd0ec2be6b4f98052da4701f0bc00f869ceee51c9c3c737ca3ee42a4d\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 15,
+            "members_count": 16,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",

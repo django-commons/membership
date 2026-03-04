@@ -38,6 +38,7 @@ designers = [
 # Organization members
 members = [
   "2ykwang",
+  "aayardev",
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",

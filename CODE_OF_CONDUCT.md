@@ -57,7 +57,7 @@ Examples of representing our community include using an official email address,
 posting via an official social media account, or acting as an appointed
 representative at an online or offline event.
 
-## Enforcement
+## Making a report
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
@@ -66,6 +66,13 @@ All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
+
+[Reports can be made to the Django Code of Conduct working group](https://www.djangoproject.com/conduct/reporting/)
+in the following scenarios:
+
+- The report concerns a Django Commons Admin and/or CoC team.
+- The Django Commons CoC team fails to respond to a report
+- As a point of appeal within 30 days of the original decision
 
 ## Enforcement Guidelines
 
@@ -104,6 +111,19 @@ individual, or aggression toward or disparagement of classes of individuals.
 **Consequence**: A permanent ban from any sort of public interaction within the
 community.
 
+## Reporting
+
+Transparency reports will be published publicly on an annual basis. They will be made
+available on the django-commons.org website and in this repository. These reports
+should be created according to the Django Code of Conduct Working Group's
+[guidelines][transparency-report-guidelines].
+
+Incident reports will be filed with the Django Code of Conduct Working Group according to
+their [guidelines][reporting-to-the-working-group].
+Reports should include the date of the incident, a brief description of the facts, the
+actions taken, and the outcome. Names and identifiable information should only be
+included when necessary for escalation purposes.
+
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
@@ -122,3 +142,5 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+[transparency-report-guidelines]: https://github.com/django/code-of-conduct/blob/803d7aab076f7b2144fb318fa40cf8900f395962/affiliated-programs.md#transparency-report-guidelines
+[reporting-to-the-working-group]: https://github.com/django/code-of-conduct/blob/803d7aab076f7b2144fb318fa40cf8900f395962/affiliated-programs.md#reporting-to-the-working-group

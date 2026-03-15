@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.7",
-  "serial": 1039,
+  "serial": 1041,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -98,6 +98,7 @@
               "josh@joshthomas.dev",
               "",
               "",
+              "",
               "tom@carrick.eu",
               "uriel@corfa.fr",
               "me@kytta.dev",
@@ -141,7 +142,7 @@
               "",
               ""
             ],
-            "id": "a4f7ce992f1604b3b5d577bd059877ce",
+            "id": "e51e965c1b6adab1f49d8e6aa99a9843",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -217,6 +218,7 @@
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
+              "justinmayer",
               "kevin-brown",
               "knyghty",
               "korfuri",
@@ -336,6 +338,7 @@
               "MDQ6VXNlcjE3Mjg1Mjg=",
               "MDQ6VXNlcjE5ODk2MjY3",
               "U_kgDOBYTIXg",
+              "MDQ6VXNlcjE1MDM3MDA=",
               "MDQ6VXNlcjE5OTE4NTA=",
               "MDQ6VXNlcjM4NzEzNTQ=",
               "MDQ6VXNlcjExMjQyNjM=",
@@ -456,6 +459,7 @@
               "johnfraney",
               "joshuadavidthomas",
               "justbackend",
+              "justinmayer",
               "kevin-brown",
               "knyghty",
               "korfuri",
@@ -1754,6 +1758,23 @@
           ]
         },
         {
+          "index_key": "justinmayer",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"1ac985358dbd63fe9d00b9e1c85d41ed9b72e524a1c2f022bf7d363ab691874f\"",
+            "id": "django-commons:justinmayer",
+            "role": "member",
+            "username": "justinmayer"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "kevin-brown",
           "schema_version": 0,
           "attributes": {
@@ -2519,10 +2540,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"ad6d0be066a018e9c2f6c75aaeaefd4c8afcccdc0743da76d763c0cdf352578c\"",
+            "etag": "W/\"a19ed0b61be3162c5d6a4cb83d1245e448d02848783f0ac6de9e8601ea7fb881\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 16,
+            "members_count": 15,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",

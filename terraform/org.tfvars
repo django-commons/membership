@@ -94,6 +94,7 @@ members = [
   "Josephchinedu",
   "joshuadavidthomas",
   "justbackend",
+  "justinmayer",
   "kevin-brown",
   "knyghty",
   "korfuri",

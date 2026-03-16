@@ -41,6 +41,7 @@ members = [
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
+  "aleksihakli",
   "amirreza-sf80",
   "andoriyaprashant",
   "asherf",

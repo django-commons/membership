@@ -60,7 +60,7 @@ representative at an online or offline event.
 ## Making a report
 
 If you believe someone is violating the code of conduct we ask that you report it
-to the Djangonaut Space organizers by emailing [django-commons-coc@googlegroups.com](mailto:django-commons-coc@googlegroups.com).
+to the django-commons CoC team by emailing [django-commons-coc@googlegroups.com](mailto:django-commons-coc@googlegroups.com).
 All reports will be kept confidential. In some cases we may determine that a public
 statement will need to be made. If that's the case, the identities of all victims
 and reporters will remain confidential unless those individuals instruct us otherwise.

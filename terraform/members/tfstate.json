@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.7",
-  "serial": 1045,
+  "serial": 1047,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -66,6 +66,7 @@
               "",
               "jon.c.culver@gmail.com",
               "bckohan@gmail.com",
+              "",
               "",
               "",
               "",
@@ -144,7 +145,7 @@
               "",
               ""
             ],
-            "id": "1b750c1700b8e802c7a76269594994be",
+            "id": "b4b72c827c119e34971638368d7c0182",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -192,6 +193,7 @@
               "blingblin-g",
               "browniebroke",
               "bryan-oginga",
+              "camilonova",
               "carltongibson",
               "cgl",
               "clintonb",
@@ -314,6 +316,7 @@
               "MDQ6VXNlcjYwMDkwMzkx",
               "MDQ6VXNlcjg2MTA0NA==",
               "MDQ6VXNlcjQ0Mjk1ODIy",
+              "MDQ6VXNlcjIwMjU1OQ==",
               "MDQ6VXNlcjY0Njg2",
               "MDQ6VXNlcjE2MTUxNTA=",
               "MDQ6VXNlcjkxMDUxMA==",
@@ -437,6 +440,7 @@
               "blingblin-g",
               "browniebroke",
               "bryan-oginga",
+              "camilonova",
               "carltongibson",
               "cgl",
               "clintonb",
@@ -1298,6 +1302,23 @@
             "id": "django-commons:bryan-oginga",
             "role": "member",
             "username": "bryan-oginga"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "camilonova",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"1e849ba01f0cb0a1dbe2ed6ecb57c2407edecc9208ee500e8dc6c3a14a8286a8\"",
+            "id": "django-commons:camilonova",
+            "role": "member",
+            "username": "camilonova"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

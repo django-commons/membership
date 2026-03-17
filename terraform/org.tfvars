@@ -52,6 +52,7 @@ members = [
   "blingblin-g",
   "browniebroke",
   "bryan-oginga",
+  "camilonova",
   "carltongibson",
   "Ceasar15",
   "cgl",

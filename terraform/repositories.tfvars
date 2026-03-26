@@ -172,7 +172,7 @@ repositories = {
     has_wiki           = true
     push_allowances    = []
 
-    deployment_branch_policy {
+    deployment_branch_policy = {
       custom_branch_policies = true
       protected_branches     = false
     }

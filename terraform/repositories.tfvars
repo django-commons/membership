@@ -128,7 +128,6 @@ repositories = {
     pages = {
       build_type = "workflow"
       custom_404 = false
-      html_url   = "http://django-commons.org/django-fsm-2/"
     }
 
     admins = [

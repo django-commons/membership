@@ -127,7 +127,6 @@ repositories = {
 
     pages = {
       build_type = "workflow"
-      custom_404 = false
     }
 
     admins = [

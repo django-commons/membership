@@ -47,8 +47,6 @@ resource "github_repository" "this" {
       }
       build_type = pages.value.build_type
       cname      = pages.value.cname
-      html_url   = pages.value.html_url
-      url        = pages.value.url
     }
   }
 

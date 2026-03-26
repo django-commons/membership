@@ -125,6 +125,13 @@ repositories = {
     merge_commit_title   = "PR_TITLE"
     merge_commit_message = "BLANK"
 
+    pages = {
+      build_type = "workflow"
+      custom_404 = false
+      html_url   = "http://django-commons.org/django-fsm-2/"
+      url        = "https://api.github.com/repos/django-commons/django-fsm-2/pages"
+    }
+
     admins = [
       "Natim",
       "pfouque",
@@ -164,6 +171,11 @@ repositories = {
     allow_squash_merge = true
     has_wiki           = true
     push_allowances    = []
+
+    deployment_branch_policy {
+      custom_branch_policies = true
+      protected_branches     = false
+    }
 
     admins = [
       "bckohan",

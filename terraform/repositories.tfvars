@@ -101,6 +101,7 @@ repositories = {
     committers = [
       "elineda",
       "salty-ivy",
+      "VeldaKiara",
     ]
     members = [
       "andoriyaprashant",
@@ -111,7 +112,6 @@ repositories = {
       "federicobond",
       "jmgutu",
       "JohananOppongAmoateng",
-      "VeldaKiara",
       "Zakui",
     ]
   }

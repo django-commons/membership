@@ -21,6 +21,7 @@ super_admins = [
 # Design members
 designers = [
   "akshayvinchurkar",
+  "Daksh777",
   "federicobond",
   "jmgutu",
   "johnatanmoran",
@@ -59,7 +60,6 @@ members = [
   "cgl",
   "Chiemezuo",
   "clintonb",
-  "Daksh777",
   "ddabble",
   "deronnax",
   "devatbosch",
@@ -160,7 +160,7 @@ organization_teams = {
   "Admins" = {
     description = "Django Commons administrators. This team is responsible for the overall management of the organization."
     # Use maintainers for organizational teams
-    maintainers = [
+    members = [
       "bckohan",
       "cunla",
       "Daksh777",
@@ -174,7 +174,7 @@ organization_teams = {
   "super-admins" = {
     description = "Django Commons super administrators. This team is responsible for performing privileged operations."
     # Use maintainers for organizational teams
-    maintainers = [
+    members = [
       "cunla",
       "ryancheley",
       "Stormheg",

@@ -101,6 +101,7 @@ repositories = {
     committers = [
       "elineda",
       "salty-ivy",
+      "VeldaKiara",
     ]
     members = [
       "andoriyaprashant",
@@ -111,7 +112,6 @@ repositories = {
       "federicobond",
       "jmgutu",
       "JohananOppongAmoateng",
-      "VeldaKiara",
       "Zakui",
     ]
   }
@@ -124,6 +124,10 @@ repositories = {
     has_projects         = false
     merge_commit_title   = "PR_TITLE"
     merge_commit_message = "BLANK"
+
+    pages = {
+      build_type = "workflow"
+    }
 
     admins = [
       "Natim",

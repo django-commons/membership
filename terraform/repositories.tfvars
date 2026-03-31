@@ -125,6 +125,10 @@ repositories = {
     merge_commit_title   = "PR_TITLE"
     merge_commit_message = "BLANK"
 
+    pages = {
+      build_type = "workflow"
+    }
+
     admins = [
       "Natim",
       "pfouque",

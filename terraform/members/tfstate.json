@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.8",
-  "serial": 1049,
+  "serial": 1051,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -44,6 +44,7 @@
               "",
               "mogost@aartemyev.ru",
               "fernando_cordeiro@live.com",
+              "open-source@nlb-software.dev",
               "",
               "",
               "",
@@ -146,7 +147,7 @@
               "",
               ""
             ],
-            "id": "0ecc5a747def8013fc6955914688ac4f",
+            "id": "f63de6df961427c42fbc202143b387ec",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -169,6 +170,7 @@
               "M97Chahboun",
               "Mogost",
               "MrCordeiro",
+              "Nathan-Bransby-NMT",
               "Natim",
               "Ndungu9039",
               "RealOrangeOne",
@@ -293,6 +295,7 @@
               "MDQ6VXNlcjY5MDU0ODEw",
               "MDQ6VXNlcjcyMTk2Mw==",
               "MDQ6VXNlcjIwNTk4NTcx",
+              "U_kgDOCGpxsg",
               "MDQ6VXNlcjIyOTQ1Mw==",
               "U_kgDOBerTmw",
               "MDQ6VXNlcjY1Mjc0ODk=",
@@ -418,6 +421,7 @@
               "M97Chahboun",
               "Mogost",
               "MrCordeiro",
+              "Nathan-Bransby-NMT",
               "Natim",
               "Ndungu9039",
               "RealOrangeOne",
@@ -881,6 +885,23 @@
             "id": "django-commons:MrCordeiro",
             "role": "member",
             "username": "MrCordeiro"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "Nathan-Bransby-NMT",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"b5d3a8cbb77bdb3af6c6d41d5429c95d25d65ed75cad009a65d3efe9b536df90\"",
+            "id": "django-commons:Nathan-Bransby-NMT",
+            "role": "member",
+            "username": "Nathan-Bransby-NMT"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

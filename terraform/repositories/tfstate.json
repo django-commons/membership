@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.8",
-  "serial": 835,
+  "serial": 837,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -4591,6 +4591,10 @@
           "attributes": {
             "id": "django-debug-toolbar-committers",
             "members": [
+              {
+                "role": "member",
+                "username": "VeldaKiara"
+              },
               {
                 "role": "member",
                 "username": "elineda"

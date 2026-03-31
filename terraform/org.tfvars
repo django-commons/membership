@@ -116,6 +116,7 @@ members = [
   "MrCordeiro",
   "mzemlickis",
   "nanorepublica",
+  "Nathan-Bransby-NMT",
   "Natim",
   "Ndungu9039",
   "niltonpimentel02",

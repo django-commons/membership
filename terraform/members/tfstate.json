@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.8",
-  "serial": 1053,
+  "serial": 1057,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -902,7 +902,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"b5d3a8cbb77bdb3af6c6d41d5429c95d25d65ed75cad009a65d3efe9b536df90\"",
+            "etag": "W/\"dbece2b29bba9a79bee213edb761360ad441f0c75c0a6419ab2f3f2f544a754b\"",
             "id": "django-commons:Nathan-Bransby-NMT",
             "role": "member",
             "username": "Nathan-Bransby-NMT"
@@ -2092,7 +2092,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"ba420196b46bacd58aeade8114ba51aec20a0b71ef65327f4a8eb79385bff5eb\"",
+            "etag": "W/\"d566d8f403aa9e68918b1091d7e6a160b21688c6fd5fc61a67122a24b64e1d6a\"",
             "id": "django-commons:mounirmesselmeni",
             "role": "member",
             "username": "mounirmesselmeni"
@@ -2666,10 +2666,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"bb77bf244527768781b96f126c45eebce048ab28d2206716767db9c8e97efac3\"",
+            "etag": "W/\"94dd5ff23c13d7571cd11184ea4661f1b562925df4350e07b99c2e7f4849214d\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 15,
+            "members_count": 14,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",
@@ -2832,23 +2832,35 @@
             "id": "9763562",
             "members": [
               {
-                "role": "maintainer",
+                "role": "member",
+                "username": "Daksh777"
+              },
+              {
+                "role": "member",
                 "username": "Stormheg"
               },
               {
-                "role": "maintainer",
+                "role": "member",
+                "username": "TildaDares"
+              },
+              {
+                "role": "member",
+                "username": "bckohan"
+              },
+              {
+                "role": "member",
                 "username": "cunla"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "ryancheley"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "tim-schilling"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "williln"
               }
             ],
@@ -2856,7 +2868,7 @@
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
           ]
@@ -2868,23 +2880,23 @@
             "id": "15586545",
             "members": [
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "Stormheg"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "cunla"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "ryancheley"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "tim-schilling"
               },
               {
-                "role": "maintainer",
+                "role": "member",
                 "username": "williln"
               }
             ],
@@ -2892,7 +2904,7 @@
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
           ]

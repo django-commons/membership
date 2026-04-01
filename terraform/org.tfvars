@@ -1,8 +1,11 @@
 # Organization admins
 admins = [
+  "bckohan",
   "cunla",
+  "Daksh777",
   "ryancheley",
   "Stormheg",
+  "TildaDares",
   "tim-schilling",
   "williln",
 ]
@@ -48,7 +51,6 @@ members = [
   "Ashish8329",
   "ayimdomnic",
   "bahoo",
-  "bckohan",
   "blingblin-g",
   "browniebroke",
   "bryan-oginga",
@@ -58,7 +60,6 @@ members = [
   "cgl",
   "Chiemezuo",
   "clintonb",
-  "Daksh777",
   "ddabble",
   "deronnax",
   "devatbosch",
@@ -145,7 +146,6 @@ members = [
   "testSchilling",
   "thibaudcolas",
   "ticosax",
-  "TildaDares",
   "TimothyMalahy",
   "ulgens",
   "unmonoqueteclea",
@@ -163,10 +163,13 @@ organization_teams = {
   "Admins" = {
     description = "Django Commons administrators. This team is responsible for the overall management of the organization."
     # Use maintainers for organizational teams
-    maintainers = [
+    members = [
+      "bckohan",
       "cunla",
+      "Daksh777",
       "ryancheley",
       "Stormheg",
+      "TildaDares",
       "tim-schilling",
       "williln",
     ]
@@ -174,7 +177,7 @@ organization_teams = {
   "super-admins" = {
     description = "Django Commons super administrators. This team is responsible for performing privileged operations."
     # Use maintainers for organizational teams
-    maintainers = [
+    members = [
       "cunla",
       "ryancheley",
       "Stormheg",

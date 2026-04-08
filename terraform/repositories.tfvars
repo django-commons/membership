@@ -100,6 +100,7 @@ repositories = {
     ]
     committers = [
       "elineda",
+      "federicobond",
       "salty-ivy",
       "VeldaKiara",
     ]
@@ -109,7 +110,6 @@ repositories = {
       "Chiemezuo",
       "devatbosch",
       "dr-rompecabezas",
-      "federicobond",
       "jmgutu",
       "JohananOppongAmoateng",
       "Zakui",

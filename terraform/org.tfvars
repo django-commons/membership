@@ -59,6 +59,7 @@ members = [
   "cgl",
   "Chiemezuo",
   "clintonb",
+  "codingjoe",
   "ddabble",
   "deronnax",
   "devatbosch",

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.8",
-  "serial": 1060,
+  "serial": 1064,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -75,6 +75,7 @@
               "carlton.gibson@noumenal.es",
               "",
               "",
+              "johannes@maron.family",
               "",
               "",
               "",
@@ -148,7 +149,7 @@
               "",
               ""
             ],
-            "id": "f361ecbab0c248d77db09b31cc00aee6",
+            "id": "304640525fb6389fc508757a10c69923",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -202,6 +203,7 @@
               "carltongibson",
               "cgl",
               "clintonb",
+              "codingjoe",
               "cunla",
               "ddabble",
               "deronnax",
@@ -328,6 +330,7 @@
               "MDQ6VXNlcjY0Njg2",
               "MDQ6VXNlcjE2MTUxNTA=",
               "MDQ6VXNlcjkxMDUxMA==",
+              "MDQ6VXNlcjE3NzI4OTA=",
               "MDQ6VXNlcjM0MTk3MjE=",
               "MDQ6VXNlcjYwNTg3NDU=",
               "MDQ6VXNlcjQzOTI3OQ==",
@@ -455,6 +458,7 @@
               "carltongibson",
               "cgl",
               "clintonb",
+              "codingjoe",
               "cunla",
               "ddabble",
               "deronnax",
@@ -1416,6 +1420,23 @@
             "id": "django-commons:clintonb",
             "role": "member",
             "username": "clintonb"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "codingjoe",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"b56afc84b3342d0351a13b681cbab0379cdb63997a7bea05329f70b08ae7bc6b\"",
+            "id": "django-commons:codingjoe",
+            "role": "member",
+            "username": "codingjoe"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

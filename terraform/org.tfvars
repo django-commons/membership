@@ -29,7 +29,6 @@ designers = [
   "Ndungu9039",
   "nwanduka",
   "okotdaniel",
-  "p-r-a-v-i-n",
   "Shrikantgiri25",
   "vinlawz",
   "Violette-Allotey",

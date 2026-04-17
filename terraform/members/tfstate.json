@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.8",
-  "serial": 1057,
+  "serial": 1060,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2666,7 +2666,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"94dd5ff23c13d7571cd11184ea4661f1b562925df4350e07b99c2e7f4849214d\"",
+            "etag": "W/\"a02bdd3621cda8fba2678dd1418a48416d834b7b49254b970687cfcd0f93370c\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 14,
@@ -2696,10 +2696,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"8e3965e19d759fcb1c1cc64aa4425b18767f7e618b0039b5bb440b5c6a1122f6\"",
+            "etag": "W/\"5ce3200d642621c4eaf516214bc3fb1d64eb8b3df1efce55ed5d5e899454b4df\"",
             "id": "9763562",
             "ldap_dn": "",
-            "members_count": 5,
+            "members_count": 8,
             "name": "Admins",
             "node_id": "T_kwDOCaaRBM4AlPrq",
             "parent_team_id": "",
@@ -2718,7 +2718,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"9ecd8262552357043f45f9d7740ea9cdebd140fb40014407959c12dc7df38327\"",
+            "etag": "W/\"d5af680a659e2f3c6896dfa291df785c698632f52fb9821a5c3c2191c0ed4822\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,
@@ -2794,10 +2794,6 @@
               {
                 "role": "member",
                 "username": "okotdaniel"
-              },
-              {
-                "role": "member",
-                "username": "p-r-a-v-i-n"
               },
               {
                 "role": "member",

@@ -9,7 +9,8 @@ repositories = {
   }
 
   "controls" = {
-    description            = "The controls for managing Django Commons projects"
+    description            = "The repository for managing the Django Commons organization. This is the place for issues to improve the organization."
+    homepage_url           = "https://www.django-commons.org"
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
@@ -19,7 +20,8 @@ repositories = {
   }
 
   "membership" = {
-    description            = "Membership repository for the django-commons organization."
+    description            = "The repository that members and projects use to manage the projects of Django Commons. This also contains the Django Commons website."
+    homepage_url           = "https://www.django-commons.org"
     visibility             = "public"
     allow_merge_commit     = false
     has_projects           = true

@@ -162,8 +162,9 @@ organization_teams = {
   # https://github.com/organizations/django-commons/settings/moderators
   "Admins" = {
     description = "Django Commons administrators. This team is responsible for the overall management of the organization."
-    # Use maintainers for organizational teams
-    members = [
+    # Use maintainers for organizational teams.
+    # This isn't required for admins, but is consistent. 
+    maintainers = [
       "bckohan",
       "cunla",
       "Daksh777",
@@ -176,8 +177,10 @@ organization_teams = {
   }
   "super-admins" = {
     description = "Django Commons super administrators. This team is responsible for performing privileged operations."
-    # Use maintainers for organizational teams
-    members = [
+    # Use maintainers for organizational teams.
+    # This is required for super-admins as Terraform/GitHub will flip-flop
+    # the membership between what's in GitHub and what the state thinks is set.
+    maintainers = [
       "cunla",
       "ryancheley",
       "Stormheg",

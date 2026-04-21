@@ -126,7 +126,6 @@ members = [
   "okotdaniel",
   "oliverandrich",
   "ontowhee",
-  "p-r-a-v-i-n",
   "pauloxnet",
   "peterthomassen",
   "pfouque",

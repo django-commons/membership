@@ -7,9 +7,7 @@ The repository that hosts the docs is at https://github.com/django-commons/djang
 ## Local Development
 
 1. `cd django-commons.org`
-2. Create a Python 3.13 virtual environment (`uv venv --python 3.13`)
-3. Run `uv pip install mkdocs mkdocs-material mkdocs-rss-plugin`
-4. Run `uv run mkdocs serve -f mkdocs.yml`
+2. Run `uv run mkdocs serve -f mkdocs.yml`
 
 ### pre-commit
 

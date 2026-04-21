@@ -1,0 +1,117 @@
+name: "Add new member to django-commons"
+
+on:
+  issues:
+    types:
+      - opened
+      - reopened
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  add-member:
+    if: contains(github.event.issue.labels.*.name, 'New member')
+    name: "Add new member"
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      id-token: write  # Required for OIDC authentication
+      contents: write  # Required to push the new member branch
+      pull-requests: write  # Required to create a pull request
+      issues: write  # Required to comment on the issue
+    env:
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_USER: ${{ github.event.issue.user.login }}
+      BRANCH_NAME: "add-user/${{ github.event.issue.number }}"
+    timeout-minutes: 3
+
+    steps:
+      - name: Setup python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Checkout code
+        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
+        with:
+          # This is the default, but it's required since we are performing
+          # Git operations later on.
+          persist-credentials: true  # zizmor: ignore[artipacked]
+
+      - name: Get username to add
+        id: get_username
+        run:
+          python -c "print('USERNAME='+'${GITHUB_EVENT_ISSUE_TITLE}'.split(' - ')[1].strip().lstrip('@'))" >> $GITHUB_ENV
+        env:
+          GITHUB_EVENT_ISSUE_TITLE: ${{ github.event.issue.title }}
+
+      - name: Validate add user request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check whether the user exists
+          set +e
+          gh api /users/${USERNAME} > /dev/null
+          if [ $? -ne 0 ]; then
+              gh issue comment ${ISSUE_NUMBER} --body "User ${USERNAME} does not exist."
+              exit 1
+          fi
+
+          # Check if the username is in the title is the same as the user who opened the issue
+          if [ "${USERNAME}" != "${ISSUE_USER}" ]; then
+              gh issue comment ${ISSUE_NUMBER} --body "If you want to add a different user, please create a PR for it"
+              exit 1
+          fi
+          
+          # Check if the user is already a member of the org
+          gh api /orgs/django-commons/members/${USERNAME} > /dev/null
+          if [ $? -eq 0 ]; then
+              gh issue comment ${ISSUE_NUMBER} --body "User ${USERNAME} is already a member of django-commons."
+              exit 1
+          fi
+
+      - name: Initialize mandatory git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email noreply@github.com
+
+      - name: Create branch
+        run: git checkout -b ${BRANCH_NAME}
+
+      - name: Check if user wants to become a designer
+        id: check_designer
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ADD_TO_DESIGNERS=$(gh issue view ${ISSUE_NUMBER} --json body | jq -e '.body | contains("[x] Do you wish to join the designers team?")')
+          if [ "$ADD_TO_DESIGNERS" = "true" ]; then
+            python scripts/add_member.py ${USERNAME} designers
+          else
+            echo "User does not want to join the designers team."
+          fi
+
+      - name: Add user to the list
+        run: |
+          python scripts/add_member.py ${USERNAME} members
+
+      - name: Commit changes
+        run: |
+          git add terraform/org.tfvars
+          git commit -m "Add ${USERNAME} to django-commons"
+          git push origin ${BRANCH_NAME}
+
+      - name: Create pull request
+        run: |
+          gh pr create \
+            --title "Add ${USERNAME} to django-commons" \
+            --body "Fix #${ISSUE_NUMBER}. See next steps in [New Member Playbook](https://github.com/django-commons/controls?tab=readme-ov-file#new-member-playbook)" \
+            --base main \
+            --head ${BRANCH_NAME} \
+            --label "New member"
+        env:
+          GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}

@@ -1,0 +1,9 @@
+[project]
+name = "django-commons-org"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs<2.0.0",
+    "mkdocs-material",
+    "mkdocs-rss-plugin",
+]

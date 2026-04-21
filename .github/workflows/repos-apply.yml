@@ -1,0 +1,54 @@
+name: "Apply org repositories changes"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'terraform/repositories.tfvars'
+      - 'terraform/repositories/*.tf'
+      - '.github/workflows/repos-apply.yml'
+      - '.github/workflows/repos-plan.yml'
+
+permissions: {}
+
+concurrency:
+  group: terraform-actions-repos
+
+jobs:
+  repos-apply-changes:
+    name: "Apply org-repositories changes"
+    runs-on: ubuntu-latest
+    environment: production
+
+    permissions:
+      contents: read
+      pull-requests: write  # Required to post terraform plan comments
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
+        with:
+          persist-credentials: false
+      - name: terraform apply
+        uses: dflook/terraform-apply@5489b988934a50bf1489d5b7c5253b46520a7dca # v2.2.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+        with:
+          auto_approve: true
+          path: "terraform/repositories"
+          label: 'repositories'
+          variables: |
+            github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
+          var_file: |
+            terraform/repositories.tfvars
+
+      - name: Commit changes
+        if: ${{ always() }}
+        uses: devops-infra/action-commit-push@f01d24007c469639f252dc88109ef96bfbff33db # v1.1.0
+        with:
+          github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          commit_prefix: "[AUTO]"
+          commit_message: "Repositories state changes after apply"
+          force: false

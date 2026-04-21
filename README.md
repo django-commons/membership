@@ -1,0 +1,108 @@
+# Django Commons
+
+Django Commons is an organization dedicated to supporting the
+community's efforts to maintain packages. It seeks to improve the
+maintenance experience for all contributors; reducing the barrier
+to entry for new contributors and reducing overhead for existing
+maintainers.
+
+Django Commons has lofty goals for the future, but it will only be
+possible with your help:
+
+- Identify and announce packages needing help
+- Normalize and support maintainers periodically stepping back
+- Support and encourage new contributors to step up
+- Provide best practices for package maintainers
+- Compensate maintainers
+
+## How to join as a contributor?
+
+1. Review [Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md) 
+2. Create a [new member issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
+
+## How to transfer a project in?
+
+1. A person with the ability to transfer the project must join Django Commons (see [How to join as a contributor?](https://github.com/django-commons/membership#how-to-join-as-a-contributor))
+2. Create a [transfer project in issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
+
+## How to transfer a project out?
+
+1. Create a [transfer project out issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
+
+## FAQ
+
+### What are the differences between Django Commons and Jazzband?
+
+Django Commons and Jazzband have similar goals, to support community-maintained projects.
+There are two main differences. The first is that Django Commons leans into the GitHub
+paradigm and centers the organization as a whole within GitHub. This is a risk, given
+there's some vendor lock-in. However, the repositories are still cloned to several people's
+machines and the organization controls the keys to PyPI, not GitHub. If something were to occur,
+it's manageable.
+
+The second is that Django Commons is built from the beginning to have more than one administrator.
+Jazzband has been [working for a while to add additional roadies](https://github.com/jazzband/help/issues/196)
+(administrators), but there hasn't been visible progress.  Given the importance of several of
+these projects, it's a major risk to the community at large to have a single point of failure
+in managing the projects. By being designed from the start to spread the responsibility, it
+becomes easier to allow people to step back and others to step up, making Django more sustainable
+and the community stronger.
+
+### What is each repository team for?
+
+There are three teams for each repository. They each have different
+permissions.
+
+- [project-name]
+- [project-name]-committers
+- [project-name]-admins
+
+The general team [project-name] gives you triage permissions (assign issues, labels, etc).
+
+The [project-name]-committers gives you permission to merge pull requests and push to main.
+They are people who generally maintain the project.
+
+The [project-name]-admins gives you permissions to administrate the GitHub repo and release new versions to PyPI.
+This may be the same group of people that are on [project-name]-commiters.
+
+### Who can work on a project?
+
+Anyone can fork any project and work on any issue. All projects within Django Commons are community
+maintained. If you're interested in working on a specific project, go get to work!
+
+### Which repository is for what?
+
+- [controls](https://github.com/django-commons/controls): This is for Django Commons administrators
+  to manage the GitHub organization. Any issues in this repo are for maintain the magic behind the scenes
+- [best-practices](https://github.com/django-commons/best-practices): A sample project with best practices for Django Commons projects.
+- [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
+  here. **If you're looking for where to ask a question, this is the place for you**
+
+### Do we allow all packages or just Django-adjacent?
+
+Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically. 
+
+## Django Commons Content
+
+- [Django Commons YouTube](https://www.youtube.com/@djangocommons)
+- [Django Tasks Scheduler project overview with Daniel Moran](https://www.youtube.com/watch?v=Brfavid_fxw) [Daniel Moran](https://github.com/cunla) provides an introduction of django-tasks-scheduler to Ryan Cheley and Tim Schilling.
+- [Django Brew Episode 4: Spoiler Alert: DjangoCon US Recap, Open Source Maintenance, and Other Spooky Stories](https://djangobrew.com/episodes/16285007-episode-4-spoiler-alert-djangocon-us-recap-open-source-maintenance-and-other-spooky-stories)
+- ["Endorsing Django Packages"](https://softwarecrafts.uk/100-words/day-246) by [Andy Miller](https://github.com/nanorepublica/)
+- ["Django Commons"](https://www.ryancheley.com/2024/10/23/django-commons/) by [Ryan Cheley](https://github.com/ryancheley/):
+  An introduction to Django Commons, explaining its goals, structure, and benefits for maintainers.
+- ["Django Commons"](https://simonwillison.net/2024/Oct/8/django-commons/) by Simon Willison:
+  Simon highlights Django Commons on his blog and what he's looking forward to.
+- ["Introducing Django Commons!"](https://2024.djangocon.us/talks/lightning-talks-tuesday/) by [Lacey Henschel](https://github.com/williln):
+  A lightning talk from DjangoCon US 2024 introducing Django Commons.
+- ["Django Commons - A home for community-maintained Django packages"](https://www.better-simple.com/django/2024/05/22/looking-for-help-django-commons/) by [Tim Schilling](https://github.com/tim-schilling/):
+  A call for help to start Django Commons.
+
+## Credits
+
+### Logo
+
+Logo was designed by [Violette Naa Adoley Allotey](https://www.linkedin.com/in/violette-naa-adoley-allotey/)
+
+## Documentation Site
+
+See the [django-commons.org documentation](./django-commons.org/README.md).

@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.9",
-  "serial": 1068,
+  "serial": 1071,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2849,35 +2849,35 @@
             "id": "9763562",
             "members": [
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "Daksh777"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "Stormheg"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "TildaDares"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "bckohan"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "cunla"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "ryancheley"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "tim-schilling"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "williln"
               }
             ],
@@ -2897,23 +2897,23 @@
             "id": "15586545",
             "members": [
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "Stormheg"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "cunla"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "ryancheley"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "tim-schilling"
               },
               {
-                "role": "member",
+                "role": "maintainer",
                 "username": "williln"
               }
             ],

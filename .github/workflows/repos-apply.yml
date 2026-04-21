@@ -10,6 +10,8 @@ on:
       - '.github/workflows/repos-apply.yml'
       - '.github/workflows/repos-plan.yml'
 
+permissions: {}
+
 concurrency:
   group: terraform-actions-repos
 
@@ -17,10 +19,11 @@ jobs:
   repos-apply-changes:
     name: "Apply org-repositories changes"
     runs-on: ubuntu-latest
+    environment: production
 
     permissions:
       contents: read
-      pull-requests: write
+      pull-requests: write  # Required to post terraform plan comments
     timeout-minutes: 10
     steps:
       - name: Checkout code

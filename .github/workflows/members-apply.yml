@@ -10,6 +10,8 @@ on:
       - '.github/workflows/members-apply.yml'
       - '.github/workflows/members-plan.yml'
 
+permissions: {}
+
 concurrency:
   group: terraform-actions-members
 
@@ -17,10 +19,11 @@ jobs:
   org-apply-changes:
     name: "Apply org membership changes"
     runs-on: ubuntu-latest
+    environment: production
 
     permissions:
       contents: read
-      pull-requests: write
+      pull-requests: write  # Required to post terraform plan comments
     timeout-minutes: 10
     steps:
       - name: Checkout code

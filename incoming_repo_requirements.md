@@ -45,7 +45,7 @@ be transferred in.
 
 - **[Required]** All maintainers (release permission) agree to transfer project
 - **[Required]** The repository will be transferred to the [django-commons GitHub organization](https://github.com/django-commons)
-- **[Required]** The Django Commons PyPI admin team (`cunla` and `stormheg`) is added as owners to PyPI and Test PyPI projects
+- **[Required]** The Django Commons [PyPI organization](https://pypi.org/org/django-commons/) is added as owner to PyPI and Test PyPI projects
 - **[Required]** Any previous maintainers who are not repository admins are removed as owners on PyPI and Test PyPI projects
 - **[Required]** If applicable, any separately published JavaScript package is transferred to the [django-commons npm organization](https://www.npmjs.com/org/django-commons) and any previous maintainers who are not repository admins are removed as owners. Two factor authentication must be enabled.
 

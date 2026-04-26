@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.9",
-  "serial": 1074,
+  "serial": 1077,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -122,6 +122,7 @@
               "info@akmiller.co.uk",
               "",
               "",
+              "",
               "okotdanz@gmail.com",
               "oliver@andrich.me",
               "",
@@ -150,7 +151,7 @@
               "",
               ""
             ],
-            "id": "516a22822d88a90cd827e504cb616407",
+            "id": "c9c220f968c44a51d7da07f793bb931c",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -249,6 +250,7 @@
               "mounirmesselmeni",
               "mzemlickis",
               "nanorepublica",
+              "newroum",
               "niltonpimentel02",
               "nwanduka",
               "okotdaniel",
@@ -377,6 +379,7 @@
               "MDQ6VXNlcjEwNTU3MzE=",
               "MDQ6VXNlcjQ1NTY5NDQ=",
               "MDQ6VXNlcjE5OTc5NDA=",
+              "U_kgDOBl9ldQ",
               "MDQ6VXNlcjYzNjA1NDg1",
               "U_kgDOB1A6tg",
               "MDQ6VXNlcjQxNzQ0MDEy",
@@ -506,6 +509,7 @@
               "mounirmesselmeni",
               "mzemlickis",
               "nanorepublica",
+              "newroum",
               "niltonpimentel02",
               "nwanduka",
               "okotdaniel",
@@ -2181,6 +2185,23 @@
           ]
         },
         {
+          "index_key": "newroum",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"b6132fb3b159fb1d036a76929f7a3a9cc531a382f4660a6061d0a3b64b89d4f1\"",
+            "id": "django-commons:newroum",
+            "role": "member",
+            "username": "newroum"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "niltonpimentel02",
           "schema_version": 0,
           "attributes": {
@@ -2828,6 +2849,10 @@
               {
                 "role": "member",
                 "username": "mzemlickis"
+              },
+              {
+                "role": "member",
+                "username": "newroum"
               },
               {
                 "role": "member",

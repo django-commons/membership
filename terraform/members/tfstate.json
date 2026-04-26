@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.14.9",
-  "serial": 1077,
+  "serial": 1080,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -126,7 +126,6 @@
               "okotdanz@gmail.com",
               "oliver@andrich.me",
               "",
-              "",
               "paolo@melchiorre.org",
               "",
               "",
@@ -151,7 +150,7 @@
               "",
               ""
             ],
-            "id": "c9c220f968c44a51d7da07f793bb931c",
+            "id": "f862fac8d7c6f2322ef1f4e7f0b66a4d",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -256,7 +255,6 @@
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
-              "p-r-a-v-i-n",
               "pauloxnet",
               "peterthomassen",
               "pfouque",
@@ -385,7 +383,6 @@
               "MDQ6VXNlcjQxNzQ0MDEy",
               "MDQ6VXNlcjc1OA==",
               "MDQ6VXNlcjgyNjA3NzIz",
-              "MDQ6VXNlcjkxMTI1NTQw",
               "MDQ6VXNlcjUyMTA5Nw==",
               "MDQ6VXNlcjQyNDI2ODM=",
               "MDQ6VXNlcjgzMDAwMDE=",
@@ -515,7 +512,6 @@
               "okotdaniel",
               "oliverandrich",
               "ontowhee",
-              "p-r-a-v-i-n",
               "pauloxnet",
               "peterthomassen",
               "pfouque",
@@ -2278,23 +2274,6 @@
             "id": "django-commons:ontowhee",
             "role": "member",
             "username": "ontowhee"
-          },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0,
-          "private": "bnVsbA==",
-          "dependencies": [
-            "data.github_users.users"
-          ]
-        },
-        {
-          "index_key": "p-r-a-v-i-n",
-          "schema_version": 0,
-          "attributes": {
-            "downgrade_on_destroy": false,
-            "etag": "W/\"49a2359d6d5469c8ffa36380b092fea8bac124ab6e5e7de1027cf2dfe770623e\"",
-            "id": "django-commons:p-r-a-v-i-n",
-            "role": "member",
-            "username": "p-r-a-v-i-n"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,

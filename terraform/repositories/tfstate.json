@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.15.0",
-  "serial": 860,
+  "serial": 862,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -794,7 +794,17 @@
             "merge_commit_title": "MERGE_MESSAGE",
             "name": "django-polymorphic",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMzYwMjQ3",
-            "pages": [],
+            "pages": [
+              {
+                "build_type": "workflow",
+                "cname": "",
+                "custom_404": false,
+                "html_url": "http://django-commons.org/django-polymorphic/",
+                "source": [],
+                "status": "built",
+                "url": "https://api.github.com/repos/django-commons/django-polymorphic/pages"
+              }
+            ],
             "primary_language": "Python",
             "private": false,
             "repo_id": 1360247,
@@ -1928,33 +1938,39 @@
           "schema_version": 0,
           "attributes": {
             "id": "django-polymorphic",
-            "ignore_team": [],
+            "ignore_team": [
+              {
+                "team_id": "Admins"
+              }
+            ],
             "invitation_ids": {},
             "repository": "django-polymorphic",
             "team": [
               {
-                "permission": "pull",
-                "team_id": "9763562"
+                "permission": "admin",
+                "team_id": "django-polymorphic-admins"
+              },
+              {
+                "permission": "maintain",
+                "team_id": "django-polymorphic-committers"
+              },
+              {
+                "permission": "triage",
+                "team_id": "django-polymorphic"
               }
             ],
-            "user": [
-              {
-                "permission": "admin",
-                "username": "bckohan"
-              },
-              {
-                "permission": "admin",
-                "username": "chrisglass"
-              },
-              {
-                "permission": "admin",
-                "username": "vdboor"
-              }
-            ]
+            "user": []
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_team.admins_team",
+            "github_repository.this",
+            "github_team.repo_admin_team",
+            "github_team.repo_committer_team",
+            "github_team.repo_team"
+          ]
         },
         {
           "index_key": "django-prometheus",
@@ -2526,7 +2542,7 @@
                 "teams": [
                   17341536
                 ],
-                "users": null
+                "users": []
               }
             ],
             "wait_timer": 0
@@ -3282,10 +3298,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Admin team for the django-polymorphic repository",
-            "etag": "W/\"76a6e2b12246a9e54458063737f204015367d0e902bb9ba9ea090e75a4318a9e\"",
+            "etag": "W/\"cda548054dfd5481b35391955643b34b17b29cde4fadc15c458a19627e3adda0\"",
             "id": "17341536",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 1,
             "name": "django-polymorphic-admins",
             "node_id": "T_kwDOCaaRBM4BCJxg",
             "parent_team_id": "17341534",
@@ -4127,10 +4143,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Main team for the django-polymorphic repository",
-            "etag": "W/\"0a48c2615db4c4094defcc232915ce7ba64eeebe590d8054eda537876ccb8896\"",
+            "etag": "W/\"2f16d307a8036a02c1667b44d09e04087dbde41a21795769a6f3063732026054\"",
             "id": "17341534",
             "ldap_dn": "",
-            "members_count": 0,
+            "members_count": 2,
             "name": "django-polymorphic",
             "node_id": "T_kwDOCaaRBM4BCJxe",
             "parent_team_id": "",
@@ -5585,7 +5601,7 @@
           "index_key": "django-polymorphic",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a2e1e1f5270142b9f117def9d219006e875ed3cfe127b3c2a753a17932242af9\"",
+            "etag": "W/\"54bdd143e9f85b67b250adb0e11059bd0a3a718b751cd0aaa30f5df5ac617c86\"",
             "id": "17341536:django-polymorphic",
             "permission": "admin",
             "repository": "django-polymorphic",
@@ -5899,7 +5915,7 @@
           "index_key": "django-polymorphic",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"ecdaf9e35ae079eece6247738e531e4c8fc1b400bfb7d4428ac6aa31eedff8e3\"",
+            "etag": "W/\"d58195c9bcb17cf148c45bcfa5ff3418cf86788c84637be3f6353dbb58697c90\"",
             "id": "17341537:django-polymorphic",
             "permission": "maintain",
             "repository": "django-polymorphic",
@@ -6206,7 +6222,7 @@
           "index_key": "django-polymorphic",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"a4521691bbb7d38a35936940376338fae85a27718bd9de2de81482c2fa16b36e\"",
+            "etag": "W/\"8d49a2fe6285c658f0920a07dba98d9f73e3de920a49d00583665397f661a543\"",
             "id": "17341534:django-polymorphic",
             "permission": "triage",
             "repository": "django-polymorphic",

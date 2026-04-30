@@ -366,5 +366,23 @@ repositories = {
     committers = []
     members    = []
   }
+
+  "django-polymorphic" = {
+    description = "Improved Django model inheritance with automatic downcasting"
+    homepage_url = "https://django-polymorphic.readthedocs.io"
+    allow_merge_commit = false
+    allow_rebase_merge = true
+    allow_squash_merge = true
+    allow_update_branch = true
+    has_discussions = true
+    has_wiki = false
+    admins = [
+      "bckohan",
+    ]
+    committers = []
+    members = [
+      "JohananOppongAmoateng",
+    ]
+  }
 }
 

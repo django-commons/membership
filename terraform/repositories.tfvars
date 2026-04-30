@@ -376,6 +376,9 @@ repositories = {
     allow_update_branch = true
     has_discussions = true
     has_wiki = false
+    pages = {
+      build_type = "workflow"
+    }
     admins = [
       "bckohan",
     ]

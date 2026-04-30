@@ -100,7 +100,6 @@ members = [
   "joshuadavidthomas",
   "justbackend",
   "justinmayer",
-  "KarlHaines82",
   "kevin-brown",
   "knyghty",
   "korfuri",

@@ -11,10 +11,11 @@ The repository that hosts the docs is at https://github.com/django-commons/djang
 
 ### MkDocs Commands
 
+The full output of the help command for `mkdocs` can be seen by running `uv run mkdocs --help`. Some of the more commonly used commands for this project are:
+
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
 ### pre-commit
 

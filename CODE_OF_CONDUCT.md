@@ -120,7 +120,7 @@ our response, but we don't guarantee we'll act on it.
 
 ### Making a report to Django's Code of Conduct Working Group
 
-[Reports can be made directly to the Django Code of Conduct working group](https://www.djangoproject.com/conduct/reporting/)
+While Django Commons operates autonomously with its own Code of Conduct reporting process, [reports can be made directly to the Django Code of Conduct working group](https://www.djangoproject.com/conduct/reporting/)
 in the following scenarios:
 
 - The report concerns a Django Commons Admin and/or CoC team.

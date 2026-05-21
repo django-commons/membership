@@ -6,16 +6,23 @@ on:
       - opened
       - reopened
 
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
 jobs:
   add-member:
     if: contains(github.event.issue.labels.*.name, 'New member')
     name: "Add new member"
     runs-on: ubuntu-latest
+    environment: production
     permissions:
-      id-token: write
-      contents: write
-      pull-requests: write
-      issues: write
+      id-token: write  # Required for OIDC authentication
+      contents: write  # Required to push the new member branch
+      pull-requests: write  # Required to create a pull request
+      issues: write  # Required to comment on the issue
     env:
       ISSUE_NUMBER: ${{ github.event.issue.number }}
       ISSUE_USER: ${{ github.event.issue.user.login }}
@@ -24,7 +31,7 @@ jobs:
 
     steps:
       - name: Setup python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: '3.12'
 
@@ -33,7 +40,7 @@ jobs:
         with:
           # This is the default, but it's required since we are performing
           # Git operations later on.
-          persist-credentials: true
+          persist-credentials: true  # zizmor: ignore[artipacked]
 
       - name: Get username to add
         id: get_username

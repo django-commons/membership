@@ -1,8 +1,11 @@
 # Organization admins
 admins = [
+  "bckohan",
   "cunla",
+  "Daksh777",
   "ryancheley",
   "Stormheg",
+  "TildaDares",
   "tim-schilling",
   "williln",
 ]
@@ -24,10 +27,11 @@ designers = [
   "johnatanmoran",
   "mzemlickis",
   "Ndungu9039",
+  "newroum",
   "nwanduka",
   "okotdaniel",
-  "p-r-a-v-i-n",
   "Shrikantgiri25",
+  "tintayadev",
   "vinlawz",
   "Violette-Allotey",
   "viscofuse",
@@ -41,22 +45,24 @@ members = [
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
+  "aleksihakli",
   "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
   "Ashish8329",
   "ayimdomnic",
   "bahoo",
-  "bckohan",
   "blingblin-g",
   "browniebroke",
   "bryan-oginga",
+  "camilonova",
   "carltongibson",
   "Ceasar15",
   "cgl",
   "Chiemezuo",
   "clintonb",
-  "Daksh777",
+  "cocokaribou",
+  "codingjoe",
   "ddabble",
   "deronnax",
   "devatbosch",
@@ -99,27 +105,31 @@ members = [
   "knyghty",
   "korfuri",
   "kytta",
+  "lander151",
   "leogregianin",
   "luiscontrerasdo",
   "M97Chahboun",
   "manelclos",
   "matthiask",
   "mdehsan873",
+  "mgrdcm",
   "mihrab34",
   "mkalioby",
   "mnislam01",
   "Mogost",
+  "mounirmesselmeni",
   "MrCordeiro",
   "mzemlickis",
   "nanorepublica",
+  "Nathan-Bransby-NMT",
   "Natim",
   "Ndungu9039",
+  "newroum",
   "niltonpimentel02",
   "nwanduka",
   "okotdaniel",
   "oliverandrich",
   "ontowhee",
-  "p-r-a-v-i-n",
   "pauloxnet",
   "peterthomassen",
   "pfouque",
@@ -139,8 +149,8 @@ members = [
   "testSchilling",
   "thibaudcolas",
   "ticosax",
-  "TildaDares",
   "TimothyMalahy",
+  "tintayadev",
   "ulgens",
   "unmonoqueteclea",
   "vacarme",
@@ -156,18 +166,24 @@ organization_teams = {
   # https://github.com/organizations/django-commons/settings/moderators
   "Admins" = {
     description = "Django Commons administrators. This team is responsible for the overall management of the organization."
-    # Use maintainers for organizational teams
+    # Use maintainers for organizational teams.
+    # This isn't required for admins, but is consistent. 
     maintainers = [
+      "bckohan",
       "cunla",
+      "Daksh777",
       "ryancheley",
       "Stormheg",
+      "TildaDares",
       "tim-schilling",
       "williln",
     ]
   }
   "super-admins" = {
     description = "Django Commons super administrators. This team is responsible for performing privileged operations."
-    # Use maintainers for organizational teams
+    # Use maintainers for organizational teams.
+    # This is required for super-admins as Terraform/GitHub will flip-flop
+    # the membership between what's in GitHub and what the state thinks is set.
     maintainers = [
       "cunla",
       "ryancheley",

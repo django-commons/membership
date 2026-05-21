@@ -7,6 +7,10 @@ resource "github_repository_environment" "pypi" {
   reviewers {
     teams = [github_team.repo_admin_team[each.key].id]
   }
+
+  lifecycle {
+    ignore_changes = [deployment_branch_policy, can_admins_bypass]
+  }
 }
 
 resource "github_repository_environment" "testpypi" {
@@ -15,4 +19,8 @@ resource "github_repository_environment" "testpypi" {
   environment         = "testpypi"
   repository          = each.key
   prevent_self_review = false
+
+  lifecycle {
+    ignore_changes = [deployment_branch_policy, can_admins_bypass]
+  }
 }

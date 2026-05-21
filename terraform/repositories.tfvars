@@ -9,7 +9,8 @@ repositories = {
   }
 
   "controls" = {
-    description            = "The controls for managing Django Commons projects"
+    description            = "The repository for managing the Django Commons organization. This is the place for issues to improve the organization."
+    homepage_url           = "https://www.django-commons.org"
     allow_merge_commit     = true
     allow_rebase_merge     = true
     allow_squash_merge     = true
@@ -19,7 +20,8 @@ repositories = {
   }
 
   "membership" = {
-    description            = "Membership repository for the django-commons organization."
+    description            = "The repository that members and projects use to manage the projects of Django Commons. This also contains the Django Commons website."
+    homepage_url           = "https://www.django-commons.org"
     visibility             = "public"
     allow_merge_commit     = false
     has_projects           = true
@@ -100,18 +102,19 @@ repositories = {
     ]
     committers = [
       "elineda",
+      "federicobond",
       "salty-ivy",
+      "VeldaKiara",
     ]
     members = [
       "andoriyaprashant",
       "blingblin-g",
       "Chiemezuo",
+      "codingjoe",
       "devatbosch",
       "dr-rompecabezas",
-      "federicobond",
       "jmgutu",
       "JohananOppongAmoateng",
-      "VeldaKiara",
       "Zakui",
     ]
   }
@@ -124,6 +127,10 @@ repositories = {
     has_projects         = false
     merge_commit_title   = "PR_TITLE"
     merge_commit_message = "BLANK"
+
+    pages = {
+      build_type = "workflow"
+    }
 
     admins = [
       "Natim",
@@ -358,6 +365,27 @@ repositories = {
     ]
     committers = []
     members    = []
+  }
+
+  "django-polymorphic" = {
+    description = "Improved Django model inheritance with automatic downcasting"
+    homepage_url = "https://django-polymorphic.readthedocs.io"
+    allow_merge_commit = false
+    allow_rebase_merge = true
+    allow_squash_merge = true
+    allow_update_branch = true
+    has_discussions = true
+    has_wiki = false
+    pages = {
+      build_type = "workflow"
+    }
+    admins = [
+      "bckohan",
+    ]
+    committers = []
+    members = [
+      "JohananOppongAmoateng",
+    ]
   }
 }
 

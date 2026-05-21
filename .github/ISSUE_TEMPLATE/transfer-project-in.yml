@@ -9,8 +9,6 @@ body:
       value: |
         Thanks for expressing interesting in adding your project to Django Commons!
 
-        We're currently focusing on recruiting new admins. Our capacity to process new projects will be reduced until sometime in April 2026.
-
         Please review the [incoming repository requirements](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md) before submitting your request.
   - type: input
     id: project-url

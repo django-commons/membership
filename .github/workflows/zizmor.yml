@@ -8,12 +8,16 @@ on:
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   zizmor:
     name: Run zizmor 🌈
     runs-on: ubuntu-latest
     permissions:
-      security-events: write
+      security-events: write  # Required to upload SARIF results to GitHub Security
       contents: read # only needed for private repos
       actions: read # only needed for private repos
     timeout-minutes: 3
@@ -24,4 +28,4 @@ jobs:
           persist-credentials: false
 
       - name: Run zizmor 🌈
-        uses: zizmorcore/zizmor-action@0dce2577a4760a2749d8cfb7a84b7d5585ebcb7d # v0.5.0
+        uses: zizmorcore/zizmor-action@a16621b09c6db4281f81a93cb393b05dcd7b7165 # v0.5.5

@@ -47,10 +47,6 @@ variable "repositories" {
       }), null)
       build_type = optional(string, "workflow") # legacy or workflow
       cname      = optional(string, "")
-      html_url   = optional(string, "")
-      url        = optional(string, "")
-      custom_404 = optional(bool, null)
-      status     = optional(string, "built") # built or building
     }), null)
 
     # Template of the repository

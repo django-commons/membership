@@ -70,6 +70,7 @@ members = [
   "DhavalGojiya",
   "dmpayton",
   "dr-rompecabezas",
+  "Dresdn",
   "elineda",
   "EliShteinman",
   "Faakhir30",

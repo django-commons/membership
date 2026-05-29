@@ -2,7 +2,7 @@
 
 Thank you for your time maintaining a project under Django Commons!
 
-To see how to initiate a transfer out of Django Commons, see [How to transfer a project out?](https://github.com/django-commons/membership/blob/main/README.md#how-to-transfer-a-project-out)
+To see how to initiate a transfer out of Django Commons, see [How to transfer a project out?](https://django-commons.org/#how-to-transfer-a-project-out)
 
 There are a few requirements that must be met before a project can be transferred out:
 

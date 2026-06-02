@@ -159,6 +159,7 @@ members = [
   "vinlawz",
   "Violette-Allotey",
   "viscofuse",
+  "whitebumblebee",
   "Zakui",
 ]
 organization_teams = {

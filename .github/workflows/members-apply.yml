@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
+        uses: actions/checkout@v6.0.2  # zizmor: ignore[unpinned-uses]
         with:
           persist-credentials: false
       - name: terraform apply
@@ -46,7 +46,7 @@ jobs:
 
       - name: Commit changes
         if: ${{ always() }}
-        uses: devops-infra/action-commit-push@f01d24007c469639f252dc88109ef96bfbff33db # v1.1.0
+        uses: devops-infra/action-commit-push@9dbeef2fbc33d3949c568ddac2f3de0ee5010e85 # v1.3.2
         with:
           github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           commit_prefix: "[AUTO]"

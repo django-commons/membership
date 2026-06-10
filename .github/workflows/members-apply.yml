@@ -46,7 +46,7 @@ jobs:
 
       - name: Commit changes
         if: ${{ always() }}
-        uses: devops-infra/action-commit-push@f01d24007c469639f252dc88109ef96bfbff33db # v1.1.0
+        uses: devops-infra/action-commit-push@0b42c7c1bf502dc2d7c9e8b9d9d7c174a48fe7c1 # v1.3.3
         with:
           github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           commit_prefix: "[AUTO]"

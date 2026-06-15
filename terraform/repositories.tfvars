@@ -297,7 +297,8 @@ repositories = {
     has_discussions = true
     has_wiki        = false
     admins = [
-      "amirreza-sf80",
+      # "amirreza-sf80",
+      "tim-schilling",
     ]
     committers = [
     ]

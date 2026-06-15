@@ -298,6 +298,7 @@ repositories = {
     has_wiki        = false
     admins = [
       # "amirreza-sf80",
+      # Temporarily include Tim until amirreza-sf80 is restored.
       "tim-schilling",
     ]
     committers = [

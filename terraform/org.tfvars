@@ -46,7 +46,7 @@ members = [
   "adRn-s",
   "akshayvinchurkar",
   "aleksihakli",
-  "amirreza-sf80",
+  # "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
   "Ashish8329",

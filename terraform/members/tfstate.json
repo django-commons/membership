@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.15.5",
-  "serial": 1097,
+  "terraform_version": "1.15.6",
+  "serial": 1100,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -41,6 +41,7 @@
               "Harof.dev@gmail.com",
               "",
               "jaehyuck.sa.dev@gmail.com",
+              "",
               "",
               "",
               "",
@@ -152,7 +153,7 @@
               "",
               ""
             ],
-            "id": "4709d876281ae5b04421b0d65b7fe01d",
+            "id": "ab9162ca286938461e822150aea0a52f",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -172,6 +173,7 @@
               "JaeHyuckSa",
               "JohananOppongAmoateng",
               "Josephchinedu",
+              "Knowledgex187",
               "M97Chahboun",
               "Mogost",
               "MrCordeiro",
@@ -300,6 +302,7 @@
               "U_kgDOBj-X0w",
               "MDQ6VXNlcjg4NDExNjE0",
               "MDQ6VXNlcjQ3ODUyOTI1",
+              "MDQ6VXNlcjczNDQ1ODUz",
               "MDQ6VXNlcjY5MDU0ODEw",
               "MDQ6VXNlcjcyMTk2Mw==",
               "MDQ6VXNlcjIwNTk4NTcx",
@@ -431,6 +434,7 @@
               "JaeHyuckSa",
               "JohananOppongAmoateng",
               "Josephchinedu",
+              "Knowledgex187",
               "M97Chahboun",
               "Mogost",
               "MrCordeiro",
@@ -851,6 +855,23 @@
             "id": "django-commons:Josephchinedu",
             "role": "member",
             "username": "Josephchinedu"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "Knowledgex187",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"1d315bd8b21ed2f2c78b97b9872b9b991a5628d72962cedced3c3dbb8aba4adf\"",
+            "id": "django-commons:Knowledgex187",
+            "role": "member",
+            "username": "Knowledgex187"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2649,7 +2670,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"375f88341db6b83450af47ca1c8b8f39ee10bb8b1ead0071eaca6b95302278a1\"",
+            "etag": "W/\"f7803f525739f60d1da2134fb4d0325f58e6de5a156e701299f186064f4747e6\"",
             "id": "django-commons:whitebumblebee",
             "role": "member",
             "username": "whitebumblebee"
@@ -2713,7 +2734,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"237b29a450764506173a73d7c5a54a8d195f81d9553227dd368dffed3541a8f7\"",
+            "etag": "W/\"5e65307d46da2990e62a908e22deaa61aeb18a4f658aa21382fdb03aa853970e\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 15,
@@ -2743,7 +2764,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"2744a31b5d30d7d4fb002c8c6ad65f0ee3b88bcabb44ceda040b93c84c7fb385\"",
+            "etag": "W/\"6781fd4dbbd9031f54b576354faea6fc56ebf37dd61c3326b24ef5db9b0ebfc0\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 8,
@@ -2765,7 +2786,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"c83eac7bb4b4f699057ac1bec535e14de684d20e5c452f9fd7da462b93303232\"",
+            "etag": "W/\"d00219c9f0f742c74b10b7cb64ffea8ed508dcf6483f10e25a1e9483ab300d48\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,
@@ -2797,6 +2818,10 @@
               {
                 "role": "member",
                 "username": "Daksh777"
+              },
+              {
+                "role": "member",
+                "username": "Knowledgex187"
               },
               {
                 "role": "member",

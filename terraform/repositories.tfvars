@@ -266,12 +266,14 @@ repositories = {
 
   "django-prometheus" = {
     description         = "Export Django monitoring metrics for Prometheus.io"
+    allow_auto_merge       = false
     allow_merge_commit  = true
     allow_rebase_merge  = true
     allow_squash_merge  = true
     allow_update_branch = true
 
     has_discussions = false
+    has_projects    = true
     has_wiki        = false
     admins = [
       "asherf",

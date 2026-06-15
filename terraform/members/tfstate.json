@@ -1,13 +1,11 @@
 {
   "version": 4,
   "terraform_version": "1.15.6",
-  "serial": 1101,
+  "serial": 1102,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
-      "value": [
-        "amirreza-sf80"
-      ],
+      "value": [],
       "type": [
         "list",
         "string"
@@ -153,7 +151,7 @@
               "",
               ""
             ],
-            "id": "ab9162ca286938461e822150aea0a52f",
+            "id": "cecec105ea9648e2af9ad9b9763eb188",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -412,9 +410,7 @@
               "MDQ6VXNlcjE1MjI2MzUz",
               "MDQ6VXNlcjIyODYzMDQ="
             ],
-            "unknown_logins": [
-              "amirreza-sf80"
-            ],
+            "unknown_logins": [],
             "usernames": [
               "2ykwang",
               "Ashish8329",
@@ -456,7 +452,6 @@
               "adamghill",
               "akshayvinchurkar",
               "aleksihakli",
-              "amirreza-sf80",
               "andoriyaprashant",
               "asherf",
               "ayimdomnic",

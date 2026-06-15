@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.15.6",
-  "serial": 1100,
+  "serial": 1101,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -868,7 +868,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"1d315bd8b21ed2f2c78b97b9872b9b991a5628d72962cedced3c3dbb8aba4adf\"",
+            "etag": "W/\"b7effd91722fbb5bd11198cebfdc510b0909cf3b7876e3d0a29160b08699ed0d\"",
             "id": "django-commons:Knowledgex187",
             "role": "member",
             "username": "Knowledgex187"
@@ -2734,10 +2734,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"5e65307d46da2990e62a908e22deaa61aeb18a4f658aa21382fdb03aa853970e\"",
+            "etag": "W/\"eb3ed752a6110f26621a2854cf6da1940f5aa3eee4306225b9e9dd18eae79dac\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 15,
+            "members_count": 16,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",

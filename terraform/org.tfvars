@@ -40,13 +40,14 @@ designers = [
 
 # Organization members
 members = [
+  "# amirreza-sf80",
   "2ykwang",
   "aayardev",
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
   "aleksihakli",
-  # "amirreza-sf80",
+  "alex-dicko",
   "andoriyaprashant",
   "asherf",
   "Ashish8329",

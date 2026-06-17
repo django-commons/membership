@@ -1,11 +1,13 @@
 {
   "version": 4,
   "terraform_version": "1.15.6",
-  "serial": 1102,
+  "serial": 1104,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
-      "value": [],
+      "value": [
+        "# amirreza-sf80"
+      ],
       "type": [
         "list",
         "string"
@@ -63,6 +65,7 @@
               "",
               "akshay12345vin@gmail.com",
               "aleksi.hakli@iki.fi",
+              "",
               "",
               "hello@asherfoa.com",
               "",
@@ -151,7 +154,7 @@
               "",
               ""
             ],
-            "id": "cecec105ea9648e2af9ad9b9763eb188",
+            "id": "defdf4c2767eaf650fe2dee45b09105b",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -193,6 +196,7 @@
               "adamghill",
               "akshayvinchurkar",
               "aleksihakli",
+              "alex-dicko",
               "andoriyaprashant",
               "asherf",
               "ayimdomnic",
@@ -322,6 +326,7 @@
               "MDQ6VXNlcjMxNzA0NQ==",
               "MDQ6VXNlcjEwNTEwODg5",
               "MDQ6VXNlcjI0Nzc5MzQ=",
+              "U_kgDOCbXV7g",
               "U_kgDOB0B3aQ",
               "MDQ6VXNlcjEyNjgwODg=",
               "MDQ6VXNlcjYyMTU5MjU=",
@@ -410,8 +415,11 @@
               "MDQ6VXNlcjE1MjI2MzUz",
               "MDQ6VXNlcjIyODYzMDQ="
             ],
-            "unknown_logins": [],
+            "unknown_logins": [
+              "# amirreza-sf80"
+            ],
             "usernames": [
+              "# amirreza-sf80",
               "2ykwang",
               "Ashish8329",
               "Ceasar15",
@@ -452,6 +460,7 @@
               "adamghill",
               "akshayvinchurkar",
               "aleksihakli",
+              "alex-dicko",
               "andoriyaprashant",
               "asherf",
               "ayimdomnic",
@@ -1224,6 +1233,23 @@
             "id": "django-commons:aleksihakli",
             "role": "member",
             "username": "aleksihakli"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "alex-dicko",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"32de3937bd29cc66596e42557895331a0ce25c7cd2014e84f9e95063023b0b0d\"",
+            "id": "django-commons:alex-dicko",
+            "role": "member",
+            "username": "alex-dicko"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2729,7 +2755,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"eb3ed752a6110f26621a2854cf6da1940f5aa3eee4306225b9e9dd18eae79dac\"",
+            "etag": "W/\"68207a2996f696d24191ca9988eb2a1f3021bf6edc52ca21c2722cdfc6aadd56\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2759,7 +2785,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"6781fd4dbbd9031f54b576354faea6fc56ebf37dd61c3326b24ef5db9b0ebfc0\"",
+            "etag": "W/\"82d5f5faffbe5c446d0280440d255050987b3b6f33aa33d46066a15f3f882ad8\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 8,
@@ -2781,7 +2807,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"d00219c9f0f742c74b10b7cb64ffea8ed508dcf6483f10e25a1e9483ab300d48\"",
+            "etag": "W/\"f75f564d827b8f8886e5d01ccc473d6b83da257980e7b46922528d2bf749a5c0\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 5,

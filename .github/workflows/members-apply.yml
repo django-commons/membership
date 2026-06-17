@@ -24,12 +24,20 @@ jobs:
     permissions:
       contents: read
       pull-requests: write  # Required to post terraform plan comments
+      id-token: write  # Required for OIDC authentication to AWS
     timeout-minutes: 10
     steps:
       - name: Checkout code
         uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
         with:
           persist-credentials: false
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4  # zizmor: ignore[unpinned-uses]
+        with:
+          role-to-assume: ${{ secrets.AWS_APPLY_ROLE_ARN }}
+          aws-region: us-east-1
+
       - name: terraform apply
         uses: dflook/terraform-apply@5489b988934a50bf1489d5b7c5253b46520a7dca # v2.2.3
         env:
@@ -43,12 +51,3 @@ jobs:
             github_token = "${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}"
           var_file: |
             terraform/org.tfvars
-
-      - name: Commit changes
-        if: ${{ always() }}
-        uses: devops-infra/action-commit-push@0b42c7c1bf502dc2d7c9e8b9d9d7c174a48fe7c1 # v1.3.3
-        with:
-          github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
-          commit_prefix: "[AUTO]"
-          commit_message: "Members state changes after apply"
-          force: false

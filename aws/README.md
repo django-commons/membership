@@ -131,6 +131,23 @@ terraform {
 }
 ```
 
+### Migrate existing local state to S3
+
+After adding the backend configs, migrate the existing local state files into S3 before
+the workflows run. You will need the AWS CLI configured with credentials for the personal
+account (same prerequisite as the apply step above). Do this for both workspaces:
+
+```bash
+cd terraform/members
+terraform init -migrate-state
+
+cd ../repositories
+terraform init -migrate-state
+```
+
+Terraform will prompt you to confirm the migration. After both succeed, the local
+`tfstate.json` files can be removed from the repository.
+
 ## Adding a collaborator
 
 1. Create a Login item in the **Django Commons Infrastructure** vault with the person's

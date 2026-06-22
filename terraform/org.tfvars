@@ -112,6 +112,7 @@ members = [
   "luiscontrerasdo",
   "M97Chahboun",
   "manelclos",
+  "marcosalvesdev",
   "matthiask",
   "mdehsan873",
   "mgrdcm",

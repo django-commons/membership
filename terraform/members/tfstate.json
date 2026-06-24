@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.15.6",
-  "serial": 1106,
+  "serial": 1110,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -2066,7 +2066,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"2017e31815d20d2895efea0aada472426d9144795f46a644859f5adaea09f25d\"",
+            "etag": "W/\"9570b1016ec3f06b6284b940063e5651384e1fa231a2b8e891fd0a457b78950d\"",
             "id": "django-commons:marcosalvesdev",
             "role": "member",
             "username": "marcosalvesdev"
@@ -2728,15 +2728,15 @@
           "index_key": "williln",
           "schema_version": 0,
           "attributes": {
-            "downgrade_on_destroy": null,
-            "etag": "W/\"12a0371329c9540348dbf2d5da0292aff07049c0a3efc56e7ebfcfe2a57190d2\"",
+            "downgrade_on_destroy": false,
+            "etag": "W/\"97caa08080dd5b36bfeaa0292c6ca6798960efb67f5dfcd21790bc8cb9420a3f\"",
             "id": "django-commons:williln",
-            "role": "admin",
+            "role": "member",
             "username": "williln"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -2972,10 +2972,6 @@
               {
                 "role": "maintainer",
                 "username": "tim-schilling"
-              },
-              {
-                "role": "maintainer",
-                "username": "williln"
               }
             ],
             "team_id": "9763562"
@@ -3008,10 +3004,6 @@
               {
                 "role": "maintainer",
                 "username": "tim-schilling"
-              },
-              {
-                "role": "maintainer",
-                "username": "williln"
               }
             ],
             "team_id": "15586545"

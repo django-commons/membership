@@ -7,7 +7,6 @@ admins = [
   "Stormheg",
   "TildaDares",
   "tim-schilling",
-  "williln",
 ]
 
 super_admins = [
@@ -15,7 +14,6 @@ super_admins = [
   "ryancheley",
   "Stormheg",
   "tim-schilling",
-  "williln",
 ]
 
 # Design members
@@ -161,6 +159,7 @@ members = [
   "Violette-Allotey",
   "viscofuse",
   "whitebumblebee",
+  "williln",
   "Zakui",
 ]
 organization_teams = {
@@ -179,7 +178,6 @@ organization_teams = {
       "Stormheg",
       "TildaDares",
       "tim-schilling",
-      "williln",
     ]
   }
   "super-admins" = {
@@ -192,7 +190,6 @@ organization_teams = {
       "ryancheley",
       "Stormheg",
       "tim-schilling",
-      "williln",
     ]
   }
 }

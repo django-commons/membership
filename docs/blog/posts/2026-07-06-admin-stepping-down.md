@@ -1,5 +1,5 @@
 ---
-date: 2026-07-02
+date: 2026-07-06
 title: Thank you Lacey
 description: "The Django Commons admin team has a member stepping down"
 author: Ryan Cheley

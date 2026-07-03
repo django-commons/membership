@@ -22,13 +22,16 @@ jobs:
     environment: production
 
     permissions:
-      contents: read
+      contents: write
       pull-requests: write  # Required to post terraform plan comments
     timeout-minutes: 10
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6  # zizmor: ignore[unpinned-uses]
+        uses: actions/checkout@v7  # zizmor: ignore[unpinned-uses]
         with:
+          # Must be false: the commit/push step below authenticates with its
+          # own PAT, and a persisted default GITHUB_TOKEN credential takes
+          # precedence over it, causing pushes to be denied.
           persist-credentials: false
       - name: tofu apply
         uses: dflook/tofu-apply@c254eb5b2e48978c05587373100d26b604c2182d # v2.2.3
@@ -48,7 +51,7 @@ jobs:
         if: ${{ always() }}
         uses: devops-infra/action-commit-push@0b42c7c1bf502dc2d7c9e8b9d9d7c174a48fe7c1 # v1.3.3
         with:
-          github_token: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_prefix: "[AUTO]"
           commit_message: "Repositories state changes after apply"
           force: false

@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.15.6",
-  "serial": 1110,
+  "terraform_version": "1.15.7",
+  "serial": 1112,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -142,6 +142,7 @@
               "github@sidmitra.com",
               "",
               "",
+              "stereoad@proton.me",
               "",
               "thibaudcolas@gmail.com",
               "",
@@ -152,10 +153,10 @@
               "",
               "vinlawz07@gmail.com",
               "",
-              "",
+              "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "a4eb82a2c92eb74e12ff26c57fe1df01",
+            "id": "4ebe9d13d4efcd140b6e6ada749cc5a7",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -274,6 +275,7 @@
               "sidmitra",
               "sobolevn",
               "spapas",
+              "stereodamage",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -405,6 +407,7 @@
               "MDQ6VXNlcjEwODc3NQ==",
               "MDQ6VXNlcjQ2NjAyNzU=",
               "MDQ6VXNlcjM5MTEwNzQ=",
+              "MDQ6VXNlcjIyNTMxODc3",
               "U_kgDOCdBRFg",
               "MDQ6VXNlcjg3NzU4NQ==",
               "MDQ6VXNlcjExNzQzNDM=",
@@ -540,6 +543,7 @@
               "sidmitra",
               "sobolevn",
               "spapas",
+              "stereodamage",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -2538,6 +2542,23 @@
           ]
         },
         {
+          "index_key": "stereodamage",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"6da81031ce156b3b3a3a7aae03f7e93a3bdb6c511f2a5d09d3fe1e0ebcc47007\"",
+            "id": "django-commons:stereodamage",
+            "role": "member",
+            "username": "stereodamage"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "testSchilling",
           "schema_version": 0,
           "attributes": {
@@ -2776,7 +2797,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"3c2cd4151f259993be78c74a40c8f5c453623545a3d56e1c525e7ce3116fa58c\"",
+            "etag": "W/\"a7e28ca28c7004fdfac271aa644acb93f31935ea8351835297d34f544670d0f1\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2806,10 +2827,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"e9e3bdcf66fb5810d642023d007f0c184d22746127b752894e6f127da7fcf3f0\"",
+            "etag": "W/\"5ebb7c5dedde7e465e21d2fdc9aea1ac9a64ec98dad68e90039b420eaedd6841\"",
             "id": "9763562",
             "ldap_dn": "",
-            "members_count": 8,
+            "members_count": 7,
             "name": "Admins",
             "node_id": "T_kwDOCaaRBM4AlPrq",
             "parent_team_id": "",
@@ -2828,10 +2849,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"c89e37137b0749a1301f9b6af8f813ebd8322f704a9d8b3ef630031e74dd0561\"",
+            "etag": "W/\"8b924a12247f02b38f35e0d34d4d7afd49168b67b75dac8efa0910dba3cd0288\"",
             "id": "15586545",
             "ldap_dn": "",
-            "members_count": 5,
+            "members_count": 4,
             "name": "super-admins",
             "node_id": "T_kwDOCaaRBM4A7dTx",
             "parent_team_id": "",

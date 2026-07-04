@@ -146,6 +146,7 @@ members = [
   "SinkuKumar",
   "sobolevn",
   "spapas",
+  "stereodamage",
   "testSchilling",
   "thibaudcolas",
   "ticosax",

@@ -49,6 +49,7 @@ members = [
   "andoriyaprashant",
   "asherf",
   "Ashish8329",
+  "atanioyinbunua",
   "ayimdomnic",
   "bahoo",
   "blingblin-g",

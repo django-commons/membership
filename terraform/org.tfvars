@@ -73,6 +73,7 @@ members = [
   "EliShteinman",
   "Faakhir30",
   "federicobond",
+  "fladi",
   "FlipperPA",
   "forwardyoung",
   "fsbraun",

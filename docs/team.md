@@ -85,5 +85,3 @@ of [Django Girls](https://djangogirls.org), and contributed to the Django Girls 
 favorite thing is helping complex topics go from "intimidating" to "totally doable" for people of all experience levels.
 
 You can find out more about Lacey at her website [www.laceyhenschel.com](https://www.laceyhenschel.com).
-
-There currently are no past members.

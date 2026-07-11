@@ -62,6 +62,7 @@ members = [
   "Chiemezuo",
   "clintonb",
   "codingjoe",
+  "danmoz",
   "ddabble",
   "deronnax",
   "devatbosch",

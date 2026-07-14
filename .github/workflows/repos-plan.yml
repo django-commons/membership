@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   format-terraform-code:
-    name: "Check Terraform code formatting"
+    name: "Check OpenTofu code formatting"
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -28,8 +28,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: terraform fmt check
-        uses: dflook/terraform-fmt-check@59168426e242f665bf7b70644d706224e665056a  # v2.2.3
+      - name: tofu fmt check
+        uses: dflook/tofu-fmt-check@1ae8a83029b8ad8e6c6a12834e0d3d9cd0e34d5f  # v2.2.3
         with:
           path: "terraform/repositories"
 
@@ -48,8 +48,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: terraform plan
-        uses: dflook/terraform-plan@7878bff63e2099cdc9be9a6f33cbbbf687f8f0fe  # v2.2.3
+      - name: tofu plan
+        uses: dflook/tofu-plan@3f5dc358343fb58cd60f83b019e810315aa8258f  # v2.2.3
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.15.7",
-  "serial": 1116,
+  "terraform_version": "1.15.8",
+  "serial": 1118,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -81,6 +81,7 @@
               "",
               "johannes@maron.family",
               "",
+              "dan@unit18.net",
               "",
               "",
               "",
@@ -158,7 +159,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "9e626db9cce6e4d6a1ca83d9fa9e35ab",
+            "id": "f3bfc63cf0a3996abff953057e290790",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -216,6 +217,7 @@
               "clintonb",
               "codingjoe",
               "cunla",
+              "danmoz",
               "ddabble",
               "deronnax",
               "devatbosch",
@@ -350,6 +352,7 @@
               "MDQ6VXNlcjkxMDUxMA==",
               "MDQ6VXNlcjE3NzI4OTA=",
               "MDQ6VXNlcjM0MTk3MjE=",
+              "MDQ6VXNlcjQzNDQ0MDg=",
               "MDQ6VXNlcjYwNTg3NDU=",
               "MDQ6VXNlcjQzOTI3OQ==",
               "U_kgDOCkDCgw",
@@ -488,6 +491,7 @@
               "clintonb",
               "codingjoe",
               "cunla",
+              "danmoz",
               "ddabble",
               "deronnax",
               "devatbosch",
@@ -1313,7 +1317,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"35ceb68826e25e35ff7da43dbc105498cac0b2caf45b2ac3ae835c567ae9e199\"",
+            "etag": "W/\"063e080796baf09c7eff33630bfed8984ea5046657ba3997ff31e617fe133b00\"",
             "id": "django-commons:atanioyinbunua",
             "role": "member",
             "username": "atanioyinbunua"
@@ -1525,6 +1529,23 @@
           "sensitive_attributes": [],
           "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "danmoz",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"ae55760be9659058aebf41f10301bb2cc8667b47a8bea1e15b7abd9c52166496\"",
+            "id": "django-commons:danmoz",
+            "role": "member",
+            "username": "danmoz"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
           ]
@@ -2839,7 +2860,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"829ca10da3ca12d0122f35fec9a913e8b1cc82415d2ab97bd50e9be0b84d63ce\"",
+            "etag": "W/\"e0587be4568c01099747d1913d7abc06c17f58fc52c64980b42fd27da4618610\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2869,7 +2890,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"47d67902c79ee362e39d07d228546fef512fa39d86420872bb8124ee50e22248\"",
+            "etag": "W/\"f09e5e1c469964a1a72e749b3381b07d5403250ee209c517b4ac93a8119109a7\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2891,7 +2912,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"4aae3c1f9f365459a4377d0de77773da66fcace2c5eefafd7656a135cf7f4c64\"",
+            "etag": "W/\"c45c58459a710661d595cbb7a9ec54a3a59fa071e21938dc1f322917e9b733ac\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,

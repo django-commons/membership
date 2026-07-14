@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.15.6",
-  "serial": 1110,
+  "terraform_version": "1.15.8",
+  "serial": 1118,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -69,6 +69,7 @@
               "",
               "hello@asherfoa.com",
               "",
+              "",
               "jon.c.culver@gmail.com",
               "bckohan@gmail.com",
               "",
@@ -80,6 +81,7 @@
               "",
               "johannes@maron.family",
               "",
+              "dan@unit18.net",
               "",
               "",
               "",
@@ -88,6 +90,7 @@
               "felavid@gmail.com",
               "elineda@elineda.ovh",
               "federicobond@gmail.com",
+              "FladischerMichael@fladi.at",
               "",
               "fsbraun@gmx.de",
               "terzo.giannis@gmail.com",
@@ -142,6 +145,7 @@
               "github@sidmitra.com",
               "",
               "",
+              "stereoad@proton.me",
               "",
               "thibaudcolas@gmail.com",
               "",
@@ -152,10 +156,10 @@
               "",
               "vinlawz07@gmail.com",
               "",
-              "",
+              "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "a4eb82a2c92eb74e12ff26c57fe1df01",
+            "id": "f3bfc63cf0a3996abff953057e290790",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -200,6 +204,7 @@
               "alex-dicko",
               "andoriyaprashant",
               "asherf",
+              "atanioyinbunua",
               "ayimdomnic",
               "bahoo",
               "bckohan",
@@ -212,6 +217,7 @@
               "clintonb",
               "codingjoe",
               "cunla",
+              "danmoz",
               "ddabble",
               "deronnax",
               "devatbosch",
@@ -220,6 +226,7 @@
               "dr-rompecabezas",
               "elineda",
               "federicobond",
+              "fladi",
               "forwardyoung",
               "fsbraun",
               "g-nie",
@@ -274,6 +281,7 @@
               "sidmitra",
               "sobolevn",
               "spapas",
+              "stereodamage",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -331,6 +339,7 @@
               "U_kgDOCbXV7g",
               "U_kgDOB0B3aQ",
               "MDQ6VXNlcjEyNjgwODg=",
+              "U_kgDOBXwW_g",
               "MDQ6VXNlcjYyMTU5MjU=",
               "MDQ6VXNlcjQzMDQxNQ==",
               "MDQ6VXNlcjI2MzIwNzQ5",
@@ -343,6 +352,7 @@
               "MDQ6VXNlcjkxMDUxMA==",
               "MDQ6VXNlcjE3NzI4OTA=",
               "MDQ6VXNlcjM0MTk3MjE=",
+              "MDQ6VXNlcjQzNDQ0MDg=",
               "MDQ6VXNlcjYwNTg3NDU=",
               "MDQ6VXNlcjQzOTI3OQ==",
               "U_kgDOCkDCgw",
@@ -351,6 +361,7 @@
               "MDQ6VXNlcjc2NzA4NDM=",
               "MDQ6VXNlcjI0OTk2MDE2",
               "MDQ6VXNlcjEzODQyNg==",
+              "MDQ6VXNlcjIzNDIyMA==",
               "U_kgDOBnnY7A",
               "MDQ6VXNlcjE2OTA0NDc3",
               "MDQ6VXNlcjkwOTA0NDM=",
@@ -405,6 +416,7 @@
               "MDQ6VXNlcjEwODc3NQ==",
               "MDQ6VXNlcjQ2NjAyNzU=",
               "MDQ6VXNlcjM5MTEwNzQ=",
+              "MDQ6VXNlcjIyNTMxODc3",
               "U_kgDOCdBRFg",
               "MDQ6VXNlcjg3NzU4NQ==",
               "MDQ6VXNlcjExNzQzNDM=",
@@ -466,6 +478,7 @@
               "alex-dicko",
               "andoriyaprashant",
               "asherf",
+              "atanioyinbunua",
               "ayimdomnic",
               "bahoo",
               "bckohan",
@@ -478,6 +491,7 @@
               "clintonb",
               "codingjoe",
               "cunla",
+              "danmoz",
               "ddabble",
               "deronnax",
               "devatbosch",
@@ -486,6 +500,7 @@
               "dr-rompecabezas",
               "elineda",
               "federicobond",
+              "fladi",
               "forwardyoung",
               "fsbraun",
               "g-nie",
@@ -540,6 +555,7 @@
               "sidmitra",
               "sobolevn",
               "spapas",
+              "stereodamage",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -1297,6 +1313,23 @@
           ]
         },
         {
+          "index_key": "atanioyinbunua",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"063e080796baf09c7eff33630bfed8984ea5046657ba3997ff31e617fe133b00\"",
+            "id": "django-commons:atanioyinbunua",
+            "role": "member",
+            "username": "atanioyinbunua"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "ayimdomnic",
           "schema_version": 0,
           "attributes": {
@@ -1501,6 +1534,23 @@
           ]
         },
         {
+          "index_key": "danmoz",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"ae55760be9659058aebf41f10301bb2cc8667b47a8bea1e15b7abd9c52166496\"",
+            "id": "django-commons:danmoz",
+            "role": "member",
+            "username": "danmoz"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "ddabble",
           "schema_version": 0,
           "attributes": {
@@ -1628,6 +1678,23 @@
             "id": "django-commons:federicobond",
             "role": "member",
             "username": "federicobond"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "fladi",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"cfdbd8e54885b87b914afe59db936d887d69ff8879a56521796894e0dc3f31bd\"",
+            "id": "django-commons:fladi",
+            "role": "member",
+            "username": "fladi"
           },
           "sensitive_attributes": [],
           "identity_schema_version": 0,
@@ -2538,6 +2605,23 @@
           ]
         },
         {
+          "index_key": "stereodamage",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"7354ac198abe015a07ff0fd3c597c28f15cd42e66efff14ae2e80f993a4a6459\"",
+            "id": "django-commons:stereodamage",
+            "role": "member",
+            "username": "stereodamage"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "testSchilling",
           "schema_version": 0,
           "attributes": {
@@ -2776,7 +2860,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"3c2cd4151f259993be78c74a40c8f5c453623545a3d56e1c525e7ce3116fa58c\"",
+            "etag": "W/\"e0587be4568c01099747d1913d7abc06c17f58fc52c64980b42fd27da4618610\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2806,10 +2890,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"e9e3bdcf66fb5810d642023d007f0c184d22746127b752894e6f127da7fcf3f0\"",
+            "etag": "W/\"f09e5e1c469964a1a72e749b3381b07d5403250ee209c517b4ac93a8119109a7\"",
             "id": "9763562",
             "ldap_dn": "",
-            "members_count": 8,
+            "members_count": 7,
             "name": "Admins",
             "node_id": "T_kwDOCaaRBM4AlPrq",
             "parent_team_id": "",
@@ -2828,10 +2912,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"c89e37137b0749a1301f9b6af8f813ebd8322f704a9d8b3ef630031e74dd0561\"",
+            "etag": "W/\"c45c58459a710661d595cbb7a9ec54a3a59fa071e21938dc1f322917e9b733ac\"",
             "id": "15586545",
             "ldap_dn": "",
-            "members_count": 5,
+            "members_count": 4,
             "name": "super-admins",
             "node_id": "T_kwDOCaaRBM4A7dTx",
             "parent_team_id": "",

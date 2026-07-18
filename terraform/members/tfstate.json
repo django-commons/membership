@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.15.8",
-  "serial": 1118,
+  "terraform_version": "1.12.4",
+  "serial": 1119,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -19,7 +19,7 @@
       "mode": "data",
       "type": "github_users",
       "name": "users",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -570,8 +570,7 @@
               "williln"
             ]
           },
-          "sensitive_attributes": [],
-          "identity_schema_version": 0
+          "sensitive_attributes": []
         }
       ]
     },
@@ -579,7 +578,7 @@
       "mode": "managed",
       "type": "github_membership",
       "name": "this",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "index_key": "2ykwang",
@@ -592,7 +591,6 @@
             "username": "2ykwang"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -609,7 +607,6 @@
             "username": "Ashish8329"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -626,7 +623,6 @@
             "username": "Ceasar15"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -643,7 +639,6 @@
             "username": "Chiemezuo"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -660,7 +655,6 @@
             "username": "Daksh777"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -677,7 +671,6 @@
             "username": "DhavalGojiya"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -694,7 +687,6 @@
             "username": "Dresdn"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -711,7 +703,6 @@
             "username": "EliShteinman"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -728,7 +719,6 @@
             "username": "Faakhir30"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -745,7 +735,6 @@
             "username": "FlipperPA"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -762,7 +751,6 @@
             "username": "GaretJax"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -779,7 +767,6 @@
             "username": "Haroonhsa007"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -796,7 +783,6 @@
             "username": "Hopiu"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -813,7 +799,6 @@
             "username": "Horlawhumy-dev"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -830,7 +815,6 @@
             "username": "Insaida"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -847,7 +831,6 @@
             "username": "JaeHyuckSa"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -864,7 +847,6 @@
             "username": "JohananOppongAmoateng"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -881,7 +863,6 @@
             "username": "Josephchinedu"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -898,7 +879,6 @@
             "username": "Knowledgex187"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -915,7 +895,6 @@
             "username": "M97Chahboun"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -932,7 +911,6 @@
             "username": "Mogost"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -949,7 +927,6 @@
             "username": "MrCordeiro"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -966,7 +943,6 @@
             "username": "Nathan-Bransby-NMT"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -983,7 +959,6 @@
             "username": "Natim"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1000,7 +975,6 @@
             "username": "Ndungu9039"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1017,7 +991,6 @@
             "username": "RealOrangeOne"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1034,7 +1007,6 @@
             "username": "SaeedRz96"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1051,7 +1023,6 @@
             "username": "Shrikantgiri25"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1068,7 +1039,6 @@
             "username": "SinkuKumar"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1085,7 +1055,6 @@
             "username": "Stormheg"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1102,7 +1071,6 @@
             "username": "TildaDares"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1119,7 +1087,6 @@
             "username": "TimothyMalahy"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1136,7 +1103,6 @@
             "username": "VeldaKiara"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1153,7 +1119,6 @@
             "username": "Violette-Allotey"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1170,7 +1135,6 @@
             "username": "Zakui"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1187,7 +1151,6 @@
             "username": "aayardev"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1204,7 +1167,6 @@
             "username": "adRn-s"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1221,7 +1183,6 @@
             "username": "adamghill"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1238,7 +1199,6 @@
             "username": "akshayvinchurkar"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1255,7 +1215,6 @@
             "username": "aleksihakli"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1272,7 +1231,6 @@
             "username": "alex-dicko"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1289,7 +1247,6 @@
             "username": "andoriyaprashant"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1306,7 +1263,6 @@
             "username": "asherf"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1323,7 +1279,6 @@
             "username": "atanioyinbunua"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1340,7 +1295,6 @@
             "username": "ayimdomnic"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1357,7 +1311,6 @@
             "username": "bahoo"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1374,7 +1327,6 @@
             "username": "bckohan"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1391,7 +1343,6 @@
             "username": "blingblin-g"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1408,7 +1359,6 @@
             "username": "browniebroke"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1425,7 +1375,6 @@
             "username": "bryan-oginga"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1442,7 +1391,6 @@
             "username": "camilonova"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1459,7 +1407,6 @@
             "username": "carltongibson"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1476,7 +1423,6 @@
             "username": "cgl"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1493,7 +1439,6 @@
             "username": "clintonb"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1510,7 +1455,6 @@
             "username": "codingjoe"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1527,7 +1471,6 @@
             "username": "cunla"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1538,13 +1481,12 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"ae55760be9659058aebf41f10301bb2cc8667b47a8bea1e15b7abd9c52166496\"",
+            "etag": "W/\"23ae21733f73b7573f5f289947a608b769660a1ee669929bebfd9b9b99e71a00\"",
             "id": "django-commons:danmoz",
             "role": "member",
             "username": "danmoz"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1561,7 +1503,6 @@
             "username": "ddabble"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1578,7 +1519,6 @@
             "username": "deronnax"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1595,7 +1535,6 @@
             "username": "devatbosch"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1612,7 +1551,6 @@
             "username": "dgravitate"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1629,7 +1567,6 @@
             "username": "dmpayton"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1646,7 +1583,6 @@
             "username": "dr-rompecabezas"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1663,7 +1599,6 @@
             "username": "elineda"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1680,7 +1615,6 @@
             "username": "federicobond"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1691,13 +1625,12 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"cfdbd8e54885b87b914afe59db936d887d69ff8879a56521796894e0dc3f31bd\"",
+            "etag": "W/\"ee7f485a76bb9473e3e51143931f81704ba5747362e35c54a4c83084339c24f6\"",
             "id": "django-commons:fladi",
             "role": "member",
             "username": "fladi"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1714,7 +1647,6 @@
             "username": "forwardyoung"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1731,7 +1663,6 @@
             "username": "fsbraun"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1748,7 +1679,6 @@
             "username": "g-nie"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1765,7 +1695,6 @@
             "username": "gav-fyi"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1782,7 +1711,6 @@
             "username": "giovannicimolin"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1799,7 +1727,6 @@
             "username": "input"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1816,7 +1743,6 @@
             "username": "jacklinke"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1833,7 +1759,6 @@
             "username": "jburns6789"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1850,7 +1775,6 @@
             "username": "jcjudkins"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1867,7 +1791,6 @@
             "username": "jezdez"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1884,7 +1807,6 @@
             "username": "jmgutu"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1901,7 +1823,6 @@
             "username": "jnovinger"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1918,7 +1839,6 @@
             "username": "johnatanmoran"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1935,7 +1855,6 @@
             "username": "johnfraney"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1952,7 +1871,6 @@
             "username": "joshuadavidthomas"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -1969,7 +1887,6 @@
             "username": "justbackend"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -1986,7 +1903,6 @@
             "username": "justinmayer"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2003,7 +1919,6 @@
             "username": "kevin-brown"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2020,7 +1935,6 @@
             "username": "knyghty"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2037,7 +1951,6 @@
             "username": "korfuri"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2054,7 +1967,6 @@
             "username": "kytta"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2071,7 +1983,6 @@
             "username": "lander151"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2088,7 +1999,6 @@
             "username": "leogregianin"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2105,7 +2015,6 @@
             "username": "luiscontrerasdo"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2122,7 +2031,6 @@
             "username": "manelclos"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2139,7 +2047,6 @@
             "username": "marcosalvesdev"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2156,7 +2063,6 @@
             "username": "matthiask"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2173,7 +2079,6 @@
             "username": "mdehsan873"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2190,7 +2095,6 @@
             "username": "mgrdcm"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2207,7 +2111,6 @@
             "username": "mihrab34"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2224,7 +2127,6 @@
             "username": "mkalioby"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2241,7 +2143,6 @@
             "username": "mnislam01"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2258,7 +2159,6 @@
             "username": "mounirmesselmeni"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2275,7 +2175,6 @@
             "username": "mzemlickis"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2292,7 +2191,6 @@
             "username": "nanorepublica"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2309,7 +2207,6 @@
             "username": "niltonpimentel02"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2326,7 +2223,6 @@
             "username": "nwanduka"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2343,7 +2239,6 @@
             "username": "okotdaniel"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2360,7 +2255,6 @@
             "username": "oliverandrich"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2377,7 +2271,6 @@
             "username": "ontowhee"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2394,7 +2287,6 @@
             "username": "pauloxnet"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2411,7 +2303,6 @@
             "username": "peterthomassen"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2428,7 +2319,6 @@
             "username": "pfouque"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2445,7 +2335,6 @@
             "username": "priyapahwa"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2462,7 +2351,6 @@
             "username": "riconnon"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2479,7 +2367,6 @@
             "username": "rptmat57"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2496,7 +2383,6 @@
             "username": "ryancheley"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2513,7 +2399,6 @@
             "username": "salty-ivy"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2530,7 +2415,6 @@
             "username": "sankarebarri"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2547,7 +2431,6 @@
             "username": "sergei-maertens"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2564,7 +2447,6 @@
             "username": "sidmitra"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2581,7 +2463,6 @@
             "username": "sobolevn"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2598,7 +2479,6 @@
             "username": "spapas"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2615,7 +2495,6 @@
             "username": "stereodamage"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2632,7 +2511,6 @@
             "username": "testSchilling"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2649,7 +2527,6 @@
             "username": "thibaudcolas"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2666,7 +2543,6 @@
             "username": "ticosax"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2683,7 +2559,6 @@
             "username": "tim-schilling"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ==",
           "dependencies": [
             "data.github_users.users"
@@ -2700,7 +2575,6 @@
             "username": "tintayadev"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2717,7 +2591,6 @@
             "username": "ulgens"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2734,7 +2607,6 @@
             "username": "unmonoqueteclea"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2751,7 +2623,6 @@
             "username": "vacarme"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2768,7 +2639,6 @@
             "username": "vinlawz"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2785,7 +2655,6 @@
             "username": "viscofuse"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2802,7 +2671,6 @@
             "username": "whitebumblebee"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2819,7 +2687,6 @@
             "username": "williln"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "data.github_users.users"
@@ -2831,7 +2698,7 @@
       "mode": "managed",
       "type": "github_organization_role_team",
       "name": "admins_security_manager",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -2841,7 +2708,6 @@
             "team_slug": "admins"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
@@ -2853,14 +2719,14 @@
       "mode": "managed",
       "type": "github_team",
       "name": "org_designers_team",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"e0587be4568c01099747d1913d7abc06c17f58fc52c64980b42fd27da4618610\"",
+            "etag": "W/\"c1be27b6223fbe5c2e42daf23515376d160db40be83d65807cb14a7b5d634672\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2873,7 +2739,6 @@
             "slug": "designers"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA=="
         }
       ]
@@ -2882,7 +2747,7 @@
       "mode": "managed",
       "type": "github_team",
       "name": "org_teams",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "index_key": "Admins",
@@ -2890,7 +2755,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"f09e5e1c469964a1a72e749b3381b07d5403250ee209c517b4ac93a8119109a7\"",
+            "etag": "W/\"2c7917f88b36b39f107327d9369d6224cf39e1daeaf42524ce0a0259d9147077\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2903,7 +2768,6 @@
             "slug": "admins"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         },
         {
@@ -2912,7 +2776,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"c45c58459a710661d595cbb7a9ec54a3a59fa071e21938dc1f322917e9b733ac\"",
+            "etag": "W/\"5a6792a07aa607e3e7e2c85c174c99aff744e569af47241af3dbf4e6876597f2\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,
@@ -2925,7 +2789,6 @@
             "slug": "super-admins"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
         }
       ]
@@ -2934,7 +2797,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "org_designers_team_members",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "schema_version": 0,
@@ -3009,7 +2872,6 @@
             "team_id": "14084892"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_designers_team"
@@ -3021,7 +2883,7 @@
       "mode": "managed",
       "type": "github_team_members",
       "name": "org_team_members",
-      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
+      "provider": "provider[\"registry.opentofu.org/integrations/github\"]",
       "instances": [
         {
           "index_key": "Admins",
@@ -3061,7 +2923,6 @@
             "team_id": "9763562"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
@@ -3093,7 +2954,6 @@
             "team_id": "15586545"
           },
           "sensitive_attributes": [],
-          "identity_schema_version": 0,
           "private": "bnVsbA==",
           "dependencies": [
             "github_team.org_teams"
@@ -3104,3 +2964,4 @@
   ],
   "check_results": null
 }
+

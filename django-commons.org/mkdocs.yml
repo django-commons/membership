@@ -6,6 +6,7 @@ markdown_extensions:
   - toc:
       permalink: "#"
 plugins:
+  - optimize
   - blog:
       blog_dir: blog
   - rss:
@@ -30,3 +31,4 @@ nav:
     - Team: team.md
     - Values: values.md
   - Media: media.md
+  - Sponsors: sponsors.md

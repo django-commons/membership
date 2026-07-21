@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.12.4",
-  "serial": 1119,
+  "terraform_version": "1.12.5",
+  "serial": 1120,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -121,6 +121,7 @@
               "mk@feinheit.ch",
               "",
               "dan@cmoo.re",
+              "mgstabrani19@gmail.com",
               "",
               "mkalioby@mkalioby.com",
               "mnazrul.c@gmail.com",
@@ -159,7 +160,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "f3bfc63cf0a3996abff953057e290790",
+            "id": "c66a43274c11124881a4bc0984fe4027",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -257,6 +258,7 @@
               "matthiask",
               "mdehsan873",
               "mgrdcm",
+              "mgstabrani",
               "mihrab34",
               "mkalioby",
               "mnislam01",
@@ -392,6 +394,7 @@
               "MDQ6VXNlcjI2Mjc=",
               "MDQ6VXNlcjQ1NzMwNzk4",
               "MDQ6VXNlcjY4NDcz",
+              "MDQ6VXNlcjYzMjMzNzUy",
               "MDQ6VXNlcjM1NTYyMTMx",
               "MDQ6VXNlcjEwNDE0MDIw",
               "MDQ6VXNlcjI0OTI5NDY2",
@@ -531,6 +534,7 @@
               "matthiask",
               "mdehsan873",
               "mgrdcm",
+              "mgstabrani",
               "mihrab34",
               "mkalioby",
               "mnislam01",
@@ -2101,6 +2105,22 @@
           ]
         },
         {
+          "index_key": "mgstabrani",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"ea16280404f43fb8a5783a6e39394b9b1e14e6dff1d63acf8fd050a1e264af10\"",
+            "id": "django-commons:mgstabrani",
+            "role": "member",
+            "username": "mgstabrani"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "mihrab34",
           "schema_version": 0,
           "attributes": {
@@ -2726,7 +2746,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"c1be27b6223fbe5c2e42daf23515376d160db40be83d65807cb14a7b5d634672\"",
+            "etag": "W/\"d33a0809d9c98bbaec730ebc4957ab590a1066e4fdfbd46702dc1ac52dd570d2\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2755,7 +2775,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"2c7917f88b36b39f107327d9369d6224cf39e1daeaf42524ce0a0259d9147077\"",
+            "etag": "W/\"b54c419c97717c5999786173b735c78def050f975fc9133fd56e951d24a14a3a\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2776,7 +2796,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"5a6792a07aa607e3e7e2c85c174c99aff744e569af47241af3dbf4e6876597f2\"",
+            "etag": "W/\"bf9a91a9173384458dbc8484f591b620499bc23562844d8463e18ee65e22e89e\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,

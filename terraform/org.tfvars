@@ -38,7 +38,7 @@ designers = [
 
 # Organization members
 members = [
-  "# amirreza-sf80",
+  "amirreza-sf80",
   "2ykwang",
   "aayardev",
   "adamghill",

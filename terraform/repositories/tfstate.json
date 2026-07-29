@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.5",
-  "serial": 864,
+  "serial": 865,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {},
   "resources": [
@@ -4607,8 +4607,8 @@
             "id": "django-valkey-admins",
             "members": [
               {
-                "role": "maintainer",
-                "username": "tim-schilling"
+                "role": "member",
+                "username": "amirreza-sf80"
               }
             ],
             "team_id": "django-valkey-admins"
@@ -5253,8 +5253,8 @@
             "id": "django-valkey",
             "members": [
               {
-                "role": "maintainer",
-                "username": "tim-schilling"
+                "role": "member",
+                "username": "amirreza-sf80"
               }
             ],
             "team_id": "django-valkey"
@@ -5463,7 +5463,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"f4b2b918b1eb574011928fe9314843bc5441491001d9bec7c94243a4195e285b\"",
+            "etag": "W/\"49fc5b7fc20bb69b82f1163de0347cf6aff55b741f7d71e298daa549289f3cc7\"",
             "id": "13286901:django-simple-history",
             "permission": "admin",
             "repository": "django-simple-history",
@@ -5760,7 +5760,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"bc64cd49ce9cc87669fa1e92221981becfd2c083edaa64e8e74fd423427443ad\"",
+            "etag": "W/\"919c6a3b3f42672e40c7d9b98724931d08960005c91d3426d9e2e236d21a6089\"",
             "id": "13286900:django-simple-history",
             "permission": "maintain",
             "repository": "django-simple-history",
@@ -6048,7 +6048,7 @@
           "index_key": "django-simple-history",
           "schema_version": 0,
           "attributes": {
-            "etag": "W/\"60b8f14621084abd00e0074161507862c452aba0d75a135064277ed23d3a78ff\"",
+            "etag": "W/\"cace1a23b954d9709c78dcb09d301e063fe4ad5fa4b499c8458b1d38a0cf8a9c\"",
             "id": "13286898:django-simple-history",
             "permission": "triage",
             "repository": "django-simple-history",

@@ -79,6 +79,7 @@ members = [
   "fladi",
   "FlipperPA",
   "forwardyoung",
+  "Freed-Wu",
   "fsbraun",
   "g-nie",
   "GaretJax",

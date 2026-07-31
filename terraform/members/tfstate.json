@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.5",
-  "serial": 1121,
+  "serial": 1122,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -115,6 +115,7 @@
               "me@kytta.dev",
               "lander.morenoalcaide@gmail.com",
               "leogregianin@gmail.com",
+              "research@loust.pro",
               "",
               "manelclos@gmail.com",
               "",
@@ -160,7 +161,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "148464c42872455ae953f4548e8f6f43",
+            "id": "2a77b59d5440cc09f6fcf00d2330ffc4",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -251,6 +252,7 @@
               "kytta",
               "lander151",
               "leogregianin",
+              "louzt",
               "luiscontrerasdo",
               "manelclos",
               "marcosalvesdev",
@@ -386,6 +388,7 @@
               "MDQ6VXNlcjY1NjYyNDg=",
               "MDQ6VXNlcjQ4Nzc1MDI5",
               "MDQ6VXNlcjE2ODQwNTM=",
+              "U_kgDOCrEzUA",
               "MDQ6VXNlcjYyNDk2NTc=",
               "MDQ6VXNlcjQ2MzgzMg==",
               "MDQ6VXNlcjY3NTczNTkx",
@@ -527,6 +530,7 @@
               "kytta",
               "lander151",
               "leogregianin",
+              "louzt",
               "luiscontrerasdo",
               "manelclos",
               "marcosalvesdev",
@@ -1228,7 +1232,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"6e7fcc6d7a1f50838f0db850cbb772cdbcd7b84809cd3e1304fadeb721ea248d\"",
+            "etag": "W/\"82c63bc493a724cc3268854898f6b5c770b6adc406984e7701d6da873a00b5c9\"",
             "id": "django-commons:amirreza-sf80",
             "role": "member",
             "username": "amirreza-sf80"
@@ -2008,6 +2012,22 @@
           ]
         },
         {
+          "index_key": "louzt",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"fab3b0730405db6d746b09285746dd9ca74ef254fef4a745d37ac9bdee6984c0\"",
+            "id": "django-commons:louzt",
+            "role": "member",
+            "username": "louzt"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "luiscontrerasdo",
           "schema_version": 0,
           "attributes": {
@@ -2745,7 +2765,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"f2ad52a76293cc23b320645d2e276b167c1469a154c4498860a7ed7967c2360e\"",
+            "etag": "W/\"584185533ccede787e5a1f119529a6a1faaff7175fb5f9eb2cfc7d88f4d47f4b\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 16,
@@ -2774,7 +2794,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"d61eb076c9487996166cf2bcbbc325f86187b58de9b606c1c5cc28566a9d9463\"",
+            "etag": "W/\"cbbeeaea072224b38e3c2889b656d7f11edced8f2c6747a858d73a3014cb09c0\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2795,7 +2815,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"21c235cef14579534b98ffedf975e29c020768fcdf483e5c5ccf27e1f8b26026\"",
+            "etag": "W/\"b107d1989fbaea451a949ef4bb4140738b89f0ff3d5c3d555b7adaae2256dd96\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,
@@ -2862,6 +2882,10 @@
               {
                 "role": "member",
                 "username": "johnatanmoran"
+              },
+              {
+                "role": "member",
+                "username": "louzt"
               },
               {
                 "role": "member",

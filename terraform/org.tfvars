@@ -24,6 +24,7 @@ designers = [
   "jmgutu",
   "johnatanmoran",
   "Knowledgex187",
+  "louzt",
   "mzemlickis",
   "Ndungu9039",
   "nwanduka",
@@ -38,7 +39,6 @@ designers = [
 
 # Organization members
 members = [
-  "amirreza-sf80",
   "2ykwang",
   "aayardev",
   "adamghill",
@@ -46,6 +46,7 @@ members = [
   "akshayvinchurkar",
   "aleksihakli",
   "alex-dicko",
+  "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
   "Ashish8329",
@@ -110,6 +111,7 @@ members = [
   "kytta",
   "lander151",
   "leogregianin",
+  "louzt",
   "luiscontrerasdo",
   "M97Chahboun",
   "manelclos",

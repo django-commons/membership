@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.5",
-  "serial": 1122,
+  "serial": 1123,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -32,6 +32,7 @@
               "",
               "",
               "dhavalgojiya10@gmail.com",
+              "",
               "",
               "",
               "",
@@ -161,7 +162,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "2a77b59d5440cc09f6fcf00d2330ffc4",
+            "id": "bc5a6a0d2f6b307c494d2b17f85c3692",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -173,6 +174,7 @@
               "EliShteinman",
               "Faakhir30",
               "FlipperPA",
+              "Freed-Wu",
               "GaretJax",
               "Haroonhsa007",
               "Hopiu",
@@ -309,6 +311,7 @@
               "MDQ6VXNlcjgyNzYxNTMw",
               "U_kgDOBproww",
               "MDQ6VXNlcjY4MTY0",
+              "MDQ6VXNlcjMyOTM2ODk4",
               "MDQ6VXNlcjg2MjM2",
               "U_kgDOCLqf6Q",
               "MDQ6VXNlcjY3MTI5NA==",
@@ -449,6 +452,7 @@
               "EliShteinman",
               "Faakhir30",
               "FlipperPA",
+              "Freed-Wu",
               "GaretJax",
               "Haroonhsa007",
               "Hopiu",
@@ -740,6 +744,22 @@
             "id": "django-commons:FlipperPA",
             "role": "member",
             "username": "FlipperPA"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
+          "index_key": "Freed-Wu",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"347cdcaf60aa678def828a438ccac7d3767ab9868a2656728c28b613fff00c44\"",
+            "id": "django-commons:Freed-Wu",
+            "role": "member",
+            "username": "Freed-Wu"
           },
           "sensitive_attributes": [],
           "private": "bnVsbA==",
@@ -2016,7 +2036,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"fab3b0730405db6d746b09285746dd9ca74ef254fef4a745d37ac9bdee6984c0\"",
+            "etag": "W/\"0a4fcc6ef73cabc201cd066ef1f1085666093ed9f6b571b22601169558cace88\"",
             "id": "django-commons:louzt",
             "role": "member",
             "username": "louzt"
@@ -2765,10 +2785,10 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"584185533ccede787e5a1f119529a6a1faaff7175fb5f9eb2cfc7d88f4d47f4b\"",
+            "etag": "W/\"f8de6646ce19d3ebdf2ed104fac84f8eaea46a97fac3d9ad01e9dfa90bd49bce\"",
             "id": "14084892",
             "ldap_dn": "",
-            "members_count": 16,
+            "members_count": 17,
             "name": "Designers",
             "node_id": "T_kwDOCaaRBM4A1usc",
             "parent_team_id": "",

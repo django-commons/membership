@@ -53,17 +53,22 @@ and the community stronger.
 There are three teams for each repository. They each have different
 permissions.
 
-- [project-name]
-- [project-name]-committers
-- [project-name]-admins
+- `@django-commons/<project>` (the project members team)
+- `@django-commons/<project>-committers` (the project committers team)
+- `@django-commons/<project>-admins` (the project admin team)
 
-The general team [project-name] gives you triage permissions (assign issues, labels, etc).
+The project members team, `@django-commons/<project>`, gives you triage permissions (assign
+issues, labels, etc).
 
-The [project-name]-committers gives you permission to merge pull requests and push to main.
-They are people who generally maintain the project.
+The project committers team, `@django-commons/<project>-committers`, gives you permission to
+merge pull requests and push to main. They are the people who generally maintain the project.
 
-The [project-name]-admins gives you permissions to administrate the GitHub repo and release new versions to PyPI.
-This may be the same group of people that are on [project-name]-commiters.
+The project admin team, `@django-commons/<project>-admins`, gives you permissions to
+administrate the GitHub repo and release new versions to PyPI. This may be the same group of
+people that are on `@django-commons/<project>-committers`.
+
+These are distinct from the organization-wide teams, `@django-commons/admins` and
+`@django-commons/super-admins`, which administer Django Commons as a whole.
 
 ### Who can work on a project?
 

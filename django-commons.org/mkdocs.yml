@@ -26,7 +26,8 @@ nav:
   - Resources for Maintainers: maintainers-resources.md
   - Organization:
     - Decision Record: decision_record.md
-    - Governance: governance.md
+    - Governance:
+      - Django Commons: governance/django-commons.md
     - Projects: projects.md
     - Team: team.md
     - Values: values.md

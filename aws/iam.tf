@@ -17,7 +17,13 @@ locals {
   }
 }
 
-# Apply roles — one per repo, scoped to pushes to main only
+# Apply roles — one per repo, scoped to pushes to main only.
+# Both sub and ref conditions are required. When a workflow job specifies
+# `environment`, GitHub sets sub to `repo:org/repo:environment:<name>` rather
+# than the branch or event, so sub alone can't distinguish a PR from a push.
+# The ref condition closes that gap: a PR-triggered job will never have
+# refs/heads/main as its ref, so a malicious PR cannot assume the apply role
+# even if it were modified to reference AWS_APPLY_ROLE_ARN.
 data "aws_iam_policy_document" "github_actions_apply_assume_role" {
   for_each = local.github_repos
 
@@ -39,7 +45,13 @@ data "aws_iam_policy_document" "github_actions_apply_assume_role" {
     condition {
       test     = "StringEquals"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${each.value.org}/${each.value.repo}:ref:refs/heads/main"]
+      values   = ["repo:${each.value.org}/${each.value.repo}:environment:production"]
+    }
+
+    condition {
+      test     = "StringEquals"
+      variable = "token.actions.githubusercontent.com:ref"
+      values   = ["refs/heads/main"]
     }
   }
 }
@@ -77,7 +89,8 @@ resource "aws_iam_role_policy" "github_actions_apply" {
   policy   = data.aws_iam_policy_document.terraform_state_access.json
 }
 
-# Plan roles — one per repo, scoped to pull requests, read-only state access
+# Plan roles — one per repo, read-only state access for pull requests.
+# sub is sufficient here since the plan role only grants read access to state.
 data "aws_iam_policy_document" "github_actions_plan_assume_role" {
   for_each = local.github_repos
 
@@ -99,7 +112,7 @@ data "aws_iam_policy_document" "github_actions_plan_assume_role" {
     condition {
       test     = "StringEquals"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${each.value.org}/${each.value.repo}:pull_request"]
+      values   = ["repo:${each.value.org}/${each.value.repo}:environment:production"]
     }
   }
 }

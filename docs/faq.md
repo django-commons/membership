@@ -30,7 +30,8 @@ The project members team, `@django-commons/<project>`, gives you triage permissi
 issues, labels, etc).
 
 The project committers team, `@django-commons/<project>-committers`, gives you permission to
-merge pull requests and push to main. They are the people who generally maintain the project.
+merge pull requests and push to main via GitHub's `maintain` permission. It does not grant
+the ability to publish releases. They are the people who generally maintain the project.
 
 The project admin team, `@django-commons/<project>-admins`, gives you permissions to
 administrate the GitHub repo and release new versions to PyPI. This may be the same group of

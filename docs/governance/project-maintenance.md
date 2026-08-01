@@ -82,10 +82,12 @@ During this stage, anyone is welcome to contribute to the project without requir
 
 *Goal: Enable a trusted contributor to work more autonomously on non-release work. This level is aligned with the project committers team, `@django-commons/<project>-committers`.*
 
-Contributors who have demonstrated reliable judgment may be invited to join the committers team, which grants:
+Contributors who have demonstrated reliable judgment may be invited to join the project committers team, which grants:
 
-* Permission to create branches directly in the repository
-* Commit access to non-protected branches
+* Creating branches directly in the repository
+* Pushing to and merging into `main`
+* Reviewing and merging pull requests
+* Managing issues, discussions, and non-sensitive repository settings
 
 The following remain restricted to the project admin team (`@django-commons/<project>-admins`) and the Django Commons admins (`@django-commons/admins`):
 

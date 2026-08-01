@@ -40,7 +40,7 @@ Responsibilities/tasks include:
 - Respond to inquiries from the community on the [Discussion forum](https://github.com/orgs/django-commons/discussions).
 - Manage all team rotation schedules, making sure that every team is actively staffed in a sustainable manner.
 - Encourage people from diverse backgrounds to join one of the teams.
-- Provide resources and facilitate projects seeking new or additional maintainers. Help find new maintainers for projects that need them.
+- Provide resources and facilitate projects seeking new or additional maintainers. Help find new maintainers for projects that need them, following [Project Maintenance Governance](project-maintenance.md).
 - Facilitate discovery of maintenance best practices.
 - Conduct check-ins with project maintainers and our community.
 - Maintain this document and other documents that describe how Django Commons operates.
@@ -50,10 +50,11 @@ Responsibilities/tasks include:
 - Supporting projects maintainers in handling security reports by providing advice or guidance.
 - Being a backup contact point for security reporters when project maintainers fail to respond to a security report.
 - In cases where a maintainer is unresponsive, the admin team may take over the project to fix the security issue at their discretion.
+- Cutting releases for projects under [Commons Stewardship](project-maintenance.md#commons-stewardship). This is not a regular duty. It applies only to projects that have been determined to be dormant, and is limited to minor releases that unblock the downstream ecosystem.
 
 Out of scope responsibilities/tasks:
 
-- Maintaining projects. This is the responsibility of the maintainers of the projects themselves. However, admin team members are free to contribute to projects as they see fit. There is just no expectation that they do so.
+- Maintaining projects. This is the responsibility of the maintainers of the projects themselves. However, admin team members are free to contribute to projects as they see fit. There is just no expectation that they do so. The exception is a project under [Commons Stewardship](project-maintenance.md#commons-stewardship), where admins take on a deliberately limited caretaker role.
 - Yanking packages from PyPI - this should be done by project maintainers in coordination with the PyPI team. An exception is made when the project maintainer has not responded within the [response timeframes](../response-timeframes.md).
 
 Qualifications for admin members (any of the following):

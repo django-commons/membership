@@ -127,6 +127,8 @@ The new permissions are:
 
 Progression is not automatic or time-based. It requires a conscious decision by the Django Commons admins, ideally discussed openly in the membership repository. A contributor can be moved back to a previous stage if serious concerns arise.
 
+Adopting a project does not come with the ability to take it out of Django Commons. See [Requirements for Outgoing Repositories for more information](https://github.com/django-commons/membership/blob/main/outgoing_repo_requirements.md).
+
 ### For contributors with a strong open source profile:
 
 If a contributor has a clearly established track record, like a strong commit history, active public repositories, or prior open source work, the Django Commons admins may grant commit access directly, skipping the early stages. Release access may follow at their discretion.

@@ -75,8 +75,25 @@ The following staged path applies.
 During this stage, anyone is welcome to contribute to the project without requiring any special permissions beyond a standard fork-and-PR workflow.
 
 * There is no expectation that a contributor will advance; some contributors may be happy to stay at this level indefinitely.
-* Contributors who are interested and show consistent, high-quality engagement are welcome to join the Committers Team for the project.
-* A person can request to join by [creating an issue](https://github.com/django-commons/membership/issues/new?template=admin-request.yml) explaining why they want to contribute and what their plans are for the project.
+* Contributors who are interested and show consistent, high-quality engagement are welcome to move up the ladder.
+* A person can request to advance by [creating an issue](https://github.com/django-commons/membership/issues/new?template=admin-request.yml) explaining why they want to contribute and what their plans are for the project.
+
+#### Project Members Team
+
+*Goal: Let a contributor help manage the project's backlog and assign themselves to issues. This level is aligned with the project members team, `@django-commons/<project>`.*
+
+The project members team grants GitHub's `triage` permission:
+
+* Assign themselves and others to issues
+* Applying and removing labels
+* Closing, reopening, and marking duplicate issues and pull requests
+* Requesting pull request reviews
+
+It grants no write access, so a member at this level still contributes code through the standard fork-and-PR workflow.
+
+This is a deliberately low bar. Anyone can request to join by [creating an issue](https://github.com/django-commons/membership/issues/new?template=admin-request.yml) naming the project and describing how they want to help. The Django Commons admins will generally grant it on evidence of genuine engagement, such as a few merged pull requests or sustained, constructive participation in the project's issues.
+
+Because triage permission cannot modify code or releases, a request at this level is low risk and should be easy to approve. It can be revoked just as easily if it goes unused or is misused.
 
 #### Project Committers Team
 

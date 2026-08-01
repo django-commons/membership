@@ -27,7 +27,7 @@ A project is determined to be dormant when any of the following occur:
 * A lack of activity across issues, pull requests, commits, and releases from the project admins for a period of **six months**
 * A lack of a release within **six months** of a major Django version release (5.0, 5.1, 5.2, etc.)
 * A **critical bug** has gone unaddressed for a significant period
-* A **security vulnerability** has been reported and not acted on
+* A **security vulnerability** has been reported and not acknowledged within the timeframe for its severity, as defined in [response timeframes](../response-timeframes.md)
 
 #### Review of applications for maintainers from the Django Commons Community
 

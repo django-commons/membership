@@ -28,6 +28,8 @@ nav:
     - Decision Record: decision_record.md
     - Governance:
       - Django Commons: governance/django-commons.md
+      - Project Maintenance: governance/project-maintenance.md
+      - Response Timeframes: response-timeframes.md
     - Projects: projects.md
     - Team: team.md
     - Values: values.md

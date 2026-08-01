@@ -75,12 +75,12 @@ Django Commons has a few bands of members. There is the broad membership role
 - Project Members
     - The group of members dedicated to a specific repository.
     - This role grants the members Triage permission for the repository.
-    - Mention with `@django-commons/<repository>`
+    - Mention with `@django-commons/<project>`
 - Project Committers
     - The group of members who can commit changes to main for a repository.
     - This role grants the members Commit permission for the repository.
-    - Mention with `@django-commons/<repository>-committers`
+    - Mention with `@django-commons/<project>-committers`
 - Project Admins:
     - The group of members who are the admins for a repository.
     - This role grants the members Admin permission for the repository.
-    - Mention with `@django-commons/<repository>-admins`
+    - Mention with `@django-commons/<project>-admins`

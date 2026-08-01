@@ -46,7 +46,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 - [best-practices](https://github.com/django-commons/best-practices): A sample project with best practices for Django Commons projects.
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
--
+
 ### Do we allow all packages or just Django-adjacent?
 
 Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically.

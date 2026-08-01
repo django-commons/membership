@@ -54,7 +54,7 @@ Responsibilities/tasks include:
 Out of scope responsibilities/tasks:
 
 - Maintaining projects. This is the responsibility of the maintainers of the projects themselves. However, admin team members are free to contribute to projects as they see fit. There is just no expectation that they do so.
-- Yanking packages from PyPI - this should be done by project maintainers in coordination with the PyPI team. An exception is made when the project maintainer is [unresponsive](unresponsive.md).
+- Yanking packages from PyPI - this should be done by project maintainers in coordination with the PyPI team. An exception is made when the project maintainer is [unresponsive](../unresponsive.md).
 
 Qualifications for admin members (any of the following):
 
@@ -71,7 +71,7 @@ The admin team may change around September.  In August, the admin team will put 
 
 At this time, the process for selecting new admin team members is based around the current admin team interviewing candidates it deems suitable. An election process was considered but as of April 2025, the admin team feels Django Commons has not matured enough for elections to provide tangible benefits over self-selection.
 
-We strive to have a team [reflective of our values](values.md).
+We strive to have a team [reflective of our values](../values.md).
 
 ### Means of communication
 

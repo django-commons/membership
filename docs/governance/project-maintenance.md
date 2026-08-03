@@ -56,6 +56,8 @@ No active maintenance is expected. The repository is retained for historical or 
 
 Having archived packages is a normal outcome in open source. If no contributor steps forward to adopt an abandoned project, archiving is a valid and expected path.
 
+If the original maintainer or a new contributor later wants to revive an archived project, the Contributor Trust Ladder below applies the same way it does for dormant projects. Reach out to the Django Commons admins (@django-commons/admins) to start that conversation.
+
 ---
 
 ## Contributor Trust Ladder for Dormant and Archived Projects
@@ -126,6 +128,8 @@ The new permissions are:
 * Define the governance for the project
 
 Progression is not automatic or time-based. It requires a conscious decision by the Django Commons admins, ideally discussed openly in the membership repository. A contributor can be moved back to a previous stage if serious concerns arise.
+
+If an original maintainer becomes active again after a new Project Admin has taken over, both parties are expected to have a direct conversation to determine the project's direction going forward. Any differences that can't be resolved between them should be raised to the Django Commons admins (@django-commons/admins) for a final decision.
 
 Adopting a project does not come with the ability to take it out of Django Commons. See [Requirements for Outgoing Repositories for more information](https://github.com/django-commons/membership/blob/main/outgoing_repo_requirements.md).
 

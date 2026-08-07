@@ -12,6 +12,10 @@ purpose is to provide transparency and information to future administrators.
 
 ## Decisions
 
+- 2026-08-07: Adopt new project maintenance governance.
+  This adds governance around managing projects that have gone dormant or are archived.
+  The purpose of these changes are to allow us to accept dormant and archived projects, as
+  well as provide a pathway for projects to go that route within Django Commons.
 - 2025-12-18: Revise admin qualifications.
   The admin team and super admin team qualifications have been revised reflect the reality
   of who we are looking for those roles and their likely qualifications. Admins can be anyone

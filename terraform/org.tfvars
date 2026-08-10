@@ -44,6 +44,7 @@ members = [
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
+  "albertyw",
   "aleksihakli",
   "alex-dicko",
   "amirreza-sf80",

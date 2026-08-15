@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.5",
-  "serial": 1124,
+  "serial": 1125,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -53,6 +53,7 @@
               "",
               "",
               "saeedramezani75@gmail.com",
+              "sam.chawla26@gmail.com",
               "",
               "",
               "storm@stormbase.digital",
@@ -163,7 +164,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "7663f0e52d09e302fdccc9a93b84e9d4",
+            "id": "01109ce7811dd3edd32b0d78f3454608",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -192,6 +193,7 @@
               "Ndungu9039",
               "RealOrangeOne",
               "SaeedRz96",
+              "SamChawla",
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
@@ -330,6 +332,7 @@
               "U_kgDOBerTmw",
               "MDQ6VXNlcjY1Mjc0ODk=",
               "MDQ6VXNlcjIwNjY5Mzg5",
+              "MDQ6VXNlcjc1ODg3MTY=",
               "MDQ6VXNlcjkxMTIyMzE5",
               "MDQ6VXNlcjczNzg1Nzk1",
               "MDQ6VXNlcjEzODU2NTE1",
@@ -473,6 +476,7 @@
               "Ndungu9039",
               "RealOrangeOne",
               "SaeedRz96",
+              "SamChawla",
               "Shrikantgiri25",
               "SinkuKumar",
               "Stormheg",
@@ -1028,6 +1032,22 @@
           ]
         },
         {
+          "index_key": "SamChawla",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"b3d4fb1d9bb69f97e3c0f1d5f43f2b7b23698a9dce59b8326e6787e3cf1df0d4\"",
+            "id": "django-commons:SamChawla",
+            "role": "member",
+            "username": "SamChawla"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "Shrikantgiri25",
           "schema_version": 0,
           "attributes": {
@@ -1224,7 +1244,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"5d799956e4ba62cf425effd1ff9d97db376052fe93a04761eb177e641ae6b34e\"",
+            "etag": "W/\"17bcd15c2b63c8a287c05c4929e780c6a77f8a0da4334628c42083c6984e1532\"",
             "id": "django-commons:albertyw",
             "role": "member",
             "username": "albertyw"
@@ -2805,7 +2825,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"87423b7eb887843495247f1273ffd588f945ca7ac88f769b6dfa4fd5ee47b5da\"",
+            "etag": "W/\"14755ef7a57d95f936d4a03378f936834e9cc01e2274ec29929a66fe0427da55\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 17,
@@ -2834,7 +2854,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"fe0c3f2375ec9192657874d819bf0c2e54051f929debe0c5821f2aba7d74b9ca\"",
+            "etag": "W/\"ef7afe82df8ad383bf52efe62e437aa06552f31553237cb33c622b427bd25049\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2855,7 +2875,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"e6082cbeeb94c34a63436297ede44e1cd14bf7fd103a528eb188d7dcac1af287\"",
+            "etag": "W/\"fc6949f8ac19e11f999c4ce5f3efc495eabbc0025c359f594f6f0fd1cb2ca60d\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,

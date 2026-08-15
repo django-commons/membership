@@ -147,6 +147,7 @@ members = [
   "rptmat57",
   "SaeedRz96",
   "salty-ivy",
+  "SamChawla",
   "sankarebarri",
   "sergei-maertens",
   "Shrikantgiri25",

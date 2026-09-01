@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "terraform_version": "1.12.5",
-  "serial": 1125,
+  "terraform_version": "1.12.6",
+  "serial": 1126,
   "lineage": "425397de-8394-a003-8a6c-bce854d9cc53",
   "outputs": {
     "invalid_users": {
@@ -26,7 +26,7 @@
           "schema_version": 0,
           "attributes": {
             "emails": [
-              "me@youngkwang.dev",
+              "",
               "",
               "ceasarkwadwo@gmail.com",
               "",
@@ -152,6 +152,7 @@
               "",
               "stereoad@proton.me",
               "",
+              "",
               "thibaudcolas@gmail.com",
               "",
               "schillingt@better-simple.com",
@@ -164,7 +165,7 @@
               "shishirjhaccr@gmail.com",
               ""
             ],
-            "id": "01109ce7811dd3edd32b0d78f3454608",
+            "id": "490800464911d8604251e99c3a75fd4b",
             "logins": [
               "2ykwang",
               "Ashish8329",
@@ -291,6 +292,7 @@
               "sobolevn",
               "spapas",
               "stereodamage",
+              "sureshvv",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -430,6 +432,7 @@
               "MDQ6VXNlcjQ2NjAyNzU=",
               "MDQ6VXNlcjM5MTEwNzQ=",
               "MDQ6VXNlcjIyNTMxODc3",
+              "MDQ6VXNlcjUwNjAxOQ==",
               "U_kgDOCdBRFg",
               "MDQ6VXNlcjg3NzU4NQ==",
               "MDQ6VXNlcjExNzQzNDM=",
@@ -575,6 +578,7 @@
               "sobolevn",
               "spapas",
               "stereodamage",
+              "sureshvv",
               "testSchilling",
               "thibaudcolas",
               "ticosax",
@@ -1036,7 +1040,7 @@
           "schema_version": 0,
           "attributes": {
             "downgrade_on_destroy": false,
-            "etag": "W/\"b3d4fb1d9bb69f97e3c0f1d5f43f2b7b23698a9dce59b8326e6787e3cf1df0d4\"",
+            "etag": "W/\"5d1a8a57482a6f565ab5e25eb104dd88d1d6513cae44edabdd22dc8b6b79d877\"",
             "id": "django-commons:SamChawla",
             "role": "member",
             "username": "SamChawla"
@@ -2600,6 +2604,22 @@
           ]
         },
         {
+          "index_key": "sureshvv",
+          "schema_version": 0,
+          "attributes": {
+            "downgrade_on_destroy": false,
+            "etag": "W/\"05838192a0c69ef3439c4e5b615c0509b9e1141bccd8293e8b6a944ce2cf750c\"",
+            "id": "django-commons:sureshvv",
+            "role": "member",
+            "username": "sureshvv"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.github_users.users"
+          ]
+        },
+        {
           "index_key": "testSchilling",
           "schema_version": 0,
           "attributes": {
@@ -2825,7 +2845,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons designers",
-            "etag": "W/\"14755ef7a57d95f936d4a03378f936834e9cc01e2274ec29929a66fe0427da55\"",
+            "etag": "W/\"0472aa7d31d3dfd96a01cb862e203d413b39434f95eed1c6b94c609f2a853923\"",
             "id": "14084892",
             "ldap_dn": "",
             "members_count": 17,
@@ -2854,7 +2874,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons administrators. This team is responsible for the overall management of the organization.",
-            "etag": "W/\"ef7afe82df8ad383bf52efe62e437aa06552f31553237cb33c622b427bd25049\"",
+            "etag": "W/\"97f0357e8c595b181748c9f1109f17bb975034e73c65069231d5dd2d8a23eddb\"",
             "id": "9763562",
             "ldap_dn": "",
             "members_count": 7,
@@ -2875,7 +2895,7 @@
           "attributes": {
             "create_default_maintainer": false,
             "description": "Django Commons super administrators. This team is responsible for performing privileged operations.",
-            "etag": "W/\"fc6949f8ac19e11f999c4ce5f3efc495eabbc0025c359f594f6f0fd1cb2ca60d\"",
+            "etag": "W/\"8751bd5143a5486ba37dbc5536b09e3586f041b8a57aeb4f94c092137d40720a\"",
             "id": "15586545",
             "ldap_dn": "",
             "members_count": 4,

@@ -1,5 +1,5 @@
 collaborators = [
-  # Add one block per person who needs AWS access to run Terraform locally.
+  # Add one block per person who needs AWS access to run OpenTofu locally.
   # username, display_name, given_name, and family_name are not sensitive and
   # can be written here directly. Only email uses a 1Password reference.
   #

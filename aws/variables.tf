@@ -5,13 +5,13 @@ variable "aws_region" {
 }
 
 variable "bucket_name" {
-  description = "S3 bucket name for Terraform state (must be globally unique)"
+  description = "S3 bucket name for OpenTofu state (must be globally unique)"
   type        = string
   default     = "django-commons-terraform-state"
 }
 
 variable "collaborators" {
-  description = "Team members to add to IAM Identity Center with Terraform state access"
+  description = "Team members to add to IAM Identity Center with OpenTofu state access"
   type = list(object({
     username     = string
     display_name = string

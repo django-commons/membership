@@ -1,6 +1,6 @@
 # AWS Personal Account Infrastructure
 
-This directory contains Terraform configuration for resources in a personal AWS account
+This directory contains OpenTofu configuration for resources in a personal AWS account
 that support the GitHub Actions workflows in this repository. It is checked in to document
 the settings used — it is not applied automatically by CI.
 
@@ -13,7 +13,7 @@ The account owner and AWS account ID are stored in 1Password:
 
 | Resource | Name | Purpose |
 |---|---|---|
-| S3 bucket | `django-commons-terraform-state` | Stores Terraform state files for `members` and `repositories` workspaces |
+| S3 bucket | `django-commons-terraform-state` | Stores OpenTofu state files for `members` and `repositories` workspaces |
 | DynamoDB table | `django-commons-terraform-state-lock` | Provides state locking to prevent concurrent apply conflicts |
 | IAM OIDC provider | `token.actions.githubusercontent.com` | Allows GitHub Actions to authenticate to AWS without stored credentials |
 | IAM role | `django-commons-github-actions-apply` | Assumed by apply workflows in `django-commons/membership` on pushes to `main` |
@@ -65,7 +65,7 @@ label — so all three must match exactly.
 ### Prerequisites
 
 1. **Enable IAM Identity Center** in the AWS Console before the first apply — this cannot be
-   done via Terraform:
+   done via OpenTofu:
    > AWS Console → IAM Identity Center → Enable
 
 2. AWS CLI configured with credentials for the personal account.
@@ -76,15 +76,15 @@ label — so all three must match exactly.
 
 ```bash
 cd aws
-terraform init
+tofu init
 op inject -i terraform.tfvars.tpl -o terraform.tfvars
-terraform apply
+tofu apply
 rm terraform.tfvars
 ```
 
 The generated `terraform.tfvars` is gitignored and should be deleted after applying.
 
-After applying, `terraform apply` outputs two maps — one for apply roles, one for plan roles,
+After applying, `tofu apply` outputs two maps — one for apply roles, one for plan roles,
 each keyed by `production` and `test`. Add the role ARNs as secrets in each repository:
 
 **`django-commons/membership`**
@@ -139,13 +139,13 @@ account (same prerequisite as the apply step above). Do this for both workspaces
 
 ```bash
 cd terraform/members
-terraform init -migrate-state
+tofu init -migrate-state
 
 cd ../repositories
-terraform init -migrate-state
+tofu init -migrate-state
 ```
 
-Terraform will prompt you to confirm the migration. After both succeed, the local
+OpenTofu will prompt you to confirm the migration. After both succeed, the local
 `tfstate.json` files can be removed from the repository.
 
 ## Adding a collaborator
@@ -169,7 +169,7 @@ Terraform will prompt you to confirm the migration. After both succeed, the loca
 
 ```bash
 op inject -i terraform.tfvars.tpl -o terraform.tfvars
-terraform apply
+tofu apply
 rm terraform.tfvars
 ```
 
@@ -184,7 +184,7 @@ and lock table via the AWS CLI or console.
 - **OIDC provider**: If `token.actions.githubusercontent.com` already exists in your account
   (from another project), import it before applying:
   ```
-  terraform import aws_iam_openid_connect_provider.github_actions <existing-provider-arn>
+  tofu import aws_iam_openid_connect_provider.github_actions <existing-provider-arn>
   ```
 - The IAM role trust policies are scoped to `repo:django-commons/membership` only — they
   cannot be assumed by any other repository.

@@ -1,5 +1,5 @@
 # Backend Configuration
-# https://www.terraform.io/language/settings/backends/configuration
+# https://opentofu.org/docs/language/settings/backends/s3/
 
 terraform {
   backend "s3" {

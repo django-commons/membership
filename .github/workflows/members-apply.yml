@@ -30,6 +30,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7  # zizmor: ignore[unpinned-uses]
         with:
+          # Must be false: the commit/push step below authenticates with its
+          # own PAT, and a persisted default GITHUB_TOKEN credential takes
+          # precedence over it, causing pushes to be denied.
           persist-credentials: false
 
       - name: Configure AWS credentials

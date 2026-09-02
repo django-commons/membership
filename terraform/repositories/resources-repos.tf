@@ -25,7 +25,6 @@ resource "github_repository" "this" {
   archive_on_destroy          = true
   delete_branch_on_merge      = each.value.delete_branch_on_merge
   description                 = each.value.description
-  has_downloads               = each.value.has_downloads
   has_discussions             = each.value.has_discussions
   has_issues                  = true
   has_projects                = each.value.has_projects

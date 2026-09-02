@@ -22,17 +22,23 @@ and the community stronger.
 There are three teams for each repository. They each have different
 permissions.
 
-- [project-name]
-- [project-name]-committers
-- [project-name]-admins
+- `@django-commons/<project>` (the project members team)
+- `@django-commons/<project>-committers` (the project committers team)
+- `@django-commons/<project>-admins` (the project admin team)
 
-The general team [project-name] gives you triage permissions (assign issues, labels, etc).
+The project members team, `@django-commons/<project>`, gives you triage permissions (assign
+issues, labels, etc).
 
-The [project-name]-committers gives you permission to merge pull requests and push to main.
-They are people who generally maintain the project.
+The project committers team, `@django-commons/<project>-committers`, gives you permission to
+merge pull requests and push to main via GitHub's `maintain` permission. It does not grant
+the ability to publish releases. They are the people who generally maintain the project.
 
-The [project-name]-admins gives you permissions to administrate the GitHub repo and release new versions to PyPI.
-This may be the same group of people that are on [project-name]-commiters.
+The project admin team, `@django-commons/<project>-admins`, gives you permissions to
+administrate the GitHub repo and release new versions to PyPI. This may be the same group of
+people that are on `@django-commons/<project>-committers`.
+
+These are distinct from the organization-wide teams, `@django-commons/admins` and
+`@django-commons/super-admins`, which administer Django Commons as a whole.
 
 ## Who can work on a project?
 
@@ -46,7 +52,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 - [best-practices](https://github.com/django-commons/best-practices): A sample project with best practices for Django Commons projects.
 - [membership](https://github.com/django-commons/membership): The public face for the organization. All issues by members and contributors should be created
   here. **If you're looking for where to ask a question, this is the place for you**
--
+
 ### Do we allow all packages or just Django-adjacent?
 
 Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically.

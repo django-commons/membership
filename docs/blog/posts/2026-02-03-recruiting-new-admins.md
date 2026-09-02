@@ -23,7 +23,7 @@ The admin team takes care of the administrative work of managing Django Commons 
 - Website maintenance: adding new projects to the website, adding and maintaining information
 - Administrative and funding tasks: governance decisions and docs, Terraform tooling, manage contributions on Thanks.dev and Open Collective, branding updates
 
-Read more about the [admin team](https://django-commons.org/governance/#admin-team).
+Read more about the [admin team](https://django-commons.org/governance/django-commons/#admin-team).
 
 ## How will I know if I'm selected?
 

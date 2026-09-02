@@ -79,7 +79,6 @@ All changes should be made in `*.tfvars`:
         allow_update_branch = true # optional, default is true
         delete_branch_on_merge = true # optional, default is true
         has_discussions = true # optional, default is true
-        has_downloads = true # optional, default is true
         has_wiki = false # optional, default is false
         is_template = false # optional, default is false
         push_allowances = []

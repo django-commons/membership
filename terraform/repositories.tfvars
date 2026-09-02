@@ -207,7 +207,6 @@ repositories = {
     allow_update_branch    = true
     delete_branch_on_merge = true
     has_discussions        = true
-    has_downloads          = true
     has_wiki               = false
     is_template            = false
     push_allowances        = []
@@ -297,9 +296,7 @@ repositories = {
     has_discussions = true
     has_wiki        = false
     admins = [
-      # "amirreza-sf80",
-      # Temporarily include Tim until amirreza-sf80 is restored.
-      "tim-schilling",
+      "amirreza-sf80",
     ]
     committers = [
     ]

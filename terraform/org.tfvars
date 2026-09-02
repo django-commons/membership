@@ -7,7 +7,6 @@ admins = [
   "Stormheg",
   "TildaDares",
   "tim-schilling",
-  "williln",
 ]
 
 super_admins = [
@@ -15,7 +14,6 @@ super_admins = [
   "ryancheley",
   "Stormheg",
   "tim-schilling",
-  "williln",
 ]
 
 # Design members
@@ -26,6 +24,7 @@ designers = [
   "jmgutu",
   "johnatanmoran",
   "Knowledgex187",
+  "louzt",
   "mzemlickis",
   "Ndungu9039",
   "nwanduka",
@@ -45,11 +44,14 @@ members = [
   "adamghill",
   "adRn-s",
   "akshayvinchurkar",
+  "albertyw",
   "aleksihakli",
-  # "amirreza-sf80",
+  "alex-dicko",
+  "amirreza-sf80",
   "andoriyaprashant",
   "asherf",
   "Ashish8329",
+  "atanioyinbunua",
   "ayimdomnic",
   "bahoo",
   "blingblin-g",
@@ -62,6 +64,7 @@ members = [
   "Chiemezuo",
   "clintonb",
   "codingjoe",
+  "danmoz",
   "ddabble",
   "deronnax",
   "devatbosch",
@@ -74,8 +77,10 @@ members = [
   "EliShteinman",
   "Faakhir30",
   "federicobond",
+  "fladi",
   "FlipperPA",
   "forwardyoung",
+  "Freed-Wu",
   "fsbraun",
   "g-nie",
   "GaretJax",
@@ -108,12 +113,15 @@ members = [
   "kytta",
   "lander151",
   "leogregianin",
+  "louzt",
   "luiscontrerasdo",
   "M97Chahboun",
   "manelclos",
+  "marcosalvesdev",
   "matthiask",
   "mdehsan873",
   "mgrdcm",
+  "mgstabrani",
   "mihrab34",
   "mkalioby",
   "mnislam01",
@@ -139,6 +147,7 @@ members = [
   "rptmat57",
   "SaeedRz96",
   "salty-ivy",
+  "SamChawla",
   "sankarebarri",
   "sergei-maertens",
   "Shrikantgiri25",
@@ -146,6 +155,8 @@ members = [
   "SinkuKumar",
   "sobolevn",
   "spapas",
+  "stereodamage",
+  "sureshvv",
   "testSchilling",
   "thibaudcolas",
   "ticosax",
@@ -159,6 +170,7 @@ members = [
   "Violette-Allotey",
   "viscofuse",
   "whitebumblebee",
+  "williln",
   "Zakui",
 ]
 organization_teams = {
@@ -177,7 +189,6 @@ organization_teams = {
       "Stormheg",
       "TildaDares",
       "tim-schilling",
-      "williln",
     ]
   }
   "super-admins" = {
@@ -190,7 +201,6 @@ organization_teams = {
       "ryancheley",
       "Stormheg",
       "tim-schilling",
-      "williln",
     ]
   }
 }

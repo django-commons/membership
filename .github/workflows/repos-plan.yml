@@ -29,7 +29,7 @@ jobs:
           persist-credentials: false
 
       - name: tofu fmt check
-        uses: dflook/tofu-fmt-check@1ae8a83029b8ad8e6c6a12834e0d3d9cd0e34d5f  # v2.2.3
+        uses: dflook/tofu-fmt-check@d54769fd05d700fe90628ba7f48d28e796f71407  # v3.0.0
         with:
           path: "terraform/repositories"
 
@@ -56,7 +56,7 @@ jobs:
           aws-region: us-east-1
 
       - name: tofu plan
-        uses: dflook/tofu-plan@3f5dc358343fb58cd60f83b019e810315aa8258f  # v2.2.3
+        uses: dflook/tofu-plan@cdb4f4d604c9fa695e457744dd1f802853397ce7  # v3.0.0
         env:
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

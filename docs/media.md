@@ -16,3 +16,4 @@ Below is a collection of Django Commons content. They may be blog posts, videos 
   A lightning talk from DjangoCon US 2024 introducing Django Commons.
 - ["Django Commons - A home for community-maintained Django packages"](https://www.better-simple.com/django/2024/05/22/looking-for-help-django-commons/) by [Tim Schilling](https://github.com/tim-schilling/):
   A call for help to start Django Commons.
+- ["Behind the Commit"](https://www.youtube.com/watch?v=wxOm27rqBqs) interview with [Daniel Moran](https://github.com/cunla)

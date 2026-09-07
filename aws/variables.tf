@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "S3 bucket name for OpenTofu state (must be globally unique)"
   type        = string
-  default     = "django-commons-terraform-state"
+  default     = "django-commons-tofu-state"
 }
 
 variable "collaborators" {

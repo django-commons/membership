@@ -13,7 +13,7 @@ The account owner and AWS account ID are stored in 1Password:
 
 | Resource | Name | Purpose |
 |---|---|---|
-| S3 bucket | `django-commons-terraform-state` | Stores OpenTofu state files for `members` and `repositories` workspaces |
+| S3 bucket | `django-commons-tofu-state` | Stores OpenTofu state files for `members` and `repositories` workspaces |
 | DynamoDB table | `django-commons-terraform-state-lock` | Provides state locking to prevent concurrent apply conflicts |
 | IAM OIDC provider | `token.actions.githubusercontent.com` | Allows GitHub Actions to authenticate to AWS without stored credentials |
 | IAM role | `django-commons-github-actions-apply` | Assumed by apply workflows in `django-commons/membership` on pushes to `main` |
@@ -109,7 +109,7 @@ from production state in the shared bucket):
 ```hcl
 terraform {
   backend "s3" {
-    bucket         = "django-commons-terraform-state"
+    bucket         = "django-commons-tofu-state"
     key            = "test/members/tfstate.json"
     region         = "us-east-1"
     dynamodb_table = "django-commons-terraform-state-lock"
@@ -122,7 +122,7 @@ terraform {
 ```hcl
 terraform {
   backend "s3" {
-    bucket         = "django-commons-terraform-state"
+    bucket         = "django-commons-tofu-state"
     key            = "test/repositories/tfstate.json"
     region         = "us-east-1"
     dynamodb_table = "django-commons-terraform-state-lock"

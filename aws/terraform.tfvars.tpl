@@ -18,13 +18,6 @@ collaborators = [
     email        = "op://Django Commons Infrastructure/Daniel Moran/email"
   },
   {
-    username     = "stormheg"
-    display_name = "Storm Heg"
-    given_name   = "Storm"
-    family_name  = "Heg"
-    email        = "op://Django Commons Infrastructure/Storm Heg/email"
-  },
-  {
     username     = "dakshjain"
     display_name = "Daksh P. Jain"
     given_name   = "Daksh"

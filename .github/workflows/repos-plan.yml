@@ -58,6 +58,7 @@ jobs:
       - name: tofu plan
         uses: dflook/tofu-plan@cdb4f4d604c9fa695e457744dd1f802853397ce7  # v3.0.0
         env:
+          OPENTOFU_VERSION: 1.12.6
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

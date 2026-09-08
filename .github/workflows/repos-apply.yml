@@ -42,6 +42,7 @@ jobs:
         uses: dflook/tofu-apply@981ee9b40c86a1450134ffa7994c2ae8878de302 # v3.0.0
         env:
           OPENTOFU_VERSION: 1.12.6
+          GITHUB_DOT_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
         with:

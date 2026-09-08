@@ -36,7 +36,7 @@ jobs:
           persist-credentials: false
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4  # zizmor: ignore[unpinned-uses]
+        uses: aws-actions/configure-aws-credentials@v6  # zizmor: ignore[unpinned-uses]
         with:
           role-to-assume: ${{ secrets.AWS_APPLY_ROLE_ARN }}
           aws-region: us-east-1

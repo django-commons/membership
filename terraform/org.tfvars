@@ -12,6 +12,7 @@ admins = [
 super_admins = [
   "cunla",
   "ryancheley",
+  "Stormheg",
   "tim-schilling",
 ]
 

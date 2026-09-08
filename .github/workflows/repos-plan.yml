@@ -2,11 +2,12 @@ name: "Plan org repositories changes and list them in a PR"
 on:
   pull_request:
     branches:
-      - TODO_CHANGE_BACK
+      - main
     paths:
       - 'terraform/repositories.tfvars'
       - 'terraform/repositories/*.tf'
       - '.github/workflows/repos-apply.yml'
+      - '.github/workflows/repos-plan.yml'
       # Do not trigger the plan action when it's been changed since this action has write permissions
 
 permissions: {}

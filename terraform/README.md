@@ -1,24 +1,28 @@
-GitHub Organization as Terraform
-================================
+GitHub Organization as OpenTofu
+===============================
 
 # Structure
 
-## General terraform structure:
+## General OpenTofu structure:
 
 - `variables.tf` - define variable types (classes?), notice there is `variable "repositories" {...` there which has a
   few variables marked as optional with default values. Why I chose to have `has_discussions`.
-- `backend.tf` - define remote state backend (GitHub repo itself, in our case)
+- `backend.tf` - define the remote state backend: the `django-commons-tofu-state` S3 bucket, with the
+  `django-commons-terraform-state-lock` DynamoDB table providing state locking (see [the S3 backend
+  documentation][4]). The bucket, lock table and the roles used to reach them are provisioned by the configuration in
+  `aws/`, documented in `aws/README.md`.
 - `locals.tf` - define local variables to be used in `main.tf`
 - `main.tf` - build configuration based on instances values from `*.tfvars` (or, if not defined explicitly,
   then default value from `variables.tf`)
 - `resources-*.tf` - define resources, like `github_repository`, `github_team`, etc.
-- `tfstate.json` - Current state file, pulled using `terraform import ..`
+- `tfstate.json.bak2026-09-08` - Copy of the state as it was before the move to S3, kept for reference only.
+  OpenTofu does not read it. The live state is in S3 under `members/tfstate.json` and `repositories/tfstate.json`.
 
 ## members module:
 
 - `org.tfvars` - Define organization members, designers, admins and super-admins as required by `variables.tf`.
   Example:
-    ```terraform
+    ```hcl
     admins = [      
       "ryancheley", # ...
     ]
@@ -27,14 +31,14 @@ GitHub Organization as Terraform
       "cunla", # ...
     ]
     ```
-- `members/*.tf` - define terraform resources for organization members and organization teams.
+- `members/*.tf` - define OpenTofu resources for organization members and organization teams.
 
 ## repositories module:
 
 - `repositories.tfvars` - define repositories to be managed based on the definition of the `repositories` variable in
   `repositories/variables.tf`. Example (for a full repository definition, see the `# What changes can be made` section
   below):
-    ```terraform
+    ```hcl
     repositories = {
       "repo-name" = {
         description = "repo description"
@@ -50,7 +54,7 @@ GitHub Organization as Terraform
   whether a repository has issues enabled or not. These settings are enforced in `repositories/resources-repos.tf`
   directly under `resource "github_repository" "this" {...`.
 
-# Why Terraform?
+# Why OpenTofu?
 
 We can define our "desired/default" repository configuration, and within this configuration:
 
@@ -67,7 +71,7 @@ All changes should be made in `*.tfvars`:
 
 - Add/Remove organization admins/members/designers by editing the `org.tfvars` file.
 - Add/Remove/Update repositories by editing the `repositories.tfvars`. A repository can have the following variables:
-    ```terraform
+    ```hcl
     repositories = {
       "repo-name" = {
         description = "repo description"
@@ -101,28 +105,42 @@ You might want to try new settings locally before applying them to the repositor
 To do so, you can use the following steps:
 
 1. Clone the repository.
-2. From the `terraform/{module}` directory, run `terraform init`.
-3. Create a github-token with the necessary permissions on the organization (see [permissions documentation][1]).
+2. Get AWS credentials for the account holding the state bucket. State lives in S3, so `tofu init` cannot run without
+   them - see `aws/README.md` for the IAM Identity Center setup and how collaborators are granted access.
+3. From the `terraform/{module}` directory, run `tofu init` (replace `{module}` with either `members` or
+   `repositories`).
+4. Create a github-token with the necessary permissions on the organization (see [permissions documentation][1]).
     - The `repo` permission for full control of private repositories.
     - The `admin:org` permission for full control of orgs and teams, read and write org projects
     - The `delete_repo` permission to delete repositories
 
-4. Make changes to `org.tfvars`/`repositories.tfvars` to reflect the desired state (add/update users, repositories,
+5. Make changes to `org.tfvars`/`repositories.tfvars` to reflect the desired state (add/update users, repositories,
    teams, etc.)
-5. To see what changes between the current state of the GitHub organization and the plan
-   run:  `terraform plan -var-file={module}.tfvars -var github_token=...` (replace `{module}` with either `members` or
-   `repositories`).
-6. To apply the changes,
-   run: `terraform apply -var-file={module}.tfvars -var github_token=...` (replace `{module}` with either `members` or
-   `repositories`).
+6. Export the token, so it is not recorded in your shell history or in the process list:
+   `export TF_VAR_github_token=...`
+7. To see what changes between the current state of the GitHub organization and the plan, run one of:
+    ```shell
+    cd terraform/members      && tofu plan -var-file=../org.tfvars
+    cd terraform/repositories && tofu plan -var-file=../repositories.tfvars
+    ```
+   Note that the var-file name does not follow the module name: the `members` module reads `org.tfvars`.
+8. To apply the changes, run the same command with `apply` in place of `plan`.
 
 # Integration with GitHub Actions
 
-The repository is configured to run `terraform plan` on every new pull-request as well as an update to a pull-request
+The repository is configured to run `tofu plan` on every new pull-request as well as an update to a pull-request
 and list the expected changes as a comment on the pull-request.
-Once the pull-request is merged to the `main` branch, `terraform apply` applies the changes to the GitHub organization,
-and the updated current state is committed to the `main` branch.
-To achieve this, the workflows use `TERRAFORM_MANAGEMENT_GITHUB_TOKEN` secret to plan/apply terraform changes.
+Once the pull-request is merged to the `main` branch, `tofu apply` applies the changes to the GitHub organization.
+The updated state is written to the S3 backend; it is no longer committed back to the `main` branch, which is what the
+older `[AUTO]... state changes after apply` commits used to do.
+
+To achieve this, the workflows use the `TERRAFORM_MANAGEMENT_GITHUB_TOKEN` secret to plan/apply OpenTofu changes, and
+authenticate to AWS via OIDC using the role ARNs in the `AWS_PLAN_ROLE_ARN` and `AWS_APPLY_ROLE_ARN` secrets. The plan
+role is read-only on the state; only the apply role can write it, and only on pushes to `main`.
+
+The workflows also pin `OPENTOFU_VERSION`. A state file records the version that wrote it as a bare string, with no
+indication of which tool it was, so without the pin the action can read an OpenTofu version out of the state, look for
+a Terraform release of that number, and fail because no such release exists.
 
 `TERRAFORM_MANAGEMENT_GITHUB_TOKEN` is a fine-grained personal access token with permissions the following permissions
 required (see documentation [here][2]):
@@ -132,8 +150,10 @@ required (see documentation [here][2]):
 - The `delete_repo` permission to delete repositories
 - Additionally, the token should have permissions to write content to the repository (see, [here][3])
 
-[1]: https://developer.hashicorp.com/terraform/tutorials/it-saas/github-user-teams#configure-your-credentials
+[1]: https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
 
-[2]: https://developer.hashicorp.com/terraform/tutorials/it-saas/github-user-teams#configure-your-credentials
+[2]: https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens
 
-[3]: https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository 
+[3]: https://search.opentofu.org/provider/integrations/github/latest/docs/resources/repository
+
+[4]: https://opentofu.org/docs/language/settings/backends/s3/

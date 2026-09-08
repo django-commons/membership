@@ -1,3 +1,4 @@
+aws/terraform.tfvars
 *.backup
 notes.txt
 .terraform

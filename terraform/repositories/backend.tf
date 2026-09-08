@@ -1,8 +1,12 @@
 # Backend Configuration
-# https://www.terraform.io/language/settings/backends/configuration
+# https://opentofu.org/docs/language/settings/backends/s3/
 
 terraform {
-  backend "local" {
-    path = "tfstate.json"
+  backend "s3" {
+    bucket         = "django-commons-tofu-state"
+    key            = "repositories/tfstate.json"
+    region         = "us-east-1"
+    dynamodb_table = "django-commons-tofu-state-lock"
+    encrypt        = true
   }
 }

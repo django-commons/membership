@@ -30,6 +30,12 @@ jobs:
 
       - name: tofu fmt check
         uses: dflook/tofu-fmt-check@d54769fd05d700fe90628ba7f48d28e796f71407  # v3.0.0
+        env:
+          # Authenticate the OpenTofu release download against github.com.
+          # Unauthenticated requests share a low per-IP limit across every
+          # runner on that host, which intermittently fails the install step.
+          # This token needs no scopes.
+          GITHUB_DOT_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           path: "terraform/members"
 
@@ -41,6 +47,7 @@ jobs:
     permissions:
       pull-requests: write  # Required to post terraform plan comments
       contents: read
+      id-token: write  # Required for OIDC authentication to AWS
     timeout-minutes: 10
     steps:
       - name: Checkout code
@@ -48,9 +55,17 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6  # zizmor: ignore[unpinned-uses]
+        with:
+          role-to-assume: ${{ secrets.AWS_PLAN_ROLE_ARN }}
+          aws-region: us-east-1
+
       - name: tofu plan
         uses: dflook/tofu-plan@cdb4f4d604c9fa695e457744dd1f802853397ce7  # v3.0.0
         env:
+          OPENTOFU_VERSION: 1.12.6
+          GITHUB_DOT_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TERRAFORM_ACTIONS_GITHUB_TOKEN: ${{ secrets.TERRAFORM_MANAGEMENT_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

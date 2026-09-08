@@ -1,0 +1,23 @@
+variable "aws_region" {
+  description = "AWS region for DynamoDB and related resources"
+  type        = string
+  default     = "us-east-1"
+}
+
+variable "bucket_name" {
+  description = "S3 bucket name for OpenTofu state (must be globally unique)"
+  type        = string
+  default     = "django-commons-tofu-state"
+}
+
+variable "collaborators" {
+  description = "Team members to add to IAM Identity Center with OpenTofu state access"
+  type = list(object({
+    username     = string
+    display_name = string
+    given_name   = string
+    family_name  = string
+    email        = string
+  }))
+  default = []
+}

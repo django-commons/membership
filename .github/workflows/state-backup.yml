@@ -1,0 +1,81 @@
+name: "Back up OpenTofu state from S3"
+
+# Downloads the state files backing the two root modules and keeps them as a
+# workflow artifact. The S3 bucket is versioned, so this is a convenience copy
+# for quick inspection and off-S3 retention, not the primary recovery path.
+
+on:
+  schedule:
+    # 06:00 UTC every Sunday
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: tofu-state-backup
+
+jobs:
+  backup-state:
+    name: "Back up OpenTofu state from S3"
+    runs-on: ubuntu-latest
+    # Required for OIDC: the plan role's trust policy is scoped to
+    # `repo:<org>/membership:environment:production`.
+    environment: production
+    permissions:
+      contents: read
+      id-token: write  # Required for OIDC authentication to AWS
+    timeout-minutes: 10
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6  # zizmor: ignore[unpinned-uses]
+        with:
+          # Read-only role: s3:GetObject + s3:ListBucket on the state bucket.
+          role-to-assume: ${{ secrets.AWS_PLAN_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Download state files
+        env:
+          BUCKET: django-commons-tofu-state
+          # membership-test keeps its state under the `test/` prefix; set the
+          # repository variable there. Unset (empty) for production.
+          KEY_PREFIX: ${{ vars.TOFU_STATE_KEY_PREFIX }}
+        run: |
+          set -euo pipefail
+          mkdir -p state-backup
+          {
+            echo "Taken at: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "Bucket:   ${BUCKET}"
+            echo "Run:      ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+          } > state-backup/manifest.txt
+
+          for module in members repositories; do
+            key="${KEY_PREFIX}${module}/tfstate.json"
+            state="state-backup/${module}.tfstate.json"
+
+            aws s3 cp "s3://${BUCKET}/${key}" "${state}"
+            aws s3api head-object --bucket "${BUCKET}" --key "${key}" \
+              > "${RUNNER_TEMP}/head.json"
+
+            {
+              echo "${module}"
+              echo "  key:      ${key}"
+              echo "  modified: $(jq -r '.LastModified' "${RUNNER_TEMP}/head.json")"
+              echo "  size:     $(jq -r '.ContentLength' "${RUNNER_TEMP}/head.json") bytes"
+              echo "  version:  $(jq -r '.VersionId' "${RUNNER_TEMP}/head.json")"
+              echo "  serial:   $(jq -r '.serial' "${state}")"
+              echo "  lineage:  $(jq -r '.lineage' "${state}")"
+              echo
+            } >> state-backup/manifest.txt
+          done
+
+          cat state-backup/manifest.txt
+
+      - name: Upload state backup artifact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: tofu-state-${{ github.run_id }}
+          path: state-backup/
+          retention-days: 90
+          if-no-files-found: error

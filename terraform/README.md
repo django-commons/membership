@@ -8,7 +8,7 @@ GitHub Organization as OpenTofu
 - `variables.tf` - define variable types (classes?), notice there is `variable "repositories" {...` there which has a
   few variables marked as optional with default values. Why I chose to have `has_discussions`.
 - `backend.tf` - define the remote state backend: the `django-commons-tofu-state` S3 bucket, with the
-  `django-commons-terraform-state-lock` DynamoDB table providing state locking (see [the S3 backend
+  `django-commons-tofu-state-lock` DynamoDB table providing state locking (see [the S3 backend
   documentation][4]). The bucket, lock table and the roles used to reach them are provisioned by the configuration in
   `aws/`, documented in `aws/README.md`.
 - `locals.tf` - define local variables to be used in `main.tf`

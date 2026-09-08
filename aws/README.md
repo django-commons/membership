@@ -13,7 +13,7 @@ The account owner and AWS account ID are stored in 1Password:
 
 | Resource | Name | Purpose |
 |---|---|---|
-| S3 bucket | `django-commons-tofu-state` | Stores OpenTofu state files for `members` and `repositories` workspaces |
+| S3 bucket | [`django-commons-tofu-state`](https://us-east-1.console.aws.amazon.com/s3/buckets/django-commons-tofu-state?region=us-east-1&tab=objects) | Stores OpenTofu state files for `members` and `repositories` workspaces |
 | DynamoDB table | `django-commons-terraform-state-lock` | Provides state locking to prevent concurrent apply conflicts |
 | IAM OIDC provider | `token.actions.githubusercontent.com` | Allows GitHub Actions to authenticate to AWS without stored credentials |
 | IAM role | `django-commons-github-actions-apply` | Assumed by apply workflows in `django-commons/membership` on pushes to `main` |
@@ -176,6 +176,12 @@ rm terraform.tfvars
 AWS emails the collaborator a temporary password. They sign in at the URL shown in the
 `sso_start_url` output, reset their password, and then have access to the state bucket
 and lock table via the AWS CLI or console.
+
+The `TerraformStateAccess` permission set grants `s3:ListBucket` on the state bucket but
+not `s3:ListAllMyBuckets`, so the console's S3 bucket list shows up empty. Collaborators
+need to open the bucket directly:
+
+<https://us-east-1.console.aws.amazon.com/s3/buckets/django-commons-tofu-state?region=us-east-1&tab=objects>
 
 ## Notes
 

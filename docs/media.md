@@ -2,7 +2,7 @@
 
 Below is a collection of Django Commons content. They may be blog posts, videos or podcasts. If you've mentioned Django Commons, please let us know and we'll get it added to the list!
 
-- ["Behind the Commit"](https://www.youtube.com/watch?v=wxOm27rqBqs) interview with [Daniel Moran](https://github.com/cunla)
+- ["Behind the Commit"](https://www.youtube.com/watch?v=IbWrIhW3iZw) interview with [Daniel Moran](https://github.com/cunla)
 - ["#466: PSF Lands $1.5 million"](https://pythonbytes.fm/episodes/show/466/psf-lands-1.5-million) by [PythonBytes](https://pythonbytes.fm):
   Brian Okken and Michael Kennedy review a [blog post](https://www.revsys.com/tidbits/better-django-management-commands-with-django-click-and-django-typer/) discussing [django-click](https://github.com/django-commons/django-click) and [django-typer](https://github.com/django-commons/django-typer) from Lacey and mention they are supported by Django Commons.
 - [Django Commons YouTube](https://www.youtube.com/@djangocommons)

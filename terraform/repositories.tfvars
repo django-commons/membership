@@ -401,24 +401,14 @@ repositories = {
     has_discussions     = true  # Enable discussions in project's repository
     has_wiki            = false # Enable wiki in project's repository
     admins = [
-      # Include people who can release new versions
       "ulgens",
       "rhblind",
       "decibyte",
     ]
     committers = [
-      # Include people who can commit to main / merge changes
-      "ulgens",
       "DhavalGojiya",
-      "rhblind",
-      "decibyte",
     ]
     members = [
-      # Include people who can assign/triage tickets
-      "ulgens",
-      "DhavalGojiya",
-      "rhblind",
-      "decibyte",
     ]
   }
 }

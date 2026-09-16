@@ -265,7 +265,7 @@ repositories = {
 
   "django-prometheus" = {
     description         = "Export Django monitoring metrics for Prometheus.io"
-    allow_auto_merge       = false
+    allow_auto_merge    = false
     allow_merge_commit  = true
     allow_rebase_merge  = true
     allow_squash_merge  = true
@@ -343,7 +343,7 @@ repositories = {
     committers = [
       "JohananOppongAmoateng",
     ]
-    members    = []
+    members = []
   }
   "django-unicorn.com" = {
     description         = "Website for django-unicorn"
@@ -369,14 +369,14 @@ repositories = {
   }
 
   "django-polymorphic" = {
-    description = "Improved Django model inheritance with automatic downcasting"
-    homepage_url = "https://django-polymorphic.readthedocs.io"
-    allow_merge_commit = false
-    allow_rebase_merge = true
-    allow_squash_merge = true
+    description         = "Improved Django model inheritance with automatic downcasting"
+    homepage_url        = "https://django-polymorphic.readthedocs.io"
+    allow_merge_commit  = false
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
     allow_update_branch = true
-    has_discussions = true
-    has_wiki = false
+    has_discussions     = true
+    has_wiki            = false
     pages = {
       build_type = "workflow"
     }
@@ -388,36 +388,36 @@ repositories = {
       "JohananOppongAmoateng",
     ]
   }
-}
 
-"drf-haystack" = {
-  description         = "Makes Haystack play nice with Django REST Framework"
-  # Different merge strategies can be enabled/disabled
-  allow_merge_commit  = true # Allow merge commits on pull requests
-  allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
-  allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
-  allow_update_branch = true # Allow updating source branch on pull requests
+  "drf-haystack" = {
+    description = "Makes Haystack play nice with Django REST Framework"
+    # Different merge strategies can be enabled/disabled
+    allow_merge_commit  = true # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
 
-  has_discussions     = true # Enable discussions in project's repository
-  has_wiki            = false # Enable wiki in project's repository
-  admins = [
-    # Include people who can release new versions
-    "ulgens",
-    "rhblind",
-    "decibyte",
-  ]
-  committers = [
-    # Include people who can commit to main / merge changes
-    "ulgens",
-    "DhavalGojiya",
-    "rhblind",
-    "decibyte",
-  ]
-  members = [
-    # Include people who can assign/triage tickets
-    "ulgens",
-    "DhavalGojiya",
-    "rhblind",
-    "decibyte",
-  ]
+    has_discussions = true  # Enable discussions in project's repository
+    has_wiki        = false # Enable wiki in project's repository
+    admins = [
+      # Include people who can release new versions
+      "ulgens",
+      "rhblind",
+      "decibyte",
+    ]
+    committers = [
+      # Include people who can commit to main / merge changes
+      "ulgens",
+      "DhavalGojiya",
+      "rhblind",
+      "decibyte",
+    ]
+    members = [
+      # Include people who can assign/triage tickets
+      "ulgens",
+      "DhavalGojiya",
+      "rhblind",
+      "decibyte",
+    ]
+  }
 }

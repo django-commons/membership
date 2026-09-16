@@ -5,6 +5,7 @@ docs_dir: ../docs
 markdown_extensions:
   - toc:
       permalink: "#"
+  - pymdownx.tilde
 plugins:
   - optimize
   - blog:

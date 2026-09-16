@@ -402,8 +402,6 @@ repositories = {
     has_wiki            = false # Enable wiki in project's repository
     admins = [
       "ulgens",
-      "rhblind",
-      "decibyte",
     ]
     committers = [
       "DhavalGojiya",

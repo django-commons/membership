@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thank you, Storm"
-date: yyyy-mm-dd
+date: 2026-09-30
 categories: announcements
 ---
 
@@ -22,13 +22,12 @@ to publish it, the security notification that someone actually reads.
 
 Storm took ownership of our DNS story end to end, standing up our
 [deSEC.io](https://desec.io/) setup, sorting out the sponsorship, and moving our
-domains over — including django-commons.org itself and django-unicorn. He didn't
-stop at "it works for us," either; he spent time figuring out how to hand
+domain over. He didn't stop at "it works for us," either; he spent time figuring out how to hand
 project admins limited, safe control over their own DNS records, so the
 infrastructure could scale past any one person. Past him, specifically.
 
 On the packaging side, Storm was our steady hand on PyPI. He pushed us toward
-Trusted Publishing, documented how to transfer projects (down to the npm
+[Trusted Publishing](https://docs.pypi.org/trusted-publishers/), documented how to transfer projects (down to the npm
 publishing workflows for the packages that need them), and thought hard about
 how to rotate the PyPI team without dropping the ball on security. That
 vigilance wasn't theoretical: when an API token was used to upload
@@ -42,20 +41,26 @@ governance document, the values, the admin playbooks, the security team's remit
 would outlast the current crew. He wanted the next people to have it easier
 than we did.
 
-You'll also have seen him out in the community: at FOSDEM, on stage at
-DjangoCon, and thoughtfully replying in discussions when a hard question needed
+Storm also championed the effort for us to create our own [Open Collective organization](https://opencollective.com/django-commons)
+so that we could provide a mechanism for maintainers to accept funds.
+That effort opens the door to several other possibilities to make maintaining
+OSS sustainable.
+
+You'll also have seen him out in the community: at DjangoCon,
+on stage at [FOSDEM](https://archive.fosdem.org/2025/schedule/speaker/storm_heg/),
+and thoughtfully replying in discussions when a hard question needed
 a careful answer instead of a fast one.
 
 The through-line in all of it is that Storm built things to survive his own
-departure. The DNS handoff, the publishing docs, the governance work, the PyPI
-rotation — every one of those was really about making sure Django Commons
+departure. The DNS handoff, the publishing docs, the governance work, the funding work,
+the PyPI rotation — every one of those was really about making sure Django Commons
 didn't depend on Storm being in the room. So when he tells us he's ready to step
 back, the most fitting response is to prove him right: to keep the lights on
 with the systems he left us.
 
 So, thank you, Storm. For the DNS records and the deSEC account, for Trusted
 Publishing and the alarm you raised when something looked off, for the
-governance docs and the playbooks, and for building all of it to keep working
+governance docs, for the funding, and the playbooks, and for building all of it to keep working
 without you. Take the break. You earned it — and thanks to you, we've got this.
 
 — The Django Commons admins

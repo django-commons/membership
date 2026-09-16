@@ -390,15 +390,16 @@ repositories = {
   }
 
   "drf-haystack" = {
-    description = "Makes Haystack play nice with Django REST Framework"
+    description = "Haystack for Django REST Framework"
     # Different merge strategies can be enabled/disabled
-    allow_merge_commit  = true # Allow merge commits on pull requests
-    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch = true # Allow updating source branch on pull requests
-
-    has_discussions = true  # Enable discussions in project's repository
-    has_wiki        = false # Enable wiki in project's repository
+    allow_auto_merge    = true
+    allow_merge_commit  = false # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = false # Allow updating source branch on pull requests
+    has_projects        = false
+    has_discussions     = true  # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
     admins = [
       # Include people who can release new versions
       "ulgens",

@@ -42,7 +42,7 @@ jobs:
           aws-region: us-east-1
 
       - name: tofu apply
-        uses: dflook/tofu-apply@981ee9b40c86a1450134ffa7994c2ae8878de302 # v3.0.0
+        uses: dflook/tofu-apply@ff7df1ab0935f2453085eb629dd098130c15e27c # v3.0.1
         env:
           OPENTOFU_VERSION: 1.12.6
           GITHUB_DOT_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

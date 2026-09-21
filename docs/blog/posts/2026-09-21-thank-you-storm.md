@@ -1,8 +1,14 @@
 ---
 layout: post
 title: "Thank you, Storm"
+description: "Storm Heg is stepping down as an admin and deserves our thanks"
+author: Ryan Cheley
 date: 2026-09-21
-categories: announcements
+categories:
+  - Announcements
+tags:
+  - admins
+  - win
 ---
 
 One of the things we say a lot at Django Commons is that sustainability has to

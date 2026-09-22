@@ -1,8 +1,9 @@
 # Organization repositories
 repositories = {
   ".github" = {
-    description = "A Special Repository."
-
+    description = "The repository for managing Django Commons' organizational profile."
+    has_discussions        = false
+    has_issues             = false
     topics                 = []
     push_allowances        = []
     is_django_commons_repo = true

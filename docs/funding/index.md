@@ -2,9 +2,9 @@
 
 Django Commons does not place restrictions on projects' ability to seek outside sponsorship or funding. You are welcome to seek sponsors for your project through whatever method you choose.
 
-## Open Collective (managed funding)
+## Open Collective (Django Commons managed funding)
 
-Django Commons has an [Open Collective account](https://opencollective.com/django-commons) to allow projects to accept direct sponsors and/or fund raise for specific projects. [Create a request for the Django Commons Admins](https://github.com/django-commons/membership/issues/new?template=admin-request.yml) to get set up.
+Django Commons has an [Open Collective account](https://opencollective.com/django-commons) to allow projects to accept direct sponsors and/or fund raise for specific projects. See the [Open Collective guide](open-collective.md) to get set up.
 
 ## Sonar / Tidelift
 

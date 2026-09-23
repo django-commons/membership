@@ -22,7 +22,9 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - FAQ: faq.md
-  - Funding: funding.md
+  - Funding:
+    - Overview: funding/index.md
+    - Open Collective: funding/open-collective.md
   - Resources for Maintainers: maintainers-resources.md
   - Organization:
     - Decision Record: decision_record.md

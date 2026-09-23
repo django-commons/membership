@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="wrap doc doc--wide">
+  <header class="doc__header">
+    <h1>{{ .Title }}</h1>
+    <div class="doc__lede">{{ .Content }}</div>
+  </header>
+  <ul class="blog-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <a href="{{ .RelPermalink }}">
+        <h2>{{ .Title }}</h2>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.author }}<p class="meta">by {{ . }}</p>{{ end }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

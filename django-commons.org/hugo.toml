@@ -1,0 +1,116 @@
+baseURL = "https://django-commons.org/"
+locale = "en-US"
+title = "Django Commons"
+copyright = "Django Commons"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Django Commons is an organization dedicated to supporting the community's efforts to maintain packages."
+  githubOrg = "https://github.com/django-commons"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  name = "Team"
+  url = "/team/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "organization"
+  name = "Organization"
+  url = "#"
+  weight = 40
+
+[[menu.main]]
+  parent = "organization"
+  name = "FAQ"
+  url = "/faq/"
+  weight = 10
+
+[[menu.main]]
+  parent = "organization"
+  name = "Governance"
+  url = "/governance/django-commons/"
+  weight = 20
+
+[[menu.main]]
+  parent = "organization"
+  name = "Project Maintenance"
+  url = "/governance/project-maintenance/"
+  weight = 30
+
+[[menu.main]]
+  parent = "organization"
+  name = "Values"
+  url = "/values/"
+  weight = 40
+
+[[menu.main]]
+  parent = "organization"
+  name = "Response Timeframes"
+  url = "/response-timeframes/"
+  weight = 50
+
+[[menu.main]]
+  parent = "organization"
+  name = "Decision Record"
+  url = "/decision_record/"
+  weight = 60
+
+[[menu.main]]
+  identifier = "resources"
+  name = "Resources"
+  url = "#"
+  weight = 50
+
+[[menu.main]]
+  parent = "resources"
+  name = "Funding"
+  url = "/funding/"
+  weight = 10
+
+[[menu.main]]
+  parent = "resources"
+  name = "Sponsors"
+  url = "/sponsors/"
+  weight = 20
+
+[[menu.main]]
+  parent = "resources"
+  name = "Maintainer Resources"
+  url = "/maintainers-resources/"
+  weight = 30
+
+[[menu.main]]
+  parent = "resources"
+  name = "Media"
+  url = "/media/"
+  weight = 40

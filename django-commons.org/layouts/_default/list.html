@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="wrap doc doc--wide">
+  <header class="doc__header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="doc__lede">{{ . }}</p>{{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+    {{ if .Pages }}
+    <ul class="card-list">
+      {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Description }}<p>{{ . }}</p>{{ end }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

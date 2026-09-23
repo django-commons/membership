@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $toc := and (not .Params.wide) (ge .WordCount 500) (ne .TableOfContents "") }}
+<article class="wrap doc{{ if $toc }} doc--toc{{ else }} doc--wide{{ end }}">
+  <header class="doc__header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="doc__lede">{{ . }}</p>{{ end }}
+  </header>
+  <div class="doc__grid">
+    <div class="prose">
+      {{ .Content }}
+      <p class="doc__edit"><a href="https://github.com/django-commons/membership/edit/main/django-commons.org/content/{{ .File.Path }}" target="_blank" rel="noopener">Edit this page on GitHub</a></p>
+    </div>
+    {{ if $toc }}
+    <aside class="toc" aria-label="On this page">
+      <div class="toc__title">On this page</div>
+      {{ .TableOfContents }}
+    </aside>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

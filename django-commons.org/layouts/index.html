@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <h1>Django packages, maintained together.</h1>
+      <p class="hero__lede">Django Commons gives maintainers a shared home: more hands on each package, and a clear way to step back.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="https://github.com/django-commons/membership/issues/new/choose" target="_blank" rel="noopener">Join the commons</a>
+        <a class="btn btn--ghost" href="#projects">See projects</a>
+      </div>
+    </div>
+    {{ partial "ring.html" . }}
+  </div>
+</section>
+
+{{ .Content }}
+
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ $posts := $posts.ByDate.Reverse }}
+{{ if $posts }}
+{{ $latest := index $posts 0 }}
+<section class="band latest">
+  <div class="wrap latest__grid">
+    <div class="latest__head">
+      <h2>From the blog</h2>
+      <a href="/blog/">All posts</a>
+    </div>
+    <a class="feature" href="{{ $latest.RelPermalink }}">
+      <span class="meta">{{ $latest.Date.Format "Jan 2, 2006" }}{{ with $latest.Params.author }} by {{ . }}{{ end }}</span>
+      <h3>{{ $latest.Title }}</h3>
+      {{ with $latest.Description }}<p>{{ . }}</p>{{ end }}
+    </a>
+    <ul class="postlist">
+      {{ range first 2 (after 1 $posts) }}
+      <li><a href="{{ .RelPermalink }}"><span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span><h3>{{ .Title }}</h3></a></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+{{ end }}

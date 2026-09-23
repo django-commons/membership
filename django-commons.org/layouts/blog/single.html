@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="wrap doc">
+  <header class="doc__header">
+    <p class="meta post__meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.author }} by {{ . }}{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="doc__lede">{{ . }}</p>{{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+    {{ with .Params.categories }}<p class="post__tags">{{ delimit . ", " }}</p>{{ end }}
+    <p class="doc__edit"><a href="https://github.com/django-commons/membership/edit/main/django-commons.org/content/{{ .File.Path }}" target="_blank" rel="noopener">Edit this post on GitHub</a></p>
+  </div>
+</article>
+{{ end }}

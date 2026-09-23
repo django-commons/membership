@@ -48,13 +48,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        The following is a list of actions that should be done when transferring a project to Django Commons. Please check off the items that you have completed. 
+        The following is a list of actions that will need to be done when transferring a project to Django Commons.
+        **Please don't start these until a Django Commons admin has approved the request and asked you to proceed.**
+        Doing them early (for example, transferring the repository before it has been added to the organization's
+        configuration) can cause extra work to untangle. An admin will walk you through them.
         If you have any questions, please reach out to the Django Commons admins.
   - type: checkboxes
     id: options
     attributes:
-      label: Please follow these steps prior to transferring the project to Django Commons
-      description: "These are entirely up to you and can be changed at a later time."
+      label: Steps to complete once an admin approves the transfer
+      description: "Leave these unchecked when opening the issue; check them off as you complete them with an admin."
       options:
         - label: |
             [readthedocs] Invite djangocommons@gmail.com to the [readthedocs project](https://readthedocs.org/) as a 
@@ -66,12 +69,14 @@ body:
             and [test-pypi](https://test.pypi.org/)
         - label: |
             [PyPI] Once the project is owned by a member of the Django Commons PyPI organization, the project can be 
-            transferred to the Django Commons PyPI organization from the org page [here][pypi-org].
+            transferred to the Django Commons PyPI organization from the [org page](https://pypi.org/manage/organization/django-commons/projects/).
         - label: |
             [PyPI] Review with the project owner the PyPI and Test PyPI project maintainers - consider removing any 
             inactive maintainers from the project.
         - label: |
-            [PyPI] Add the release workflow to the publishing configuration for the project.
+            [PyPI] Add the release workflow to the publishing configuration for the project. See the
+            [best practices repository](https://github.com/django-commons/best-practices/blob/main/docs/releases.md)
+            for an example [release workflow](https://github.com/django-commons/best-practices/blob/main/.github/workflows/release.yml).
 
   - type: input
     id: javascript-package-url
@@ -97,7 +102,6 @@ body:
           allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
           allow_update_branch = true # Allow updating source branch on pull requests
           
-          has_issues          = true # Enable issues in project's repository
           has_discussions     = false # Enable discussions in project's repository
           has_wiki            = false # Enable wiki in project's repository
           has_projects        = false # Enable projects in project's repository

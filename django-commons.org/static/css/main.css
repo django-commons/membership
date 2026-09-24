@@ -18,6 +18,7 @@
   --brand: #0c4b33;
   --on-brand: #ffffff;
   --spark: #44b78b;
+  --logo-ink: #0e2f21;
 
   --display: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
   --body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
@@ -40,6 +41,7 @@
   --brand: #44b78b;
   --on-brand: #06130d;
   --spark: #44b78b;
+  --logo-ink: #fcfcfc;
 }
 
 * { box-sizing: border-box; }
@@ -80,12 +82,13 @@ code, .mono { font-family: var(--mono); font-size: 0.9em; }
 }
 .site-header__inner {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: minmax(max-content, 1fr) auto minmax(max-content, 1fr);
   align-items: center;
   gap: var(--s5);
   height: var(--header);
 }
-.brand { display: flex; align-items: center; justify-self: start; }
+.brand { display: flex; align-items: center; gap: var(--s3); justify-self: start; color: var(--ink); text-decoration: none; }
+.brand__name { font: 700 1rem/1.08 var(--display); letter-spacing: -0.01em; white-space: nowrap; color: var(--logo-ink); position: relative; top: 1px; }
 .brand__mark { display: none; height: 48px; width: auto; }
 :root:not([data-theme="dark"]) .brand__mark--light { display: block; }
 :root[data-theme="dark"] .brand__mark--dark { display: block; }
@@ -435,6 +438,7 @@ code, .mono { font-family: var(--mono); font-size: 0.9em; }
 .site-footer__inner { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--s7); padding-block: var(--s8) var(--s7); }
 .site-footer__brand p { margin: var(--s4) 0 0; max-width: 20rem; color: var(--ink-2); font-size: 0.9375rem; }
 .site-footer__brand .brand__mark { height: 40px; }
+.site-footer__brand .brand__name { font-size: 0.95rem; }
 .site-footer__cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--s5); }
 .site-footer__col h3 { font: 500 0.75rem/1 var(--mono); color: var(--muted); margin: 0 0 var(--s4); letter-spacing: 0.02em; }
 .site-footer__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s2); }
@@ -449,6 +453,7 @@ code, .mono { font-family: var(--mono); font-size: 0.9em; }
   .site-header__inner { display: flex; }
   .brand { margin-right: auto; }
   .brand__mark { height: 34px; }
+  .brand__name { font-size: 0.85rem; }
   .nav-toggle { display: flex; }
   .site-nav {
     position: fixed;

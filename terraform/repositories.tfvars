@@ -1,8 +1,9 @@
 # Organization repositories
 repositories = {
   ".github" = {
-    description = "A Special Repository."
-
+    description = "The repository for managing Django Commons' organizational profile."
+    has_discussions        = false
+    has_issues             = false
     topics                 = []
     push_allowances        = []
     is_django_commons_repo = true
@@ -265,7 +266,7 @@ repositories = {
 
   "django-prometheus" = {
     description         = "Export Django monitoring metrics for Prometheus.io"
-    allow_auto_merge    = false
+    allow_auto_merge    = true
     allow_merge_commit  = true
     allow_rebase_merge  = true
     allow_squash_merge  = true

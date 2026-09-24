@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ site.Title }} | Community-maintained Django packages{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ site.Title }} | The home for open source Django packages{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
 <link rel="icon" href="/assets/logo/dc-icon-light.png">
 <link rel="canonical" href="{{ .Permalink }}">
@@ -11,8 +11,7 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:image" content="{{ "assets/django-commons-logo-full.png" | absURL }}">
 <meta name="twitter:card" content="summary">
-<link rel="preload" href="/fonts/bricolage-grotesque-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/public-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/instrument-sans-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/main.css?v={{ now.Unix }}">
 <script>
   (function () {

@@ -37,7 +37,6 @@
     var idle = ring.querySelector(".ring__idle");
     var detail = ring.querySelector(".ring__detail");
     var n = nodes.length;
-    var touch = window.matchMedia("(hover: none)").matches;
 
     function show(node) {
       nodes.forEach(function (x) { x.classList.toggle("is-active", x === node); });
@@ -46,7 +45,7 @@
       detail.querySelector(".ring__name").textContent = node.dataset.name;
       detail.querySelector(".ring__desc").textContent = node.dataset.desc;
       detail.querySelector(".ring__date").textContent = node.dataset.joined ? "Joined " + node.dataset.joined : "";
-      detail.querySelector(".ring__open").href = node.href;
+      detail.querySelector(".ring__open").href = node.dataset.url;
       detail.hidden = false;
       idle.style.opacity = 0;
     }
@@ -60,11 +59,11 @@
     nodes.forEach(function (node) {
       node.addEventListener("mouseenter", function () { show(node); });
       node.addEventListener("focus", function () { show(node); });
-      node.addEventListener("blur", clear);
-      if (touch) {
-        node.addEventListener("click", function (e) { e.preventDefault(); show(node); });
-      }
+      node.addEventListener("click", function () { show(node); });
     });
     ring.addEventListener("mouseleave", clear);
+    ring.addEventListener("focusout", function (e) {
+      if (!ring.contains(e.relatedTarget)) clear();
+    });
   }
 })();

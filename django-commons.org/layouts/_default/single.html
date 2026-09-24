@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $toc := and (not .Params.wide) (ge .WordCount 500) (ne .TableOfContents "") }}
-<article class="wrap doc{{ if $toc }} doc--toc{{ else }} doc--wide{{ end }}">
+<article class="wrap doc {{ if .Params.wide }}doc--wide{{ else if $toc }}doc--toc{{ else }}doc--prose{{ end }}">
   <header class="doc__header">
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="doc__lede">{{ . }}</p>{{ end }}

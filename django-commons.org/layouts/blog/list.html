@@ -5,13 +5,16 @@
     <div class="doc__lede">{{ .Content }}</div>
   </header>
   <ul class="blog-list">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range $i, $post := .Pages.ByDate.Reverse }}
     <li>
-      <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
-      <a href="{{ .RelPermalink }}">
-        <h2>{{ .Title }}</h2>
-        {{ with .Description }}<p>{{ . }}</p>{{ end }}
-        {{ with .Params.author }}<p class="meta">by {{ . }}</p>{{ end }}
+      <div class="blog-list__when">
+        <span class="meta">{{ $post.Date.Format "Jan 2, 2006" }}</span>
+        {{ if eq $i 0 }}<span class="pill">Latest</span>{{ end }}
+      </div>
+      <a href="{{ $post.RelPermalink }}">
+        <h2>{{ $post.Title }}</h2>
+        {{ with $post.Description }}<p>{{ . }}</p>{{ end }}
+        {{ with $post.Params.author }}<p class="meta">by {{ . }}</p>{{ end }}
       </a>
     </li>
     {{ end }}

@@ -17,8 +17,8 @@ The built site is published to https://github.com/django-commons/django-commons.
 3. Open http://localhost:1313.
 
 All Markdown content lives under [`content/`](content). Templates are in [`layouts/`](layouts),
-and the stylesheet/JS/static assets (including the Django Commons logo) are in
-[`static/`](static).
+the stylesheet and script are in [`assets/`](assets) (fingerprinted at build time), and static files
+(fonts, logo, `CNAME`) are in [`static/`](static).
 
 ### Adding a page
 

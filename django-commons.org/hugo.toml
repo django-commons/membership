@@ -4,14 +4,9 @@ title = "Django Commons"
 copyright = "Django Commons"
 
 enableRobotsTXT = true
-enableEmoji = true
-
-[pagination]
-  pagerSize = 10
 
 [params]
   description = "Django Commons is an organization dedicated to supporting the community's efforts to maintain packages."
-  githubOrg = "https://github.com/django-commons"
 
 [taxonomies]
   category = "categories"

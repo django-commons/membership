@@ -38,10 +38,14 @@ projects:
     joined: "2024-09-02"
     description: Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used
   - name: axe-selenium-python
+    joined: "2025-09-18"
     description: Integrate aXe and selenium to enable automated web accessibility testing
   - name: drf-haystack
+    joined: "2026-09-16"
     description: Haystack for Django REST Framework
   - name: django-polymorphic
+    joined: "2026-04-30"
     description: Improved Django model inheritance with automatic downcasting
   - name: django-unicorn
+    joined: "2026-02-13"
     description: The magical reactive component framework for Django

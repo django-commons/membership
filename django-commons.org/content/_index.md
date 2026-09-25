@@ -15,7 +15,7 @@ Django Commons has lofty goals for the future, but it will only be possible with
 - Support maintainers in getting funding for their work
 {{% /section %}}
 
-{{% section class="get-involved" title="Get involved" lede="Two ways in, depending on where your project is." %}}
+{{% section class="get-involved" title="Get involved" lede="Everyone is welcome to participate!" %}}
 {{% path title="Join as a contributor" open="true" %}}
 We have minimum requirements for people that are [available here](https://github.com/django-commons/membership/blob/main/member_requirements.md).
 
@@ -53,7 +53,7 @@ We have requirements for incoming projects that are [available here](https://git
 #### Per project
 
 - **Project Members**
-    - Dedicated to a specific repository. Grants GitHub's Triage permission for the repository.
+    - Can manage labels, assign and close issues. Grants GitHub's Triage permission for the repository.
     - Mention with `@django-commons/<project>`.
 - **Project Committers**
     - Can commit changes to main for a repository, but not publish releases. Grants GitHub's Maintain permission.

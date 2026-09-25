@@ -11,3 +11,4 @@ django-commons.org/public/
 django-commons.org/resources/
 django-commons.org/.hugo_build.lock
 .claude/
+.DS_Store

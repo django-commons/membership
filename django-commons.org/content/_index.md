@@ -15,7 +15,7 @@ Django Commons has lofty goals for the future, but it will only be possible with
 - Support maintainers in getting funding for their work
 {{% /section %}}
 
-{{% section class="get-involved" title="Get involved" lede="Three ways in, depending on where your project is." %}}
+{{% section class="get-involved" title="Get involved" lede="Two ways in, depending on where your project is." %}}
 {{% path title="Join as a contributor" open="true" %}}
 We have minimum requirements for people that are [available here](https://github.com/django-commons/membership/blob/main/member_requirements.md).
 
@@ -27,9 +27,6 @@ We have requirements for incoming projects that are [available here](https://git
 
 1. A person with the ability to transfer the project must join Django Commons (see [Join as a contributor](#join-as-a-contributor)).
 2. Create a [transfer project in issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
-{{% /path %}}
-{{% path title="Transfer a project out" %}}
-1. Create a [transfer project out issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
 {{% /path %}}
 {{% /section %}}
 

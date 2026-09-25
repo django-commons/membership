@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "django-commons.org/**"
+      - ".github/workflows/deploy-site.yml"
   workflow_dispatch: {}
 
 permissions:

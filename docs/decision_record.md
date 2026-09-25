@@ -12,6 +12,9 @@ purpose is to provide transparency and information to future administrators.
 
 ## Decisions
 
+- 2026-09-16: Publish admin meeting notes.
+  The admin team will publish their meeting notes with some redactions for privacy or
+  sensitive topics.
 - 2026-08-07: Adopt new project maintenance governance.
   This adds governance around managing projects that have gone dormant or are archived.
   The purpose of these changes are to allow us to accept dormant and archived projects, as
@@ -23,7 +26,7 @@ purpose is to provide transparency and information to future administrators.
   access.
 - 2025-11-21: Remove the Security team.
   There is little regular support from the team currently. The new process will be the
-  admins will be notified of a security advisory and then they can reach out to community 
+  admins will be notified of a security advisory and then they can reach out to community
   members based on the context of the issue.
 - 2025-10-10: Create "super admins" team.
   Create a "super admins" team for people with elevated permissions across GitHub and

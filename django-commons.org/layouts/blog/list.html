@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="wrap doc doc--wide">
+  <header class="doc__header">
+    <h1>{{ .Title }}</h1>
+    <div class="doc__lede">{{ .Content }}</div>
+  </header>
+  <ul class="blog-list">
+    {{ range $i, $post := .Pages.ByDate.Reverse }}
+    <li>
+      <div class="blog-list__when">
+        <span class="meta">{{ $post.Date.Format "Jan 2, 2006" }}</span>
+        {{ if eq $i 0 }}<span class="pill">Latest</span>{{ end }}
+      </div>
+      <a href="{{ $post.RelPermalink }}">
+        <h2>{{ $post.Title }}</h2>
+        {{ with $post.Description }}<p>{{ . }}</p>{{ end }}
+        {{ with $post.Params.author }}<p class="meta">by {{ . }}</p>{{ end }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

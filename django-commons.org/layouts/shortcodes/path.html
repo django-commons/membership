@@ -1,0 +1,3 @@
+<details class="path"{{ if .Get "open" }} open{{ end }} id="{{ .Get "title" | anchorize }}"><summary>{{ .Get "title" }}</summary><div class="path__body">
+{{ .Inner }}
+</div></details>

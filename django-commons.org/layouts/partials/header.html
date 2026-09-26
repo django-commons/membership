@@ -1,0 +1,41 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a href="/" class="brand" aria-label="Django Commons home">
+      <img class="brand__mark brand__mark--light" src="/assets/logo/icon-light.svg" alt="" width="50" height="48">
+      <img class="brand__mark brand__mark--dark" src="/assets/logo/icon-dark.svg" alt="" width="50" height="48">
+      <span class="brand__name">Django<br>Commons</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav">
+      <ul class="site-nav__list">
+        {{ range site.Menus.main }}
+        <li class="site-nav__item{{ if .HasChildren }} has-children{{ end }}">
+          {{ if .HasChildren }}
+          <button class="site-nav__link site-nav__link--parent" type="button" aria-expanded="false"><span>{{ .Name }}</span>{{ partial "icons/chevron.html" . }}</button>
+          <ul class="site-nav__submenu">
+            {{ range .Children }}
+            <li><a href="{{ .URL }}" class="site-nav__sublink">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <a href="{{ .URL }}" class="site-nav__link"><span>{{ .Name }}</span></a>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <div class="site-header__actions">
+      <a class="site-nav__github" href="https://github.com/django-commons" target="_blank" rel="noopener" aria-label="Django Commons on GitHub">
+        {{ partial "icons/github.html" . }}
+      </a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">
+        {{ partial "icons/sun.html" . }}
+        {{ partial "icons/moon.html" . }}
+      </button>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>

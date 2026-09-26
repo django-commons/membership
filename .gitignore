@@ -7,3 +7,8 @@ notes.txt
 tags
 django-commons.org/.cache/
 django-commons.org/site/
+django-commons.org/public/
+django-commons.org/resources/
+django-commons.org/.hugo_build.lock
+.claude/
+.DS_Store

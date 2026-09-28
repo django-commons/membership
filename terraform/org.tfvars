@@ -92,7 +92,6 @@ members = [
   "input",
   "Insaida",
   "jacklinke",
-  "jaehyuckSa",
   "JaeHyuckSa",
   "jburns6789",
   "jcjudkins",

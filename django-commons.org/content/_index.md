@@ -1,10 +1,12 @@
 ---
 title: "Django Commons"
-description: "Django Commons is an organization dedicated to supporting the community's efforts to maintain packages."
+description: "Django Commons is an organization dedicated to supporting the community's efforts to maintain Django packages."
 ---
 
 {{% section class="mission" %}}
-Django Commons is an organization dedicated to supporting the community's efforts to maintain packages. It seeks to improve the maintenance experience for all contributors; reducing the barrier to entry for new contributors and reducing overhead for existing maintainers.
+Django Commons is an organization dedicated to supporting the community's efforts to maintain Django packages.
+<br><br>
+It seeks to improve the maintenance experience for all contributors, reducing the barrier to entry for new contributors and the overhead for existing maintainers.
 
 Django Commons has lofty goals for the future, but it will only be possible with your help:
 

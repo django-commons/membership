@@ -6,7 +6,7 @@ copyright = "Django Commons"
 enableRobotsTXT = true
 
 [params]
-  description = "Django Commons is an organization dedicated to supporting the community's efforts to maintain packages."
+  description = "Django Commons is an organization dedicated to supporting the community's efforts to maintain Django packages."
 
 [taxonomies]
   category = "categories"

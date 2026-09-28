@@ -55,6 +55,7 @@ members = [
   "ayimdomnic",
   "bahoo",
   "blingblin-g",
+  "brianhelba",
   "browniebroke",
   "bryan-oginga",
   "camilonova",

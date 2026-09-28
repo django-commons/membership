@@ -89,6 +89,7 @@ members = [
   "Haroonhsa007",
   "Hopiu",
   "Horlawhumy-dev",
+  "immHarshitt",
   "input",
   "Insaida",
   "jacklinke",

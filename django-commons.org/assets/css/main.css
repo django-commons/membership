@@ -446,7 +446,14 @@ code, .mono { font-family: var(--mono); font-size: 0.9em; }
 .site-footer__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s2); }
 .site-footer__col a { color: var(--ink); text-decoration: none; font-size: 0.9375rem; }
 .site-footer__col a:hover { color: var(--brand); text-decoration: underline; }
-.site-footer__bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--s2); padding-block: var(--s5) var(--s6); border-top: 1px solid var(--line); font: 400 0.78rem/1.4 var(--mono); color: var(--muted); }
+.site-footer__bottom { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--s2); padding-block: var(--s5) var(--s6); border-top: 1px solid var(--line); font: 400 0.78rem/1.4 var(--mono); color: var(--muted); }
+.site-footer__bottom > :last-child { text-align: right; }
+.site-footer__bottom a { color: inherit; }
+@media (max-width: 760px) {
+  .site-footer__bottom { grid-template-columns: 1fr; justify-items: start; }
+  .site-footer__bottom > :last-child { text-align: left; }
+}
+.site-footer__bottom a:hover { color: var(--brand); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {

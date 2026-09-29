@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="wrap doc doc--wide">
+  <header class="doc__header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="prose">
+    {{ .Content }}
+    <table class="roster">
+      <thead><tr><th>Project</th><th>Joined</th><th>What it does</th></tr></thead>
+      <tbody>
+        {{ range hugo.Data.projects.projects }}
+        <tr>
+          <td><a href="https://github.com/django-commons/{{ .name }}" target="_blank" rel="noopener">{{ .name }}</a></td>
+          <td class="mono">{{ with .joined }}{{ (time .).Format "2006-01-02" }}{{ end }}</td>
+          <td class="roster__desc">{{ .description }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</article>
+{{ end }}

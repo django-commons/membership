@@ -4,7 +4,6 @@ admins = [
   "cunla",
   "Daksh777",
   "ryancheley",
-  "Stormheg",
   "TildaDares",
   "tim-schilling",
 ]
@@ -12,7 +11,6 @@ admins = [
 super_admins = [
   "cunla",
   "ryancheley",
-  "Stormheg",
   "tim-schilling",
 ]
 
@@ -157,6 +155,7 @@ members = [
   "sobolevn",
   "spapas",
   "stereodamage",
+  "Stormheg",
   "sureshvv",
   "testSchilling",
   "thibaudcolas",
@@ -181,13 +180,12 @@ organization_teams = {
   "Admins" = {
     description = "Django Commons administrators. This team is responsible for the overall management of the organization."
     # Use maintainers for organizational teams.
-    # This isn't required for admins, but is consistent. 
+    # This isn't required for admins, but is consistent.
     maintainers = [
       "bckohan",
       "cunla",
       "Daksh777",
       "ryancheley",
-      "Stormheg",
       "TildaDares",
       "tim-schilling",
     ]
@@ -200,7 +198,6 @@ organization_teams = {
     maintainers = [
       "cunla",
       "ryancheley",
-      "Stormheg",
       "tim-schilling",
     ]
   }

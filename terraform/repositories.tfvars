@@ -40,9 +40,7 @@ repositories = {
     admins = [
       "cunla",
       "ryancheley",
-      "Stormheg",
       "tim-schilling",
-      "williln",
     ]
     # People with GitHub maintain repo permissions
     committers = [

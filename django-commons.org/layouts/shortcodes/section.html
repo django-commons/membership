@@ -1,0 +1,3 @@
+<section class="band{{ with .Get "class" }} {{ . }}{{ end }}"{{ with .Get "id" }} id="{{ . }}"{{ end }}><div class="wrap band__grid">{{ with .Get "title" }}<div class="band__head"><h2>{{ . }}</h2>{{ with $.Get "lede" }}<p class="band__lede">{{ . }}</p>{{ end }}</div>{{ end }}<div class="band__body">
+{{ .Inner }}
+</div></div></section>

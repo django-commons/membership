@@ -1,0 +1,51 @@
+# Projects hosted by Django Commons. Newest first. `joined` is optional.
+# Rendered on the home page (ring + directory) and on /projects/.
+projects:
+  - name: django-valkey
+    joined: "2025-06-17"
+    description: BSD licensed, full featured Valkey cache and session backend for Django
+  - name: django-prometheus
+    joined: "2025-06-17"
+    description: Export Django monitoring metrics for Prometheus.io
+  - name: django-cookie-consent
+    joined: "2025-06-11"
+    description: Manage cookie information and let visitors give or reject consent for them
+  - name: django-simple-history
+    joined: "2025-06-11"
+    description: Stores Django model state on every create/update/delete
+  - name: django-enum
+    joined: "2025-04-18"
+    description: Full and natural support for enumerations as Django model fields
+  - name: django-click
+    joined: "2025-02-27"
+    description: Write Django management command using the click CLI library
+  - name: django-tailwind-cli
+    joined: "2024-10-29"
+    description: Django and Tailwind integration based on the prebuilt Tailwind CSS CLI
+  - name: django-debug-toolbar
+    joined: "2024-10-23"
+    description: A configurable set of panels that display various debug information about the current request/response
+  - name: drf-excel
+    joined: "2024-10-22"
+    description: An XLSX spreadsheet renderer for Django REST Framework
+  - name: django-typer
+    joined: "2024-10-07"
+    description: Use Typer (type hints) to define the interface for your Django management commands
+  - name: django-fsm-2
+    joined: "2024-09-02"
+    description: Django friendly finite state machine support
+  - name: django-tasks-scheduler
+    joined: "2024-09-02"
+    description: Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used
+  - name: axe-selenium-python
+    joined: "2025-09-18"
+    description: Integrate aXe and selenium to enable automated web accessibility testing
+  - name: drf-haystack
+    joined: "2026-09-16"
+    description: Haystack for Django REST Framework
+  - name: django-polymorphic
+    joined: "2026-04-30"
+    description: Improved Django model inheritance with automatic downcasting
+  - name: django-unicorn
+    joined: "2026-02-13"
+    description: The magical reactive component framework for Django

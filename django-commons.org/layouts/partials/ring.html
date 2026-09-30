@@ -1,0 +1,23 @@
+{{ $projects := hugo.Data.projects.projects }}
+{{ $n := len $projects }}
+<div class="ring" data-ring style="--n:{{ $n }}">
+  <div class="ring__rings" aria-hidden="true"><i></i><i></i></div>
+  <i class="ring__spoke" aria-hidden="true"></i>
+  <div class="ring__readout" aria-live="polite">
+    <div class="ring__idle">
+      <span class="ring__count">{{ $n }}</span>
+      <span class="ring__caption">projects, one home</span>
+    </div>
+    <div class="ring__detail" hidden>
+      <span class="ring__name"></span>
+      <span class="ring__desc"></span>
+      <span class="ring__date"></span>
+      <a class="ring__open" href="#" target="_blank" rel="noopener">Open repository</a>
+    </div>
+  </div>
+  <ul class="ring__nodes">
+    {{ range $i, $p := $projects }}
+    <li style="--i:{{ $i }}"><button type="button" class="ring__node" data-url="https://github.com/django-commons/{{ $p.name }}" data-i="{{ $i }}" data-name="{{ $p.name }}" data-desc="{{ $p.description }}"{{ with $p.joined }} data-joined="{{ (time .).Format "Jan 2006" }}"{{ end }}><span class="sr-only">{{ $p.name }}</span></button></li>
+    {{ end }}
+  </ul>
+</div>

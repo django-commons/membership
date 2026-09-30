@@ -4,7 +4,7 @@
 # dependencies = ["html2text", "pyyaml"]
 # ///
 """Convert Google Docs clipboard content to markdown, for pasting meeting
-notes into docs/blog/posts/meetings/.
+notes into django-commons.org/content/blog/posts/.
 
 Usage:
     1. In the Google Doc, select the content and copy it (Ctrl+C / Cmd+C).
@@ -13,8 +13,8 @@ Usage:
        just notes-to-md 2026-09-16
 
        This reads your clipboard's HTML, pipes it through this script, writes
-       docs/blog/posts/meetings/2026/2026-09-16-admins-meeting.md, and prints
-       the result.
+       django-commons.org/content/blog/posts/2026-09-16-admins-meeting.md,
+       and prints the result.
 
        See the justfile for the recipe.
 
@@ -23,8 +23,7 @@ Why: copying from Google Docs into a plain markdown file (or into Obsidian)
 loses structure - nested bullets flatten and hyperlinked text loses its
 link. This script reads the *HTML* version of what's on your clipboard
 (which Google Docs always includes) and converts it properly, including
-nesting depths beyond what mkdocs-material's markdown renderer would
-otherwise silently flatten.
+nesting depths beyond what a plain paste would otherwise silently flatten.
 """
 import datetime
 import re
@@ -35,11 +34,6 @@ import yaml
 
 # Fixed frontmatter fields for every admins meeting post.
 BLOG_TITLE_TEMPLATE = "Admins Meeting Notes: {date}"
-# The blog plugin builds each post's URL as {date}/{slug}, and the date
-# segment is already unique per meeting, so a fixed slug keeps URLs from
-# repeating the date twice (.../2026/09/16/admins-meeting/ instead of
-# .../2026/09/16/admins-meeting-notes-2026-09-16/).
-BLOG_SLUG = "admins-meeting"
 BLOG_DESCRIPTION = "The public meeting notes from the Django Commons admin team."
 BLOG_AUTHOR = "Django Commons Admins"
 BLOG_CATEGORIES = ["Meeting Notes"]
@@ -183,10 +177,9 @@ def tighten_lists(text: str) -> str:
 def reindent_lists(text: str, spaces_per_level: int = 4) -> str:
     """Re-indent nested markdown lists to 4 spaces/level.
 
-    html2text emits 2 spaces/level, which mkdocs-material's markdown
-    renderer (tab_length=4) silently flattens once nesting goes 4+
-    levels deep - the list *looks* fine in the .md file but renders
-    wrong on the site.
+    html2text emits 2 spaces/level, which some markdown renderers
+    silently flatten once nesting goes 4+ levels deep - the list
+    *looks* fine in the .md file but renders wrong on the site.
     """
     out = []
     for line in text.split("\n"):
@@ -232,7 +225,6 @@ def extract_frontmatter(md: str) -> str:
     if "date" in meta:
         ordered["date"] = meta["date"]
         ordered["title"] = _DoubleQuoted(BLOG_TITLE_TEMPLATE.format(date=meta["date"].isoformat()))
-        ordered["slug"] = BLOG_SLUG
         ordered["description"] = _DoubleQuoted(BLOG_DESCRIPTION)
         ordered["author"] = BLOG_AUTHOR
         ordered["categories"] = BLOG_CATEGORIES

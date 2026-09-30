@@ -1,7 +1,6 @@
 ---
 date: 2026-09-16
 title: "Admins Meeting Notes: 2026-09-16"
-slug: admins-meeting
 description: "The public meeting notes from the Django Commons admin team."
 author: Django Commons Admins
 categories:

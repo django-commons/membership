@@ -4,10 +4,7 @@
 notes-to-md date:
     #!/usr/bin/env bash
     set -euo pipefail
-    year="{{date}}"
-    year="${year%%-*}"
-    output="docs/blog/posts/meetings/${year}/{{date}}-admins-meeting.md"
-    mkdir -p "docs/blog/posts/meetings/${year}"
+    output="django-commons.org/content/blog/posts/{{date}}-admins-meeting.md"
     if [[ "$(uname -s)" == "Darwin" ]]; then
         pbpaste -Prefer html | uv run --script scripts/gdoc2md.py > "$output"
     elif [[ -n "${WAYLAND_DISPLAY:-}" ]]; then

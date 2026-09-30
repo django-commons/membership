@@ -1,0 +1,46 @@
+name: Deploy Hugo site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "django-commons.org/**"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout membership
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
+        with:
+          hugo-version: "0.166.0"
+          extended: true
+
+      - name: Build site
+        working-directory: django-commons.org
+        run: hugo --gc --minify
+
+      - name: Deploy to django-commons.github.io
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          external_repository: django-commons/django-commons.github.io
+          publish_branch: gh-pages
+          publish_dir: django-commons.org/public
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"

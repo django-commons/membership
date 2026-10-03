@@ -14,6 +14,9 @@ purpose is to provide transparency and information to future administrators.
 
 ## Decisions
 
+- 2026-09-16: Publish admin meeting notes.
+  The admin team will publish their meeting notes with some redactions for privacy or
+  sensitive topics.
 - 2026-08-07: Adopt new project maintenance governance.
   This adds governance around managing projects that have gone dormant or are archived.
   The purpose of these changes are to allow us to accept dormant and archived projects, as

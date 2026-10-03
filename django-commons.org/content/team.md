@@ -46,15 +46,6 @@ topics ranging from fixing ORM bugs to building better error culture.
 You can find out more about Ryan at his website [www.ryancheley.com](https://www.ryancheley.com).
 {{% /person %}}
 
-{{% person name="Storm Heg" years="2024 -" %}}
-Storm is a [Wagtail CMS](https://wagtail.org/) and Django contractor from The Netherlands 🇳🇱. He is involved in the
-Wagtail community as a member of the core team since 2021 and helps maintain several packages in
-the [Wagtail Nest](https://github.com/wagtail-nest/) organization, which has similar goals to Django Commons but for
-Wagtail. When he is not committing code or preparing a talk for a conference, he enjoys movies, tv shows and random
-YouTube deep dives on topics such as history or technology. Ask him about something random he learned recently when you
-see him!
-{{% /person %}}
-
 {{% person name="Tilda Udufo" years="2026 -" %}}
 Tilda is a software engineer and Developer Advocate with a background in open-source community building and mentorship.
 Through her work with Outreachy as a program organizer, she helped onboard and support dozens of mentoring organisations
@@ -80,6 +71,14 @@ You can find out more about Tim at his website [www.better-simple.com](https://w
 ## Past Admins
 
 
+{{% person name="Storm Heg" years="2024 - 2026" %}}
+Storm is a [Wagtail CMS](https://wagtail.org/) and Django contractor from The Netherlands 🇳🇱. He is involved in the
+Wagtail community as a member of the core team since 2021 and helps maintain several packages in
+the [Wagtail Nest](https://github.com/wagtail-nest/) organization, which has similar goals to Django Commons but for
+Wagtail. When he is not committing code or preparing a talk for a conference, he enjoys movies, tv shows and random
+YouTube deep dives on topics such as history or technology. Ask him about something random he learned recently when you
+see him!
+{{% /person %}}
 
 {{% person name="Lacey Henschel" years="2024 - 2026" %}}
 Lacey Henschel is a Python engineer at [REVSYS](https://revsys.com) and a longtime contributor to the Django community

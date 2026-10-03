@@ -31,7 +31,7 @@ apologies:
 - All: Review [the open issues](https://github.com/django-commons/controls/issues), see if anything should be closed or if there’s something of interest to you
 - [TBD]: Explore limited control for DNS records with django unicorn
 - [TBD]: Draft initial public notes and action
-- [TBD]: Draft message for the community around
+- [TBD]: Draft message for the community around policy changes
 
 ## Agenda
 

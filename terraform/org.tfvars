@@ -150,6 +150,7 @@ members = [
   "salty-ivy",
   "SamChawla",
   "sankarebarri",
+  "selinarajk",
   "sergei-maertens",
   "Shrikantgiri25",
   "sidmitra",

@@ -172,6 +172,7 @@ members = [
   "vinlawz",
   "Violette-Allotey",
   "viscofuse",
+  "Wasif-Shahzad",
   "whitebumblebee",
   "williln",
   "Zakui",

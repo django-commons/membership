@@ -119,6 +119,7 @@ members = [
   "manelclos",
   "marcosalvesdev",
   "matthiask",
+  "mattseymour",
   "mdehsan873",
   "mgrdcm",
   "mgstabrani",

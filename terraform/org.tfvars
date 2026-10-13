@@ -135,6 +135,7 @@ members = [
   "Natim",
   "Ndungu9039",
   "niltonpimentel02",
+  "nschlemm",
   "NubPlayz",
   "nwanduka",
   "okotdaniel",

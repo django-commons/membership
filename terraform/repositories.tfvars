@@ -114,6 +114,9 @@ repositories = {
       "dr-rompecabezas",
       "jmgutu",
       "JohananOppongAmoateng",
+      "mgstabrani",
+      "selinarajk",
+      "Wasif-Shahzad",
       "Zakui",
     ]
   }

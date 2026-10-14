@@ -70,12 +70,6 @@ enableRobotsTXT = true
 
 [[menu.main]]
   parent = "organization"
-  name = "Response Timeframes"
-  url = "/response-timeframes/"
-  weight = 50
-
-[[menu.main]]
-  parent = "organization"
   name = "Decision Record"
   url = "/decision_record/"
   weight = 60

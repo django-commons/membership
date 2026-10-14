@@ -1,5 +1,7 @@
 ---
 title: "Response Timeframes"
+aliases:
+  - /response-timeframes/
 ---
 
 The table below defines the timeframes in which we expect a maintainer to respond to a reported security vulnerability. For the purposes of 'responsiveness' an acknowledgement is sufficient. There isn't an expectation that a fix will be implemented within the time frames below.

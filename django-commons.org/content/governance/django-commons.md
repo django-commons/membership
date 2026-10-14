@@ -55,7 +55,7 @@ Responsibilities/tasks include:
 Out of scope responsibilities/tasks:
 
 - Maintaining projects. This is the responsibility of the maintainers of the projects themselves. However, admin team members are free to contribute to projects as they see fit. There is just no expectation that they do so. The exception is a project under [Commons Stewardship](/governance/project-maintenance/#commons-stewardship), where admins take on a deliberately limited caretaker role.
-- Yanking packages from PyPI - this should be done by project maintainers in coordination with the PyPI team. An exception is made when the project maintainer has not responded within the [response timeframes](/response-timeframes/).
+- Yanking packages from PyPI - this should be done by project maintainers in coordination with the PyPI team. An exception is made when the project maintainer has not responded within the [response timeframes](/governance/response-timeframes/).
 
 Qualifications for admin members (any of the following):
 

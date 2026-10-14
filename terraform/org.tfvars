@@ -141,6 +141,7 @@ members = [
   "okotdaniel",
   "oliverandrich",
   "ontowhee",
+  "palfrey",
   "pauloxnet",
   "peterthomassen",
   "pfouque",

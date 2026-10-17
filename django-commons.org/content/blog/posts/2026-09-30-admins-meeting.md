@@ -20,17 +20,17 @@ apologies:
 
 ## Actions
 
-- [ ] Brian: Add to Best Practices suggested guidelines for releasing support for updated versions of Django / Python (Brian)  
-- [ ] Brian: Look into ReadTheDocs domain hijacking for packages that don’t use RTD.  
-- [ ] Daksh: Update media page with Daksh’s lightning talk from EuroPython  
-- [x] ~~Tim: Draft public notes LLM action and initial~~   
-- [x] ~~Tim: Update best practices funding.yml [https\://github.com/django-commons/controls/issues/77](https://github.com/django-commons/controls/issues/77)~~   
-- [x] ~~Tim: Remove Storm’s remaining access~~  
-- [x] ~~All: Review [the open issues](https://github.com/django-commons/controls/issues), see if anything should be closed or if there’s something of interest to you~~  
-- [ ] \[TBD\]: Explore limited control for DNS records with django unicorn  
-- [ ] \[TBD\]: Draft message for the community around policy changes
+- Brian: Add to Best Practices suggested guidelines for releasing support for updated versions of Django / Python (Brian)  
+- Brian: Look into ReadTheDocs domain hijacking for packages that don’t use RTD.  
+- Daksh: Update media page with Daksh’s lightning talk from EuroPython  
+- ~~Tim: Draft public notes LLM action and initial~~   
+- ~~Tim: Update best practices funding.yml [https\://github.com/django-commons/controls/issues/77](https://github.com/django-commons/controls/issues/77)~~   
+- ~~Tim: Remove Storm’s remaining access~~  
+- ~~All: Review [the open issues](https://github.com/django-commons/controls/issues), see if anything should be closed or if there’s something of interest to you~~  
+- \[TBD\]: Explore limited control for DNS records with django unicorn  
+- \[TBD\]: Draft message for the community around policy changes
 
-      ## Agenda
+## Agenda
 
 * Thank you Daksh for changes to the website\!  
   * Brian to look into automating project list fetching  

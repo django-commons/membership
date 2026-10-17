@@ -18,6 +18,7 @@ super_admins = [
 designers = [
   "akshayvinchurkar",
   "Daksh777",
+  "FarkhadovSWE",
   "federicobond",
   "jmgutu",
   "johnatanmoran",
@@ -48,6 +49,7 @@ members = [
   "alex-dicko",
   "amirreza-sf80",
   "andoriyaprashant",
+  "andruten",
   "asherf",
   "Ashish8329",
   "atanioyinbunua",
@@ -76,6 +78,7 @@ members = [
   "elineda",
   "EliShteinman",
   "Faakhir30",
+  "FarkhadovSWE",
   "federicobond",
   "fladi",
   "FlipperPA",

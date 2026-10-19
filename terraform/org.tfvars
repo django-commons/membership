@@ -82,6 +82,7 @@ members = [
   "federicobond",
   "fladi",
   "FlipperPA",
+  "foarsitter",
   "forwardyoung",
   "Freed-Wu",
   "fsbraun",

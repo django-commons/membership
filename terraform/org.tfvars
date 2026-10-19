@@ -103,6 +103,7 @@ members = [
   "jmgutu",
   "jnovinger",
   "JohananOppongAmoateng",
+  "johanneswilm",
   "johnatanmoran",
   "johnfraney",
   "Josephchinedu",

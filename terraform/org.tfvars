@@ -118,6 +118,7 @@ members = [
   "kytta",
   "lander151",
   "leogregianin",
+  "lorenzomorandini",
   "louzt",
   "luiscontrerasdo",
   "M97Chahboun",

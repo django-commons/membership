@@ -64,6 +64,7 @@ members = [
   "Ceasar15",
   "cgl",
   "Chiemezuo",
+  "claudep",
   "clintonb",
   "codingjoe",
   "danmoz",

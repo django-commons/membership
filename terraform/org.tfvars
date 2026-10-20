@@ -59,6 +59,7 @@ members = [
   "brianhelba",
   "browniebroke",
   "bryan-oginga",
+  "brylie",
   "camilonova",
   "carltongibson",
   "Ceasar15",

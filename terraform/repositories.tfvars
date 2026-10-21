@@ -121,6 +121,33 @@ repositories = {
     ]
   }
 
+  "django-formtools" = {
+    description         = "A set of high-level abstractions for Django forms"
+    homepage_url        = "https://django-formtools.readthedocs.io"
+
+    # Different merge strategies can be enabled/disabled
+    allow_merge_commit  = true # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    has_projects        = false # Enable projects in project's repository
+    admins = [
+      # Include people who can release new versions
+      "claudep",
+    ]
+    committers = [
+      # Include people who can commit to main / merge changes
+      "pfouque"
+    ]
+    members = [
+      # Include people who can assign/triage tickets
+      "pfouque"
+    ]
+  }
+
   "django-fsm-2" = {
     description          = "Django friendly finite state machine support"
     homepage_url         = "https://github.com/django-commons/django-fsm-2"

@@ -86,6 +86,28 @@ repositories = {
     members = []
   }
 
+  "django-constance" = {
+    description                 = "Dynamic Django settings."
+    homepage_url                = "https://django-constance.readthedocs.io"
+
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "camilonova",
+      "jezdez",
+      "Mogost",
+      "Natim",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-debug-toolbar" = {
     description        = "A configurable set of panels that display various debug information about the current request/response."
     homepage_url       = "https://django-debug-toolbar.readthedocs.io"

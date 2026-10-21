@@ -123,7 +123,8 @@ repositories = {
 
   "django-formtools" = {
     description         = "A set of high-level abstractions for Django forms"
-  
+    homepage_url        = "https://django-formtools.readthedocs.io"
+
     # Different merge strategies can be enabled/disabled
     allow_merge_commit  = true # Allow merge commits on pull requests
     allow_rebase_merge  = true # Allow rebase and merge commits on pull requests

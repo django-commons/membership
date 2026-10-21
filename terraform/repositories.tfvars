@@ -314,6 +314,29 @@ repositories = {
     ]
   }
 
+  "django-hosts" = {
+    description         = "Dynamic and static host resolving for Django. Maps hostnames to URLconfs."
+    homepage_url        = "http://django-hosts.rtfd.org/"
+
+    # Different merge strategies can be enabled/disabled
+    allow_merge_commit  = true # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    
+    has_discussions     = true # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    has_projects        = true # Enable projects in project's repository
+    admins = [
+      "2ykwang",
+      "JaeHyuckSa",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-prometheus" = {
     description         = "Export Django monitoring metrics for Prometheus.io"
     allow_auto_merge    = true

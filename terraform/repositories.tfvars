@@ -86,6 +86,28 @@ repositories = {
     members = []
   }
 
+  "django-constance" = {
+    description                 = "Dynamic Django settings."
+    homepage_url                = "https://django-constance.readthedocs.io"
+
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "camilonova",
+      "jezdez",
+      "Mogost",
+      "Natim",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-debug-toolbar" = {
     description        = "A configurable set of panels that display various debug information about the current request/response."
     homepage_url       = "https://django-debug-toolbar.readthedocs.io"
@@ -118,6 +140,33 @@ repositories = {
       "selinarajk",
       "Wasif-Shahzad",
       "Zakui",
+    ]
+  }
+
+  "django-formtools" = {
+    description         = "A set of high-level abstractions for Django forms"
+    homepage_url        = "https://django-formtools.readthedocs.io"
+
+    # Different merge strategies can be enabled/disabled
+    allow_merge_commit  = true # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    has_projects        = false # Enable projects in project's repository
+    admins = [
+      # Include people who can release new versions
+      "claudep",
+    ]
+    committers = [
+      # Include people who can commit to main / merge changes
+      "pfouque"
+    ]
+    members = [
+      # Include people who can assign/triage tickets
+      "pfouque"
     ]
   }
 
@@ -262,6 +311,29 @@ repositories = {
     ]
     members = [
 
+    ]
+  }
+
+  "django-hosts" = {
+    description         = "Dynamic and static host resolving for Django. Maps hostnames to URLconfs."
+    homepage_url        = "http://django-hosts.rtfd.org/"
+
+    # Different merge strategies can be enabled/disabled
+    allow_merge_commit  = true # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    
+    has_discussions     = true # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    has_projects        = true # Enable projects in project's repository
+    admins = [
+      "2ykwang",
+      "JaeHyuckSa",
+    ]
+    committers = [
+    ]
+    members = [
     ]
   }
 

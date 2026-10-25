@@ -182,6 +182,26 @@ repositories = {
     ]
   }
 
+  "django-eav2" = {
+    description                 = "Django EAV 2 - EAV storage for modern Django"
+    homepage_url                = "https://django-eav2.readthedocs.io/"
+    topics                      = ["eav-model", "entity-attribute", "django-eav2", "django"]
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "Dresdn",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-formtools" = {
     description         = "A set of high-level abstractions for Django forms"
     homepage_url        = "https://django-formtools.readthedocs.io"

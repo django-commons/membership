@@ -71,6 +71,25 @@ repositories = {
     ]
   }
 
+  "django-axes" = {
+    description                 = "Keep track of failed login attempts in Django-powered sites."
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "aleksihakli",
+      "camilonova",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-tasks-scheduler" = {
     description        = "Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used."
     homepage_url       = "https://django-tasks-scheduler.readthedocs.io/"

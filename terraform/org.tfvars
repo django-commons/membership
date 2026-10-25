@@ -130,6 +130,7 @@ members = [
   "marcosalvesdev",
   "matthiask",
   "mattseymour",
+  "mbeijen",
   "mdehsan873",
   "mgrdcm",
   "mgstabrani",

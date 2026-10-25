@@ -417,6 +417,25 @@ repositories = {
     ]
   }
 
+  "django-widget-tweaks" = {
+    description                 = "Tweak the form field rendering in templates, not in python-level form definitions. CSS classes and HTML attributes can be altered."
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "aleksihakli",
+      "camilonova",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "axe-selenium-python" = {
     description         = "Automated web accessibility testing with Axe and Selenium"
     allow_merge_commit  = false

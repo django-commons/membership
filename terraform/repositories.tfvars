@@ -602,7 +602,7 @@ repositories = {
     has_discussions        = false
     has_projects           = false
     has_wiki               = false
-    delete_branch_on_merge = true
+    delete_branch_on_merge = false
 
     admins = [
       "borgstrom",

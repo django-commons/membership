@@ -70,6 +70,7 @@ members = [
   "clintonb",
   "codingjoe",
   "danmoz",
+  "davidt",
   "DavidVadnais",
   "ddabble",
   "deronnax",

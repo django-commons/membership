@@ -561,4 +561,55 @@ repositories = {
     members = [
     ]
   }
+
+  "django-rest-knox" = {
+    description  = "Authentication Module for django rest auth"
+    homepage_url = "http://django-commons.org/django-rest-knox/"
+
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    has_projects        = false
+    has_wiki            = false
+
+    # Docs are published from the gh-pages branch
+    pages = {
+      build_type = "legacy"
+      source = {
+        branch = "gh-pages"
+        path   = "/"
+      }
+    }
+
+    admins = [
+      "giovannicimolin",
+    ]
+    committers = []
+    members    = []
+  }
+
+  "django-simple-menu" = {
+    description = "Simple, yet powerful, code-based menus for Django applications"
+    topics      = ["django", "menu"]
+
+    allow_merge_commit  = false
+    allow_rebase_merge  = false
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    has_projects        = false
+    has_wiki            = false
+
+    admins = [
+      "borgstrom",
+      "kytta",
+      "mbeijen",
+    ]
+    committers = []
+    members = [
+      "pdessauw",
+    ]
+  }
 }

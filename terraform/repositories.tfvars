@@ -1,7 +1,7 @@
 # Organization repositories
 repositories = {
   ".github" = {
-    description = "The repository for managing Django Commons' organizational profile."
+    description            = "The repository for managing Django Commons' organizational profile."
     has_discussions        = false
     has_issues             = false
     topics                 = []
@@ -52,13 +52,13 @@ repositories = {
   }
 
   "django-auditlog" = {
-    description         = "A Django app that keeps a log of changes made to an object."
+    description = "A Django app that keeps a log of changes made to an object."
 
-    allow_merge_commit  = true # Allow merge commits on pull requests
-    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch = true # Allow updating source branch on pull requests
-    has_discussions     = true # Enable discussions in project's repository
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = true  # Enable discussions in project's repository
     has_wiki            = false # Enable wiki in project's repository
     has_projects        = true
     admins = [
@@ -72,14 +72,14 @@ repositories = {
   }
 
   "django-axes" = {
-    description                 = "Keep track of failed login attempts in Django-powered sites."
-  
-    allow_merge_commit          = true # Allow merge commits on pull requests
-    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch         = true # Allow updating source branch on pull requests
-    has_discussions             = false # Enable discussions in project's repository
-    has_wiki                    = false # Enable wiki in project's repository
+    description = "Keep track of failed login attempts in Django-powered sites."
+
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
     admins = [
       "aleksihakli",
       "camilonova",
@@ -126,15 +126,15 @@ repositories = {
   }
 
   "django-constance" = {
-    description                 = "Dynamic Django settings."
-    homepage_url                = "https://django-constance.readthedocs.io"
+    description  = "Dynamic Django settings."
+    homepage_url = "https://django-constance.readthedocs.io"
 
-    allow_merge_commit          = true # Allow merge commits on pull requests
-    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch         = true # Allow updating source branch on pull requests
-    has_discussions             = false # Enable discussions in project's repository
-    has_wiki                    = false # Enable wiki in project's repository
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
     admins = [
       "camilonova",
       "jezdez",
@@ -183,16 +183,16 @@ repositories = {
   }
 
   "django-eav2" = {
-    description                 = "Django EAV 2 - EAV storage for modern Django"
-    homepage_url                = "https://django-eav2.readthedocs.io/"
-    topics                      = ["eav-model", "entity-attribute", "django-eav2", "django"]
-  
-    allow_merge_commit          = true # Allow merge commits on pull requests
-    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch         = true # Allow updating source branch on pull requests
-    has_discussions             = false # Enable discussions in project's repository
-    has_wiki                    = false # Enable wiki in project's repository
+    description  = "Add custom fields to any Django model at runtime: validated, filterable with the ORM, and no schema changes."
+    homepage_url = "https://django-eav2.readthedocs.io/"
+    topics       = ["custom-fields", "eav", "python", "eav-model", "entity-attribute", "django-eav2", "django"]
+
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
     admins = [
       "Dresdn",
     ]
@@ -203,18 +203,18 @@ repositories = {
   }
 
   "django-formtools" = {
-    description         = "A set of high-level abstractions for Django forms"
-    homepage_url        = "https://django-formtools.readthedocs.io"
+    description  = "A set of high-level abstractions for Django forms"
+    homepage_url = "https://django-formtools.readthedocs.io"
 
     # Different merge strategies can be enabled/disabled
     allow_merge_commit  = true # Allow merge commits on pull requests
     allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
     allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
     allow_update_branch = true # Allow updating source branch on pull requests
-    
-    has_discussions     = false # Enable discussions in project's repository
-    has_wiki            = false # Enable wiki in project's repository
-    has_projects        = false # Enable projects in project's repository
+
+    has_discussions = false # Enable discussions in project's repository
+    has_wiki        = false # Enable wiki in project's repository
+    has_projects    = false # Enable projects in project's repository
     admins = [
       # Include people who can release new versions
       "claudep",
@@ -374,18 +374,18 @@ repositories = {
   }
 
   "django-hosts" = {
-    description         = "Dynamic and static host resolving for Django. Maps hostnames to URLconfs."
-    homepage_url        = "http://django-hosts.rtfd.org/"
+    description  = "Dynamic and static host resolving for Django. Maps hostnames to URLconfs."
+    homepage_url = "http://django-hosts.rtfd.org/"
 
     # Different merge strategies can be enabled/disabled
     allow_merge_commit  = true # Allow merge commits on pull requests
     allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
     allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
     allow_update_branch = true # Allow updating source branch on pull requests
-    
-    has_discussions     = true # Enable discussions in project's repository
-    has_wiki            = false # Enable wiki in project's repository
-    has_projects        = true # Enable projects in project's repository
+
+    has_discussions = true  # Enable discussions in project's repository
+    has_wiki        = false # Enable wiki in project's repository
+    has_projects    = true  # Enable projects in project's repository
     admins = [
       "2ykwang",
       "JaeHyuckSa",
@@ -438,14 +438,14 @@ repositories = {
   }
 
   "django-widget-tweaks" = {
-    description                 = "Tweak the form field rendering in templates, not in python-level form definitions. CSS classes and HTML attributes can be altered."
-  
-    allow_merge_commit          = true # Allow merge commits on pull requests
-    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
-    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
-    allow_update_branch         = true # Allow updating source branch on pull requests
-    has_discussions             = false # Enable discussions in project's repository
-    has_wiki                    = false # Enable wiki in project's repository
+    description = "Tweak the form field rendering in templates, not in python-level form definitions. CSS classes and HTML attributes can be altered."
+
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
     admins = [
       "aleksihakli",
       "camilonova",

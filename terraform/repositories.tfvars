@@ -575,6 +575,15 @@ repositories = {
     has_wiki               = true
     delete_branch_on_merge = false
 
+   # Docs are published from the gh-pages branch
+    pages = {
+      build_type = "legacy"
+      source = {
+        branch = "gh-pages"
+        path   = "/"
+      }
+    }
+
     admins = [
       "giovannicimolin",
     ]

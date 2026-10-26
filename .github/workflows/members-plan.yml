@@ -12,7 +12,8 @@ on:
 permissions: {}
 
 concurrency:
-  group: terraform-actions-members
+  group: terraform-actions-members-${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
   format-terraform-code:

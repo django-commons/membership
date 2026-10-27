@@ -566,8 +566,8 @@ repositories = {
     description = "Simple, yet powerful, code-based menus for Django applications"
     topics      = ["django", "menu"]
 
-    allow_merge_commit     = true
-    allow_rebase_merge     = true
+    allow_merge_commit     = false
+    allow_rebase_merge     = false
     allow_squash_merge     = true
     allow_update_branch    = false
     has_discussions        = false

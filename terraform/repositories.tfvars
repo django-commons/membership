@@ -185,7 +185,7 @@ repositories = {
   "django-eav2" = {
     description  = "Add custom fields to any Django model at runtime: validated, filterable with the ORM, and no schema changes."
     homepage_url = "https://django-eav2.readthedocs.io/"
-    topics       = ["custom-fields", "eav", "python", "eav-model", "entity-attribute", "django-eav2", "django"]
+    topics       = ["custom-fields", "eav", "python", "eav-model", "entity-attribute", "django-eav2", "django", ]
 
     allow_merge_commit  = true  # Allow merge commits on pull requests
     allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
@@ -584,5 +584,34 @@ repositories = {
     members = [
       "pdessauw",
     ]
+  }
+
+  "django-rest-knox" = {
+    description  = "Authentication Module for django rest auth"
+    homepage_url = "http://django-commons.org/django-rest-knox/"
+
+    allow_merge_commit     = true
+    allow_rebase_merge     = true
+    allow_squash_merge     = true
+    allow_update_branch    = true
+    has_discussions        = false
+    has_projects           = true
+    has_wiki               = true
+    delete_branch_on_merge = false
+
+   # Docs are published from the gh-pages branch
+    pages = {
+      build_type = "legacy"
+      source = {
+        branch = "gh-pages"
+        path   = "/"
+      }
+    }
+
+    admins = [
+      "giovannicimolin",
+    ]
+    committers = []
+    members    = []
   }
 }

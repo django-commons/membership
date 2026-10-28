@@ -96,6 +96,7 @@ members = [
   "gav-fyi",
   "giovannicimolin",
   "Haroonhsa007",
+  "HashimJVZ",
   "Hopiu",
   "Horlawhumy-dev",
   "immHarshitt",

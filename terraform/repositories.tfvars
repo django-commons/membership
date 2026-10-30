@@ -416,6 +416,25 @@ repositories = {
     ]
   }
 
+  "django-smart-selects" = {
+    description                 = "chained and grouped selects for django forms"
+    homepage_url                = "https://django-smart-selects.readthedocs.io/"
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "manelclos",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-valkey" = {
     description            = "a Valkey backend for django"
     homepage_url           = "https://django-valkey.readthedocs.io/en/latest/"

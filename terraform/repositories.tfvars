@@ -68,6 +68,7 @@ repositories = {
     committers = [
     ]
     members = [
+      "codingjoe",
     ]
   }
 

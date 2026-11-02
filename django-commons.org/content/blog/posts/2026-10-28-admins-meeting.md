@@ -11,7 +11,7 @@ attendees:
   - Ryan Cheley
   - Tim Schilling
   - Brian Kohan
-  - Tilda
+  - Tilda Udufo
 apologies:
   - Daksh P. Jain
   - Daniel Moran

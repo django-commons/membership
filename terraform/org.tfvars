@@ -105,6 +105,7 @@ members = [
   "Insaida",
   "jacklinke",
   "JaeHyuckSa",
+  "jamaalscarlett",
   "jburns6789",
   "jcjudkins",
   "jezdez",

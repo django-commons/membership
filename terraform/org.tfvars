@@ -62,6 +62,7 @@ members = [
   "bryan-oginga",
   "brylie",
   "camilonova",
+  "CarliJoy",
   "carltongibson",
   "Ceasar15",
   "cgl",

@@ -51,6 +51,27 @@ repositories = {
     ]
   }
 
+  "dj-database-url" = {
+    description                 = "Use Database URLs in your Django Application."
+    homepage_url                = "https://pypi.org/project/dj-database-url/"
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "mattseymour",
+      "palfrey",
+    ]
+    committers = [
+    ]
+    members = [
+      "codingjoe",
+    ]
+  }
+
   "django-auditlog" = {
     description = "A Django app that keeps a log of changes made to an object."
 
@@ -409,6 +430,44 @@ repositories = {
     has_wiki        = false
     admins = [
       "asherf",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
+  "django-robots" = {
+    description  = "A Django app for managing robots.txt files following the robots exclusion protocol"
+    homepage_url = "https://django-robots.readthedocs.io"
+
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    admins = [
+      "mattseymour",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
+  "django-smart-selects" = {
+    description                 = "chained and grouped selects for django forms"
+    homepage_url                = "https://django-smart-selects.readthedocs.io/"
+
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "manelclos",
     ]
     committers = [
     ]

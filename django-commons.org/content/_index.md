@@ -25,7 +25,7 @@ We have minimum requirements for people that are [available here](https://github
 2. Create a [new member issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
 {{% /path %}}
 {{% path title="Transfer a project in" %}}
-We have requirements for incoming projects that are [available here](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md).
+We have requirements for incoming projects that are [available here](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md). Dormant and archived projects are welcome too, see [Policy changes for better community maintenance](/blog/posts/2026-10-14-policy-changes-for-better-community-maintenance/).
 
 1. A person with the ability to transfer the project must join Django Commons (see [Join as a contributor](#join-as-a-contributor)).
 2. Create a [transfer project in issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).

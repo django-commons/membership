@@ -1,0 +1,58 @@
+name: "Move Waiting issues to In progress on comment"
+
+on:
+  # No checkout or code execution; event data only reaches the script via env.
+  issue_comment:  # zizmor: ignore[dangerous-triggers]
+    types: [created]
+
+permissions: {}
+
+jobs:
+  move:
+    if: ${{ !github.event.issue.pull_request && github.event.comment.user.type != 'Bot' }}
+    name: "Move to In progress"
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ secrets.PROJECT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.PROJECT_APP_PRIVATE_KEY }}
+          owner: django-commons
+          repositories: membership
+          permission-issues: read
+          permission-members: read
+          permission-organization-projects: write
+
+      - name: Move to In progress if commenter is not on the admins team
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          COMMENTER: ${{ github.event.comment.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          state=$(gh api "orgs/django-commons/teams/admins/memberships/$COMMENTER" --jq .state 2>/dev/null || echo none)
+          [ "$state" = "active" ] && { echo "Admins team comment, skipping"; exit 0; }
+
+          item=$(gh api graphql -F num="$ISSUE_NUMBER" -f repo="$REPO" -f query='
+            query($repo:String!, $num:Int!) {
+              repository(owner:"django-commons", name:$repo) {
+                issue(number:$num) {
+                  projectItems(first:20) {
+                    nodes { id project { number }
+                      fieldValueByName(name:"Status") { ... on ProjectV2ItemFieldSingleSelectValue { name } } }
+                  }
+                }
+              }
+            }' --jq '.data.repository.issue.projectItems.nodes[]
+                     | select(.project.number == 8 and .fieldValueByName.name == "Waiting") | .id')
+
+          [ -z "$item" ] && { echo "Not in Waiting, skipping"; exit 0; }
+
+          # Project 8 "Jazzband Inbound Project Board", Status field -> "In progress"
+          gh project item-edit --id "$item" \
+            --project-id PVT_kwDOCaaRBM4BpmYd \
+            --field-id PVTSSF_lADOCaaRBM4BpmYdzhoBRYU \
+            --single-select-option-id 47fc9ee4

@@ -67,6 +67,7 @@ members = [
   "Ceasar15",
   "cgl",
   "Chiemezuo",
+  "chipx86",
   "claudep",
   "clintonb",
   "codingjoe",

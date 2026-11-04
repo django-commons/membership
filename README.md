@@ -17,7 +17,7 @@ possible with your help:
 
 ## How to join as a contributor?
 
-1. Review [Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md) 
+1. Review [Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)
 2. Create a [new member issue in the django-commons/membership repository](https://github.com/django-commons/membership/issues/new/choose).
 
 ## How to transfer a project in?
@@ -86,7 +86,7 @@ maintained. If you're interested in working on a specific project, go get to wor
 
 ### Do we allow all packages or just Django-adjacent?
 
-Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically. 
+Any package is welcome to join Django Commons so long as it has tangible benefits to the Django Community at large and the package benefits from being part of Django Commons OR it is about Django Specifically.
 
 ## Django Commons Content
 
@@ -102,6 +102,35 @@ Any package is welcome to join Django Commons so long as it has tangible benefit
   A lightning talk from DjangoCon US 2024 introducing Django Commons.
 - ["Django Commons - A home for community-maintained Django packages"](https://www.better-simple.com/django/2024/05/22/looking-for-help-django-commons/) by [Tim Schilling](https://github.com/tim-schilling/):
   A call for help to start Django Commons.
+
+## Project board GitHub App
+
+The [`waiting-to-in-progress.yml`](.github/workflows/waiting-to-in-progress.yml) workflow
+uses a GitHub App to move issues on the Jazzband Inbound Project Board. The default
+`GITHUB_TOKEN` can't access organization projects. An org owner creates the app once:
+
+1. Go to **django-commons org → Settings → Developer settings → GitHub Apps → New GitHub App**
+   (`https://github.com/organizations/django-commons/settings/apps/new`).
+2. Fill in:
+   - **GitHub App name**: e.g. `django-commons-project-bot`
+   - **Homepage URL**: `https://github.com/django-commons/membership`
+   - **Webhook**: uncheck **Active**
+3. Under **Permissions**, set:
+   - **Repository → Issues**: Read-only
+   - **Organization → Members**: Read-only
+   - **Organization → Projects**: Read and write
+4. **Where can this GitHub App be installed?**: Only on this account. Click **Create GitHub App**.
+5. On the app's page, copy the **Client ID**. Then under **Private keys**, click
+   **Generate a private key** to download a `.pem` file.
+6. Click **Install App** → install on `django-commons` → **Only select repositories** → `membership`.
+7. In **membership → Settings → Secrets and variables → Actions**, add two repository secrets:
+   - `PROJECT_APP_CLIENT_ID`: the Client ID from step 5
+   - `PROJECT_APP_PRIVATE_KEY`: the full contents of the `.pem` file
+
+   Delete the local `.pem` file once you've saved it as a secret.
+
+If you change the permissions later, an org owner has to accept the updated
+permissions on the installation before they take effect.
 
 ## Credits
 

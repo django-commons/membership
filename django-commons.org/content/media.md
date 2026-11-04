@@ -7,6 +7,8 @@ Below is a collection of Django Commons content. They may be blog posts, videos 
 - ["Behind the Commit"](https://www.youtube.com/watch?v=IbWrIhW3iZw) interview with [Daniel Moran](https://github.com/cunla)
 - ["#466: PSF Lands $1.5 million"](https://pythonbytes.fm/episodes/show/466/psf-lands-1.5-million) by [PythonBytes](https://pythonbytes.fm):
   Brian Okken and Michael Kennedy review a [blog post](https://www.revsys.com/tidbits/better-django-management-commands-with-django-click-and-django-typer/) discussing [django-click](https://github.com/django-commons/django-click) and [django-typer](https://github.com/django-commons/django-typer) from Lacey and mention they are supported by Django Commons.
+- ["Your Package Deserves a Backup Plan"](https://www.youtube.com/watch?v=cNkCy7a41xQ&t=2107s) by [Daksh P. Jain](https://daksh.design):
+  A lightning talk from EuroPython on what Django Commons is.
 - [Django Commons YouTube](https://www.youtube.com/@djangocommons)
 - [Django Tasks Scheduler project overview with Daniel Moran](https://www.youtube.com/watch?v=Brfavid_fxw) [Daniel Moran](https://github.com/cunla) provides an introduction of django-tasks-scheduler to Ryan Cheley and Tim Schilling.
 - [Django Brew Episode 4: Spoiler Alert: DjangoCon US Recap, Open Source Maintenance, and Other Spooky Stories](https://djangobrew.com/episodes/16285007-episode-4-spoiler-alert-djangocon-us-recap-open-source-maintenance-and-other-spooky-stories)

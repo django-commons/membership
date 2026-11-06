@@ -40,6 +40,7 @@ designers = [
 # Organization members
 members = [
   "2ykwang",
+  "50-Course",
   "aayardev",
   "adamghill",
   "adRn-s",

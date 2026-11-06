@@ -259,7 +259,7 @@ repositories = {
     allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
     allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
     allow_update_branch = true  # Allow updating source branch on pull requests
-    has_discussions     = false # Enable discussions in project's repository
+    has_discussions     = true # Enable discussions in project's repository
     has_wiki            = false # Enable wiki in project's repository
     admins = [
       "lorenzomorandini",

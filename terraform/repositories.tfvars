@@ -496,6 +496,28 @@ repositories = {
     ]
   }
 
+  "django-sortedm2m" = {
+    description = "A transparent sorted ManyToMany field for django."
+    homepage_url = "https://pypi.org/project/django-sortedm2m/"
+  
+    allow_auto_merge       = false
+    allow_merge_commit = false # Allow merge commits on pull requests
+    allow_rebase_merge = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    delete_branch_on_merge = false
+    has_discussions = false # Enable discussions in project's repository
+    has_wiki = false # Enable wiki in project's repository
+  
+    admins = [
+      "clintonb",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-valkey" = {
     description            = "a Valkey backend for django"
     homepage_url           = "https://django-valkey.readthedocs.io/en/latest/"

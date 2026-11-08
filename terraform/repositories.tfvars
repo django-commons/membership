@@ -250,6 +250,27 @@ repositories = {
     ]
   }
 
+  "django-fsm-log" = {
+    description  = "Automatic logging for Django FSM"
+    homepage_url = "https://django-fsm-log.readthedocs.io/en/latest/"
+    topics       = ["django-fsm", "django", "python"]
+
+    allow_merge_commit  = true  # Allow merge commits on pull requests
+    allow_rebase_merge  = true  # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true  # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true  # Allow updating source branch on pull requests
+    has_discussions     = true # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    admins = [
+      "lorenzomorandini",
+      "ticosax",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-fsm-2" = {
     description          = "Django friendly finite state machine support"
     homepage_url         = "https://github.com/django-commons/django-fsm-2"
@@ -468,6 +489,28 @@ repositories = {
     has_wiki                    = false # Enable wiki in project's repository
     admins = [
       "manelclos",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
+  "django-sortedm2m" = {
+    description = "A transparent sorted ManyToMany field for django."
+    homepage_url = "https://pypi.org/project/django-sortedm2m/"
+  
+    allow_auto_merge       = false
+    allow_merge_commit = false # Allow merge commits on pull requests
+    allow_rebase_merge = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    delete_branch_on_merge = false
+    has_discussions = false # Enable discussions in project's repository
+    has_wiki = false # Enable wiki in project's repository
+  
+    admins = [
+      "clintonb",
     ]
     committers = [
     ]

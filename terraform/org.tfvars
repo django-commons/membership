@@ -40,6 +40,7 @@ designers = [
 # Organization members
 members = [
   "2ykwang",
+  "50-Course",
   "aayardev",
   "adamghill",
   "adRn-s",
@@ -67,6 +68,7 @@ members = [
   "Ceasar15",
   "cgl",
   "Chiemezuo",
+  "chipx86",
   "claudep",
   "clintonb",
   "codingjoe",
@@ -165,6 +167,7 @@ members = [
   "RealOrangeOne",
   "riconnon",
   "rptmat57",
+  "rtpg",
   "SaeedRz96",
   "salty-ivy",
   "SamChawla",

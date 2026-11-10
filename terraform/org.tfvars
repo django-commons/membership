@@ -164,6 +164,7 @@ members = [
   "peterthomassen",
   "pfouque",
   "priyapahwa",
+  "radomir-mijovic",
   "RealOrangeOne",
   "riconnon",
   "rptmat57",

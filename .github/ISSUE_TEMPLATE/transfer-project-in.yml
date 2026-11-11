@@ -31,10 +31,10 @@ body:
       label: Checklist for project maintainer before transfer
       description: "[Review the incoming repo requirements for details.](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md)"
       options:
-        - label: Can you transfer the repo to django-commons, i.e., are you an admin on the repo?
         - label: >
             Are all project maintainers members of the Django Commons organization?
             (if not, [open an issue to add them as members](https://github.com/django-commons/membership/issues/new?template=new-member.yml))
+        - label: Can you transfer the repo to django-commons, i.e., are you an admin on the repo?
         - label: Does the project have tests?
         - label: Does the project have documentation?
         - label: Has the project adopted [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)?

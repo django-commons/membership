@@ -1,6 +1,60 @@
 # Projects hosted by Django Commons. Newest first. `joined` is optional.
 # Rendered on the home page (ring + directory) and on /projects/.
 projects:
+  - name: django-sortedm2m
+    joined: "2026-11-07"
+    description: A transparent sorted ManyToMany field for Django
+  - name: django-fsm-log
+    joined: "2026-11-05"
+    description: Automatic logging for Django FSM
+  - name: django-robots
+    joined: "2026-10-30"
+    description: A Django app for managing robots.txt files following the robots exclusion protocol
+  - name: dj-database-url
+    joined: "2026-10-30"
+    description: Use Database URLs in your Django application
+  - name: django-smart-selects
+    joined: "2026-10-30"
+    description: Chained and grouped selects for Django forms
+  - name: django-rest-knox
+    joined: "2026-10-27"
+    description: Authentication module for Django REST Framework
+  - name: django-simple-menu
+    joined: "2026-10-27"
+    description: Simple, yet powerful, code-based menus for Django applications
+  - name: django-eav2
+    joined: "2026-10-24"
+    description: "Add custom fields to any Django model at runtime: validated, filterable with the ORM, and no schema changes"
+  - name: django-widget-tweaks
+    joined: "2026-10-24"
+    description: Tweak form field rendering (CSS classes and HTML attributes) in templates, not in Python-level form definitions
+  - name: django-axes
+    joined: "2026-10-24"
+    description: Keep track of failed login attempts in Django-powered sites
+  - name: django-auditlog
+    joined: "2026-10-21"
+    description: A Django app that keeps a log of changes made to an object
+  - name: django-hosts
+    joined: "2026-10-21"
+    description: Dynamic and static host resolving for Django. Maps hostnames to URLconfs
+  - name: django-constance
+    joined: "2026-10-21"
+    description: Dynamic Django settings
+  - name: django-formtools
+    joined: "2026-10-21"
+    description: A set of high-level abstractions for Django forms
+  - name: drf-haystack
+    joined: "2026-09-16"
+    description: Haystack for Django REST Framework
+  - name: django-polymorphic
+    joined: "2026-04-30"
+    description: Improved Django model inheritance with automatic downcasting
+  - name: django-unicorn
+    joined: "2026-02-13"
+    description: The magical reactive component framework for Django
+  - name: axe-selenium-python
+    joined: "2025-09-18"
+    description: Integrate aXe and selenium to enable automated web accessibility testing
   - name: django-valkey
     joined: "2025-06-17"
     description: BSD licensed, full featured Valkey cache and session backend for Django
@@ -37,15 +91,3 @@ projects:
   - name: django-tasks-scheduler
     joined: "2024-09-02"
     description: Schedule async tasks using redis protocol. Redis/ValKey/Dragonfly or any broker using the redis protocol can be used
-  - name: axe-selenium-python
-    joined: "2025-09-18"
-    description: Integrate aXe and selenium to enable automated web accessibility testing
-  - name: drf-haystack
-    joined: "2026-09-16"
-    description: Haystack for Django REST Framework
-  - name: django-polymorphic
-    joined: "2026-04-30"
-    description: Improved Django model inheritance with automatic downcasting
-  - name: django-unicorn
-    joined: "2026-02-13"
-    description: The magical reactive component framework for Django

@@ -28,17 +28,16 @@ body:
   - type: checkboxes
     id: transfer-checklist
     attributes:
-      label: Does the project have the required attributes?
+      label: Checklist for project maintainer before transfer
       description: "[Review the incoming repo requirements for details.](https://github.com/django-commons/membership/blob/main/incoming_repo_requirements.md)"
       options:
-        - label: Are you a member of the Django Commons organization? (if not, [open an issue to add yourself as a member](https://github.com/django-commons/membership/issues/new?template=new-member.yml))
         - label: >
             Are all project maintainers members of the Django Commons organization?
             (if not, [open an issue to add them as members](https://github.com/django-commons/membership/issues/new?template=new-member.yml))
+        - label: Can you transfer the repo to django-commons, i.e., are you an admin on the repo?
         - label: Does the project have tests?
         - label: Does the project have documentation?
         - label: Has the project adopted [Django Commons's Code of Conduct](https://github.com/django-commons/membership/blob/main/CODE_OF_CONDUCT.md)?
-        - label: Do you have permissions to transfer the repository to the Django Commons organization?
         - label: Does the project use [readthedocs](https://readthedocs.org/) for documentation?
         - label: Has djangocommons@gmail.com been invited as a maintainer to the project readthedocs.
   - type: textarea
@@ -58,8 +57,7 @@ body:
   - type: checkboxes
     id: options
     attributes:
-      label: Steps to complete once an admin approves the transfer
-      description: "Leave these unchecked when opening the issue; check them off as you complete them with an admin."
+      label: Checklist for django-commons admins
       options:
         - label: |
             [readthedocs] Invite djangocommons@gmail.com to the [readthedocs project](https://readthedocs.org/) as a
@@ -79,6 +77,11 @@ body:
             [PyPI] Add the release workflow to the publishing configuration for the project. See the
             [best practices repository](https://github.com/django-commons/best-practices/blob/main/docs/releases.md)
             for an example [release workflow](https://github.com/django-commons/best-practices/blob/main/.github/workflows/release.yml).
+        - label: |
+            [Admin] Add the project and the admins' emails to the [Project Checkins spreadsheet](https://docs.google.com/spreadsheets/d/1MV0IGyS32EY_NtEq67MMYj2bqOv05imF5QP6I1KGhF8/edit?gid=0#gid=0).
+        - label: |
+            [Website] Add the project to the website's project list in
+            [`django-commons.org/data/projects.yaml`](https://github.com/django-commons/membership/blob/main/django-commons.org/data/projects.yaml).
 
   - type: input
     id: javascript-package-url

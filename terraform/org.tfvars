@@ -152,6 +152,7 @@ members = [
   "Nathan-Bransby-NMT",
   "Natim",
   "Ndungu9039",
+  "newearthmartin",
   "niltonpimentel02",
   "nschlemm",
   "NubPlayz",

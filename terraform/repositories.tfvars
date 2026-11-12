@@ -458,6 +458,24 @@ repositories = {
     ]
   }
 
+  "django-revproxy" = {
+    description                 = "Reverse Proxy view that supports all HTTP methods, Diazo transformations and Single Sign-On."
+  
+    allow_merge_commit          = true # Allow merge commits on pull requests
+    allow_rebase_merge          = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge          = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch         = true # Allow updating source branch on pull requests
+    has_discussions             = false # Enable discussions in project's repository
+    has_wiki                    = false # Enable wiki in project's repository
+    admins = [
+      "andruten",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-robots" = {
     description  = "A Django app for managing robots.txt files following the robots exclusion protocol"
     homepage_url = "https://django-robots.readthedocs.io"

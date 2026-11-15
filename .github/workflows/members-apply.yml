@@ -24,6 +24,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write  # Required to post terraform plan comments
+      issues: write  # Required to thank new members on their issue
       id-token: write  # Required for OIDC authentication to AWS
     timeout-minutes: 10
     steps:
@@ -57,3 +58,14 @@ jobs:
           var_file: |
             terraform/org.tfvars
 
+      - name: Thank new member on their issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # ponytail: add_member.yml names branches add-user/<issue>; manual member PRs are skipped
+          BRANCH=$(gh api "repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls" --jq '.[0].head.ref // ""')
+          if [[ "${BRANCH}" != add-user/* ]]; then
+            echo "Not a new member PR (${BRANCH}), skipping."
+            exit 0
+          fi
+          gh issue comment "${BRANCH#add-user/}" --repo "${GITHUB_REPOSITORY}" --body "Thank you for joining! You'll get an invite email from GitHub. You'll have one week to accept that. If you don't mind, after accepting, can you set your [organization membership as public](https://github.com/orgs/django-commons/people)? This helps Django Commons grow."

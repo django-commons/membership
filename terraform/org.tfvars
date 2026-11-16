@@ -127,6 +127,7 @@ members = [
   "Knowledgex187",
   "knyghty",
   "korfuri",
+  "kviktor",
   "kytta",
   "lander151",
   "leogregianin",

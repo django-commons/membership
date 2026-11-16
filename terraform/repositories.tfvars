@@ -774,4 +774,23 @@ repositories = {
     committers = []
     members    = []
   }
+
+  "django-embed-video" = {
+    description  = "Django app for easy embedding YouTube and Vimeo videos and music from SoundCloud."
+    homepage_url = "http://django-embed-video.rtfd.org"
+
+    allow_merge_commit  = true
+    allow_rebase_merge  = true
+    allow_squash_merge  = true
+    allow_update_branch = true
+    has_discussions     = false
+    has_wiki            = false
+
+    admins = [
+      "aleksihakli",
+      "mgrdcm",
+    ]
+    committers = []
+    members    = []
+  }
 }

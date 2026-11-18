@@ -365,6 +365,7 @@ repositories = {
       "justbackend",
     ]
   }
+
   "django-tailwind-cli" = {
     description            = "Django and Tailwind integration based on the prebuilt Tailwind CSS CLI."
     homepage_url           = "https://django-tailwind-cli.rtfd.io/"
@@ -394,6 +395,28 @@ repositories = {
     committers = []
     members    = []
   }
+
+  "django-taggit" = {
+    description         = "Simple tagging for django"
+    homepage_url        = "https://django-taggit.readthedocs.io/"
+
+    allow_merge_commit  = false # Allow merge commits on pull requests
+    allow_rebase_merge  = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge  = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+
+    has_discussions     = false # Enable discussions in project's repository
+    has_wiki            = false # Enable wiki in project's repository
+    has_projects        = false # Enable projects in project's repository
+    admins = [
+      "rtpg",
+    ]
+    committers = [
+    ]
+    members = [
+    ]
+  }
+
   "django-click" = {
     description         = "Write Django management command using the click CLI library"
     allow_merge_commit  = false

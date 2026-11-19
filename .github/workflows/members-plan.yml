@@ -30,7 +30,7 @@ jobs:
           persist-credentials: false
 
       - name: tofu fmt check
-        uses: dflook/tofu-fmt-check@8d054dafc07321f2cad9d85d3ebdcf3b451e8aee  # v3.1.2
+        uses: dflook/tofu-fmt-check@217f229e54c371781fe9ab1939d76e3448624a5f  # v3.1.3
         env:
           # Authenticate the OpenTofu release download against github.com.
           # Unauthenticated requests share a low per-IP limit across every
@@ -63,7 +63,7 @@ jobs:
           aws-region: us-east-1
 
       - name: tofu plan
-        uses: dflook/tofu-plan@53b5b01b6eef56cd678401dbe92a0f6ca6b863ff  # v3.1.2
+        uses: dflook/tofu-plan@0f690c855ee068cc5d4e0b9f3373b9b7990e73e0  # v3.1.3
         env:
           OPENTOFU_VERSION: 1.12.6
           GITHUB_DOT_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

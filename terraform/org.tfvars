@@ -18,6 +18,7 @@ super_admins = [
 designers = [
   "akshayvinchurkar",
   "Daksh777",
+  "derblub",
   "FarkhadovSWE",
   "federicobond",
   "fzn0x",

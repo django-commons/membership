@@ -52,6 +52,7 @@ members = [
   "alex-dicko",
   "amirreza-sf80",
   "andoriyaprashant",
+  "Andrew-Chen-Wang",
   "andruten",
   "asherf",
   "Ashish8329",

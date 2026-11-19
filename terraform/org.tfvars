@@ -77,6 +77,7 @@ members = [
   "davidt",
   "DavidVadnais",
   "ddabble",
+  "derblub",
   "deronnax",
   "devatbosch",
   "dgravitate",

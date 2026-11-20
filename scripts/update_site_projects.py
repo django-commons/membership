@@ -14,6 +14,8 @@ header comments and the hand-curated entries are left untouched.
 Usage:
     update_site_projects.py --before <sha> --after <sha> [--dry-run]
     update_site_projects.py --after <sha>        # just that one commit
+    update_site_projects.py --net --before <base> --after <pr-head>
+        # one comparison across a whole PR, dated today (used in repos-plan)
 
 Prints the names of the projects it added, one per line.
 """
@@ -142,15 +144,34 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--before", help="Last commit already processed (exclusive)")
     parser.add_argument("--after", required=True, help="Last commit to process")
+    parser.add_argument(
+        "--net",
+        action="store_true",
+        help="Compare --before and --after directly instead of commit by commit, "
+        "and use today's date (UTC), since a PR has no merge date yet",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Don't write the file")
     args = parser.parse_args()
+
+    lines = PROJECTS_YAML.read_text().splitlines()
+    added: list[str] = []
+
+    if args.net:
+        if not args.before:
+            raise SystemExit("--net requires --before")
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        for name, description in added_projects(args.before, args.after).items():
+            if insert_project(lines, name, today, description):
+                added.append(name)
+        if added and not args.dry_run:
+            PROJECTS_YAML.write_text("\n".join(lines) + "\n")
+        print("\n".join(added))
+        return 0
 
     before = args.before if args.before and args.before != ZERO_SHA else None
     rev_range = f"{before}..{args.after}" if before else f"{args.after}^..{args.after}"
     commits = git("rev-list", "--first-parent", "--reverse", rev_range).split()
 
-    lines = PROJECTS_YAML.read_text().splitlines()
-    added: list[str] = []
     for commit in commits:
         parents = git("rev-list", "--parents", "-n", "1", commit).split()[1:]
         if not parents:

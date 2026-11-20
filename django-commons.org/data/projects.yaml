@@ -1,6 +1,9 @@
 # Projects hosted by Django Commons. Newest first. `joined` is optional.
 # Rendered on the home page (ring + directory) and on /projects/.
 projects:
+  - name: django-revproxy
+    joined: "2026-11-11"
+    description: Reverse Proxy view that supports all HTTP methods, Diazo transformations and Single Sign-On
   - name: django-sortedm2m
     joined: "2026-11-07"
     description: A transparent sorted ManyToMany field for Django

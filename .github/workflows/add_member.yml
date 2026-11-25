@@ -17,9 +17,7 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'New member')
     name: "Add new member"
     runs-on: ubuntu-latest
-    environment: production
     permissions:
-      id-token: write  # Required for OIDC authentication
       contents: write  # Required to push the new member branch
       pull-requests: write  # Required to create a pull request
       issues: write  # Required to comment on the issue
@@ -44,29 +42,25 @@ jobs:
 
       - name: Get username to add
         id: get_username
-        run:
-          python -c "print('USERNAME='+'${GITHUB_EVENT_ISSUE_TITLE}'.split(' - ')[1].strip().lstrip('@'))" >> $GITHUB_ENV
         env:
-          GITHUB_EVENT_ISSUE_TITLE: ${{ github.event.issue.title }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          # Members can only request to add themselves
+          title_user="${ISSUE_TITLE##* - }"
+          read -r title_user <<< "${title_user}"
+          title_user="${title_user#@}"
+          if [ "${title_user}" != "${ISSUE_USER}" ]; then
+              gh issue comment "${ISSUE_NUMBER}" --body "The username in the title must match your GitHub username. If you want to add a different user, please create a PR for it."
+              exit 1
+          fi
+          echo "USERNAME=${ISSUE_USER}" >> "${GITHUB_ENV}"
 
       - name: Validate add user request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Check whether the user exists
           set +e
-          gh api /users/${USERNAME} > /dev/null
-          if [ $? -ne 0 ]; then
-              gh issue comment ${ISSUE_NUMBER} --body "User ${USERNAME} does not exist."
-              exit 1
-          fi
-
-          # Check if the username is in the title is the same as the user who opened the issue
-          if [ "${USERNAME}" != "${ISSUE_USER}" ]; then
-              gh issue comment ${ISSUE_NUMBER} --body "If you want to add a different user, please create a PR for it"
-              exit 1
-          fi
-          
           # Check if the user is already a member of the org
           gh api /orgs/django-commons/members/${USERNAME} > /dev/null
           if [ $? -eq 0 ]; then

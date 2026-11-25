@@ -8,13 +8,19 @@ The built site is published to https://github.com/django-commons/django-commons.
 ## Local development
 
 1. [Install Hugo](https://gohugo.io/installation/) (extended version).
-2. From this directory, run:
+2. Build the project list (see below):
+
+   ```bash
+   python3 ../scripts/build_site_projects.py
+   ```
+
+3. From this directory, run:
 
    ```bash
    hugo server -D
    ```
 
-3. Open http://localhost:1313.
+4. Open http://localhost:1313.
 
 All Markdown content lives under [`content/`](content). Templates are in [`layouts/`](layouts),
 the stylesheet and script are in [`assets/`](assets) (fingerprinted at build time), and static files
@@ -34,10 +40,16 @@ Page content here.
 
 Then add it to the `menu.main` list in `hugo.toml` if it should appear in the navigation.
 
-### Adding or changing a project
+### Projects
 
-Projects live in [`data/projects.yaml`](data/projects.yaml). Add an entry there and it appears in
-the hero ring, the home page directory, and the `/projects/` table. `joined` is optional.
+The project list is built from [`terraform/repositories.tfvars`](../terraform/repositories.tfvars)
+by [`scripts/build_site_projects.py`](../scripts/build_site_projects.py), which writes
+`data/projects.json` (not committed). It's shown in the hero ring, the home page directory, and the
+`/projects/` table. A project's description comes from its tfvars entry, and `joined` is the date it
+was added to that file. Repositories marked `is_django_commons_repo = true` are left out.
+
+The deploy workflow rebuilds the site when the tfvars change, so onboarding a project adds it to
+the site with no further changes.
 
 ### Adding a blog post
 

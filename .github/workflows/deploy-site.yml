@@ -6,6 +6,9 @@ on:
     paths:
       - "django-commons.org/**"
       - ".github/workflows/deploy-site.yml"
+      # The project list is built from the tfvars.
+      - "terraform/repositories.tfvars"
+      - "scripts/build_site_projects.py"
   workflow_dispatch: {}
 
 permissions:
@@ -24,6 +27,16 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          # Full history so join dates can be read from the tfvars history.
+          fetch-depth: 0
+
+      - name: Setup python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version-file: .python-version
+
+      - name: Build project list
+        run: python scripts/build_site_projects.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1

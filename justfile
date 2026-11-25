@@ -1,3 +1,7 @@
+# Run the repository's tests. Extra arguments go to pytest, e.g. `just test -k parse`.
+test *args:
+    uv run pytest {{args}}
+
 # Convert Google Docs clipboard content into a meeting notes markdown file
 # (see scripts/gdoc2md.py). Copy the notes in the Google Doc first, then run:
 #   just notes-to-md 2026-09-16

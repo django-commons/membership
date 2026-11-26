@@ -700,6 +700,28 @@ repositories = {
     ]
   }
 
+  "django-push-notifications" = {
+    description = "Send push notifications to mobile devices through GCM or APNS in Django."
+  
+    allow_merge_commit = true # Allow merge commits on pull requests
+    allow_rebase_merge = true # Allow rebase and merge commits on pull requests
+    allow_squash_merge = true # Allow squash and merge commits on pull requests - Recommended
+    allow_update_branch = true # Allow updating source branch on pull requests
+    has_discussions = false # Enable discussions in project's repository
+    has_wiki = true # Enable wiki in project's repository
+  
+    admins = [
+      "JaeHyuckSa",
+      "jamaalscarlett",
+      "jleclanche",
+    ]
+    committers = [
+      "50-Course",
+    ]
+    members = [
+    ]
+  }
+
   "drf-haystack" = {
     description = "Haystack for Django REST Framework"
     # Different merge strategies can be enabled/disabled

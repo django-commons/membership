@@ -88,6 +88,7 @@ members = [
   "dr-rompecabezas",
   "Dresdn",
   "elineda",
+  "Eliot5566",
   "EliShteinman",
   "Faakhir30",
   "FarkhadovSWE",

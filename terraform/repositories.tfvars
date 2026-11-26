@@ -776,8 +776,8 @@ repositories = {
     allow_squash_merge     = true
     allow_update_branch    = true
     has_discussions        = false
-    has_projects           = true
-    has_wiki               = true
+    has_projects           = false
+    has_wiki               = false
     delete_branch_on_merge = false
 
    # Docs are published from the gh-pages branch
